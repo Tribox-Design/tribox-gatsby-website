@@ -1,11 +1,14 @@
 backend:
-  name: test-repo
-media_folder: static/assets
-public_folder: /assets
+  name: github
+  repo: totzk9/tribox-gatsby-website
+
+media_folder: content/assets
+public_folder: ../assets
+
 collections:
   - name: work
     label: Work
-    folder: work
+    folder: content/work
     create: true
     fields:
       - { name: date, label: Date, widget: datetime }
@@ -19,7 +22,7 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/blog
     create: true
     fields:
       - { name: path, label: Path }
