@@ -1,6 +1,6 @@
 import React from "react"
 import IntroBanner from "../components/HomePage/IntroBanner"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeCarousel from "../components/HomePage/HomeCarousel"
 import HighlightWorks from "../components/HomePage/HighlightWorks"
