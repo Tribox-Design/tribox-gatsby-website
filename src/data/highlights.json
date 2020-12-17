@@ -1,0 +1,38 @@
+[
+  {
+    "img": "../images/highlight-mysticpsychologist.png",
+    "alt": "The Mystic Psychologist",
+    "name": "The Mystic Psychologist",
+    "desc": "Solution: Branding, Logo, etc."
+  },
+  {
+    "img": "../images/highlight-ariane.jpg",
+    "alt": "Ariane Consulting Group",
+    "name": "Ariane Consulting Group",
+    "desc": "Services: Branding, Logo, Digital etc."
+  },
+  {
+    "img": "../images/highlight-bisdak.jpg",
+    "alt": "Bisdak Radio",
+    "name": "Bisdak Radio",
+    "desc": "Services: Logo, Marketting, Sound Jingle, etc."
+  },
+  {
+    "img": "../images/highlight-jaxx.jpg",
+    "alt": "Jaxx",
+    "name": "Jaxx",
+    "desc": "Services: Branding, Logo, Marketting, Digital Presence, etc."
+  },
+  {
+    "img": "../images/highlight-juniorc.jpg",
+    "alt": "Junior-C",
+    "name": "Junior-C",
+    "desc": "Solution: Branding, Logo, Marketting, Online Presence, Digital, Illustrations, etc."
+  },
+  {
+    "img": "../images/highlight-cfm.jpg",
+    "alt": "Cebu Farmer's Market",
+    "name": "Cebu Farmer's Market",
+    "desc": "Solution: Branding, Logo, Marketting etc."
+  }
+]

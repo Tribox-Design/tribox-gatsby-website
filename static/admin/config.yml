@@ -1,0 +1,28 @@
+backend:
+  name: test-repo
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: work
+    label: Work
+    folder: work
+    create: true
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: client, label: Client }
+      - { name: services, label: Services, widget: list, default: ["Branding", "Logo"] }
+      - { name: problemDescription, label: Problem Description }
+      - { name: solutionDescription, label: Solution Description }
+      - { name: isHighlighted, label: Is Highlighted, widget: boolean }
+      - { name: body, label: Body, widget: markdown }
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }

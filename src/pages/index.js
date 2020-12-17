@@ -1,11 +1,16 @@
 import React from "react"
-import Layout from "../components/layout"
+import IntroBanner from "../components/HomePage/IntroBanner"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
+import HomeCarousel from "../components/HomePage/HomeCarousel"
+import HighlightWorks from "../components/HomePage/HighlightWorks"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Home Page</h1>
+    <IntroBanner />
+    <HomeCarousel />
+    <HighlightWorks />
   </Layout>
 )
 
