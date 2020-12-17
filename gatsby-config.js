@@ -66,6 +66,14 @@ module.exports = {
         ],
         plugins: [`gatsby-remark-images`],
       },
+    },
+    `gatsby-plugin-root-import`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
     }
   ],
 }
