@@ -19,16 +19,16 @@ const HomeCarousel = () => {
       effect='coverflow'
       // navigation
       pagination
-      wrapperTag="ul"
-      loop={true}
+      loop
+      speed={1000}
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       slidesPerView={1}
     >
-      <SwiperSlide key={`slide-0`} wrapperTag="li"><ImgT src={carouselCfm} alt="Cebu Farmer's Market"/></SwiperSlide>
-      <SwiperSlide key={`slide-1`} wrapperTag="li"><ImgT src={carouselJaxx} alt="Jaxx"/></SwiperSlide>
-      <SwiperSlide key={`slide-2`} wrapperTag="li"><ImgT src={carouselLeisurepro} alt="Leisure Pro"/></SwiperSlide>
-      <SwiperSlide key={`slide-3`} wrapperTag="li"><ImgT src={carouselManglaba} alt="Manglaba"/></SwiperSlide>
-      <SwiperSlide key={`slide-4`} wrapperTag="li"><ImgT src={carouselTres} alt="Tres" /></SwiperSlide>
+      <SwiperSlide key={`slide-0`} ><ImgT src={carouselCfm} alt="Cebu Farmer's Market"/></SwiperSlide>
+      <SwiperSlide key={`slide-1`} ><ImgT src={carouselJaxx} alt="Jaxx"/></SwiperSlide>
+      <SwiperSlide key={`slide-2`} ><ImgT src={carouselLeisurepro} alt="Leisure Pro"/></SwiperSlide>
+      <SwiperSlide key={`slide-3`}><ImgT src={carouselManglaba} alt="Manglaba"/></SwiperSlide>
+      <SwiperSlide key={`slide-4`} ><ImgT src={carouselTres} alt="Tres" /></SwiperSlide>
     </Swiper>
   )
 }

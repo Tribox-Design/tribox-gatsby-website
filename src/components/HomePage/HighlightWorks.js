@@ -1,16 +1,54 @@
 import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 const HighlightWorks = () => {
-  // const data = useStaticQuery(graphql`
-    
-  // `)
+  const data = useStaticQuery(graphql`
+    query WorksQuery {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              isHighlighted
+              thumbnail {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  function getHighlightedWorks(data) {
+    const worksArray = []
+    data.allMarkdownRemark.edges.forEach((item, index) => {
+      console.log(item)
+      if (item.node.frontmatter.isHighlighted) {
+        worksArray.push(
+          <div key={index}>
+            <h1>{item.node.frontmatter.title}</h1>
+            <Img 
+              src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src} 
+              fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}/>
+          </div>
+        )
+      }
+      
+    })
+    return worksArray
+  }
 
   return (
     <HighlightsContainer>
-      <HighlightsHeader></HighlightsHeader>
-      <HighlightsWrapper></HighlightsWrapper>
+      <HighlightsHeader>This</HighlightsHeader>
+      <HighlightsWrapper>{getHighlightedWorks(data)}</HighlightsWrapper>
     </HighlightsContainer>
   )
 }

@@ -12,8 +12,10 @@ collections:
     folder: content/work
     create: true
     fields:
+      - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: thumbnail, label: Cover Photo, widget: image }
       - { name: description, label: Description }
       - { name: client, label: Client }
       - { name: services, label: Services, widget: list, default: ["Branding", "Logo"] }
