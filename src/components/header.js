@@ -3,11 +3,14 @@ import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
+import Logo from '../images/tribox-logo.png'
+import Img from 'gatsby-image'
 
 const Header = () => {
   return (
     <Nav>
-      <NavLink to="/">Tribox</NavLink>
+      {/* <NavLink to="/"><TriboxLogo src={Logo} /></NavLink> */}
+
       <Bars />
       <NavMenu>
         {menuData.map((props, index) => (
@@ -67,5 +70,15 @@ const NavMenu = styled.div`
 
   @media screen and (max-width: 768px) {
     display: none;
+  }
+`
+
+const TriboxLogo = styled(Img)`
+  height: 68px;
+  position: absolute;
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    filter: brightness(105%);
   }
 `

@@ -24,10 +24,10 @@ const HomeCarousel = () => {
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       slidesPerView={1}
     >
-      <SwiperSlide key={`slide-0`} ><ImgT src={carouselCfm} alt="Cebu Farmer's Market"/></SwiperSlide>
-      <SwiperSlide key={`slide-1`} ><ImgT src={carouselJaxx} alt="Jaxx"/></SwiperSlide>
-      <SwiperSlide key={`slide-2`} ><ImgT src={carouselLeisurepro} alt="Leisure Pro"/></SwiperSlide>
-      <SwiperSlide key={`slide-3`}><ImgT src={carouselManglaba} alt="Manglaba"/></SwiperSlide>
+      <SwiperSlide key={`slide-0`} ><ImgT src={carouselCfm} alt="Cebu Farmer's Market" /></SwiperSlide>
+      <SwiperSlide key={`slide-1`} ><ImgT src={carouselJaxx} alt="Jaxx" /></SwiperSlide>
+      <SwiperSlide key={`slide-2`} ><ImgT src={carouselLeisurepro} alt="Leisure Pro" /></SwiperSlide>
+      <SwiperSlide key={`slide-3`} ><ImgT src={carouselManglaba} alt="Manglaba" /></SwiperSlide>
       <SwiperSlide key={`slide-4`} ><ImgT src={carouselTres} alt="Tres" /></SwiperSlide>
     </Swiper>
   )
