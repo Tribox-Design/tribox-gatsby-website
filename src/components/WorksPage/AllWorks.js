@@ -3,9 +3,9 @@ import styled from "styled-components"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
-const HighlightWorks = () => {
+const AllWorks = () => {
   const data = useStaticQuery(graphql`
-    query WorksQuery {
+    query AllWorksQuery {
       allMarkdownRemark {
         edges {
           node {
@@ -28,11 +28,9 @@ const HighlightWorks = () => {
     }
   `)
 
-  function getHighlightedWorks(data) {
+  function getAllWorks(data) {
     const worksArray = []
     data.allMarkdownRemark.edges.forEach((item, index) => {
-      console.log(item)
-      if (item.node.frontmatter.isHighlighted) {
         worksArray.push(
           <WorkCard key={index}>
             <WorkLink to={item.node.frontmatter.path}>
@@ -52,37 +50,28 @@ const HighlightWorks = () => {
             </WorkInfo>
           </WorkCard>
         )
-      }
     })
     return worksArray
   }
 
   return (
-    <HighlightsContainer>
-      <HighlightsHeader>This</HighlightsHeader>
-      <HighlightsWrapper>{getHighlightedWorks(data)}</HighlightsWrapper>
-    </HighlightsContainer>
+    <WorksContainer>
+      <WorksWrapper>{getAllWorks(data)}</WorksWrapper>
+    </WorksContainer>
   )
 }
 
-export default HighlightWorks
+export default AllWorks
 
-const HighlightsContainer = styled.div`
+const WorksContainer = styled.div`
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
 `
 
-const HighlightsHeader = styled.div`
-  font-size: clamp(1.2rem, 5vw, 3rem);
-  text-align: center;
-  margin-bottom: 5rem;
-  color: #fc000d;
-`
-
-const HighlightsWrapper = styled.div`
+const WorksWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 4fr);
+  grid-template-columns: repeat(3, 3fr);
   grid-gap: 20px;
   justify-items: center;
   padding: 0 2rem;
