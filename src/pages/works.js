@@ -6,8 +6,8 @@ import AllWorks from '../components/WorksPage/AllWorks'
 const IndexPage = () => (
   <Layout>
     <SEO title="All posts" />
-    
-    <h1>This is our works!</h1>
+    <h1>We clarify brands and</h1>
+    <h1>simplify the complex.</h1>
     <AllWorks />
   </Layout>
 )

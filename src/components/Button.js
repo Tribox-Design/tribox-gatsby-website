@@ -18,8 +18,14 @@ export const Button = styled(Link)`
   border-radius: ${({ round }) => (round ? '50px' : 'none')};
 
   &:hover {
-    background: ${({ primary }) => (primary ? '#F7F7F7' : '#FC000D')};
-    color: ${({ primary }) => (primary ? '#FC000D' : '#F7F7F7')};
-    transform: translateY(-2px);
+  
+    ${'' /* background:
+    linear-gradient(100deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%),
+    linear-gradient(100deg, rgba(0,0,0,0.2) 0%, transparent 100%),
+    )}; */}
+
+    ${'' /* background: ${({ primary }) => (primary ? '#F7F7F7' : '#FC000D')}; */}
+    color: ${({ primary }) => (primary ? '#FC000D' : '#ff616f')};
+    ${'' /* transform: translateY(-1px); */}
   }
 `
