@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql, Link } from "gatsby"
 import { servicesData } from "../../data/ServicesData"
 
 const Services = () => {
@@ -8,13 +7,13 @@ const Services = () => {
     <ProductsContainer>
       <ProductsWrapper>
         {servicesData.map((props, index) => (
-          <div key={index}>
-          <ServiceImgContainer><img src={props.img} alt={props.title}/></ServiceImgContainer>
-          <ServiceText>
-            <ServiceTitle>{props.title}</ServiceTitle>
-            <ServiceDescription>{props.desc}</ServiceDescription>
-          </ServiceText>
-          </div>
+          <ServiceItem key={index}>
+            <ServiceImgContainer><img src={props.img} alt={props.title}/></ServiceImgContainer>
+            <ServiceText>
+              <ServiceTitle>{props.title}</ServiceTitle>
+              <ServiceDescription>{props.desc}</ServiceDescription>
+            </ServiceText>
+          </ServiceItem>
         ))}
       </ProductsWrapper>
     </ProductsContainer>
@@ -24,28 +23,45 @@ const Services = () => {
 export default Services
 
 const ProductsContainer = styled.div`
-  min-height: 100vh;
+
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
+  display: flex;
+  align-items: center;
+
 `
+
 const ProductsWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 4fr);
-  grid-gap: 20px;
-  justify-items: center;
+  max-width: 94%;
+  display: inline-grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 42px;
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 0 1fr;
+    grid-template-columns: repeat(1 1fr);
   }
 `
 
+const ServiceItem = styled.div`
+  float: left;
+  justify-content: center;
+  align-items: center;
+`
+
 const ServiceImgContainer = styled.div`
+  margin-right: 16px;
+  height: 70px;
+  width: 70px;
+  float: left;
+  align-items: center;
+  justify-content: center;
 
 `
 
 const ServiceText = styled.div`
-
+  maxWidth: 400px;
 `
 
 const ServiceTitle = styled.h3`
@@ -53,5 +69,5 @@ const ServiceTitle = styled.h3`
 `
 
 const ServiceDescription = styled.p`
-
+  margin-top: 3px;
 `

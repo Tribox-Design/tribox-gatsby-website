@@ -82,13 +82,13 @@ const HighlightsHeader = styled.div`
 
 const HighlightsWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 4fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   justify-items: center;
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 0 1fr;
+    grid-template-columns: repeat(0 1fr);
   }
 `
 
@@ -126,7 +126,7 @@ const WorkTitle = styled.div`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: 2rem;
+  font-size: 1.7rem;
 
   &:hover {
     color: #424242;

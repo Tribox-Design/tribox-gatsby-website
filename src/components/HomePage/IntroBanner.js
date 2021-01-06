@@ -75,6 +75,7 @@ const IntroItems = styled.div`
   text-align: start;
   height: 60vh;
   width: 70%;
+  max-width: 1140px;
   max-height: 100%;
   color: #fff;
   line-height: 1.1;

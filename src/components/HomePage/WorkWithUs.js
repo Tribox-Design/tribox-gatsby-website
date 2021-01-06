@@ -27,7 +27,7 @@ const WorkBannerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 60vh;
   padding: 0 1rem;
   position: relative;
   padding-top: 20px;
