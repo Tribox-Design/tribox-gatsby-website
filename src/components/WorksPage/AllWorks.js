@@ -31,25 +31,25 @@ const AllWorks = () => {
   function getAllWorks(data) {
     const worksArray = []
     data.allMarkdownRemark.edges.forEach((item, index) => {
-        worksArray.push(
-          <WorkCard key={index}>
+      worksArray.push(
+        <WorkCard key={index}>
+          <WorkLink to={item.node.frontmatter.path}>
+            <WorkImg
+              alt={item.node.frontmatter.title}
+              src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+              fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+            />
+          </WorkLink>
+
+          <WorkInfo>
             <WorkLink to={item.node.frontmatter.path}>
-              <WorkImg
-                alt={item.node.frontmatter.title}
-                src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-                fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-              />
+              <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
 
-            <WorkInfo>
-              <WorkLink to={item.node.frontmatter.path}>
-                <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
-              </WorkLink>
-
-              <p>{item.node.frontmatter.description}</p>
-            </WorkInfo>
-          </WorkCard>
-        )
+            <p>{item.node.frontmatter.description}</p>
+          </WorkInfo>
+        </WorkCard>
+      )
     })
     return worksArray
   }

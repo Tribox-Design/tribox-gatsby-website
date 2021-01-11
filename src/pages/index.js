@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeCarousel from "../components/HomePage/HomeCarousel"
 import HighlightWorks from "../components/HomePage/HighlightWorks"
-import WorkWithUs from '../components/HomePage/WorkWithUs'
-import Services from '../components/HomePage/Services'
+import WorkWithUs from "../components/HomePage/WorkWithUs"
+import Services from "../components/HomePage/Services"
 
 const IndexPage = () => (
   <Layout>

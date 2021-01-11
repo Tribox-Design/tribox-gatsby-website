@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { missionVisionData } from '../../data/MissionVisionData'
+import React from "react"
+import styled from "styled-components"
+import { missionVisionData } from "../../data/MissionVisionData"
 
 const MissionVision = () => {
   return (
@@ -9,7 +9,9 @@ const MissionVision = () => {
         {missionVisionData.map((props, index) => (
           <MissionVisionItem key={index}>
             <Title>{props.title}</Title>
-            <Description>{props.message}</Description>
+            <DescriptionContainer>
+              <Description>{props.message}</Description>
+            </DescriptionContainer>
           </MissionVisionItem>
         ))}
       </MissionVisionContent>
@@ -17,7 +19,7 @@ const MissionVision = () => {
   )
 }
 
-export default MissionVision;
+export default MissionVision
 
 const MissionVisionContainer = styled.div`
   display: flex;
@@ -30,23 +32,29 @@ const MissionVisionContainer = styled.div`
 const MissionVisionContent = styled.div`
   z-index: 3;
   max-width: 1140px;
-
 `
 
 const MissionVisionItem = styled.div`
-  float: left;
-  padding: 1rem 2rem;
+  padding: 2rem 3rem;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 4fr);
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(0 1fr);
+  }
 `
 
 const Title = styled.h1`
-  float: left;
-  font-size: clamp(1.5rem, 6vw, 2.5rem);
-  letter-spacing: 3px;
-  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 6vw, 2.3rem);
+  letter-spacing: 1px;
   font-weight: bold;
 `
 
+const DescriptionContainer = styled.div`
+`
+
 const Description = styled.p`
-  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-size: clamp(1rem, 3vw, 1.4rem);
   font-weight: 300;
 `

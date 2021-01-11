@@ -28,7 +28,7 @@ const Footer = () => {
           {socialMediaData.map((props, index) => (
             <FooterImgContainer key={index}>
               <FooterLink href={props.url}>
-                <img src={props.img} roundedCircle />
+                <img src={props.img} />
               </FooterLink>
             </FooterImgContainer>
           ))}

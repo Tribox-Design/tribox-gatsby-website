@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from "gatsby-image";
+import React from "react"
+import styled from "styled-components"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const AboutStaff = () => {
-
   const data = useStaticQuery(graphql`
     query GetStaffQuery {
       allStaffDataJson {
@@ -25,7 +24,7 @@ const AboutStaff = () => {
       }
     }
   `)
-  
+
   function getStaffItems(data) {
     const staffArray = []
     data.allStaffDataJson.edges.forEach((item, index) => {
@@ -37,7 +36,6 @@ const AboutStaff = () => {
             src={item.node.img.childImageSharp.fluid.src}
             fluid={item.node.img.childImageSharp.fluid}
           />
-
           <ProfileName>{item.node.name}</ProfileName>
           <p>{item.node.position}</p>
         </ProfileContent>
@@ -51,12 +49,11 @@ const AboutStaff = () => {
       <ProfileWidth>
         <ProfileWrapper>{getStaffItems(data)}</ProfileWrapper>
       </ProfileWidth>
-      
     </ProfileContainer>
   )
 }
 
-export default AboutStaff;
+export default AboutStaff
 
 const ProfileContainer = styled.div`
   display: flex;
@@ -82,7 +79,7 @@ const ProfileWrapper = styled.div`
 
   @media screen and (max-width: 868px) {
     grid-template-columns: 1fr;
-    ${'' /*grid-template-columns: repeat(3, 1fr); */}
+    grid-gap: 40px;
   }
 `
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import styled from "styled-components"
 
 const Line = () => {
@@ -11,7 +11,7 @@ const Line = () => {
   )
 }
 
-export default Line;
+export default Line
 
 const LineContainer = styled.div`
   display: flex;
@@ -23,4 +23,8 @@ const LineContainer = styled.div`
 const LineParent = styled.div`
   width: 100%;
   max-width: 1140px;
+
+  @media screen and (max-width: 868px) {
+    width: 90%;
+  }
 `

@@ -1,4 +1,4 @@
-export const aboutServicesData = [
+export const ourServicesData = [
   { service: "Brand Strategy" },
   { service: "Illustration" },
   { service: "Brand Positioning" },
@@ -8,5 +8,5 @@ export const aboutServicesData = [
   { service: "Brand Messaging" },
   { service: "Mobile App Development" },
   { service: "Brand Identity Design" },
-  { service: "Web Development" }
-];
+  { service: "Web Development" },
+]

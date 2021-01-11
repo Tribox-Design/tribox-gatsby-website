@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
 const IntroWork = () => {
   return (
@@ -14,7 +14,7 @@ const IntroWork = () => {
   )
 }
 
-export default IntroWork;
+export default IntroWork
 
 const IntroContainer = styled.div`
   display: flex;
@@ -55,7 +55,6 @@ const IntroContent = styled.div`
 `
 
 const IntroItems = styled.div`
-
   align-items: start;
   text-align: start;
   width: 70%;

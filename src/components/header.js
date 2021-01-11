@@ -3,8 +3,8 @@ import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
-import Logo from '../images/tribox-logo.png'
-import Img from 'gatsby-image'
+import Logo from "../images/tribox-logo.png"
+import Img from "gatsby-image"
 
 const Header = () => {
   return (
@@ -66,7 +66,6 @@ const Bars = styled(FaBars)`
 const NavMenu = styled.div`
   display: flex;
   align-items: center;
-
 
   @media screen and (max-width: 768px) {
     display: none;
