@@ -1,0 +1,20 @@
+[
+  {
+    "img": "../images/gatsby-astronaut.png",
+    "alt": "Inu Catapusan",
+    "name": "Inu Catapusan",
+    "position": "Co-Founder/Brand Strategist"
+  },
+  {
+    "img": "../images/gatsby-astronaut.png",
+    "alt": "Regine Ylaya",
+    "name": "Regine Ylaya",
+    "position": "Co-Founder/COO"
+  },
+  {
+    "img": "../images/gatsby-astronaut.png",
+    "alt": "Tyrone Chris Abad",
+    "name": "Tyrone Chris Abad",
+    "position": "Chief Technology Officer"
+  }
+]

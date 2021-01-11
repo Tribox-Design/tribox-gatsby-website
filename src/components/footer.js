@@ -6,35 +6,31 @@ import { socialMediaData } from '../data/SocialMediaData'
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterBg />
+
       <FooterContent>
         <FooterLeft>
           <ContactNumber>
-            <a>+63 917 448 3092</a>
-            <br />
-            <a>+63 905 220 8662</a>
+            <p>+63 917 448 3092</p>
+            <p>+63 905 220 8662</p>
           </ContactNumber>
           <Email>
-            <a href="mailto:hello.triboxdesign@gmail.com">hello.triboxdesign@gmail.com</a>
+            <FooterLink to='mailto:hello.triboxdesign@gmail.com'>hello.triboxdesign@gmail.com</FooterLink>
             <br />
-            <a href="mailto:triboxdesignph@gmail.com">triboxdesignph@gmail.com</a>
+            <FooterLink to='mailto:triboxdesignph@gmail.com'>triboxdesignph@gmail.com</FooterLink>
           </Email>
           <Location>
-          <a>1401 Park Centrale Building, IT Park,
-            <br />Lahug, Apas, Cebu City</a>
+          <p>1401 Park Centrale Building, IT Park,
+            <br />Lahug, Apas, Cebu City</p>
           </Location>
         </FooterLeft>
         <FooterRight>
           <SocialMedia>
           {socialMediaData.map((props, index) => (
-            
-            <FooterImgContainer>
-            <a href={props.url}>
-              <img src={props.img} roundedCircle />
-              </a>
+            <FooterImgContainer key={index}>
+              <FooterLink href={props.url}>
+                <img src={props.img} roundedCircle />
+              </FooterLink>
             </FooterImgContainer>
-              
-            
           ))}
           </SocialMedia>
           <TradeMark>
@@ -53,23 +49,6 @@ const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 3rem 0;
-`
-
-const FooterBg = styled.div`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 70vh;
-  overflow: hidden;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 80px;
-    justify-content: center;
-    height: 50vh;
-  }
 `
 
 const FooterContent = styled.div`
@@ -126,3 +105,7 @@ const TradeMark = styled.div`
 
 `
 
+const FooterLink = styled.a`
+  text-decoration: none;
+  color: white;
+`

@@ -6,7 +6,6 @@ import HomeCarousel from "../components/HomePage/HomeCarousel"
 import HighlightWorks from "../components/HomePage/HighlightWorks"
 import WorkWithUs from '../components/HomePage/WorkWithUs'
 import Services from '../components/HomePage/Services'
-import Footer from '../components/footer'
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +15,6 @@ const IndexPage = () => (
     <HighlightWorks />
     <WorkWithUs />
     <Services />
-    <Footer />
   </Layout>
 )
 

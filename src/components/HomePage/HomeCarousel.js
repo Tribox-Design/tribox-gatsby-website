@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, EffectCoverflow, Autoplay, Virtual } from 'swiper';
 import "swiper/swiper-bundle.css";
-import './styles.css';
+import '../styles/styles.css';
 import carouselCfm from "../../images/carousel-cfm.png"
 import carouselJaxx from "../../images/carousel-jaxx.png"
 import carouselLeisurepro from "../../images/carousel-leisurepro.png"

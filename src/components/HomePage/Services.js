@@ -36,7 +36,7 @@ const ProductsWrapper = styled.div`
   display: inline-grid;
   margin: auto;
   grid-template-columns: repeat(2, 2fr);
-  grid-gap: 42px;
+  grid-gap: 60px;
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
