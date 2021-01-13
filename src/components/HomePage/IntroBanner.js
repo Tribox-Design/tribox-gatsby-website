@@ -34,8 +34,10 @@ const IntroContainer = styled.div`
   color: #fff;
 
   @media screen and (max-width: 768px) {
+    padding-left: 0;
     padding-top: 80px;
     justify-content: center;
+    align-items: center;
     height: 50vh;
   }
 `
@@ -53,6 +55,7 @@ const IntroBg = styled.div`
   @media screen and (max-width: 768px) {
     padding-top: 80px;
     justify-content: center;
+    align-items: center;
     height: 50vh;
   }
 `
@@ -63,6 +66,7 @@ const IntroContent = styled.div`
   padding: 2rem calc((70vh - 1300px) / 2);
 
   @media screen and (max-width: 768px) {
+    align-items: center;
     height: calc(40vh - 80px);
   }
 `

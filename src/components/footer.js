@@ -10,17 +10,17 @@ const Footer = () => {
       <FooterContent>
         <FooterLeft>
           <ContactNumber>
-            <p>+63 917 448 3092</p>
-            <p>+63 905 220 8662</p>
+            <FooterP>+63 917 448 3092</FooterP>
+            <FooterP>+63 905 220 8662</FooterP>
           </ContactNumber>
           <Email>
-            <FooterLink to='mailto:hello.triboxdesign@gmail.com'>hello.triboxdesign@gmail.com</FooterLink>
+            <FooterLink href='mailto:hello.triboxdesign@gmail.com'>hello.triboxdesign@gmail.com</FooterLink>
             <br />
-            <FooterLink to='mailto:triboxdesignph@gmail.com'>triboxdesignph@gmail.com</FooterLink>
+            <FooterLink href='mailto:triboxdesignph@gmail.com'>triboxdesignph@gmail.com</FooterLink>
           </Email>
           <Location>
-          <p>1401 Park Centrale Building, IT Park,
-            <br />Lahug, Apas, Cebu City</p>
+          <FooterP>1401 Park Centrale Building, IT Park,
+            <br />Lahug, Apas, Cebu City</FooterP>
           </Location>
         </FooterLeft>
         <FooterRight>
@@ -34,7 +34,7 @@ const Footer = () => {
           ))}
           </SocialMedia>
           <TradeMark>
-          <p>&copy; 2020 Tribox Design&reg;<br />Tribox Design is a registered Trademark in WIPO</p>
+          <FooterP>&copy; 2020 Tribox Design&reg;<br />Tribox Design is a registered Trademark in WIPO</FooterP>
           </TradeMark>
         </FooterRight>
       </FooterContent>
@@ -49,6 +49,10 @@ const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 3rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const FooterContent = styled.div`
@@ -57,6 +61,11 @@ const FooterContent = styled.div`
   grid-template-columns: repeat(2, 4fr);
   grid-gap: 150px;
   padding: 0 1rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 
 `
 
@@ -70,22 +79,44 @@ const FooterRight = styled.div`
 
 const ContactNumber = styled.div`
   color: #fff;
+  position: relative;
 
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const Email = styled.div`
   color: #fff;
   margin-top: 1rem;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const Location = styled.div`
   color: #fff;
   margin-top: 1rem;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const SocialMedia = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 `
 
 const FooterImgContainer = styled.div`
@@ -97,15 +128,31 @@ const FooterImgContainer = styled.div`
   display: inline-block;
   justify-content: space-between;
 
+  @media screen and (max-width: 768px) {
+    height: 48px;
+    width: 48px;
+  }
 `
 
 const TradeMark = styled.div`
   margin-top: 1rem;
   color: #fff;
 
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 const FooterLink = styled.a`
   text-decoration: none;
   color: white;
+`
+
+const FooterP = styled.p`
+  @media screen and (max-width: 768px) {
+    line-height: 1.5;
+    vertical-align: middle;
+  }
 `

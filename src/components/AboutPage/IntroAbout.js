@@ -35,6 +35,10 @@ const IntroContent = styled.div`
   z-index: 3;
   width: 87%;
   max-width: 1140px;
+
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 `
 
 const IntroItems = styled.div`
@@ -56,4 +60,8 @@ const IntroH1 = styled.h1`
   font-size: clamp(1.5rem, 5vw, 3.7rem);
   letter-spacing: 1px;
   font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: clamp(2rem, 4vw, 3.7rem);
+  }
 `

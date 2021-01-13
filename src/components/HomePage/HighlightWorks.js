@@ -59,7 +59,7 @@ const HighlightWorks = () => {
 
   return (
     <HighlightsContainer>
-      <HighlightsHeader>This</HighlightsHeader>
+      {/* <HighlightsHeader>Some of our work</HighlightsHeader> */}
       <HighlightsWrapper>{getHighlightedWorks(data)}</HighlightsWrapper>
     </HighlightsContainer>
   )
@@ -82,14 +82,16 @@ const HighlightsHeader = styled.div`
 
 const HighlightsWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 30px 60px;
   justify-items: center;
-  padding: 0 2rem;
+  padding: 0 7rem;
 
-  @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(0 1fr);
-  }
+  @media screen and (max-width: 880px) {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 0 3rem;
+}
 `
 
 const WorkCard = styled.div`

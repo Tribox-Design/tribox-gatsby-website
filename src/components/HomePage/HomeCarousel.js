@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, EffectCoverflow, Autoplay, Virtual } from 'swiper';
+import SwiperCore, { Navigation, Pagination, EffectCoverflow, Autoplay, Virtual, EffectFade } from 'swiper';
 import "swiper/swiper-bundle.css";
 import '../styles/styles.css';
 import carouselCfm from "../../images/carousel-cfm.png"
@@ -10,13 +10,13 @@ import carouselLeisurepro from "../../images/carousel-leisurepro.png"
 import carouselManglaba from "../../images/carousel-manglaba.png"
 import carouselTres from "../../images/carousel-tres.png"
 
-SwiperCore.use([Navigation, Pagination, Autoplay, Virtual, EffectCoverflow]);
+SwiperCore.use([Navigation, Pagination, Autoplay, Virtual, EffectFade]);
 
 const HomeCarousel = () => {
   return (
     <Swiper
       control
-      effect='coverflow'
+      effect='fade'
       // navigation
       pagination
       loop

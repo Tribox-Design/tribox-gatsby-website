@@ -29,6 +29,9 @@ const ProductsContainer = styled.div`
   display: flex;
   align-items: center;
 
+ @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const ProductsWrapper = styled.div`
@@ -40,7 +43,8 @@ const ProductsWrapper = styled.div`
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(1 1fr);
+    max-width: 100%;
+    grid-template-columns: 1fr;
   }
 `
 
@@ -58,6 +62,10 @@ const ServiceImgContainer = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media screen and (max-width: 768px) {
+    height: 70px;
+    width: 70px;
+  }
 `
 
 const ServiceText = styled.div`

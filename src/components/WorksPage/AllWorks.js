@@ -67,6 +67,10 @@ const WorksContainer = styled.div`
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem calc((100vw - 1300px) / 2);
+  }
 `
 
 const WorksWrapper = styled.div`
@@ -77,7 +81,7 @@ const WorksWrapper = styled.div`
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 0 1fr;
+    grid-template-columns: 1fr;
   }
 `
 
@@ -119,6 +123,10 @@ const WorkTitle = styled.div`
 
   &:hover {
     color: #424242;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.7rem;
   }
 `
 
