@@ -28,7 +28,6 @@ const AboutStaff = () => {
   function getStaffItems(data) {
     const staffArray = []
     data.allStaffDataJson.edges.forEach((item, index) => {
-      console.log(item)
       staffArray.push(
         <ProfileContent key={index}>
           <ProfileImg

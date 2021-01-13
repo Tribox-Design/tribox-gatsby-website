@@ -3,22 +3,27 @@ import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
-import Logo from "../images/tribox-logo.png"
+import Logo from "../images/tribox-logo.svg"
 import Img from "gatsby-image"
+
+const TriboxLogos = (props) => (
+  <svg xmlns={Logo} fill={props.fill}></svg>
+)
 
 const Header = () => {
   return (
     <Nav>
-      {/* <NavLink to="/"><TriboxLogo src={Logo} /></NavLink> */}
-
-      <Bars />
-      <NavMenu>
-        {menuData.map((props, index) => (
-          <NavLink to={props.link} key={index}>
-            {props.title}
-          </NavLink>
-        ))}
-      </NavMenu>
+      <NavWrapper>
+        <NavLink to="/"><TriboxLogo src={Logo} /></NavLink>
+        <Bars />
+        <NavMenu>
+          {menuData.map((props, index) => (
+            <NavLink to={props.link} key={index}>
+              {props.title}
+            </NavLink>
+          ))}
+        </NavMenu>
+      </NavWrapper>
     </Nav>
   )
 }
@@ -29,10 +34,13 @@ const Nav = styled.nav`
   background: transparent;
   height: 80px;
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem calc((10vw - 1300px) / 2);
-  z-index: 100;
   position: relative;
+`
+
+const NavWrapper = styled.div`
+  max-width: 1140px;
+  justify-content: space-between;
+  z-index: 100;
 `
 
 const NavLink = styled(Link)`
@@ -72,10 +80,11 @@ const NavMenu = styled.div`
   }
 `
 
-const TriboxLogo = styled(Img)`
+const TriboxLogo = styled.img`
   height: 68px;
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  stroke: #fff;
 
   &:hover {
     filter: brightness(105%);

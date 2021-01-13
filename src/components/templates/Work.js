@@ -1,6 +1,6 @@
-import React from "react"
-import Helmet from 'react-helmet'
-import { graphql } from "gatsby"
+// import React from "react"
+// import Helmet from 'react-helmet'
+// import { graphql } from "gatsby"
 
 // export default function Work({ data }) {
 //   const { markdownRemark } = data
