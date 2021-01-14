@@ -1,12 +1,10 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
-import { socialMediaData } from '../data/SocialMediaData'
+import { socialMediaData } from "../data/SocialMediaData"
 
 const Footer = () => {
   return (
     <FooterContainer>
-
       <FooterContent>
         <FooterLeft>
           <ContactNumber>
@@ -14,27 +12,38 @@ const Footer = () => {
             <FooterP>+63 905 220 8662</FooterP>
           </ContactNumber>
           <Email>
-            <FooterLink href='mailto:hello.triboxdesign@gmail.com'>hello.triboxdesign@gmail.com</FooterLink>
+            <FooterLink href="mailto:hello.triboxdesign@gmail.com">
+              hello.triboxdesign@gmail.com
+            </FooterLink>
             <br />
-            <FooterLink href='mailto:triboxdesignph@gmail.com'>triboxdesignph@gmail.com</FooterLink>
+            <FooterLink href="mailto:triboxdesignph@gmail.com">
+              triboxdesignph@gmail.com
+            </FooterLink>
           </Email>
           <Location>
-          <FooterP>1401 Park Centrale Building, IT Park,
-            <br />Lahug, Apas, Cebu City</FooterP>
+            <FooterP>
+              1401 Park Centrale Building, IT Park,
+              <br />
+              Lahug, Apas, Cebu City
+            </FooterP>
           </Location>
         </FooterLeft>
         <FooterRight>
           <SocialMedia>
-          {socialMediaData.map((props, index) => (
-            <FooterImgContainer key={index}>
-              <FooterLink href={props.url}>
-                <img src={props.img} />
-              </FooterLink>
-            </FooterImgContainer>
-          ))}
+            {socialMediaData.map((props, index) => (
+              <FooterImgContainer key={index}>
+                <FooterLink href={props.url}>
+                  <img src={props.img} alt={props.url} />
+                </FooterLink>
+              </FooterImgContainer>
+            ))}
           </SocialMedia>
           <TradeMark>
-          <FooterP>&copy; 2020 Tribox Design&reg;<br />Tribox Design is a registered Trademark in WIPO</FooterP>
+            <FooterP>
+              &copy; 2020 Tribox Design&reg;
+              <br />
+              Tribox Design is a registered Trademark in WIPO
+            </FooterP>
           </TradeMark>
         </FooterRight>
       </FooterContent>
@@ -45,7 +54,7 @@ const Footer = () => {
 export default Footer
 
 const FooterContainer = styled.div`
-  background: #FC000D;
+  background: #fc000d;
   display: flex;
   align-items: center;
   padding: 3rem 0;
@@ -66,16 +75,11 @@ const FooterContent = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
-
 `
 
-const FooterLeft = styled.div`
+const FooterLeft = styled.div``
 
-`
-
-const FooterRight = styled.div`
-
-`
+const FooterRight = styled.div``
 
 const ContactNumber = styled.div`
   color: #fff;
@@ -124,7 +128,7 @@ const FooterImgContainer = styled.div`
   width: 60px;
   align-items: center;
   margin: 10px;
-  vertical-align: middle; 
+  vertical-align: middle;
   display: inline-block;
   justify-content: space-between;
 

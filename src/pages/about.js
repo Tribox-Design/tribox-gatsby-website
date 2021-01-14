@@ -9,7 +9,7 @@ import OurServices from "../components/AboutPage/OurServices"
 import OurClients from "../components/AboutPage/OurClients"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout page="About">
     <SEO title="About" />
     <IntroAbout />
     <Line />

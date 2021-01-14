@@ -19,12 +19,14 @@ const IntroAbout = () => {
 export default IntroAbout
 
 const IntroContainer = styled.div`
+
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
+
 
   @media screen and (max-width: 768px) {
     justify-content: center;

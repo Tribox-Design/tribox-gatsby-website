@@ -1,29 +1,26 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
-import Logo from "../images/tribox-logo.svg"
-import Img from "gatsby-image"
+import { Link } from "gatsby"
 
-const TriboxLogos = (props) => (
-  <svg xmlns={Logo} fill={props.fill}></svg>
-)
+import TriboxLogo from "../images/tribox-logo.png"
+import TriboxLogoWhite from "../images/tribox-logo-white.png"
 
-const Header = () => {
+const Header = ({toggle, page}) => {
   return (
-    <Nav>
-      <NavWrapper>
-        <NavLink to="/"><TriboxLogo src={Logo} /></NavLink>
-        <Bars />
+    <Nav home={(page === 'Home')}>
+      {/* <NavWrapper> */}
+        <NavLink to="/"><LogoImg src={ (page === 'Home') ? TriboxLogoWhite : TriboxLogo } alt="Home" /></NavLink>
+        <Bars onClick={toggle} home={(page === 'Home')}/>
         <NavMenu>
           {menuData.map((props, index) => (
-            <NavLink to={props.link} key={index}>
+            <NavLink primary={(page === props.title)} home={(page === 'Home')} to={props.link} key={index}>
               {props.title}
             </NavLink>
           ))}
         </NavMenu>
-      </NavWrapper>
+      {/* </NavWrapper> */}
     </Nav>
   )
 }
@@ -31,41 +28,51 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
-  height: 80px;
+  background: ${({ home }) => (home ? '#FC000D' : '#fff')};
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  padding: 3rem 3rem 1rem 3rem;
+  z-index: 300;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding: 3rem 0 3rem 0.5rem;
+  }
 `
 
-const NavWrapper = styled.div`
-  max-width: 1140px;
-  justify-content: space-between;
-  z-index: 100;
-`
+// const NavWrapper = styled.div`
+//   max-width: 1140px;
+//   justify-content: space-between;
+//   padding: 1rem 2rem;
+//   z-index: 100;
+// `
 
 const NavLink = styled(Link)`
-  color: #424242;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  color: #fff;
+  color: ${({ primary, home }) => (home ? '#fff' : primary ? '#FC000D' : '#000000')};
   font-size: 17px;
   font-weight: bold;
+
+  &:hover {
+    color: ${({ primary }) => (primary ? '#FC000D' : '#424242')};
+  }
 `
 
 const Bars = styled(FaBars)`
   display: none;
-  color: #424242;
+  color:  ${({ home }) => (home ? '#fff' : '#212121')};;
 
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 75%);
+    transform: translate(-100%, 119%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -80,8 +87,8 @@ const NavMenu = styled.div`
   }
 `
 
-const TriboxLogo = styled.img`
-  height: 68px;
+const LogoImg = styled.img`
+  height: 56px;
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   stroke: #fff;
@@ -90,3 +97,18 @@ const TriboxLogo = styled.img`
     filter: brightness(105%);
   }
 `
+
+const TriboxLogos = styled.i`
+  height: 100%;
+  width: 120px;
+  background-image: url(${TriboxLogo});
+  background-size: contain;
+  fill: white;
+  stroke: white;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%, 25%);
+`
+

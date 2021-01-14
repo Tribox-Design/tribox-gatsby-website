@@ -71,6 +71,10 @@ const HighlightsContainer = styled.div`
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
+
+  @media screen and (max-width: 880px) {
+    padding: 3rem calc((100vw - 1300px) / 2);
+  }
 `
 
 const HighlightsHeader = styled.div`
@@ -90,8 +94,8 @@ const HighlightsWrapper = styled.div`
   @media screen and (max-width: 880px) {
     grid-template-columns: 1fr;
     grid-gap: 30px;
-    padding: 0 3rem;
-}
+    padding: 0 2.5rem;
+  }
 `
 
 const WorkCard = styled.div`

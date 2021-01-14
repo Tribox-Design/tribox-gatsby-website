@@ -118,8 +118,8 @@ const WorkImg = styled(Img)`
 const WorkTitle = styled.div`
   padding-top: 5px;
   font-weight: 600;
-  color: #000000;
-  font-size: 2rem;
+  color: #212121;
+  font-size: clamp(1.3rem, 2vw, 2rem);
 
   &:hover {
     color: #424242;

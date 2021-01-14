@@ -26,19 +26,17 @@ const IntroContainer = styled.div`
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 75vh;
+  height: 60vh;
   padding-left: 5rem;
   position: relative;
-  margin-top: -80px;
-  padding-top: 20px;
+
   color: #fff;
 
   @media screen and (max-width: 768px) {
     padding-left: 0;
-    padding-top: 80px;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
   }
 `
 
@@ -103,6 +101,12 @@ const IntroH1 = styled.h1`
   letter-spacing: 3px;
   padding: 0 1rem;
   font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: clamp(2.3rem, 4vw, 3rem);
+    letter-spacing: 1px;
+    padding: 0;
+ }
 `
 
 const IntroP = styled.p`

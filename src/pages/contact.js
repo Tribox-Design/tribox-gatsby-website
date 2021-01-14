@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout page="Contact">
     <SEO title="Contact Us" />
     <h1>Contact us page</h1>
   </Layout>

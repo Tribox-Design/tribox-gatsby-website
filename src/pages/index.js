@@ -8,7 +8,7 @@ import WorkWithUs from "../components/HomePage/WorkWithUs"
 import Services from "../components/HomePage/Services"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout page="Home">
     <SEO title="Home" />
     <IntroBanner />
     <HomeCarousel />

@@ -21,10 +21,5 @@ const LineContainer = styled.div`
 `
 
 const LineParent = styled.div`
-  width: 100%;
-  max-width: 1140px;
-
-  @media screen and (max-width: 868px) {
-    width: 90%;
-  }
+  width: 90%;
 `

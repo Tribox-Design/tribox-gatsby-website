@@ -23,7 +23,6 @@ const Services = () => {
 export default Services
 
 const ProductsContainer = styled.div`
-
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
   display: flex;
@@ -65,6 +64,7 @@ const ServiceImgContainer = styled.div`
   @media screen and (max-width: 768px) {
     height: 70px;
     width: 70px;
+    margin-right: 2rem;
   }
 `
 

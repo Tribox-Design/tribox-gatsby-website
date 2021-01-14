@@ -20,7 +20,7 @@ const IntroContainer = styled.div`
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 2rem 5rem;
+  padding: 5rem 5rem 0rem 5rem;
   position: relative;
   color: #fff;
 

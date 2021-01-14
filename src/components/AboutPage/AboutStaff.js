@@ -57,10 +57,14 @@ export default AboutStaff
 const ProfileContainer = styled.div`
   display: flex;
   background: #fff;
-  padding: 3rem 0;
+  padding: 3rem 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media screen and (max-width: 868px) {
+    padding: 3rem 0rem;
+  }
 `
 
 const ProfileWidth = styled.div`
