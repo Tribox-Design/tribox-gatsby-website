@@ -43,7 +43,6 @@ module.exports = {
         path: './src/data/'
       },
     },
-    // `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -65,7 +64,7 @@ module.exports = {
             // },
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 1140,
             },
           },
           {

@@ -68,8 +68,13 @@ const FooterContent = styled.div`
   display: inline-grid;
   margin: auto;
   grid-template-columns: repeat(2, 4fr);
-  grid-gap: 150px;
-  padding: 0 1rem;
+  grid-gap: 250px;
+  padding: 0 3rem;
+
+  @media screen and (max-width: 875px) {
+    grid-gap: 100px;
+
+  }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -124,8 +129,8 @@ const SocialMedia = styled.div`
 `
 
 const FooterImgContainer = styled.div`
-  height: 60px;
-  width: 60px;
+  height: 54px;
+  width: 54px;
   align-items: center;
   margin: 10px;
   vertical-align: middle;

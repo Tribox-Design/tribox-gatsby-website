@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Button } from '../Button'
+import React from "react"
+import styled from "styled-components"
+import { Button } from "../Button"
 
 const IntroBanner = () => {
   return (
@@ -9,9 +9,14 @@ const IntroBanner = () => {
       <IntroContent>
         <IntroItems>
           <IntroH1>We clarify brands and simplify the complex.</IntroH1>
-          <IntroP>A local branding agency for Local Brands and SMEs, Tribox Design promote brand growth.</IntroP>
+          <IntroP>
+            A local branding agency for Local Brands and SMEs, Tribox Design
+            promote brand growth.
+          </IntroP>
           <IntroButton>
-            <Button round="true" to="/about" big="true">More about us</Button>
+            <Button round="true" to="/about" big="true">
+              More about us
+            </Button>
           </IntroButton>
         </IntroItems>
       </IntroContent>
@@ -19,24 +24,23 @@ const IntroBanner = () => {
   )
 }
 
-export default IntroBanner;
+export default IntroBanner
 
 const IntroContainer = styled.div`
-  background: #FC000D;
+  background: #fc000d;
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
   padding-left: 5rem;
   position: relative;
-
   color: #fff;
 
   @media screen and (max-width: 768px) {
     padding-left: 0;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
   }
 `
 
@@ -81,7 +85,6 @@ const IntroItems = styled.div`
   max-height: 100%;
   color: #fff;
   line-height: 1.1;
-  ${'' /* font-weight: bold; */}
 
   @media screen and (max-width: 1110px) {
     width: 81%;
@@ -106,7 +109,7 @@ const IntroH1 = styled.h1`
     font-size: clamp(2.3rem, 4vw, 3rem);
     letter-spacing: 1px;
     padding: 0;
- }
+  }
 `
 
 const IntroP = styled.p`

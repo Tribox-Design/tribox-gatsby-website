@@ -1,66 +1,66 @@
-// const path = require(`path`);
-// const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-// exports.createPages = ({ graphql, actions }) => {
-//   const { createPage } = actions
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
 
-//   const workPost = path.resolve(`./src/components/templates/Work.js`)
-//   return graphql(
-//     `
-//       {
-//         allMdx(
-//           sort: { fields: [frontmatter___date], order: DESC }
-//           limit: 1000
-//         ) {
-//           edges {
-//             node {
-//               fields {
-//                 slug
-//               }
-//               frontmatter {
-//                 title
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `
-//   ).then(result => {
-//     if (result.errors) {
-//       throw result.errors
-//     }
+  const workPost = path.resolve(`./src/components/templates/Work.js`)
+  return graphql(
+    `
+      {
+        allMdx(
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
 
-//     // Create work posts pages.
-//     const posts = result.data.allMdx.edges
+    // Create work posts pages.
+    const posts = result.data.allMdx.edges
 
-//     posts.forEach((post, index) => {
-//       const previous = index === posts.length - 1 ? null : posts[index + 1].node
-//       const next = index === 0 ? null : posts[index - 1].node
+    posts.forEach((post, index) => {
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
 
-//       createPage({
-//         path: `work${post.node.fields.slug}`,
-//         component: workPost,
-//         context: {
-//           slug: post.node.fields.slug,
-//           previous,
-//           next,
-//         },
-//       })
-//     })
+      createPage({
+        path: `works${post.node.fields.slug}`,
+        component: workPost,
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
 
-//     return null
-//   })
-// }
+    return null
+  })
+}
 
-// exports.onCreateNode = ({ node, actions, getNode }) => {
-//   const { createNodeField } = actions
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
 
-//   if (node.internal.type === `Mdx`) {
-//     const value = createFilePath({ node, getNode })
-//     createNodeField({
-//       name: `slug`,
-//       node,
-//       value,
-//     })
-//   }
-// }
+  if (node.internal.type === `Mdx`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
+}

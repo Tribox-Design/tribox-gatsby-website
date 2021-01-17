@@ -45,6 +45,7 @@ const ClientWrapper = styled.div`
     align-items: center;
   }
 `
+
 const TitleContainer = styled.div`
   width: 50%;
   display: inline-block;

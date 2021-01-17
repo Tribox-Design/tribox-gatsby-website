@@ -12,15 +12,14 @@ collections:
     folder: content/work
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
-      - { name: description, label: Description }
+      - { name: description, label: Description, widget: "text" }
       - { name: client, label: Client }
-      - { name: services, label: Services, widget: list, default: ["Branding", "Logo"] }
-      - { name: problemDescription, label: Problem Description }
-      - { name: solutionDescription, label: Solution Description }
+      - { name: services, label: Services }
+      - { name: problemDescription, label: Problem Description, widget: "text", required: false }
+      - { name: solutionDescription, label: Solution Description, widget: "text", required: false }
       - { name: isHighlighted, label: Is Highlighted, widget: boolean }
       - { name: body, label: Body, widget: markdown }
   - name: blog
@@ -28,7 +27,6 @@ collections:
     folder: content/blog
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }

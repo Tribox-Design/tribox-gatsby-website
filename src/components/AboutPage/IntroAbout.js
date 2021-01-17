@@ -19,14 +19,12 @@ const IntroAbout = () => {
 export default IntroAbout
 
 const IntroContainer = styled.div`
-
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   color: #fff;
   padding: 5rem 2rem;
-
 
   @media screen and (max-width: 768px) {
     justify-content: center;
@@ -59,11 +57,14 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(1.5rem, 5vw, 3.7rem);
-  letter-spacing: 1px;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  letter-spacing: 2px;
   font-weight: bold;
+  width: 87%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
+    letter-spacing: 1px;
+    width: 100%;
   }
 `

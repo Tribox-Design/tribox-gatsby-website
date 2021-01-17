@@ -6,14 +6,16 @@ import Img from "gatsby-image"
 const HighlightWorks = () => {
   const data = useStaticQuery(graphql`
     query WorksQuery {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               title
               isHighlighted
               description
-              path
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -30,25 +32,23 @@ const HighlightWorks = () => {
 
   function getHighlightedWorks(data) {
     const worksArray = []
-    data.allMarkdownRemark.edges.forEach((item, index) => {
+    data.allMdx.edges.forEach((item, index) => {
       console.log(item)
       if (item.node.frontmatter.isHighlighted) {
         worksArray.push(
           <WorkCard key={index}>
-            <WorkLink to={item.node.frontmatter.path}>
+            <WorkLink to={"works" + item.node.fields.slug}>
               <WorkImg
                 alt={item.node.frontmatter.title}
                 src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
                 fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
               />
             </WorkLink>
-
             <WorkInfo>
-              <WorkLink to={item.node.frontmatter.path}>
+              <WorkLink to={"works" + item.node.fields.slug}>
                 <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
               </WorkLink>
-
-              <p>{item.node.frontmatter.description}</p>
+              <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
             </WorkInfo>
           </WorkCard>
         )
@@ -59,7 +59,6 @@ const HighlightWorks = () => {
 
   return (
     <HighlightsContainer>
-      {/* <HighlightsHeader>Some of our work</HighlightsHeader> */}
       <HighlightsWrapper>{getHighlightedWorks(data)}</HighlightsWrapper>
     </HighlightsContainer>
   )
@@ -128,15 +127,20 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.div`
+const WorkTitle = styled.h1`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
   font-size: 1.7rem;
+  letter-spacing: 0.5px;
 
   &:hover {
     color: #424242;
   }
+`
+
+const WorkDesc = styled.p`
+  letter-spacing: 0.5px;
 `
 
 const WorkLink = styled(Link)`

@@ -21,5 +21,5 @@ const LineContainer = styled.div`
 `
 
 const LineParent = styled.div`
-  width: 90%;
+  width: 87%;
 `

@@ -1,10 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import { menuData } from '../data/MenuData'
+import { menuData } from "../data/MenuData"
 import { Link } from "gatsby"
-import { FaTimes } from 'react-icons/fa'
+import { FaTimes } from "react-icons/fa"
 
-const Dropdown = ({isOpen, toggle}) => {
+const Dropdown = ({ isOpen, toggle }) => {
   return (
     <DropdownContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -30,21 +30,20 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #FC000D;
+  background: #fc000d;
   display: grid;
   align-items: center;
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-
+  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `
 
 const Icon = styled.div`
   position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+  top: 2.2rem;
+  right: 1.7rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
@@ -55,9 +54,7 @@ const CloseIcon = styled(FaTimes)`
   color: #fff;
 `
 
-const DropdownWrapper = styled.div`
-  
-`
+const DropdownWrapper = styled.div``
 
 const DropdownMenu = styled.div`
   display: grid;
@@ -69,7 +66,7 @@ const DropdownMenu = styled.div`
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(4, 60px);
   }
-` 
+`
 
 const DropdownLink = styled(Link)`
   display: flex;

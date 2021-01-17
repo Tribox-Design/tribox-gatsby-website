@@ -51,8 +51,7 @@ const Title = styled.h1`
   font-weight: bold;
 `
 
-const DescriptionContainer = styled.div`
-`
+const DescriptionContainer = styled.div``
 
 const Description = styled.p`
   font-size: clamp(1rem, 3vw, 1.4rem);

@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Button } from '../Button'
+import React from "react"
+import styled from "styled-components"
+import { Button } from "../Button"
 
 const WorkWithUs = () => {
   return (
@@ -12,7 +12,9 @@ const WorkWithUs = () => {
           <WorkBannerP>Thinking to transform your brand identity?</WorkBannerP>
           <WorkBannerP>Let's talk about it.</WorkBannerP>
           <WorkBannerButton>
-            <Button round="true" to="/about" big="true">Let's Talk</Button>
+            <Button round="true" to="/contact" big="true">
+              Let's Talk
+            </Button>
           </WorkBannerButton>
         </WorkBannerItems>
       </WorkBannerContent>
@@ -20,14 +22,13 @@ const WorkWithUs = () => {
   )
 }
 
-export default WorkWithUs;
+export default WorkWithUs
 
 const WorkBannerContainer = styled.div`
-  background: #FC000D;
+  background: #fc000d;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
   position: relative;
   color: #fff;
   padding: 2rem 0;

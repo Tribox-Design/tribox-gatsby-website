@@ -6,14 +6,16 @@ import Img from "gatsby-image"
 const AllWorks = () => {
   const data = useStaticQuery(graphql`
     query AllWorksQuery {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               title
               isHighlighted
               description
-              path
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -30,23 +32,22 @@ const AllWorks = () => {
 
   function getAllWorks(data) {
     const worksArray = []
-    data.allMarkdownRemark.edges.forEach((item, index) => {
+    data.allMdx.edges.forEach((item, index) => {
+      var slugString = '/works' + item.node.fields.slug
       worksArray.push(
         <WorkCard key={index}>
-          <WorkLink to={item.node.frontmatter.path}>
+          <WorkLink to={slugString}>
             <WorkImg
               alt={item.node.frontmatter.title}
               src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
             />
           </WorkLink>
-
           <WorkInfo>
-            <WorkLink to={item.node.frontmatter.path}>
+            <WorkLink to={slugString}>
               <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-
-            <p>{item.node.frontmatter.description}</p>
+            <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
           </WorkInfo>
         </WorkCard>
       )
@@ -80,7 +81,11 @@ const WorksWrapper = styled.div`
   justify-items: center;
   padding: 0 2rem;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
   }
 `
@@ -115,19 +120,20 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.div`
+const WorkTitle = styled.h1`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-size: 1.7rem;
+  letter-spacing: 0.5px;
 
   &:hover {
     color: #424242;
   }
+`
 
-  @media screen and (max-width: 768px) {
-    font-size: 1.7rem;
-  }
+const WorkDesc = styled.p`
+  letter-spacing: 0.5px;
 `
 
 const WorkLink = styled(Link)`
