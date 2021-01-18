@@ -53,7 +53,7 @@ const TitleContainer = styled.div`
 
 const Title = styled.h1`
   display: flex;
-  font-size: clamp(1.5rem, 6vw, 2.3rem);
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
 `
@@ -66,6 +66,6 @@ const DescriptionContainer = styled.div`
 `
 
 const Description = styled.p`
-  font-size: clamp(1rem, 3vw, 1.4rem);
+  font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
 `

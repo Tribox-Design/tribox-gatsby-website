@@ -34,6 +34,7 @@ const AboutStaff = () => {
             alt={item.node.alt}
             src={item.node.img.childImageSharp.fluid.src}
             fluid={item.node.img.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain' }}
           />
           <ProfileName>{item.node.name}</ProfileName>
           <p>{item.node.position}</p>

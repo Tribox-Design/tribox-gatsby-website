@@ -4,72 +4,36 @@ import styled from "styled-components"
 import SEO from "../seo"
 import Layout from "../layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
-// export default function Work({ data }) {
-//   const { markdownRemark } = data
-//   const { frontmatter, html } = markdownRemark
-//   console.log(frontmatter)
-//   return (
-//     <div className="work-container">
-//       <div className="work-post">
-//         <h1>{frontmatter.title}</h1>
-//         <h2>{frontmatter.date}</h2>
-//         {/* <div
-//           className="work-post-content" 
-//           dangerouslySetInnerHTML={{ __html: html }}
-//         /> */}
-//       </div>
-//     </div>
-//   )
-// }
+import Img from "gatsby-image"
+import MoreProjects from "../WorkTemplatePage/MoreProjects"
+import WorkDetails from "../WorkTemplatePage/WorkDetails"
+import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
-
     return (
       <Layout page="Works">
         <SEO
-          title={post.frontmatter.title}
+          title={siteTitle}
           description={post.frontmatter.description || post.excerpt}
         />
         <WorkContainer>
           <WorkContent>
-            <WorkWrapper>
-              <LeftContainer>
-                <TitleContainer>
-                  <Title>{post.frontmatter.title}</Title>
-                </TitleContainer>
-                <DescriptionContainer>
-                  <Description>{post.frontmatter.description}</Description>
-                </DescriptionContainer>
-              </LeftContainer>
-              <RightContainer>
-                <ClientContainer>
-                  <ClientTitle>Client</ClientTitle>
-                  <Client>{post.frontmatter.client}</Client>
-                </ClientContainer>
-                <ServicesContainer>
-                  <ServicesTitle>Services</ServicesTitle>
-                  <Services>{post.frontmatter.services}</Services>
-                </ServicesContainer>
-              </RightContainer>
-              
-            </WorkWrapper>
+            <WorkDetails frontmatter={post.frontmatter} />
+            <WorkImg
+              alt={post.frontmatter.title}
+              src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+              fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+            />
+            <ProblemSolution frontmatter={post.frontmatter} />
             <MarkdownContainer>
               <MDXRenderer>{post.body}</MDXRenderer>
             </MarkdownContainer>
-
-            <MoreWorksContainer>
-
-            </MoreWorksContainer>
-
+            <MoreProjects currentPage={post.frontmatter.title} />
           </WorkContent>
-          
         </WorkContainer>
-     
       </Layout>
     )
   }
@@ -88,10 +52,12 @@ export const pageQuery = graphql`
       frontmatter {
         client
         description
+        problemDescription
+        solutionDescription
         thumbnail {
           childImageSharp {
             fluid {
-              src
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -117,97 +83,16 @@ const WorkContent = styled.div`
   max-width: 1140px;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
-    width: 90%;
+  @media screen and (max-width: 1230px) {
+    padding: 0 2rem;
   }
 `
 
-const WorkWrapper = styled.div`
-  display: flex;
-  padding: 2rem 0;
-
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-    align-items: center;
-  }
-`
-
-const LeftContainer = styled.div`
-  width: 80%;
-  display: inline-block;
-  padding-right: 4rem;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding-right: 0rem;
-    display: relative;
-  }
-`
-
-const RightContainer = styled.div`
-  width: 20%;
-  display: inline-block;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    display: relative;
-  }
-`
-
-const TitleContainer = styled.div`
-
-`
-
-const Title = styled.h1`
-  display: flex;
-  font-size: clamp(1rem, 3vw, 1.8rem);
-  letter-spacing: 1px;
-  font-weight: bold;
-`
-
-const DescriptionContainer = styled.div`
-  padding-top: 1rem;
-`
-
-const Description = styled.p`
-  ${'' /* font-size: clamp(1rem, 3vw, 1.4rem); */}
-  font-weight: 300;
-`
-
-const ClientContainer = styled.div`
-
-`
-
-const ClientTitle = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
-  font-weight: 600;
-`
-
-const Client = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
-  font-weight: 300;
-  padding-top: 0.5rem;
-`
-
-const ServicesContainer = styled.div`
-  padding-top: 2rem;
-`
-
-const ServicesTitle = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
-  font-weight: 600;
-`
-
-const Services = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
-  font-weight: 300;
-  padding-top: 0.5rem;
+const WorkImg = styled(Img)`
+  max-width: 100%;
+  position: relative;
 `
 
 const MarkdownContainer = styled.div`
-  padding: 1rem 0;
-`
-
-const MoreWorksContainer = styled.div`
-  padding: 2rem 0;
+  padding: 3rem 0;
 `

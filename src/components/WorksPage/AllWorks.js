@@ -41,6 +41,7 @@ const AllWorks = () => {
               alt={item.node.frontmatter.title}
               src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
             />
           </WorkLink>
           <WorkInfo>
@@ -93,7 +94,7 @@ const WorksWrapper = styled.div`
 const WorkCard = styled.div`
   line-height: 1.5;
   width: 100%;
-  height: 420px;
+  ${'' /* height: 420px; */}
   position: relative;
   transition: 0.2s ease;
 `
@@ -109,7 +110,7 @@ const WorkInfo = styled.div`
 `
 
 const WorkImg = styled(Img)`
-  height: 350px;
+  ${'' /* height: 350px; */}
   max-width: 100%;
   position: relative;
   filter: brightness(97%);

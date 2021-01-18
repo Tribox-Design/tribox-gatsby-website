@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const HighlightWorks = () => {
   const data = useStaticQuery(graphql`
     query WorksQuery {
-      allMdx {
+      allMdx(filter: { frontmatter: { isHighlighted: { eq: true } } }) {
         edges {
           node {
             fields {
@@ -14,7 +14,6 @@ const HighlightWorks = () => {
             }
             frontmatter {
               title
-              isHighlighted
               description
               thumbnail {
                 childImageSharp {
@@ -33,26 +32,24 @@ const HighlightWorks = () => {
   function getHighlightedWorks(data) {
     const worksArray = []
     data.allMdx.edges.forEach((item, index) => {
-      console.log(item)
-      if (item.node.frontmatter.isHighlighted) {
-        worksArray.push(
-          <WorkCard key={index}>
+      worksArray.push(
+        <WorkCard key={index}>
+          <WorkLink to={"works" + item.node.fields.slug}>
+            <WorkImg
+              alt={item.node.frontmatter.title}
+              src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+              fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+              imgStyle={{ objectFit: 'contain' }}
+            />
+          </WorkLink>
+          <WorkInfo>
             <WorkLink to={"works" + item.node.fields.slug}>
-              <WorkImg
-                alt={item.node.frontmatter.title}
-                src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-                fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-              />
+              <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkInfo>
-              <WorkLink to={"works" + item.node.fields.slug}>
-                <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
-              </WorkLink>
-              <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
-            </WorkInfo>
-          </WorkCard>
-        )
-      }
+            <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
+          </WorkInfo>
+        </WorkCard>
+      )
     })
     return worksArray
   }
@@ -76,13 +73,6 @@ const HighlightsContainer = styled.div`
   }
 `
 
-const HighlightsHeader = styled.div`
-  font-size: clamp(1.2rem, 5vw, 3rem);
-  text-align: center;
-  margin-bottom: 5rem;
-  color: #fc000d;
-`
-
 const HighlightsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -100,7 +90,6 @@ const HighlightsWrapper = styled.div`
 const WorkCard = styled.div`
   line-height: 1.5;
   width: 100%;
-  height: 420px;
   position: relative;
   transition: 0.2s ease;
 `
@@ -116,7 +105,6 @@ const WorkInfo = styled.div`
 `
 
 const WorkImg = styled(Img)`
-  height: 350px;
   max-width: 100%;
   position: relative;
   filter: brightness(97%);

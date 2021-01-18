@@ -39,25 +39,34 @@ const Nav = styled.nav`
   background: ${({ home }) => (home ? "#FC000D" : "#fff")};
   display: flex;
   justify-content: space-between;
-  padding: 3rem 3rem 1rem 3rem;
+  padding: 2.8rem 3rem 0rem 3rem;
   z-index: 300;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
-    padding: 3rem 0 3rem 0.5rem;
+  @media screen and (max-width: 1140px) {
+    padding: 2.8rem 0 3rem 1rem;
   }
+
+  @media screen and (max-width: 890px) {
+    padding: 2.8rem 0 3rem 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2.8rem 0 3rem 1rem;
+  }
+
 `
 
 const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0.5rem 1.5rem;
   height: 100%;
   cursor: pointer;
   color: ${({ primary, home }) =>
     home ? "#fff" : primary ? "#FC000D" : "#000000"};
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
 
   &:hover {
