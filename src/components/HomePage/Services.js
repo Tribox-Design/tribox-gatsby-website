@@ -23,7 +23,7 @@ const Services = () => {
 export default Services
 
 const ProductsContainer = styled.div`
-  padding: 5rem calc((100vw - 1300px) / 2);
+  padding: 4rem calc((100vw - 1300px) / 2);
   background: #fff;
   display: flex;
   align-items: center;
@@ -34,11 +34,11 @@ const ProductsContainer = styled.div`
 `
 
 const ProductsWrapper = styled.div`
-  max-width: 94%;
+  max-width: 80%;
   display: inline-grid;
   margin: auto;
   grid-template-columns: repeat(2, 2fr);
-  grid-gap: 60px;
+  grid-gap: 56px 88px;
   padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
@@ -62,8 +62,8 @@ const ServiceImgContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    height: 70px;
-    width: 70px;
+    height: 64px;
+    width: 64px;
     margin-right: 2rem;
   }
 `

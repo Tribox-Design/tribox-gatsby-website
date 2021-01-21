@@ -40,7 +40,7 @@ const IntroContainer = styled.div`
     padding-left: 0;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 47vh;
   }
 `
 

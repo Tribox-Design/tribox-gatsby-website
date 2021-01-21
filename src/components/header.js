@@ -36,7 +36,7 @@ const Header = ({ toggle, page }) => {
 export default Header
 
 const Nav = styled.nav`
-  background: ${({ home }) => (home ? "#FC000D" : "#fff")};
+  background: ${({ home }) => (home ? "#FC000D" : "#fffff")};
   display: flex;
   justify-content: space-between;
   padding: 2.8rem 3rem 0rem 3rem;
@@ -65,7 +65,7 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   color: ${({ primary, home }) =>
-    home ? "#fff" : primary ? "#FC000D" : "#000000"};
+    home ? "#fff" : primary ? "#FC000D" : "#1b1b1b"};
   font-size: 18px;
   font-weight: bold;
 
@@ -76,7 +76,7 @@ const NavLink = styled(Link)`
 
 const Bars = styled(FaBars)`
   display: none;
-  color: ${({ home }) => (home ? "#fff" : "#212121")};
+  color: ${({ home }) => (home ? "#fff" : "#1b1b1b")};
 
   @media screen and (max-width: 768px) {
     display: block;

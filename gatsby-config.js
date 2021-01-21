@@ -31,7 +31,7 @@ module.exports = {
         short_name: `Tribox`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#FC000D`,
         display: `minimal-ui`,
         icon: `src/images/tribox-logo.png`, // This path is relative to the root of the site.
       },
@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: './src/data/'
+        path: "./src/data/",
       },
     },
     {
@@ -49,19 +49,6 @@ module.exports = {
         extensions: [".md"],
         gatsbyRemarkPlugins: [
           {
-            // {
-            //   resolve: `gatsby-plugin-mdx`,
-            //   options: {
-            //     gatsbyRemarkPlugins: [
-            //       {
-            //         resolve: `gatsby-remark-images`,
-            //         options: {
-            //           maxWidth: 1200,
-            //         },
-            //       },
-            //     ],
-            //   },
-            // },
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1140,
@@ -94,6 +81,14 @@ module.exports = {
         name: `work`,
       },
     },
-    'gatsby-transformer-remark'
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    "gatsby-transformer-remark",
+    "gatsby-plugin-react-leaflet",
   ],
 }

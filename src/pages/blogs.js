@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout page="Blogs">
+  <Layout page="Blog">
     <SEO title="Blogs" />
     <div style={{ margin: '10%', textAlign: 'center', height: '12rem'}}>
     <h1>Coming Soon</h1>

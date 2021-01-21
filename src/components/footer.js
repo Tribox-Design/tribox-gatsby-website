@@ -8,8 +8,9 @@ const Footer = () => {
       <FooterContent>
         <FooterLeft>
           <ContactNumber>
-            <FooterP>+63 917 448 3092</FooterP>
-            <FooterP>+63 905 220 8662</FooterP>
+            <FooterLink href="tel:+639174483092">+63 917 448 3092</FooterLink>
+            <br />
+            <FooterLink href="tel:+639052208662">+63 905 220 8662</FooterLink>
           </ContactNumber>
           <Email>
             <FooterLink href="mailto:hello.triboxdesign@gmail.com">
@@ -21,11 +22,11 @@ const Footer = () => {
             </FooterLink>
           </Email>
           <Location>
-            <FooterP>
+            <FooterLink href="https://g.page/triboxdesign?share">
               1401 Park Centrale Building, IT Park,
               <br />
               Lahug, Apas, Cebu City
-            </FooterP>
+            </FooterLink>
           </Location>
         </FooterLeft>
         <FooterRight>
@@ -40,7 +41,7 @@ const Footer = () => {
           </SocialMedia>
           <TradeMark>
             <FooterP>
-              &copy; 2020 Tribox Design&reg;
+              &copy; 2021 Tribox Design&reg;
               <br />
               Tribox Design is a registered Trademark in WIPO
             </FooterP>
@@ -73,7 +74,6 @@ const FooterContent = styled.div`
 
   @media screen and (max-width: 875px) {
     grid-gap: 100px;
-
   }
 
   @media screen and (max-width: 768px) {
@@ -157,6 +157,11 @@ const TradeMark = styled.div`
 const FooterLink = styled.a`
   text-decoration: none;
   color: white;
+  line-height: 1.4;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 const FooterP = styled.p`

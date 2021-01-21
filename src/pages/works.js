@@ -5,7 +5,7 @@ import AllWorks from "../components/WorksPage/AllWorks"
 import IntroWork from "../components/WorksPage/IntroWork"
 
 const IndexPage = () => (
-  <Layout page="Works">
+  <Layout page="Work">
     <SEO title="All Works" />
     <IntroWork />
     <AllWorks />

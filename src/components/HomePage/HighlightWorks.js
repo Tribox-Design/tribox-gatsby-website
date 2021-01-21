@@ -119,7 +119,7 @@ const WorkTitle = styled.h1`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   letter-spacing: 0.5px;
 
   &:hover {
@@ -129,6 +129,7 @@ const WorkTitle = styled.h1`
 
 const WorkDesc = styled.p`
   letter-spacing: 0.5px;
+  color: #424242;
 `
 
 const WorkLink = styled(Link)`

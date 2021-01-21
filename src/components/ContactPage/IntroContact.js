@@ -1,14 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 
-const IntroAbout = () => {
+const IntroContact = () => {
   return (
     <IntroContainer>
       <IntroContent>
         <IntroItems>
           <IntroH1>
-            A local branding agency for Local Brands and SMEs. We promote brand
-            growth.
+            We love cluttered things, mind and ideas. Let's solve this together.
           </IntroH1>
         </IntroItems>
       </IntroContent>
@@ -16,7 +15,7 @@ const IntroAbout = () => {
   )
 }
 
-export default IntroAbout
+export default IntroContact
 
 const IntroContainer = styled.div`
   display: flex;
@@ -24,10 +23,14 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 5rem 2rem;
+  padding: 8rem 2rem;
 
   @media screen and (max-width: 768px) {
     justify-content: center;
+  }
+
+  @media screen and (max-width: 868px) {
+    padding: 1rem 2rem 4rem 2rem;
   }
 `
 
@@ -45,7 +48,7 @@ const IntroItems = styled.div`
   align-items: start;
   text-align: start;
   max-height: 100%;
-  line-height: 1.1;
+  color: #212121;
 
   @media screen and (max-width: 768px) {
     justify-content: center;
@@ -56,11 +59,10 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-size: clamp(2rem, 5.5vw, 3.8rem);
   letter-spacing: 2px;
   font-weight: bold;
   width: 87%;
-  color: #212121;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);

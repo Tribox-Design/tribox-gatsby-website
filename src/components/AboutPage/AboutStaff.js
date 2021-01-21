@@ -37,7 +37,7 @@ const AboutStaff = () => {
             imgStyle={{ objectFit: 'contain' }}
           />
           <ProfileName>{item.node.name}</ProfileName>
-          <p>{item.node.position}</p>
+          <Description>{item.node.position}</Description>
         </ProfileContent>
       )
     })
@@ -105,4 +105,9 @@ const ProfileName = styled.div`
   font-weight: 600;
   color: #212121;
   font-size: 1.5rem;
+`
+
+const Description = styled.p`
+  font-weight: 300;
+  color: #424242;
 `
