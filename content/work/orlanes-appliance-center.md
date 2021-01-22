@@ -2,7 +2,7 @@
 date: 2021-01-22T06:45:06.144Z
 title: Orlanes Appliance Center
 thumbnail: ../assets/orlanes-showcase-3.jpg
-simpleDescription: Orlanes Appliance Center is a Cebu-based family business with
+shortDescription: Orlanes Appliance Center is a Cebu-based family business with
   more than 10 years in the industry.
 description: >-
   Orlanes Appliance Center is a Cebu-based family business with more than 10

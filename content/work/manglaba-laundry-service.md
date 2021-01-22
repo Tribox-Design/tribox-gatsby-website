@@ -2,7 +2,7 @@
 date: 2021-01-22T07:11:21.504Z
 title: Manglaba Laundry Service
 thumbnail: ../assets/manglaba-logo.png
-simpleDescription: Manglaba is a laundry service based in Cebu City.
+shortDescription: Manglaba is a laundry service based in Cebu City.
 description: |-
   Manglaba is a laundry service based in Cebu City. Their vision was
   to change their brand identity to one that is friendly, witty, and playful.

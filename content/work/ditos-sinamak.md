@@ -1,42 +1,44 @@
 ---
 date: 2021-01-22T06:22:35.932Z
 title: Dito's Sinamak
-thumbnail: ../assets/suka3.png
-simpleDescription: Dito’s Sinamak is a Cebu-based supplier of Iloilo’s spiced vinegar (sinamak).
+thumbnail: ../assets/ditos-cover.png
+shortDescription: Dito’s Sinamak is a Cebu-based supplier of Iloilo’s spiced vinegar (sinamak).
 description: |
   Dito’s Sinamak is a Cebu-based supplier of Iloilo’s spiced vinegar (Sinamak).
 
   For them, we created a brand identity that matched the company’s vision to be
-  “simple, bold, and authentic”.
+  “Simple, Bold and Authentic”.
 client: Dito's Sinamak
 services: Logo, Packaging
 isHighlighted: true
 isPublishedWork: true
 ---
-![bottled](../assets/bottled.png)
+![image](../assets/ditos-1.png)
 
 
 
-![prototype](../assets/work_200602034155.jpg)
+![image](../assets/ditos-2.png)
 
 
 
-![prototype2](../assets/work_200602034217.jpg)
+![image](../assets/ditos-3.png)
 
 
 
-![multi color logo](../assets/work_200602034247.png)
+![image](../assets/ditos-4.png)
 
 
 
-![tshirt](../assets/shirts.png)
+![image](../assets/ditos-5.png)
 
-![tote bags](../assets/totebagditos.png)
+![image](../assets/ditos-6.png)
 
-![truck-kun](../assets/truck.png)
+![image](../assets/ditos-7.jpg)
+![image](../assets/ditos-8.jpg)
+![image](../assets/ditos-9.png)
 
-![tshirt 2](../assets/work_200602034428.jpg)
+![tshirt 2](../assets/ditos-10.jpg)
 
 
 
-![Actual Product](../assets/work_200602035240.jpg)
+![Actual Product](../assets/ditos-11.jpg)
