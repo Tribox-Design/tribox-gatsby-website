@@ -14,7 +14,7 @@ const HighlightWorks = () => {
             }
             frontmatter {
               title
-              description
+              shortDescription
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -46,7 +46,7 @@ const HighlightWorks = () => {
             <WorkLink to={"works" + item.node.fields.slug}>
               <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
+            <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc>
           </WorkInfo>
         </WorkCard>
       )
