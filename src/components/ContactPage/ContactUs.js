@@ -1,4 +1,4 @@
-import { encode } from "Punycode"
+import { encode } from "punycode"
 import React, { useState } from "react"
 import styled from "styled-components"
 import { painPointsData } from "../../data/PaintPointsData"

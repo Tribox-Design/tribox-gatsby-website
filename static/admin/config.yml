@@ -15,12 +15,14 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
+      - { name: simpleDescription, label: SimpleDescription, widget: "text" }
       - { name: description, label: Description, widget: "text" }
       - { name: client, label: Client }
       - { name: services, label: Services }
-      - { name: problemDescription, label: Problem Description, widget: "text", required: false }
-      - { name: solutionDescription, label: Solution Description, widget: "text", required: false }
+      # - { name: problemDescription, label: Problem Description, widget: "text", required: false }
+      # - { name: solutionDescription, label: Solution Description, widget: "text", required: false }
       - { name: isHighlighted, label: Is Highlighted, widget: boolean }
+      - { name: isPublishedWork, label: Publish Work, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }
   - name: blog
     label: Blog
@@ -29,4 +31,5 @@ collections:
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: isPublishedBlog, label: Publish Blog, widget: boolean }
       - { name: body, label: Body, widget: markdown }

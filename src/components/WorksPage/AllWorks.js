@@ -14,7 +14,6 @@ const AllWorks = () => {
             }
             frontmatter {
               title
-              isHighlighted
               description
               thumbnail {
                 childImageSharp {
