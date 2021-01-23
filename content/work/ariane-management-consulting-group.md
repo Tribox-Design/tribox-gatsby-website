@@ -14,8 +14,8 @@ description: |-
   clients set them apart from their competitors. They relied on us to
   position their company to be at the “table” of every challenge.
 client: Ariane Management Consulting Group
-services: "Brand Identity, Logo, "
-isHighlighted: true
+services: Brand Identity, Logo
+isHighlighted: false
 isPublishedWork: true
 ---
 ![showcase](../assets/ariane-showcase.jpg)

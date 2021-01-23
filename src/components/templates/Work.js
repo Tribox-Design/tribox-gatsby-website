@@ -12,11 +12,10 @@ import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
     return (
-      <Layout page="Works">
+      <Layout page="Work">
         <SEO
-          title={siteTitle}
+          title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
         <WorkContainer>
@@ -27,7 +26,7 @@ class WorkTemplate extends React.Component {
               src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
-            <ProblemSolution frontmatter={post.frontmatter} />
+            {/* <ProblemSolution frontmatter={post.frontmatter} /> */}
             <MarkdownContainer>
               <MDXRenderer>{post.body}</MDXRenderer>
             </MarkdownContainer>
@@ -52,8 +51,7 @@ export const pageQuery = graphql`
       frontmatter {
         client
         description
-        problemDescription
-        solutionDescription
+        services
         thumbnail {
           childImageSharp {
             fluid {

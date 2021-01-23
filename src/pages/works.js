@@ -6,7 +6,7 @@ import IntroWork from "../components/WorksPage/IntroWork"
 
 const IndexPage = () => (
   <Layout page="Work">
-    <SEO title="All Works" />
+    <SEO title="Our Work" />
     <IntroWork />
     <AllWorks />
   </Layout>

@@ -32,7 +32,7 @@ const WorkWrapper = styled.div`
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-gap: 6rem;
-  padding: 4rem 0;
+  padding: 6rem 0;
 
   @media screen and (max-width: 1140px) {
     grid-gap: 1rem;

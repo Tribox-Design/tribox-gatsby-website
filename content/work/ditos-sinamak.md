@@ -6,6 +6,7 @@ shortDescription: Dito’s Sinamak is a Cebu-based supplier of Iloilo’s spiced
 description: |
   Dito’s Sinamak is a Cebu-based supplier of Iloilo’s spiced vinegar (Sinamak).
 
+
   For them, we created a brand identity that matched the company’s vision to be
   “Simple, Bold and Authentic”.
 client: Dito's Sinamak

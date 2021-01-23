@@ -15,8 +15,8 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
-      - { name: shortDescription, label: Short Description, widget: "text" }
-      - { name: description, label: Description, widget: "text" }
+      - { name: shortDescription, label: Short Description, widget: text }
+      - { name: description, label: Description, widget: text }
       - { name: client, label: Client }
       - { name: services, label: Services }
       - { name: isHighlighted, label: Is Highlighted, widget: boolean, default: false }

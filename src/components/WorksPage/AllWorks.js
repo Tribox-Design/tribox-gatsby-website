@@ -77,7 +77,7 @@ const WorksContainer = styled.div`
 const WorksWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
   justify-items: center;
   padding: 0 2rem;
 
@@ -124,7 +124,7 @@ const WorkTitle = styled.h1`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: 1.6rem;
+  font-size: 21px;
   letter-spacing: 0.5px;
 
   &:hover {
@@ -133,6 +133,7 @@ const WorkTitle = styled.h1`
 `
 
 const WorkDesc = styled.p`
+  font-size: 14px;
   letter-spacing: 0.5px;
 `
 

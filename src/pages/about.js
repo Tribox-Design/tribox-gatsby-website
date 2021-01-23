@@ -10,7 +10,7 @@ import OurClients from "../components/AboutPage/OurClients"
 
 const IndexPage = () => (
   <Layout page="About">
-    <SEO title="About" />
+    <SEO title="About Us" />
     <IntroAbout />
     <Line />
     <AboutStaff />
