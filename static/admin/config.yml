@@ -29,5 +29,5 @@ collections:
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: isPublishedBlog, label: Publish Blog, widget: boolean }
+      - { name: isPublishedBlog, label: Publish Blog, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }
