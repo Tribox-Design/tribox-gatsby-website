@@ -9,8 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
+          filter: {frontmatter: {isPublishedWork: {eq: true}}}
         ) {
           edges {
             node {
@@ -34,16 +33,14 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMdx.edges
 
     posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+      // const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      // const next = index === 0 ? null : posts[index - 1].node
 
       createPage({
         path: `works${post.node.fields.slug}`,
         component: workPost,
         context: {
           slug: post.node.fields.slug,
-          previous,
-          next,
         },
       })
     })
