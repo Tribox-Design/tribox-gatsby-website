@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const MoreProjects = ({ currentPage }) => {
   const randomData = useStaticQuery(graphql`
     query RandomWorksQuery {
-      allMdx {
+      allMdx(filter: {frontmatter: {isPublishedWork: {eq: true}}}) {
         edges {
           node {
             fields {
@@ -14,7 +14,7 @@ const MoreProjects = ({ currentPage }) => {
             }
             frontmatter {
               title
-              description
+              shortDescription
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -66,7 +66,7 @@ const MoreProjects = ({ currentPage }) => {
             <WorkLink to={slugString}>
               <WorkTitle>{randomData.allMdx.edges[item].node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkDesc>{randomData.allMdx.edges[item].node.frontmatter.description}</WorkDesc>
+            <WorkDesc>{randomData.allMdx.edges[item].node.frontmatter.shortDescription}</WorkDesc>
           </WorkInfo>
         </WorkCard>
       )
