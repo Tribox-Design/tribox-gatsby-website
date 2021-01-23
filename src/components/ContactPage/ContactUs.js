@@ -179,7 +179,7 @@ const ContactWrapper = styled.div`
 
   @media screen and (max-width: 868px) {
     grid-template-columns: 1fr;
-    grid-gap: 40px;
+    grid-gap: 10px;
   }
 `
 
@@ -206,7 +206,8 @@ const FeatureContainer = styled.div`
 
 const FeatureTitle = styled.p`
   margin: 6rem 0 1rem 0;
-  color: #616161;
+  ${'' /* color: #616161; */}
+  color: #424242;
   font-size: 28px;
   letter-spacing: 2px;
 

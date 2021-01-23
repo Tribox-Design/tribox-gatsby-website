@@ -4,7 +4,7 @@ path: /bisdak
 date: 2020-12-23T09:37:56.094Z
 title: Bisdak Radio
 thumbnail: ../assets/highlight-work-bisdak.jpg
-shortDescription: A radio station based in Cebu, for the Cebuanos.
+shortDescription: An online radio station based in Cebu, for the Cebuanos.
 description: |-
   Ang online radio sa mga Bisaya.
   Kay sa Bisdak Radio, Sikat ka!

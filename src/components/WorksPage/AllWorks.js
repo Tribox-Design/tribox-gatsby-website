@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const AllWorks = () => {
   const data = useStaticQuery(graphql`
     query AllWorksQuery {
-      allMdx {
+      allMdx(filter: {frontmatter: {isPublishedWork: {eq: true}}}) {
         edges {
           node {
             fields {
@@ -14,7 +14,7 @@ const AllWorks = () => {
             }
             frontmatter {
               title
-              description
+              shortDescription
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -47,7 +47,7 @@ const AllWorks = () => {
             <WorkLink to={slugString}>
               <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkDesc>{item.node.frontmatter.description}</WorkDesc>
+            <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc>
           </WorkInfo>
         </WorkCard>
       )
