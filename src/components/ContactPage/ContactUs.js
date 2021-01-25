@@ -7,7 +7,6 @@ import BA from "../../images/brands-awesome.png"
 import { Formik, Form, Field, ErrorMessage } from "formik"
 
 const ContactUs = () => {
-
   const encode = data => {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -49,11 +48,6 @@ const ContactUs = () => {
                 services: "",
                 message: "",
               }}
-              // onSubmit={(values, actions) => {
-              //   alert(JSON.stringify(values, null, 2))
-              //   actions.setSubmitting(false)
-              // }}
-
               onSubmit={(values, actions) => {
                 fetch("/", {
                   method: "POST",
@@ -63,7 +57,9 @@ const ContactUs = () => {
                   body: encode({ "form-name": "Contact", ...values }),
                 })
                   .then(() => {
-                    alert("Successfully submitted. We'll get back to you shortly.")
+                    alert(
+                      "Successfully submitted. We'll get back to you shortly."
+                    )
                     actions.resetForm()
                   })
                   .catch(() => {
@@ -95,7 +91,9 @@ const ContactUs = () => {
                 return errors
               }}
             >
-              <Form name="Contact" data-netlify={true}>
+              <Form name="Contact" data-netlify={true} netlify-honeypot="bot-field">
+                <Field type="hidden" name="bot-field" />
+
                 <MyLabel>Name *</MyLabel>
                 <NameContainer>
                   <FirstNameContainer>
@@ -240,13 +238,11 @@ const ContactCard = styled.div`
 `
 
 const FeatureContainer = styled.div`
-  ${"" /* text-align: center; */}
   height: 100%;
 `
 
 const FeatureTitle = styled.p`
   margin: 6rem 0 1rem 0;
-  ${"" /* color: #616161; */}
   color: #424242;
   font-size: 28px;
   letter-spacing: 2px;
@@ -267,10 +263,6 @@ const FeaturedImage = styled.img`
   }
 `
 
-const ContactP = styled.p`
-  letter-spacing: 0.5px;
-`
-
 const ContactTitle = styled.h1`
   margin-top: 1.5rem;
   font-weight: 600;
@@ -280,17 +272,6 @@ const ContactTitle = styled.h1`
 
   @media screen and (max-width: 868px) {
     font-size: 3rem;
-  }
-`
-
-const SubmissionForm = styled.form`
-  max-width: 100%;
-  border-radius: 5px;
-  padding: 0 1rem;
-
-  @media screen and (max-width: 768px) {
-    padding: 2rem;
-    border: none;
   }
 `
 
@@ -304,11 +285,9 @@ const MyLabel = styled.label`
 
 const PainPointCheckBox = styled(Field)`
   margin-right: 0.5rem;
-  ${"" /* margin-top: 9px; */}
 `
 
 const PainPointLabel = styled.label`
-  ${"" /* pointer: cursor; */}
   padding: 6px 0 0 0;
   font-size: 14px;
 `
@@ -316,7 +295,6 @@ const PainPointLabel = styled.label`
 const InputForm = styled(Field)`
   display: block;
   width: 100%;
-  ${"" /* min-height: 2rem; */}
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   padding: 0.5rem;

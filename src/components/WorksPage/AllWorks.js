@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const AllWorks = () => {
   const data = useStaticQuery(graphql`
     query AllWorksQuery {
-      allMdx(filter: {frontmatter: {isPublishedWork: {eq: true}}}) {
+      allMdx(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {isPublishedWork: {eq: true}}}) {
         edges {
           node {
             fields {

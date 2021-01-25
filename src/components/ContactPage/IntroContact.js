@@ -23,7 +23,7 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 8rem 2rem;
+  padding: 6rem 2rem;
 
   @media screen and (max-width: 768px) {
     justify-content: center;

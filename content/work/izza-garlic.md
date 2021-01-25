@@ -1,5 +1,5 @@
 ---
-date: 2021-01-22T14:16:03.216Z
+date: 2021-01-24T14:16:03.216Z
 title: Izza Garlic
 thumbnail: ../assets/izza-cover.jpg
 shortDescription: Izza Garlic is a Cebu-based fried garlic producer offering a
