@@ -96,13 +96,14 @@ const MoreWorksContainer = styled.div`
 
 const MoreProjectsTitle = styled.h1`
   display: flex;
-  font-size: clamp(1rem, 3vw, 1.8rem);
+  font-size: clamp(1rem, 3vw, 1.6rem);
   letter-spacing: 1px;
   color: #4f4f4f;
   font-weight: bold;
 `
 
 const RandomWorksContainer = styled.div`
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   grid-gap: 5rem;
@@ -152,7 +153,7 @@ const WorkTitle = styled.h1`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: 1.1rem;
+  font-size: 18px;
   letter-spacing: 0.5px;
 
   &:hover {
@@ -162,6 +163,7 @@ const WorkTitle = styled.h1`
 
 const WorkDesc = styled.p`
   letter-spacing: 0.2px;
+  font-size: 14px;
 `
 
 const WorkLink = styled(Link)`

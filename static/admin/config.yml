@@ -26,8 +26,11 @@ collections:
     label: Blog
     folder: content/blog
     create: true
+    slug: 'index'
+    
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      # - { name: tags, label: Tags,}
       - { name: isPublishedBlog, label: Publish Blog, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }

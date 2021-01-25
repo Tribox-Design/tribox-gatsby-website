@@ -1,40 +1,17 @@
-import { encode } from "punycode"
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
 import { painPointsData } from "../../data/PaintPointsData"
 import POTW from "../../images/potw.png"
 import WBDS from "../../images/wbds.jpg"
 import BA from "../../images/brands-awesome.png"
+import { Formik, Form, Field, ErrorMessage } from "formik"
 
 const ContactUs = () => {
-  const [formState, setFormState] = useState({
-    firstName: "",
-    lastName: "",
-    company: "",
-    phone: "",
-    email: "",
-    service: "",
-    message: "",
-  })
 
-  const handleChange = e => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    })
-  }
-
-  const handleSubmit = e => {
-    e.preventDefault()
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "Form-name": "contact", ...formState }),
-    })
-      .then(() =>
-        alert("Successfully submitted. We'll get back to you shortly.")
-      )
-      .catch(error => alert(error))
+  const encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
   }
 
   return (
@@ -61,82 +38,145 @@ const ContactUs = () => {
             </FeatureContainer>
           </FeatureCard>
           <ContactCard>
-            <SubmissionForm
-              onSubmit={handleSubmit}
-              name="Contact"
-              method="POST"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
+            <Formik
+              initialValues={{
+                firstName: "",
+                lastName: "",
+                address: "",
+                company: "",
+                phone: "",
+                email: "",
+                services: "",
+                message: "",
+              }}
+              // onSubmit={(values, actions) => {
+              //   alert(JSON.stringify(values, null, 2))
+              //   actions.setSubmitting(false)
+              // }}
+
+              onSubmit={(values, actions) => {
+                fetch("/", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                  },
+                  body: encode({ "form-name": "Contact", ...values }),
+                })
+                  .then(() => {
+                    alert("Successfully submitted. We'll get back to you shortly.")
+                    actions.resetForm()
+                  })
+                  .catch(() => {
+                    alert("Error")
+                  })
+                  .finally(() => actions.setSubmitting(false))
+              }}
+              validate={values => {
+                const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
+                const errors = {}
+                if (!values.firstName) {
+                  errors.firstName = "First Name required"
+                }
+                if (!values.lastName) {
+                  errors.lastName = "Last Name required"
+                }
+                if (!values.email || !emailRegex.test(values.email)) {
+                  errors.email = "Valid Email required"
+                }
+                if (!values.phone) {
+                  errors.phone = "Phone Number required"
+                }
+                if (!values.company) {
+                  errors.company = "Company Name required"
+                }
+                if (!values.message) {
+                  errors.message = "Message required"
+                }
+                return errors
+              }}
             >
-              <InputForm type="hidden" name="form-name" value="Contact" />
-              <MyLabel>Name *</MyLabel>
-              <NameContainer>
-                <FirstNameContainer>
-                  <InputForm
-                    type="text"
-                    name="firstName"
-                    placeholder="First Name"
-                    onChange={handleChange}
-                  />
-                </FirstNameContainer>
-                <LastNameContainer>
-                  <InputForm
-                    type="text"
-                    name="lastName"
-                    placeholder="Last Name"
-                    onChange={handleChange}
-                  />
-                </LastNameContainer>
-              </NameContainer>
-
-              <MyLabel>Email *</MyLabel>
-              <InputForm
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                onChange={handleChange}
-              />
-
-              <MyLabel>Phone *</MyLabel>
-              <InputForm type="tel" name="phone" placeholder="Phone Number" />
-
-              <MyLabel>Company/Business *</MyLabel>
-              <InputForm
-                type="text"
-                name="company"
-                placeholder="Name of Business"
-                onChange={handleChange}
-              />
-
-              <MyLabel>Address</MyLabel>
-              <InputForm
-                type="text"
-                name="address"
-                placeholder="Business Address"
-                onChange={handleChange}
-              />
-
-              <MyLabel>What needs to be solved today?</MyLabel>
-              <PainPointsContainer>
-                {painPointsData.map((props, index) => (
-                  <PainPointsItem key={index}>
-                    <input
-                      type="checkbox"
-                      name={props.service}
-                      value={props.service}
-                      onChange={handleChange}
+              <Form name="Contact" data-netlify={true}>
+                <MyLabel>Name *</MyLabel>
+                <NameContainer>
+                  <FirstNameContainer>
+                    <InputForm name="firstName" placeholder="First Name" />
+                    <ErrorMessage
+                      name="firstName"
+                      render={msg => (
+                        <ProperErrorMessage>{msg}</ProperErrorMessage>
+                      )}
                     />
-                    <PainPointLabel for={props.service}>
-                      {props.service}
-                    </PainPointLabel>
-                  </PainPointsItem>
-                ))}
-              </PainPointsContainer>
-              <MyLabel>Message *</MyLabel>
-              <TextAreaForm name="message"                    onChange={handleChange}
- />
-              <FormButton type="submit">Submit</FormButton>
-            </SubmissionForm>
+                  </FirstNameContainer>
+                  <LastNameContainer>
+                    <InputForm name="lastName" placeholder="Last Name" />
+                    <ErrorMessage
+                      name="lastName"
+                      render={msg => (
+                        <ProperErrorMessage>{msg}</ProperErrorMessage>
+                      )}
+                    />
+                  </LastNameContainer>
+                </NameContainer>
+
+                <MyLabel htmlFor="email">Email *</MyLabel>
+                <InputForm
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                />
+                <ErrorMessage
+                  name="email"
+                  render={msg => <ProperErrorMessage>{msg}</ProperErrorMessage>}
+                />
+
+                <MyLabel htmlFor="phone">Phone *</MyLabel>
+                <InputForm type="tel" name="phone" placeholder="Phone Number" />
+                <ErrorMessage
+                  name="phone"
+                  render={msg => <ProperErrorMessage>{msg}</ProperErrorMessage>}
+                />
+
+                <MyLabel htmlFor="company">Company/Business *</MyLabel>
+                <InputForm name="company" placeholder="Name of Business" />
+                <ErrorMessage
+                  name="company"
+                  render={msg => <ProperErrorMessage>{msg}</ProperErrorMessage>}
+                />
+
+                <MyLabel htmlFor="address">Address</MyLabel>
+                <InputForm name="address" placeholder="Business Address" />
+
+                <MyLabel>What needs to be solved today?</MyLabel>
+                <PainPointsContainer>
+                  {painPointsData.map((props, index) => (
+                    <PainPointsItem key={index}>
+                      <PainPointCheckBox
+                        type="checkbox"
+                        name="services"
+                        value={props.service}
+                      />
+                      <PainPointLabel>{props.service}</PainPointLabel>
+                    </PainPointsItem>
+                  ))}
+                </PainPointsContainer>
+                <MyLabel>Message *</MyLabel>
+                <div>
+                  <TextAreaForm
+                    component="textarea"
+                    name="message"
+                    placeholder="Tell us know about your ideas, timeline and budget range."
+                  />
+                  <ErrorMessage
+                    name="message"
+                    render={msg => (
+                      <ProperErrorMessage>{msg}</ProperErrorMessage>
+                    )}
+                  />
+                </div>
+
+                <FormButton type="submit">Submit</FormButton>
+              </Form>
+            </Formik>
           </ContactCard>
         </ContactWrapper>
       </ContactWidth>
@@ -206,7 +246,7 @@ const FeatureContainer = styled.div`
 
 const FeatureTitle = styled.p`
   margin: 6rem 0 1rem 0;
-  ${'' /* color: #616161; */}
+  ${"" /* color: #616161; */}
   color: #424242;
   font-size: 28px;
   letter-spacing: 2px;
@@ -262,12 +302,18 @@ const MyLabel = styled.label`
   font-weight: 600;
 `
 
+const PainPointCheckBox = styled(Field)`
+  margin-right: 0.5rem;
+  ${"" /* margin-top: 9px; */}
+`
+
 const PainPointLabel = styled.label`
-  padding: 6px 0 0 0.5rem;
+  ${"" /* pointer: cursor; */}
+  padding: 6px 0 0 0;
   font-size: 14px;
 `
 
-const InputForm = styled.input`
+const InputForm = styled(Field)`
   display: block;
   width: 100%;
   ${"" /* min-height: 2rem; */}
@@ -278,7 +324,7 @@ const InputForm = styled.input`
   font-size: 16px;
 `
 
-const TextAreaForm = styled.textarea`
+const TextAreaForm = styled(Field)`
   display: block;
   width: 100%;
   min-height: 130px;
@@ -348,4 +394,11 @@ const FormButton = styled.button`
   &:hover {
     background: #424242;
   }
+`
+
+const ProperErrorMessage = styled.div`
+  font-size: 12px;
+  color: #fc000d;
+  margin-top: 8px;
+  margin-left: 8px;
 `

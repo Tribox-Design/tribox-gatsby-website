@@ -18,4 +18,7 @@ export const ourClientsData = [
   { client: "Dumanjug Municipality" },
   { client: "Lemmonhead Publishing" },
   { client: "Cebu Chamber of Commerce and Industry" },
+  { client: "The Mystic Psychologist" },
+  { client: "The Green Table" },
+  { client: "Izza Garlic" },
 ]

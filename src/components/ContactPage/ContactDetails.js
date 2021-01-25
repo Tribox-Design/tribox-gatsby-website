@@ -74,10 +74,6 @@ const ContactWrapper = styled.div`
   }
 `
 
-const ContactP = styled.p`
-  letter-spacing: 0.5px;
-`
-
 const ContactTitle = styled.h1`
   font-weight: 600;
   color: #212121;

@@ -7,7 +7,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
-import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
+// import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
 class WorkTemplate extends React.Component {
   render() {
