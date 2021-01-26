@@ -95,6 +95,6 @@ const ContactLink = styled.a`
   line-height: 1.5;
 
   &:hover {
-    color: #fc000d;
+    color: #ff3333;
   }
 `

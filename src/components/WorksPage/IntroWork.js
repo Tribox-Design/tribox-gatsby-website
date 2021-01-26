@@ -4,10 +4,9 @@ import styled from "styled-components"
 const IntroWork = () => {
   return (
     <IntroContainer>
-      <IntroBg />
       <IntroContent>
         <IntroItems>
-          <IntroH1>We clarify brands and simplify the complex.</IntroH1>
+          <IntroH1>Defining brands, simplifying the complex.</IntroH1>
         </IntroItems>
       </IntroContent>
     </IntroContainer>
@@ -18,36 +17,25 @@ export default IntroWork
 
 const IntroContainer = styled.div`
   display: flex;
-  justify-content: start;
-  align-items: center;
-  padding: 5rem 5rem 0rem 5rem;
-  position: relative;
-  color: #fff;
-
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-    padding: 3rem 0;
-  }
-`
-
-const IntroBg = styled.div`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  text-align: center;
   width: 100%;
-  overflow: hidden;
+  color: #fff;
+  padding: 3rem 0;
+
+  @media screen and (max-width: 1140px) {
+    padding: 3rem .5rem;
+  }
 
   @media screen and (max-width: 768px) {
     justify-content: center;
+    padding: 4rem 1rem;
   }
 `
 
 const IntroContent = styled.div`
   z-index: 3;
   max-width: 1140px;
-
+  margin: 0 auto;
 `
 
 const IntroItems = styled.div`
@@ -73,7 +61,6 @@ const IntroItems = styled.div`
 const IntroH1 = styled.h1`
   font-size: clamp(1.5rem, 6vw, 4rem);
   letter-spacing: 3px;
-  padding: 0 1rem;
   font-weight: bold;
 
   @media screen and (max-width: 768px) {

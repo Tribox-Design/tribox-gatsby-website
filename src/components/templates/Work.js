@@ -12,6 +12,7 @@ import WorkDetails from "../WorkTemplatePage/WorkDetails"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
+    console.log(post.body)
     return (
       <Layout page="Work">
         <SEO
@@ -48,7 +49,9 @@ export const pageQuery = graphql`
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
+      body
       frontmatter {
+        title
         client
         description
         services
@@ -59,9 +62,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        title
       }
-      body
     }
   }
 `

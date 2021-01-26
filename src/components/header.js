@@ -9,52 +9,69 @@ import TriboxLogoWhite from "../images/tribox-logo-white.png"
 
 const Header = ({ toggle, page }) => {
   return (
-    <Nav home={page === "Home"}>
-      <NavLink to="/">
-        <LogoImg
-          src={page === "Home" ? TriboxLogoWhite : TriboxLogo}
-          alt="Home"
-        />
-      </NavLink>
-      <Bars onClick={toggle} home={page === "Home"} />
-      <NavMenu>
-        {menuData.map((props, index) => (
-          <NavLink
-            primary={page === props.title}
-            home={page === "Home"}
-            to={props.link}
-            key={index}
-          >
-            {props.title}
-          </NavLink>
-        ))}
-      </NavMenu>
-    </Nav>
+    <NavContainer home={page === "Home"}>
+      <Nav>
+        <NavLink to="/">
+          <LogoImg
+            src={page === "Home" ? TriboxLogoWhite : TriboxLogo}
+            alt="Home"
+          />
+        </NavLink>
+        <Bars onClick={toggle} home={page === "Home"} />
+        <NavMenu>
+          {menuData.map((props, index) => (
+            <NavLink
+              primary={page === props.title}
+              home={page === "Home"}
+              to={props.link}
+              key={index}
+            >
+              {props.title}
+            </NavLink>
+          ))}
+        </NavMenu>
+      </Nav>
+    </NavContainer>
   )
 }
 
 export default Header
 
+const NavContainer = styled.div`
+  background: ${({ home }) => (home ? "#ff3333" : "#fffff")};
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+`
+
 const Nav = styled.nav`
-  background: ${({ home }) => (home ? "#FC000D" : "#fffff")};
   display: flex;
   justify-content: space-between;
-  padding: 2.8rem 3rem 0rem 3rem;
+  padding: 2.8rem 0 0 0;
   z-index: 300;
+  margin: 0 auto;
+  max-width: 1188px;
   width: 100%;
 
-  @media screen and (max-width: 1140px) {
-    padding: 2.8rem 0 3rem 1rem;
-  }
-
-  @media screen and (max-width: 890px) {
-    padding: 2.8rem 0 3rem 1rem;
-  }
 
   @media screen and (max-width: 768px) {
+    padding: 2.8rem 0 0 1rem;
+  } 
+  /* @media screen and (max-width: 890px) {
     padding: 2.8rem 0 3rem 1rem;
-  }
+  }*/
 
+`
+
+const NavMenu = styled.div`
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 const NavLink = styled(Link)`
@@ -65,12 +82,12 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   color: ${({ primary, home }) =>
-    home ? "#fff" : primary ? "#FC000D" : "#1b1b1b"};
+    home ? "#fff" : primary ? "#ff3333" : "#1b1b1b"};
   font-size: 18px;
   font-weight: bold;
 
   &:hover {
-    color: ${({ primary }) => (primary ? "#FC000D" : "#424242")};
+    color: ${({ primary }) => (primary ? "#ff3333" : "#424242")};
   }
 `
 
@@ -86,15 +103,6 @@ const Bars = styled(FaBars)`
     transform: translate(-100%, 119%);
     font-size: 1.8rem;
     cursor: pointer;
-  }
-`
-
-const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
   }
 `
 

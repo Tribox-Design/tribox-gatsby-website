@@ -162,7 +162,7 @@ const ContactUs = () => {
                   <TextAreaForm
                     component="textarea"
                     name="message"
-                    placeholder="Tell us know about your ideas, timeline and budget range."
+                    placeholder="Tell us about your ideas, timeline and budget range."
                   />
                   <ErrorMessage
                     name="message"
@@ -235,6 +235,7 @@ const ContactCard = styled.div`
   width: 100%;
   position: relative;
   transition: 0.2s ease;
+  padding: 0 2rem;
 `
 
 const FeatureContainer = styled.div`
@@ -359,7 +360,7 @@ const PainPointsItem = styled.div`
 
 const FormButton = styled.button`
   border: 0;
-  background: #fc000d;
+  background: #ff3333;
   padding: 1rem 3rem 0.7rem 3rem;
   color: white;
   width: auto;
@@ -376,7 +377,7 @@ const FormButton = styled.button`
 
 const ProperErrorMessage = styled.div`
   font-size: 12px;
-  color: #fc000d;
+  color: #ff3333;
   margin-top: 8px;
   margin-left: 8px;
 `

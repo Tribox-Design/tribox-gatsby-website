@@ -14,7 +14,6 @@ const AllWorks = () => {
             }
             frontmatter {
               title
-              shortDescription
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -47,7 +46,7 @@ const AllWorks = () => {
             <WorkLink to={slugString}>
               <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc>
+            {/* <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc> */}
           </WorkInfo>
         </WorkCard>
       )
@@ -65,21 +64,17 @@ const AllWorks = () => {
 export default AllWorks
 
 const WorksContainer = styled.div`
-  min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
-  background: #fff;
-
-  @media screen and (max-width: 768px) {
-    padding: 2rem calc((100vw - 1300px) / 2);
-  }
+  display: flex;
+  width: 100%;
 `
 
 const WorksWrapper = styled.div`
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   grid-gap: 40px;
   justify-items: center;
-  padding: 0 2rem;
+  max-width: 1140px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: repeat(2, 2fr);

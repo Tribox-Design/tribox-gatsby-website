@@ -5,14 +5,9 @@ import { Button } from "../Button"
 const IntroBanner = () => {
   return (
     <IntroContainer>
-      <IntroBg />
       <IntroContent>
         <IntroItems>
-          <IntroH1>We clarify brands and simplify the complex.</IntroH1>
-          <IntroP>
-            A local branding agency for Local Brands and SMEs, Tribox Design
-            promote brand growth.
-          </IntroP>
+          <IntroH1>Our mission is to promote the growth of every Filipino brand through creativity and well-developed strategies.</IntroH1>
           <IntroButton>
             <Button round="true" to="/about" big="true">
               More about us
@@ -27,109 +22,59 @@ const IntroBanner = () => {
 export default IntroBanner
 
 const IntroContainer = styled.div`
-  background: #fc000d;
+  background: #ff3333;
   display: flex;
-  justify-content: start;
-  align-items: center;
-  height: 70vh;
-  padding-left: 5rem;
-  position: relative;
-  color: #fff;
-
-  @media screen and (max-width: 768px) {
-    padding-left: 0;
-    justify-content: center;
-    align-items: center;
-    height: 47vh;
-  }
-`
-
-const IntroBg = styled.div`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  text-align: center;
   width: 100%;
-  height: 70vh;
-  overflow: hidden;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 80px;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-  }
+  color: #fff;
+  padding: 3rem 0; 
 `
 
 const IntroContent = styled.div`
   z-index: 3;
-  height: calc(70vh - 80px);
-  padding: 2rem calc((70vh - 1300px) / 2);
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  @media screen and (max-width: 1140px) {
+    padding: 1rem 1.5rem;
+  }
 
   @media screen and (max-width: 768px) {
-    align-items: center;
-    height: calc(40vh - 80px);
+    padding: 1rem 2.5rem;
   }
 `
 
 const IntroItems = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: start;
   text-align: start;
-  height: 60vh;
-  width: 70%;
-  max-width: 1140px;
   max-height: 100%;
-  color: #fff;
+  color: #ffffff;
   line-height: 1.1;
-
-  @media screen and (max-width: 1110px) {
-    width: 81%;
-  }
+  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
     width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    max-height: 80%;
   }
 `
 
 const IntroH1 = styled.h1`
   font-size: clamp(1.5rem, 6vw, 4rem);
-  letter-spacing: 3px;
-  padding: 0 1rem;
+  letter-spacing: 2px;
   font-weight: bold;
 
   @media screen and (max-width: 768px) {
-    font-size: clamp(2.3rem, 4vw, 3rem);
+    font-size: clamp(1.8rem, 4vw, 3rem);
     letter-spacing: 1px;
     padding: 0;
   }
 `
 
-const IntroP = styled.p`
-  font-size: clamp(1rem, 3vw, 2rem);
-  line-height: 1.4;
-  margin-bottom: 0.4rem;
-  padding: 1.5rem 1rem;
-`
-
 const IntroButton = styled.div`
   padding-top: 1.5rem;
-  padding-left: 1rem;
   font-weight: bold;
   align-items: center;
   display: flex;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
 `

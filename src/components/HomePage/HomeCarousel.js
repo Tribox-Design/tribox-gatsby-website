@@ -112,20 +112,25 @@ const HomeCarousel = () => {
   }
 
   return (
-    <Swiper
+    <CarouSwiper
       control
       effect="fade"
       // navigation
       pagination
       loop
       speed={1500}
+      autoHeight
       autoplay={{ delay: 3500, disableOnInteraction: false }}
       slidesPerView={1}
     >
       {getCarouselItems(data)}
-    </Swiper>
+    </CarouSwiper>
   )
 }
+
+const CarouSwiper = styled(Swiper)`
+  max-width: 1920px;
+`
 
 const ImgT = styled.img`
   width: 100%;

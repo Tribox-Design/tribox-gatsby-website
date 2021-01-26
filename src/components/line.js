@@ -21,5 +21,7 @@ const LineContainer = styled.div`
 `
 
 const LineParent = styled.div`
+  max-width: 1140px;
   width: 87%;
+
 `

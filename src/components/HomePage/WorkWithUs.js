@@ -25,7 +25,7 @@ const WorkWithUs = () => {
 export default WorkWithUs
 
 const WorkBannerContainer = styled.div`
-  background: #fc000d;
+  background: #ff3333;
   display: flex;
   justify-content: center;
   align-items: center;

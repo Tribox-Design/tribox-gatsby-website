@@ -30,7 +30,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #fc000d;
+  background: #ff3333;
   display: grid;
   align-items: center;
   top: 0;
