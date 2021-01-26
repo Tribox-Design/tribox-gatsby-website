@@ -34,14 +34,14 @@ const IntroContent = styled.div`
   z-index: 3;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0rem;
+
+  ${'' /* @media screen and (max-width: 1140px) {
+    width: 95%;
+  } */}
 
   @media screen and (max-width: 1140px) {
-    padding: 1rem 1.5rem;
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
   }
 `
 
@@ -54,6 +54,7 @@ const IntroItems = styled.div`
   margin: 0 auto;
 
   @media screen and (max-width: 768px) {
+    line-height: 1.3;
     width: 100%;
     justify-content: center;
     align-items: center;

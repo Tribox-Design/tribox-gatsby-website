@@ -24,21 +24,18 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
 
   @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+    padding: 4rem 2rem;
     justify-content: center;
   }
 `
 
 const IntroContent = styled.div`
   z-index: 3;
-  width: 87%;
   max-width: 1140px;
-
-  @media screen and (max-width: 768px) {
-    width: 95%;
-  }
 `
 
 const IntroItems = styled.div`
@@ -48,9 +45,6 @@ const IntroItems = styled.div`
   line-height: 1.1;
 
   @media screen and (max-width: 768px) {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     max-height: 80%;
   }
 `

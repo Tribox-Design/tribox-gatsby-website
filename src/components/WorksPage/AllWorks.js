@@ -76,19 +76,24 @@ const WorksWrapper = styled.div`
   justify-items: center;
   max-width: 1140px;
 
+  @media screen and (max-width: 1140px) {
+    padding: 0 2rem;
+  }
+
   @media screen and (max-width: 1000px) {
     grid-template-columns: repeat(2, 2fr);
   }
 
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
-  }
+    padding: 0;
+    width: 90%;
+}
 `
 
 const WorkCard = styled.div`
   line-height: 1.5;
   width: 100%;
-  ${'' /* height: 420px; */}
   position: relative;
   transition: 0.2s ease;
 `
@@ -104,7 +109,6 @@ const WorkInfo = styled.div`
 `
 
 const WorkImg = styled(Img)`
-  ${'' /* height: 350px; */}
   max-width: 100%;
   position: relative;
   filter: brightness(97%);

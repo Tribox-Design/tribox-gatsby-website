@@ -115,20 +115,21 @@ const WorkImg = styled(Img)`
 `
 
 const WorkTitle = styled.h1`
-  padding-top: 5px;
+  padding-top: 6px;
   font-weight: 600;
   color: #212121;
-  font-size: 1.6rem;
   letter-spacing: 0.5px;
 
   &:hover {
     color: #424242;
   }
-`
 
-const WorkDesc = styled.p`
-  letter-spacing: 0.5px;
-  color: #424242;
+
+  font-size: clamp(16px, 1.5vw, 2rem);
+
+  @media screen and (max-width: 868px) {
+    font-size: clamp(20px, 2.5vw, 3.7rem);
+  }
 `
 
 const WorkLink = styled(Link)`

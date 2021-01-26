@@ -272,8 +272,10 @@ const ContactTitle = styled.h1`
   letter-spacing: 1px;
 
   @media screen and (max-width: 868px) {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
+
+  
 `
 
 const MyLabel = styled.label`

@@ -49,16 +49,27 @@ const NavContainer = styled.div`
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  padding: 2.8rem 0 0 0;
   z-index: 300;
   margin: 0 auto;
   max-width: 1188px;
   width: 100%;
+  padding: 2.8rem 0 0 0;
 
+  @media screen and (max-width: 1140px) {
+    width: 99%;
+  } 
+
+
+  ${'' /* @media screen and (max-width: 1140px) {
+    padding: 2.8rem 0 0 .5rem;
+  } 
 
   @media screen and (max-width: 768px) {
-    padding: 2.8rem 0 0 1rem;
-  } 
+    padding: 2.8rem 0 0 .5rem;
+  }  */}
+
+
+
   /* @media screen and (max-width: 890px) {
     padding: 2.8rem 0 3rem 1rem;
   }*/

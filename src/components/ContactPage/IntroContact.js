@@ -23,25 +23,28 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 6rem 2rem;
+  padding: 6rem 0;
 
   @media screen and (max-width: 768px) {
-    justify-content: center;
+    margin-top: 2rem;
+    padding: 4rem 0;
   }
-
-  @media screen and (max-width: 868px) {
-    padding: 1rem 2rem 4rem 2rem;
-  }
+ 
 `
 
 const IntroContent = styled.div`
   z-index: 3;
-  width: 87%;
   max-width: 1140px;
+  margin: 0 auto;
 
-  @media screen and (max-width: 768px) {
-    width: 95%;
+  width: 95%;
+
+  @media screen and (max-width: 1140px) {
+    padding: 0 2rem;
+    width: 100%;
   }
+
+ 
 `
 
 const IntroItems = styled.div`
@@ -51,9 +54,6 @@ const IntroItems = styled.div`
   color: #212121;
 
   @media screen and (max-width: 768px) {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     max-height: 80%;
   }
 `

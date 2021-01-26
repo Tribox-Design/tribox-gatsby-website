@@ -23,12 +23,13 @@ const IntroContainer = styled.div`
   padding: 3rem 0;
 
   @media screen and (max-width: 1140px) {
-    padding: 3rem .5rem;
+    padding: 3rem 2rem;
   }
 
   @media screen and (max-width: 768px) {
     justify-content: center;
-    padding: 4rem 1rem;
+    margin-top: 1rem;
+    padding: 2rem 0;
   }
 `
 
@@ -36,6 +37,16 @@ const IntroContent = styled.div`
   z-index: 3;
   max-width: 1140px;
   margin: 0 auto;
+  width: 95%;
+
+  @media screen and (max-width: 1140px) {
+    padding: 1rem 0;
+    width: 100%;
+}
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem 1.5rem;
+  }
 `
 
 const IntroItems = styled.div`
@@ -52,9 +63,6 @@ const IntroItems = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 `
 
@@ -64,7 +72,7 @@ const IntroH1 = styled.h1`
   font-weight: bold;
 
   @media screen and (max-width: 768px) {
-    font-size: clamp(3rem, 6vw, 4rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
     letter-spacing: 2px;
   }
 `
