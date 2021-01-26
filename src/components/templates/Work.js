@@ -12,7 +12,6 @@ import WorkDetails from "../WorkTemplatePage/WorkDetails"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    console.log(post.body)
     return (
       <Layout page="Work">
         <SEO

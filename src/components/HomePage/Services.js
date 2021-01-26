@@ -8,7 +8,9 @@ const Services = () => {
       <ProductsWrapper>
         {servicesData.map((props, index) => (
           <ServiceItem key={index}>
-            <ServiceImgContainer><CustomImg src={props.img} alt={props.title} /></ServiceImgContainer>
+            <ServiceImgContainer>
+              <CustomImg src={props.img} alt={props.title} />
+            </ServiceImgContainer>
             <ServiceText>
               <ServiceTitle>{props.title}</ServiceTitle>
               <ServiceDescription>{props.desc}</ServiceDescription>
@@ -28,7 +30,7 @@ const ProductsContainer = styled.div`
   display: flex;
   align-items: center;
 
- @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 2rem 0;
   }
 `
@@ -43,7 +45,6 @@ const ProductsWrapper = styled.div`
 
   @media screen and (max-width: 1140px) {
     grid-gap: 40px 64px;
-
   }
 
   @media screen and (max-width: 768px) {
@@ -54,27 +55,20 @@ const ProductsWrapper = styled.div`
 
 const ServiceItem = styled.div`
   display: inline-grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 27% 73%;
 `
 
 const ServiceImgContainer = styled.div`
-
-
   padding-right: 3rem;
   @media screen and (max-width: 768px) {
-    padding-top: .5rem;
-  padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
   }
-
 `
 
 const CustomImg = styled.img`
-
-
-  
   height: 70px;
   width: 70px;
-
 
   @media screen and (max-width: 768px) {
     height: 64px;
@@ -83,12 +77,10 @@ const CustomImg = styled.img`
 `
 
 const ServiceText = styled.div`
-  maxWidth: 400px;
+  maxwidth: 400px;
 `
 
-const ServiceTitle = styled.h3`
-
-`
+const ServiceTitle = styled.h3``
 
 const ServiceDescription = styled.p`
   margin-top: 3px;

@@ -14,7 +14,6 @@ const MoreProjects = ({ currentPage }) => {
             }
             frontmatter {
               title
-              shortDescription
               thumbnail {
                 childImageSharp {
                   fluid {
@@ -66,7 +65,6 @@ const MoreProjects = ({ currentPage }) => {
             <WorkLink to={slugString}>
               <WorkTitle>{randomData.allMdx.edges[item].node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            <WorkDesc>{randomData.allMdx.edges[item].node.frontmatter.shortDescription}</WorkDesc>
           </WorkInfo>
         </WorkCard>
       )
@@ -122,7 +120,6 @@ const RandomWorksContainer = styled.div`
 const WorkCard = styled.div`
   line-height: 1.5;
   width: 100%;
-  ${'' /* height: 420px; */}
   position: relative;
   transition: 0.2s ease;
 `
@@ -138,7 +135,6 @@ const WorkInfo = styled.div`
 `
 
 const MoreWorkImg = styled(Img)`
-  ${'' /* height: 200px; */}
   max-width: 100%;
   position: relative;
   filter: brightness(97%);
@@ -149,7 +145,7 @@ const MoreWorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.h1`
+const WorkTitle = styled.p`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
@@ -159,11 +155,6 @@ const WorkTitle = styled.h1`
   &:hover {
     color: #424242;
   }
-`
-
-const WorkDesc = styled.p`
-  letter-spacing: 0.2px;
-  font-size: 14px;
 `
 
 const WorkLink = styled(Link)`

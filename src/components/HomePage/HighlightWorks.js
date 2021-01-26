@@ -63,7 +63,6 @@ const HighlightWorks = () => {
 export default HighlightWorks
 
 const HighlightsContainer = styled.div`
-  min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;
 

@@ -291,6 +291,10 @@ const PainPointCheckBox = styled(Field)`
 const PainPointLabel = styled.label`
   padding: 6px 0 0 0;
   font-size: 14px;
+
+  @media screen and (max-width: 450px) {
+    padding: 3px 0 0 0;
+  }
 `
 
 const InputForm = styled(Field)`
