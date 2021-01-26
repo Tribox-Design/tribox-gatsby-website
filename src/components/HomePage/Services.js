@@ -8,7 +8,7 @@ const Services = () => {
       <ProductsWrapper>
         {servicesData.map((props, index) => (
           <ServiceItem key={index}>
-            <ServiceImgContainer><img src={props.img} alt={props.title}/></ServiceImgContainer>
+            <ServiceImgContainer><CustomImg src={props.img} alt={props.title} /></ServiceImgContainer>
             <ServiceText>
               <ServiceTitle>{props.title}</ServiceTitle>
               <ServiceDescription>{props.desc}</ServiceDescription>
@@ -34,12 +34,17 @@ const ProductsContainer = styled.div`
 `
 
 const ProductsWrapper = styled.div`
-  max-width: 80%;
+  max-width: 1140px;
   display: inline-grid;
   margin: auto;
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 56px 88px;
   padding: 0 2rem;
+
+  @media screen and (max-width: 1140px) {
+    grid-gap: 40px 64px;
+
+  }
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -48,23 +53,32 @@ const ProductsWrapper = styled.div`
 `
 
 const ServiceItem = styled.div`
-  float: left;
-  justify-content: center;
-  align-items: center;
+  display: inline-grid;
+  grid-template-columns: 25% 75%;
 `
 
 const ServiceImgContainer = styled.div`
-  margin-right: 16px;
+
+
+  padding-right: 3rem;
+  @media screen and (max-width: 768px) {
+    padding-top: .5rem;
+  padding-right: 2rem;
+  }
+
+`
+
+const CustomImg = styled.img`
+
+
+  
   height: 70px;
   width: 70px;
-  float: left;
-  align-items: center;
-  justify-content: center;
+
 
   @media screen and (max-width: 768px) {
     height: 64px;
     width: 64px;
-    margin-right: 2rem;
   }
 `
 

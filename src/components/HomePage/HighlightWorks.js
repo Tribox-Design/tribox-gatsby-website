@@ -114,18 +114,16 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.h1`
+const WorkTitle = styled.p`
   padding-top: 6px;
   font-weight: 600;
   color: #212121;
   letter-spacing: 0.5px;
+  font-size: clamp(16px, 1.5vw, 2rem);
 
   &:hover {
     color: #424242;
   }
-
-
-  font-size: clamp(16px, 1.5vw, 2rem);
 
   @media screen and (max-width: 868px) {
     font-size: clamp(20px, 2.5vw, 3.7rem);

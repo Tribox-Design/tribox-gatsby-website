@@ -33,4 +33,8 @@ export const Button = styled(Link)`
     padding: ${({ big }) => (big ? '16px 32px 10px 32px' : '10px 32px')};
     font-size: ${({ big }) => (big ? '16px' : '14px')};
   }
+
+  @media screen and (max-width: 480px) {
+    padding: ${({ big }) => (big ? '16px 32px 16px 32px' : '10px 32px')};
+  }
 `

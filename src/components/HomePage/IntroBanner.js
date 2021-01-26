@@ -74,7 +74,7 @@ const IntroH1 = styled.h1`
 `
 
 const IntroButton = styled.div`
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   font-weight: bold;
   align-items: center;
   display: flex;

@@ -65,13 +65,14 @@ export default AllWorks
 const WorksContainer = styled.div`
   display: flex;
   width: 100%;
+  margin-bottom: 2rem;
 `
 
 const WorksWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  grid-gap: 40px;
+  grid-gap: 20px 40px;
   justify-items: center;
   max-width: 1140px;
 
@@ -84,6 +85,7 @@ const WorksWrapper = styled.div`
   }
 
   @media screen and (max-width: 700px) {
+    grid-gap: 30px;
     grid-template-columns: 1fr;
     padding: 0;
     width: 91%;

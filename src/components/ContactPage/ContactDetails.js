@@ -97,4 +97,8 @@ const ContactLink = styled.a`
   &:hover {
     color: #ff3333;
   }
+
+  @media screen and (max-width: 768px) {
+    letter-spacing: 0;
+  }
 `
