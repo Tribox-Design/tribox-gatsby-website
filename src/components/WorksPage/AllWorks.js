@@ -46,7 +46,6 @@ const AllWorks = () => {
             <WorkLink to={slugString}>
               <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
             </WorkLink>
-            {/* <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc> */}
           </WorkInfo>
         </WorkCard>
       )
@@ -87,8 +86,8 @@ const WorksWrapper = styled.div`
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
     padding: 0;
-    width: 90%;
-}
+    width: 91%;
+  }
 `
 
 const WorkCard = styled.div`
@@ -129,11 +128,10 @@ const WorkTitle = styled.h1`
   &:hover {
     color: #424242;
   }
-`
 
-const WorkDesc = styled.p`
-  font-size: 14px;
-  letter-spacing: 0.5px;
+  @media screen and (max-width: 700px) {
+    font-size: 18px;
+  }
 `
 
 const WorkLink = styled(Link)`

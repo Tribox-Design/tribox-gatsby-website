@@ -274,8 +274,6 @@ const ContactTitle = styled.h1`
   @media screen and (max-width: 868px) {
     font-size: 2.5rem;
   }
-
-  
 `
 
 const MyLabel = styled.label`
