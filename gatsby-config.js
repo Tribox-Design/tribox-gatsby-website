@@ -90,5 +90,11 @@ module.exports = {
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-react-leaflet",
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://widget.clutch.co/static/js/widget.js'
+      },
+    },
   ],
 }

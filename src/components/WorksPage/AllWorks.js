@@ -120,7 +120,7 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.h1`
+const WorkTitle = styled.p`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;

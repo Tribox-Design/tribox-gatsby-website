@@ -20,7 +20,7 @@ const ContactUs = () => {
           <FeatureCard>
             <ContactTitle>Let us know how we can help</ContactTitle>
             <FeatureContainer>
-              <FeatureTitle>AS FEATURED IN</FeatureTitle>
+              {/* <FeatureTitle>AS FEATURED IN</FeatureTitle>
               <FeaturedImage
                 src={POTW}
                 alt="Packaging Of The World"
@@ -33,7 +33,15 @@ const ContactUs = () => {
                 style={{ height: "120px", width: "120px" }}
               />
               <br />
-              <FeaturedImage src={WBDS} alt="World Brand Design Society" />
+              <FeaturedImage src={WBDS} alt="World Brand Design Society" /> */}
+              <ClutchIo
+                // style={{ margin: "0 auto" }}
+                className="clutch-widget"
+                data-url="https://widget.clutch.co"
+                data-widget-type="3"
+                data-height="350"
+                data-clutchcompany-id="1437608"
+              ></ClutchIo>
             </FeatureContainer>
           </FeatureCard>
           <ContactCard>
@@ -91,7 +99,11 @@ const ContactUs = () => {
                 return errors
               }}
             >
-              <Form name="Contact" data-netlify={true} netlify-honeypot="bot-field">
+              <Form
+                name="Contact"
+                data-netlify={true}
+                netlify-honeypot="bot-field"
+              >
                 <Field type="hidden" name="bot-field" />
 
                 <MyLabel>Name *</MyLabel>
@@ -235,32 +247,21 @@ const ContactCard = styled.div`
   width: 100%;
   position: relative;
   transition: 0.2s ease;
-  padding: 0 2rem;
+  padding: 0 1rem;
 `
 
 const FeatureContainer = styled.div`
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
-const FeatureTitle = styled.p`
-  margin: 6rem 0 1rem 0;
-  color: #424242;
-  font-size: 28px;
-  letter-spacing: 2px;
+const ClutchIo = styled.div`
+  margin-top: -12rem;
 
   @media screen and (max-width: 868px) {
-    margin: 3rem 0 0 0;
-    font-size: 24px;
-  }
-`
-
-const FeaturedImage = styled.img`
-  margin-top: 3rem;
-  width: 400px;
-
-  @media screen and (max-width: 868px) {
-    width: 300px;
-    margin-top: 2rem;
+    margin: -1rem 0 4rem 0;
   }
 `
 
@@ -272,7 +273,7 @@ const ContactTitle = styled.h1`
   letter-spacing: 1px;
 
   @media screen and (max-width: 868px) {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 `
 
@@ -293,7 +294,7 @@ const PainPointLabel = styled.label`
   font-size: 14px;
 
   @media screen and (max-width: 450px) {
-    padding: 3px 0 0 0;
+    padding: 1px 0 0 0;
   }
 `
 

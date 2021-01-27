@@ -55,7 +55,11 @@ const ProductsWrapper = styled.div`
 
 const ServiceItem = styled.div`
   display: inline-grid;
-  grid-template-columns: 27% 73%;
+  grid-template-columns: 20% 80%;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 27% 73%;
+  }
 `
 
 const ServiceImgContainer = styled.div`

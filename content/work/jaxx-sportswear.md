@@ -2,7 +2,6 @@
 date: 2021-01-22T15:46:14.125Z
 title: Jaxx Sportswear
 thumbnail: ../assets/jaxx-cover.png
-shortDescription: A clothing and apparel store in Cebu City.
 description: |-
   Because there are hundreds of clothing and apparel stores in Cebu City,
   Lavender Satera, the owner, turned to us to help their company stand out

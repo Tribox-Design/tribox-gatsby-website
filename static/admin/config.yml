@@ -15,7 +15,6 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
-      - { name: shortDescription, label: Short Description, widget: text }
       - { name: description, label: Description, widget: text }
       - { name: client, label: Client }
       - { name: services, label: Services }
@@ -31,6 +30,7 @@ collections:
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: author, label: Author }
       # - { name: tags, label: Tags,}
       - { name: isPublishedBlog, label: Publish Blog, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }

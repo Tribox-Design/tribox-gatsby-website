@@ -9,7 +9,7 @@ const WorkDetails = ({ frontmatter }) => {
           <Title>{frontmatter.title}</Title>
         </TitleContainer>
         <DescriptionContainer>
-          <Description>{frontmatter.description}</Description>
+          <Description dangerouslySetInnerHTML={{ __html: frontmatter.description }} />
         </DescriptionContainer>
       </LeftContainer>
       <RightContainer>
@@ -70,7 +70,7 @@ const TitleContainer = styled.div`
 
 `
 
-const Title = styled.h1`
+const Title = styled.p`
   font-size: clamp(1rem, 6vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
@@ -81,7 +81,6 @@ const DescriptionContainer = styled.div`
 `
 
 const Description = styled.p`
-  ${'' /* font-size: clamp(1rem, 3vw, 1.4rem); */}
   font-weight: 300;
 `
 
@@ -92,13 +91,11 @@ const ClientContainer = styled.div`
 `
 
 const ClientTitle = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
   font-size: 18px;
   font-weight: 600;
 `
 
 const Client = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
   font-weight: 300;
   padding-top: 0.3rem;
 `
@@ -114,13 +111,11 @@ const ServicesContainer = styled.div`
 `
 
 const ServicesTitle = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
   font-size: 18px;
   font-weight: 600;
 `
 
 const Services = styled.p`
-  ${'' /* font-size: clamp(1rem, 2vw, 1.2rem); */}
   font-weight: 300;
   padding-top: 0.3rem;
 `

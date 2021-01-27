@@ -74,7 +74,7 @@ const ContactWrapper = styled.div`
   }
 `
 
-const ContactTitle = styled.h1`
+const ContactTitle = styled.p`
   font-weight: 600;
   color: #212121;
   font-size: 1.4rem;

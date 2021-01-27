@@ -2,8 +2,6 @@
 date: 2021-01-24T14:16:03.216Z
 title: Izza Garlic
 thumbnail: ../assets/izza-cover.jpg
-shortDescription: Izza Garlic is a Cebu-based fried garlic producer offering a
-  variety of garlic-based condiments from fried bits to sweet chilli oil.
 description: >-
   Izza Garlic is a Cebu-based fried garlic producer offering a variety of
   garlic-based condiments from fried bits to sweet chilli oil.
@@ -20,6 +18,8 @@ isHighlighted: true
 isPublishedWork: true
 ---
 ### The Challenge
+
+
 
 Izza Garlic needed to develop their brand message and simplify their brand identity in terms of design, brand positioning, social media engagement, and attracting leads.
 

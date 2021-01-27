@@ -2,8 +2,6 @@
 date: 2021-01-22T08:31:45.246Z
 title: Lemmonhead Publishing
 thumbnail: ../assets/highlight-work-lemmonhead.jpg
-shortDescription: Lemmonhead Publishing is a leading music publishing company in
-  Central Visayas and Mindanao.
 description: >-
   Lemmonhead Publishing is a leading music publishing company in Central
 

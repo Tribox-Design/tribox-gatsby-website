@@ -2,10 +2,6 @@
 date: 2021-01-22T07:51:17.543Z
 title: CAFE-I
 thumbnail: ../assets/highlight-work-cafei.jpg
-shortDescription: The Communities for Alternative Food Ecosystems Initiative
-  (CAFÉ-I) is a SEC-registered non-stock, non-profit, non-government
-  organization that offers natural and organically-grown fresh produce and
-  processed goods.
 description: |-
   The Communities for Alternative Food Ecosystems Initiative (CAFÉ-I)
   is a SEC-registered non-stock, non-profit, non-government organization

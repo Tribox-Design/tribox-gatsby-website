@@ -58,11 +58,10 @@ const ProblemSolutionContainer = styled.div`
   }
 `
 
-const ProblemSolutionTitle = styled.h1`
+const ProblemSolutionTitle = styled.p`
   font-size: clamp(1.2rem, 5vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
-  
 `
 
 const DescriptionContainer = styled.div`

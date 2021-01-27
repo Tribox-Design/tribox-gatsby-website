@@ -2,8 +2,6 @@
 date: 2021-01-22T15:54:56.280Z
 title: Leisure Pro Journeys
 thumbnail: ../assets/leisurepro-cover.jpg
-shortDescription: Leisure Pro is dedicated to helping foreign tourists looking
-  to travel around the Philippines, particularly in the province of Cebu.
 description: |-
   With more than 13 years of experience in the travel industry,
   Leisure Pro is dedicated to helping foreign tourists looking

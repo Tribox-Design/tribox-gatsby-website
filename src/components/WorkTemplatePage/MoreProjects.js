@@ -92,7 +92,7 @@ const MoreWorksContainer = styled.div`
   padding: 2rem 0;
 `
 
-const MoreProjectsTitle = styled.h1`
+const MoreProjectsTitle = styled.p`
   display: flex;
   font-size: clamp(1rem, 3vw, 1.6rem);
   letter-spacing: 1px;

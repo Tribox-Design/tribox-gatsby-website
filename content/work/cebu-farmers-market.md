@@ -2,7 +2,6 @@
 date: 2021-01-22T13:21:10.502Z
 title: Cebu Farmers Market
 thumbnail: ../assets/highlight-work-cfm.jpg
-shortDescription: Cebu Farmers Marker (CFM) is a non-profit organization based in Cebu City.
 description: |-
   Cebu Farmers Marker (CFM) is a non-profit organization
   based in Cebu City. This is a market that features fresh,
