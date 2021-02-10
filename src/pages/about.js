@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroAbout from "../components/AboutPage/IntroAbout"
 import Line from "../components/line"
-import AboutStaff from "../components/AboutPage/AboutStaff"
+import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
 import MissionVision from "../components/AboutPage/MissionVision"
 import OurServices from "../components/AboutPage/OurServices"
 import OurClients from "../components/AboutPage/OurClients"
@@ -12,10 +12,9 @@ const IndexPage = () => (
   <Layout page="About">
     <SEO title="About Us" />
     <IntroAbout />
-    <Line />
-    <AboutStaff />
-    <Line />
     <MissionVision />
+    <Line />
+    <TheDreamTeam />
     <Line />
     <OurServices />
     <Line />

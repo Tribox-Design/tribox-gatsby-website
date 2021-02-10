@@ -7,14 +7,14 @@ const OurClients = () => {
     <ClientContainer>
       <ClientContent>
         <ClientWrapper>
-          <TitleContainer>
-            <Title>Our Clients</Title>
-          </TitleContainer>
-          <DescriptionContainer>
-            {ourClientsData.map((props, index) => (
-              <Description key={index}>{props.client}</Description>
+          <Title>Our Valued</Title>
+          <Title>Clients</Title>
+
+          <ImgContainer>
+            {ourClientsData.map((item, index) => (
+              <CustomImg src={item.svg} alt={item.client} />
             ))}
-          </DescriptionContainer>
+          </ImgContainer>
         </ClientWrapper>
       </ClientContent>
     </ClientContainer>
@@ -37,37 +37,44 @@ const ClientContent = styled.div`
 `
 
 const ClientWrapper = styled.div`
-  display: flex;
   padding: 1rem 3rem;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     justify-content: center;
     align-items: center;
   }
 `
 
-const TitleContainer = styled.div`
-  width: 50%;
-  display: inline-block;
-`
-
-const Title = styled.h1`
-  display: flex;
+const Title = styled.p`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
 `
 
-const DescriptionContainer = styled.div`
+const ImgContainer = styled.div`
+  margin-top: 2rem;
   display: inline-grid;
-  width: 50%;
-  grid-template-columns: 1fr;
-  grid-gap: 1.3rem 0;
+  grid-template-columns: repeat(4, 4fr);
+  grid-gap: 2rem 3rem;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  @media screen and (max-width: 564px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 `
 
-const Description = styled.p`
-  font-size: clamp(1rem, 3vw, 1.2rem);
-  font-weight: 300;
-  color: #424242;
+const CustomImg = styled.img`
+  margin: auto;
+  height: 100%;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    width: 75%;
+  }
 `

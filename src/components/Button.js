@@ -5,7 +5,7 @@ export const Button = styled(Link)`
   background: ${({ primary }) => (primary ? '#ff3333' : '#F7F7F7')};
   white-space: nowrap;
   ${'' /* padding: ${({ big }) => (big ? '16px 40px' : '10px 32px')}; */}
-  padding: ${({ big }) => (big ? '18px 36px 12px 36px' : '10px 32px')};
+  padding: ${({ big }) => (big ? '16px 36px 16px 36px' : '10px 32px')};
   color: ${({ primary }) => (primary ? '#F7F7F7' : '#ff3333')};
   font-size: ${({ big }) => (big ? '18px' : '16px')};
   outline: none;
@@ -30,7 +30,7 @@ export const Button = styled(Link)`
   }
 
   @media screen and (max-width: 768px) {
-    padding: ${({ big }) => (big ? '16px 32px 10px 32px' : '10px 32px')};
+    padding: ${({ big }) => (big ? '16px 32px 16px 32px' : '10px 32px')};
     font-size: ${({ big }) => (big ? '16px' : '14px')};
   }
 

@@ -31,6 +31,6 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: author, label: Author }
-      # - { name: tags, label: Tags,}
+      - { name: tags, label: Tags, widget: "list", default: false }
       - { name: isPublishedBlog, label: Publish Blog, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }

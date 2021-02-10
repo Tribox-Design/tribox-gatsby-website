@@ -9,7 +9,7 @@ description: >-
   They hired us to change their old typographic font and generic logo, looking to transform their brand identity into one that is simple but attractive to customers and potential clients.
 client: Orlanes Appliance Center
 services: Branding, Logo, Brand Identity
-isHighlighted: true
+isHighlighted: false
 isPublishedWork: true
 ---
 ![logo](../assets/orlanes-logo.png)

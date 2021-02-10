@@ -1,28 +1,30 @@
 import React from "react"
 import styled from "styled-components"
-import { ourServicesData } from "../../data/OurServicesData"
+import { theDreamTeamData } from "../../data/TheDreamTeamData.js"
 
-const OurServices = () => {
+const TheDreamTeam = () => {
   return (
     <ServiceContainer>
       <ServiceContent>
         <ServiceWrapper>
           <TitleContainer>
-            <Title>What we love to do</Title>
-
+            <Title>The Dream Team</Title>
           </TitleContainer>
-          <DescriptionContainer>
-            {ourServicesData.map((props, index) => (
-              <Description key={index}>{props.service}</Description>
+          <TeamContainer>
+            {theDreamTeamData.map((props, index) => (
+              <div key={index}>
+                <Name>{props.name}</Name>
+                <PositionTitle>{props.position}</PositionTitle>
+              </div>
             ))}
-          </DescriptionContainer>
+          </TeamContainer>
         </ServiceWrapper>
       </ServiceContent>
     </ServiceContainer>
   )
 }
 
-export default OurServices
+export default TheDreamTeam
 
 const ServiceContainer = styled.div`
   display: flex;
@@ -45,47 +47,46 @@ const ServiceWrapper = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media screen and (max-width: 500px) {
+  }
 `
+
 const TitleContainer = styled.div`
   width: 40%;
-
-  padding-right: 10rem;
-  @media screen and (max-width: 1000px) {
-    padding-right: 8rem;
-  }
-  @media screen and (max-width: 920px) {
-    padding-right: 6rem;
-  }
-  @media screen and (max-width: 788px) {
-    padding-right: 3rem;
-  }
-  @media screen and (max-width: 617px) {
-    padding-right: 1rem;
+  display: inline-block;
+  padding-right: 1rem;
+  @media screen and (max-width: 500px) {
   }
 `
 
 const Title = styled.p`
+  display: flex;
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
 `
 
-const DescriptionContainer = styled.div`
+const TeamContainer = styled.div`
   display: inline-grid;
   width: 60%;
-  grid-template-columns: repeat(2, 4fr);
-  grid-gap: 1.3rem 0;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 2rem;
 
-  @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
-  }
   @media screen and (max-width: 768px) {
     padding-left: 10px;
+    grid-template-columns: 1fr;
   }
 `
 
-const Description = styled.p`
+const Name = styled.p`
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-weight: 600;
+  color: #424242;
+`
+
+const PositionTitle = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
   color: #424242;

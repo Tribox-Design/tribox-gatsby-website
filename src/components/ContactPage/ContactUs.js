@@ -1,9 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import { painPointsData } from "../../data/PaintPointsData"
-import POTW from "../../images/potw.png"
-import WBDS from "../../images/wbds.jpg"
-import BA from "../../images/brands-awesome.png"
 import { Formik, Form, Field, ErrorMessage } from "formik"
 
 const ContactUs = () => {
@@ -12,7 +9,6 @@ const ContactUs = () => {
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&")
   }
-
   return (
     <ContactContainer>
       <ContactWidth>
@@ -20,27 +16,7 @@ const ContactUs = () => {
           <FeatureCard>
             <ContactTitle>Let us know how we can help</ContactTitle>
             <FeatureContainer>
-              {/* <FeatureTitle>AS FEATURED IN</FeatureTitle>
-              <FeaturedImage
-                src={POTW}
-                alt="Packaging Of The World"
-                style={{ width: "260px" }}
-              />
-              <br />
-              <FeaturedImage
-                src={BA}
-                alt="Brands Awesome"
-                style={{ height: "120px", width: "120px" }}
-              />
-              <br />
-              <FeaturedImage src={WBDS} alt="World Brand Design Society" /> */}
-              <ClutchIo
-                // style={{ margin: "0 auto" }}
-                className="clutch-widget"
-                data-url="https://widget.clutch.co"
-                data-widget-type="3"
-                data-height="350"
-                data-clutchcompany-id="1437608"
+              <ClutchIo className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="4" data-expandifr="true" data-height="auto" data-snippets="true" data-clutchcompany-id="1437608"
               ></ClutchIo>
             </FeatureContainer>
           </FeatureCard>

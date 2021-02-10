@@ -7,9 +7,11 @@ const IntroAbout = () => {
       <IntroContent>
         <IntroItems>
           <IntroH1>
-            A local branding agency for Local Brands and SMEs. We promote brand
-            growth.
+          Tribox Design is a local branding agency for Local Brands, SMEs and Startups.
           </IntroH1>
+          <IntroP>
+          We are a passionate team with different expertise but with the same goals. We believe that using our expertise can help you and provide value to make a big impact to the community. Our work consists of Brand Identity Design, Brand Strategy and Graphics.
+          </IntroP>
         </IntroItems>
       </IntroContent>
     </IntroContainer>
@@ -19,6 +21,7 @@ const IntroAbout = () => {
 export default IntroAbout
 
 const IntroContainer = styled.div`
+  background: #ff3333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +30,8 @@ const IntroContainer = styled.div`
   padding: 6rem 2rem;
 
   @media screen and (max-width: 768px) {
-    margin-top: 2rem;
-    padding: 4rem 2rem;
+
+    padding: 4rem 2rem 2rem 2rem;
     justify-content: center;
   }
 `
@@ -54,11 +57,17 @@ const IntroH1 = styled.h1`
   letter-spacing: 2px;
   font-weight: bold;
   width: 87%;
-  color: #212121;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
     letter-spacing: 1px;
     width: 100%;
   }
+`
+
+const IntroP = styled.p`
+  font-size: clamp(16px, 1.8vw, 2rem);
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+  padding: 1rem 0;
 `

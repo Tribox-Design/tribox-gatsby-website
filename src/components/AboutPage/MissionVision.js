@@ -8,7 +8,8 @@ const MissionVision = () => {
       <MissionVisionContent>
         {missionVisionData.map((props, index) => (
           <MissionVisionItem key={index}>
-            <Title>{props.title}</Title>
+          <TitleContainer><Title>{props.title}</Title></TitleContainer>
+            
             <DescriptionContainer>
               <Description>{props.message}</Description>
             </DescriptionContainer>
@@ -36,12 +37,13 @@ const MissionVisionContent = styled.div`
 
 const MissionVisionItem = styled.div`
   padding: 2rem 3rem;
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(2, 4fr);
+  display: flex;
+  margin: 0 auto;
+  grid-template-columns: 40% 60%;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(0 1fr);
+    grid-gap: 1rem;
   }
 `
 
@@ -52,7 +54,17 @@ const Title = styled.h1`
   color: #212121;
 `
 
-const DescriptionContainer = styled.div``
+const TitleContainer = styled.div`
+  width: 40%;
+  display: inline-block;
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+`
+
+const DescriptionContainer = styled.div`
+  width: 60%;
+`
 
 const Description = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
