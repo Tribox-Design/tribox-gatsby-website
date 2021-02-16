@@ -78,8 +78,8 @@ const CustomImg = styled.img`
   filter: grayscale(100%);
 
   @media screen and (max-width: 768px) {
-    width: 180px;
-    height: 144px;
+    width: 85%;
+    height: 85%;
   }
 
   :hover {
