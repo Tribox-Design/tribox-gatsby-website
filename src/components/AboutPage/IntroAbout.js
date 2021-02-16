@@ -56,6 +56,7 @@ const IntroH1 = styled.h1`
   font-size: clamp(2rem, 5vw, 3.4rem);
   font-weight: bold;
   width: 87%;
+  letter-spacing: -1px;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
@@ -64,9 +65,13 @@ const IntroH1 = styled.h1`
 `
 
 const IntroP = styled.p`
-  width: 87%;
+  width: 85%;
   font-size: clamp(16px, 1.8vw, 2rem);
   line-height: 1.2;
   margin-bottom: 0.4rem;
   padding: 1rem 0;
+
+  @media screen and (max-width: 868px) {
+    width: 93%;
+  }
 `
