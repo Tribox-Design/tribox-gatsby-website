@@ -61,20 +61,26 @@ const FooterContainer = styled.div`
 const FooterContent = styled.div`
   z-index: 3;
   max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
   display: inline-grid;
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 250px;
 
+  @media screen and (max-width: 1140px) {
+    padding: 0 2rem;
+    grid-gap: 100px;
+  }
 
   @media screen and (max-width: 875px) {
-    grid-gap: 100px;
+    grid-gap: 50px;
   }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-  }
+
+}
 `
 
 const FooterLeft = styled.div`

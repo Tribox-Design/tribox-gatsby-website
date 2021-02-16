@@ -61,7 +61,10 @@ const Nav = styled.nav`
   @media screen and (max-width: 1140px) {
     width: 99%;
   }
-
+  
+  @media screen and (max-width: 768px) {
+    width: 96.7%;
+  }
   ${
     "" /* @media screen and (max-width: 1140px) {
     padding: 2.8rem 0 0 .5rem;

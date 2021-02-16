@@ -87,8 +87,7 @@ const WorksWrapper = styled.div`
   @media screen and (max-width: 700px) {
     grid-gap: 30px;
     grid-template-columns: 1fr;
-    padding: 0;
-    width: 91%;
+    width: 100%;
   }
 `
 

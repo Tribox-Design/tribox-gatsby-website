@@ -42,10 +42,10 @@ const IntroContent = styled.div`
   @media screen and (max-width: 1140px) {
     padding: 1rem 0;
     width: 100%;
-}
+  }
 
   @media screen and (max-width: 768px) {
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
   }
 `
 
