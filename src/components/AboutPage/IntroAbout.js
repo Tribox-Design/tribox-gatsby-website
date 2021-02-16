@@ -54,18 +54,17 @@ const IntroItems = styled.div`
 
 const IntroH1 = styled.h1`
   font-size: clamp(2rem, 5vw, 3.4rem);
-  letter-spacing: 2px;
   font-weight: bold;
   width: 87%;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
-    letter-spacing: 1px;
     width: 100%;
   }
 `
 
 const IntroP = styled.p`
+  width: 87%;
   font-size: clamp(16px, 1.8vw, 2rem);
   line-height: 1.2;
   margin-bottom: 0.4rem;

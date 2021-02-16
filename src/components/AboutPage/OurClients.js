@@ -75,9 +75,7 @@ const ImgContainer = styled.div`
 
 const CustomImg = styled.img`
   margin: auto;
-  height: 80%;
-  width: 80%;
-  filter: grayscale(95%);
+  filter: grayscale(100%);
 
   @media screen and (max-width: 768px) {
     width: 180px;

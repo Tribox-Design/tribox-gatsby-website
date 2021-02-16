@@ -52,27 +52,25 @@ const IntroContent = styled.div`
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;
-  width: 70%;
+  width: 68%;
   max-height: 100%;
   color: #000000;
   line-height: 1.1;
 
   @media screen and (max-width: 1110px) {
-    width: 81%;
+    width: 74%;
   }
 
   @media screen and (max-width: 768px) {
-    width: 100%;
+    width: 90%;
   }
 `
 
 const IntroH1 = styled.h1`
   font-size: clamp(1.4rem, 5vw, 3.5rem);
-  letter-spacing: 3px;
   font-weight: bold;
 
   @media screen and (max-width: 768px) {
     font-size: clamp(2.5rem, 6vw, 4rem);
-    letter-spacing: 2px;
   }
 `
