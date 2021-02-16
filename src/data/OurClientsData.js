@@ -12,16 +12,16 @@ import Tres from "../images/work-logo-tres.svg"
 import Jaxx from "../images/work-logo-jaxx.svg"
 
 export const ourClientsData = [
-  { client: "The Green Table", svg: TGT },
-  { client: "Izza Garlic", svg: Izza },
-  { client: "The Mystic Psychologist", svg: TMP },
-  { client: "Jaxx Sportswear", svg: Jaxx },
-  { client: "Cebu Farmers Market", svg: CFM },
-  { client: "Lemmonhead Publishing", svg: Lemmonhead },
-  { client: "Tres Water Company", svg: Tres },
-  { client: "Leisure Pro", svg: LeisurePro },
+  { client: "The Green Table", svg: TGT, url: 'https://thegreentable.co/' },
+  { client: "Izza Garlic", svg: Izza, url: 'https://facebook.com/izzagarliccebu' },
+  { client: "The Mystic Psychologist", svg: TMP, url: 'https://facebook.com/TheMysticPsychologist' },
+  { client: "Jaxx Sportswear", svg: Jaxx, url: 'https://facebook.com/jaiyanahswearandtrends' },
+  { client: "Cebu Farmers Market", svg: CFM, url: 'https://facebook.com/cebufarmersmarket' },
+  { client: "Lemmonhead Publishing", svg: Lemmonhead, url: 'https://facebook.com/LemmonheadPublishing' },
+  { client: "Tres Water Company", svg: Tres, url: 'https://facebook.com/treswater' },
+  { client: "Leisure Pro", svg: LeisurePro, url: 'https://facebook.com/bestphilippinestour' },
   { client: "Dito's Sinamak", svg: Ditos },
-  { client: "Manglaba Laundry Service", svg: Manglaba },
-  { client: "His And Her", svg: HisAndHer },
-  { client: "CAFE-I", svg: CafeI },
+  { client: "Manglaba Laundry Service", svg: Manglaba, url: 'https://facebook.com/MangLabaNata' },
+  { client: "His And Her", svg: HisAndHer, url: 'https://facebook.com/hisandhercebu' },
+  { client: "CAFE-I", svg: CafeI, url: 'https://facebook.com/CAFEIinc' },
 ]

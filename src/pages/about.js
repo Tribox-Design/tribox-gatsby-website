@@ -7,6 +7,7 @@ import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
 import MissionVision from "../components/AboutPage/MissionVision"
 import OurServices from "../components/AboutPage/OurServices"
 import OurClients from "../components/AboutPage/OurClients"
+import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
 
 const IndexPage = () => (
   <Layout page="About">
@@ -19,6 +20,8 @@ const IndexPage = () => (
     <OurServices />
     <Line />
     <OurClients />
+    <Line />
+    <WeAreFeatured />
   </Layout>
 )
 

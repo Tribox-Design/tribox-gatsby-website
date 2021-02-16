@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { ourClientsData } from "../../data/OurClientsData"
+import { Link } from "gatsby"
 
 const OurClients = () => {
   return (
@@ -12,7 +13,9 @@ const OurClients = () => {
 
           <ImgContainer>
             {ourClientsData.map((item, index) => (
-              <CustomImg src={item.svg} alt={item.client} />
+              <ClientLink key={index} urlExists={item.url} to={item.url}>
+                <CustomImg src={item.svg} alt={item.client} />
+              </ClientLink>
             ))}
           </ImgContainer>
         </ClientWrapper>
@@ -56,7 +59,7 @@ const ImgContainer = styled.div`
   margin-top: 2rem;
   display: inline-grid;
   grid-template-columns: repeat(4, 4fr);
-  grid-gap: 2rem 3rem;
+  grid-gap: 1rem 3rem;
   width: 100%;
 
   @media screen and (max-width: 768px) {
@@ -64,17 +67,29 @@ const ImgContainer = styled.div`
   }
 
   @media screen and (max-width: 564px) {
-    grid-template-columns: 1fr;
+    grid-gap: 2rem 0rem;
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
 `
 
 const CustomImg = styled.img`
   margin: auto;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
+  filter: grayscale(95%);
 
   @media screen and (max-width: 768px) {
-    width: 75%;
+    width: 180px;
+    height: 144px;
   }
+
+  :hover {
+    filter: grayscale(0);
+  }
+`
+
+const ClientLink = styled(Link)`
+  cursor: ${({ urlExists }) => (urlExists ? "pointer" : null)};
+  text-decoration: none;
 `

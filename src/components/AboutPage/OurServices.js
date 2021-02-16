@@ -9,7 +9,6 @@ const OurServices = () => {
         <ServiceWrapper>
           <TitleContainer>
             <Title>What we love to do</Title>
-
           </TitleContainer>
           <DescriptionContainer>
             {ourServicesData.map((props, index) => (
@@ -40,11 +39,6 @@ const ServiceContent = styled.div`
 const ServiceWrapper = styled.div`
   display: flex;
   padding: 1rem 3rem;
-
-  @media screen and (max-width: 800px) {
-    justify-content: center;
-    align-items: center;
-  }
 `
 const TitleContainer = styled.div`
   width: 40%;
