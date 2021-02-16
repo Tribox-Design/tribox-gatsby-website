@@ -215,7 +215,6 @@ const PainPointCheckBox = styled(Field)`
 `
 
 const PainPointLabel = styled.label`
-  padding: 6px 0 0 0;
   font-size: 14px;
 
   @media screen and (max-width: 450px) {
@@ -236,7 +235,7 @@ const InputForm = styled(Field)`
 const TextAreaForm = styled(Field)`
   display: block;
   width: 100%;
-  min-height: 80px;
+  min-height: 88px;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   font-family: Roboto;
@@ -263,7 +262,6 @@ const PainPointsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 1rem;
-
   border: 1px solid #e3e3e3;
   padding: 1rem 0 1rem 3rem;
   border-radius: 5px;

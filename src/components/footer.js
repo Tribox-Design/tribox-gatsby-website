@@ -59,11 +59,13 @@ const FooterContainer = styled.div`
 `
 
 const FooterContent = styled.div`
+  z-index: 3;
+  max-width: 1140px;
+  margin: 0 auto;
   display: inline-grid;
-  margin: auto;
-  grid-template-columns: repeat(2, 4fr);
+  grid-template-columns: repeat(2, 2fr);
   grid-gap: 250px;
-  padding: 0 3rem;
+
 
   @media screen and (max-width: 875px) {
     grid-gap: 100px;
@@ -76,6 +78,7 @@ const FooterContent = styled.div`
 `
 
 const FooterLeft = styled.div`
+  width:100%;
   padding: 1rem 0;
 
   @media screen and (max-width: 768px) {
