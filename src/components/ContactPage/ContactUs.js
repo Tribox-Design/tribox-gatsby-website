@@ -30,8 +30,7 @@ const ContactUs = () => {
                 "Content-Type": "application/x-www-form-urlencoded",
               },
               body: encode({ "form-name": "Contact", ...values }),
-            })
-              .then(() => {
+            }).then(() => {
                 alert("Successfully submitted. We'll get back to you shortly.")
                 actions.resetForm()
               })
@@ -57,9 +56,6 @@ const ContactUs = () => {
             }
             if (!values.company) {
               errors.company = "Company Name required"
-            }
-            if (!values.message) {
-              errors.message = "Message required"
             }
             return errors
           }}
@@ -132,18 +128,12 @@ const ContactUs = () => {
                     </PainPointsItem>
                   ))}
                 </PainPointsContainer>
-                <MyLabel>Message *</MyLabel>
+                <MyLabel>Message</MyLabel>
                 <div>
                   <TextAreaForm
                     component="textarea"
                     name="message"
                     placeholder="Tell us about your ideas, timeline and budget range."
-                  />
-                  <ErrorMessage
-                    name="message"
-                    render={msg => (
-                      <ProperErrorMessage>{msg}</ProperErrorMessage>
-                    )}
                   />
                 </div>
 
@@ -216,10 +206,8 @@ const PainPointCheckBox = styled(Field)`
 
 const PainPointLabel = styled.label`
   font-size: 14px;
+  padding: 2px 0 0 0;
 
-  @media screen and (max-width: 450px) {
-    padding: 1px 0 0 0;
-  }
 `
 
 const InputForm = styled(Field)`
@@ -235,7 +223,7 @@ const InputForm = styled(Field)`
 const TextAreaForm = styled(Field)`
   display: block;
   width: 100%;
-  min-height: 88px;
+  min-height: 102px;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   font-family: Roboto;
