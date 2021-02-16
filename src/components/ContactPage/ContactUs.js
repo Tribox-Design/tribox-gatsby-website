@@ -12,76 +12,62 @@ const ContactUs = () => {
   return (
     <ContactContainer>
       <ContactWidth>
-        <ContactWrapper>
-          <FeatureCard>
-            <ContactTitle>Let us know how we can help</ContactTitle>
-            <FeatureContainer>
-              <ClutchIo className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="4" data-expandifr="true" data-height="auto" data-snippets="true" data-clutchcompany-id="1437608"
-              ></ClutchIo>
-            </FeatureContainer>
-          </FeatureCard>
-          <ContactCard>
-            <Formik
-              initialValues={{
-                firstName: "",
-                lastName: "",
-                address: "",
-                company: "",
-                phone: "",
-                email: "",
-                services: "",
-                message: "",
-              }}
-              onSubmit={(values, actions) => {
-                fetch("/", {
-                  method: "POST",
-                  headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                  },
-                  body: encode({ "form-name": "Contact", ...values }),
-                })
-                  .then(() => {
-                    alert(
-                      "Successfully submitted. We'll get back to you shortly."
-                    )
-                    actions.resetForm()
-                  })
-                  .catch(() => {
-                    alert("Error")
-                  })
-                  .finally(() => actions.setSubmitting(false))
-              }}
-              validate={values => {
-                const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
-                const errors = {}
-                if (!values.firstName) {
-                  errors.firstName = "First Name required"
-                }
-                if (!values.lastName) {
-                  errors.lastName = "Last Name required"
-                }
-                if (!values.email || !emailRegex.test(values.email)) {
-                  errors.email = "Valid Email required"
-                }
-                if (!values.phone) {
-                  errors.phone = "Phone Number required"
-                }
-                if (!values.company) {
-                  errors.company = "Company Name required"
-                }
-                if (!values.message) {
-                  errors.message = "Message required"
-                }
-                return errors
-              }}
-            >
-              <Form
-                name="Contact"
-                data-netlify={true}
-                netlify-honeypot="bot-field"
-              >
-                <Field type="hidden" name="bot-field" />
-
+        <Formik
+          initialValues={{
+            firstName: "",
+            lastName: "",
+            address: "",
+            company: "",
+            phone: "",
+            email: "",
+            services: "",
+            message: "",
+          }}
+          onSubmit={(values, actions) => {
+            fetch("/", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+              },
+              body: encode({ "form-name": "Contact", ...values }),
+            })
+              .then(() => {
+                alert("Successfully submitted. We'll get back to you shortly.")
+                actions.resetForm()
+              })
+              .catch(() => {
+                alert("Error")
+              })
+              .finally(() => actions.setSubmitting(false))
+          }}
+          validate={values => {
+            const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
+            const errors = {}
+            if (!values.firstName) {
+              errors.firstName = "First Name required"
+            }
+            if (!values.lastName) {
+              errors.lastName = "Last Name required"
+            }
+            if (!values.email || !emailRegex.test(values.email)) {
+              errors.email = "Valid Email required"
+            }
+            if (!values.phone) {
+              errors.phone = "Phone Number required"
+            }
+            if (!values.company) {
+              errors.company = "Company Name required"
+            }
+            if (!values.message) {
+              errors.message = "Message required"
+            }
+            return errors
+          }}
+        >
+          <Form name="Contact" data-netlify={true} netlify-honeypot="bot-field">
+            <Field type="hidden" name="bot-field" />
+            <ContactWrapper>
+              <ContactCard>
                 <MyLabel>Name *</MyLabel>
                 <NameContainer>
                   <FirstNameContainer>
@@ -131,7 +117,8 @@ const ContactUs = () => {
 
                 <MyLabel htmlFor="address">Address</MyLabel>
                 <InputForm name="address" placeholder="Business Address" />
-
+              </ContactCard>
+              <ContactCard>
                 <MyLabel>What needs to be solved today?</MyLabel>
                 <PainPointsContainer>
                   {painPointsData.map((props, index) => (
@@ -161,10 +148,10 @@ const ContactUs = () => {
                 </div>
 
                 <FormButton type="submit">Submit</FormButton>
-              </Form>
-            </Formik>
-          </ContactCard>
-        </ContactWrapper>
+              </ContactCard>
+            </ContactWrapper>
+          </Form>
+        </Formik>
       </ContactWidth>
     </ContactContainer>
   )
@@ -175,32 +162,31 @@ export default ContactUs
 const ContactContainer = styled.div`
   display: flex;
   background: #fff;
-  padding: 3rem 5rem;
   justify-content: center;
   align-items: center;
-
-  @media screen and (max-width: 868px) {
-    padding: 3rem 0rem;
-  }
 `
 
 const ContactWidth = styled.div`
-  max-width: 1140px;
   width: 100%;
+  z-index: 3;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 95%;
+
+  @media screen and (max-width: 1140px) {
+    padding: 0 2rem;
+    width: 100%;
+  }
 `
 
 const ContactWrapper = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  grid-gap: 60px;
+  grid-gap: 40px;
 
   @media screen and (max-width: 918px) {
     grid-gap: 20px;
-  }
-
-  @media screen and (max-width: 1040px) {
-    grid-gap: 60px;
   }
 
   @media screen and (max-width: 868px) {
@@ -209,48 +195,11 @@ const ContactWrapper = styled.div`
   }
 `
 
-const FeatureCard = styled.div`
-  width: 100%;
-  position: relative;
-  transition: 0.2s ease;
-
-  @media screen and (max-width: 868px) {
-    padding: 0 2rem;
-  }
-`
-
 const ContactCard = styled.div`
   width: 100%;
   position: relative;
   transition: 0.2s ease;
-  padding: 0 1rem;
-`
-
-const FeatureContainer = styled.div`
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
-const ClutchIo = styled.div`
-  margin-top: -12rem;
-
-  @media screen and (max-width: 868px) {
-    margin: -1rem 0 4rem 0;
-  }
-`
-
-const ContactTitle = styled.h1`
-  margin-top: 1.5rem;
-  font-weight: 600;
-  color: #424242;
-  font-size: 3.5rem;
-  letter-spacing: 1px;
-
-  @media screen and (max-width: 868px) {
-    font-size: 2.0rem;
-  }
+  margin-top: -.5rem;
 `
 
 const MyLabel = styled.label`
@@ -287,7 +236,7 @@ const InputForm = styled(Field)`
 const TextAreaForm = styled(Field)`
   display: block;
   width: 100%;
-  min-height: 130px;
+  min-height: 80px;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   font-family: Roboto;
@@ -342,7 +291,7 @@ const PainPointsItem = styled.div`
 const FormButton = styled.button`
   border: 0;
   background: #ff3333;
-  padding: 1rem 3rem 0.7rem 3rem;
+  padding: .7rem 3rem .7rem 3rem;
   color: white;
   width: auto;
   text-transform: uppercase;

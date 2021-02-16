@@ -9,6 +9,7 @@ const IntroContact = () => {
           <IntroH1>
             We love cluttered things, mind and ideas. Let's solve this together.
           </IntroH1>
+          <IntroP>Let us know how we can help.</IntroP> 
         </IntroItems>
       </IntroContent>
     </IntroContainer>
@@ -23,11 +24,11 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 6rem 0;
+  padding: 6rem 0 0 0;
 
   @media screen and (max-width: 768px) {
     margin-top: 2rem;
-    padding: 4rem 0;
+    padding: 4rem 0 0 0;
   }
  
 `
@@ -66,5 +67,16 @@ const IntroH1 = styled.h1`
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
     width: 93%;
+  }
+`
+
+const IntroP = styled.p`
+  font-size: clamp(22px, 2.7vw, 4rem);
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+  padding-top: 2rem;
+  color: #424242;
+  @media screen and (max-width: 868px) {
+    font-size: clamp(24px, 4vw, 3.7rem);
   }
 `

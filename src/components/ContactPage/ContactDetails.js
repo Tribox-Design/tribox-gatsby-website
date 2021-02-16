@@ -9,17 +9,11 @@ const ContactDetails = () => {
           <ContactCard>
             <ContactTitle>Call</ContactTitle>
             <ContactLink href="tel:+639174483092">+63 917 448 3092</ContactLink>
-            <br />
-            <ContactLink href="tel:+639052208662">+63 905 220 8662</ContactLink>
           </ContactCard>
           <ContactCard>
             <ContactTitle>Email</ContactTitle>
             <ContactLink href="mailto:hello.triboxdesign@gmail.com">
               hello.triboxdesign@gmail.com
-            </ContactLink>
-            <br />
-            <ContactLink href="mailto:triboxdesignph@gmail.com">
-              triboxdesignph@gmail.com
             </ContactLink>
           </ContactCard>
           <ContactCard>
@@ -77,7 +71,7 @@ const ContactWrapper = styled.div`
 const ContactTitle = styled.p`
   font-weight: 600;
   color: #212121;
-  font-size: 1.4rem;
+  font-size: 28px;
   letter-spacing: 0.5px;
 `
 

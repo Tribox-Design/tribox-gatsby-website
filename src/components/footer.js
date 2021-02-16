@@ -9,12 +9,11 @@ const Footer = () => {
         <FooterLeft>
           <ContactNumber>
             <FooterLink href="tel:+639174483092">+63 917 448 3092</FooterLink>
-          </ContactNumber>
-          <Email>
+            <br/>
             <FooterLink href="mailto:hello.triboxdesign@gmail.com">
               hello.triboxdesign@gmail.com
             </FooterLink>
-          </Email>
+          </ContactNumber>
           <Location>
             <FooterLink href="https://g.page/triboxdesign?share">
               1401 Park Centrale Building, IT Park,
@@ -90,22 +89,6 @@ const ContactNumber = styled.div`
   color: #fff;
   position: relative;
 
-  @media screen and (max-width: 768px) {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-`
-
-const Email = styled.div`
-  color: #fff;
-  margin-top: 1rem;
-
-  @media screen and (max-width: 768px) {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
 `
 
 const Location = styled.div`
@@ -115,16 +98,10 @@ const Location = styled.div`
 
   @media screen and (max-width: 768px) {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
   }
 `
 
 const SocialMedia = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
 `
 
@@ -132,8 +109,7 @@ const FooterImgContainer = styled.div`
   height: 54px;
   width: 54px;
   align-items: center;
-  margin: 10px;
-  vertical-align: middle;
+  margin: 10px 20px 10px 0px;
   display: inline-block;
   justify-content: space-between;
 
@@ -146,12 +122,6 @@ const FooterImgContainer = styled.div`
 const TradeMark = styled.div`
   margin-top: 1rem;
   color: #fff;
-
-  @media screen and (max-width: 768px) {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
 `
 
 const FooterLink = styled.a`
