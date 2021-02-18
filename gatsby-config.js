@@ -31,7 +31,7 @@ module.exports = {
         short_name: `Tribox`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#FC000D`,
+        theme_color: `#ff3333`,
         display: `minimal-ui`,
         icon: `src/images/tribox.png`, // This path is relative to the root of the site.
       },

@@ -1,5 +1,5 @@
 import POTW from "../images/potw.png"
-import WBDS from "../images/wbds.png"
+import WBDS from "../images/wbds.jpg"
 
 export const weAreFeaturedData = [
   { feature: "Packaging of the World", img: POTW },
