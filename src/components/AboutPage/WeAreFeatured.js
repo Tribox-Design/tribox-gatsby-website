@@ -10,7 +10,7 @@ const WeAreFeatured = () => {
           <Title>We are featured internationally</Title>
           <ImgContainer>
             {weAreFeaturedData.map((item, index) => (
-              <CustomImg src={item.img} alt={item.feature} />
+              <CustomImg key={index} src={item.img} alt={item.feature} />
             ))}
           </ImgContainer>
         </FeaturedWrapper>
@@ -26,6 +26,10 @@ const FeaturedContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const FeaturedContent = styled.div`
@@ -36,6 +40,10 @@ const FeaturedContent = styled.div`
 
 const FeaturedWrapper = styled.div`
   padding: 1rem 3rem;
+
+  @media screen and (max-width: 564px) {
+    padding: 0 2rem;
+  }
 `
 
 const Title = styled.p`
@@ -58,7 +66,9 @@ const ImgContainer = styled.div`
 
 const CustomImg = styled.img`
   margin: auto;
-  height: 100%;
   width: 100%;
 
+  @media screen and (max-width: 768px) {
+    width: 85%;
+  }
 `

@@ -28,6 +28,10 @@ const MissionVisionContainer = styled.div`
   align-items: center;
   position: relative;
   padding: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const MissionVisionContent = styled.div`
@@ -44,6 +48,10 @@ const MissionVisionItem = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(0 1fr);
     grid-gap: 1rem;
+  }
+  
+  @media screen and (max-width: 564px) {
+    padding: 2rem 2rem;
   }
 `
 

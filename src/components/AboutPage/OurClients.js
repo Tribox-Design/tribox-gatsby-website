@@ -31,6 +31,10 @@ const ClientContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const ClientContent = styled.div`
@@ -45,6 +49,10 @@ const ClientWrapper = styled.div`
   @media screen and (max-width: 768px) {
     justify-content: center;
     align-items: center;
+  }
+
+  @media screen and (max-width: 564px) {
+    padding: 0 2rem;
   }
 `
 
@@ -67,7 +75,7 @@ const ImgContainer = styled.div`
   }
 
   @media screen and (max-width: 564px) {
-    grid-gap: 2rem 0rem;
+    grid-gap: 0rem;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
@@ -78,8 +86,8 @@ const CustomImg = styled.img`
   filter: grayscale(100%);
 
   @media screen and (max-width: 768px) {
-    width: 85%;
-    height: 85%;
+    width: 82%;
+    height: 82%;
   }
 
   :hover {

@@ -28,6 +28,10 @@ const ServiceContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const ServiceContent = styled.div`
@@ -39,11 +43,15 @@ const ServiceContent = styled.div`
 const ServiceWrapper = styled.div`
   display: flex;
   padding: 1rem 3rem;
+
+  @media screen and (max-width: 564px) {
+    padding: 0 2rem;
+  }
 `
 const TitleContainer = styled.div`
   width: 40%;
 
-  padding-right: 10rem;
+  padding-right: 11.8rem;
   @media screen and (max-width: 1000px) {
     padding-right: 8rem;
   }
