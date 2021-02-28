@@ -13,12 +13,13 @@ collections:
     create: true
     path: "{{title}}/index"
     fields:
-      - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true }
+      - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: client, label: Client }
       - { name: services, label: Services }
+      - { name: featuredOn, label: Featured On, widget: text, required: false }
       - {
           name: isHighlighted,
           label: Is Highlighted,

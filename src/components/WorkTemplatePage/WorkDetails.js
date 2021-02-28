@@ -9,8 +9,7 @@ const WorkDetails = ({ frontmatter }) => {
           <Title>{frontmatter.title}</Title>
         </TitleContainer>
         <DescriptionContainer>
-        <pre>{frontmatter.description}</pre>
-          {/* <Description dangerouslySetInnerHTML={{ __html: frontmatter.description }} /> */}
+          <Description>{frontmatter.description}</Description>
         </DescriptionContainer>
       </LeftContainer>
       <RightContainer>
@@ -33,7 +32,7 @@ const WorkWrapper = styled.div`
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-gap: 6rem;
-  padding: 6rem 0;
+  padding: 5rem 0;
 
   @media screen and (max-width: 1140px) {
     grid-gap: 1rem;
@@ -81,8 +80,10 @@ const DescriptionContainer = styled.div`
   padding-top: 0.5rem;
 `
 
-const Description = styled.p`
-  font-weight: 300;
+const Description = styled.pre`
+  font-weight: 300;  
+  font-size: 18px;
+  line-height: 1.5rem;
 `
 
 const ClientContainer = styled.div`

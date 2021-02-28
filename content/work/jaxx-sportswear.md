@@ -17,92 +17,32 @@ isPublishedWork: true
 ---
 ![jaxx1](../assets/jaxx-1.png)
 
-
-
-
-
 ![jaxx0](../assets/jaxx-0.jpg)
-
-
-
-
 
 ![jaxx2](../assets/jaxx-2.png)
 
-
-
-
-
 ![jaxx3](../assets/jaxx-3.png)
-
-
-
-
 
 ![jaxx4](../assets/jaxx-4.png)
 
-
-
-
-
 ![jaxx5](../assets/jaxx-5.png)
-
-
-
-
 
 ![jaxx6](../assets/jaxx-6.jpg)
 
-
-
-
-
 ![jaxx7](../assets/jaxx-7.png)
-
-
-
-
 
 ![jaxx8](../assets/jaxx-8.jpg)
 
-
-
-
-
 ![jaxx9](../assets/jaxx-9.png)
-
-
-
-
 
 ![jaxx10](../assets/jaxx-10.png)
 
-
-
-
-
 ![jaxx11](../assets/jaxx-11.png)
-
-
-
-
 
 ![jaxx12](../assets/jaxx-12.png)
 
-
-
-
-
 ![jaxx13](../assets/jaxx-13.png)
 
-
-
-
-
 ![jaxx14](../assets/jaxx-14.jpg)
-
-
-
-
 
 ![jaxx15](../assets/jaxx-15.jpg)
