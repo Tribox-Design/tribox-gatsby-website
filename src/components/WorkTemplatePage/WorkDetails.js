@@ -9,7 +9,8 @@ const WorkDetails = ({ frontmatter }) => {
           <Title>{frontmatter.title}</Title>
         </TitleContainer>
         <DescriptionContainer>
-          <Description dangerouslySetInnerHTML={{ __html: frontmatter.description }} />
+        <pre>{frontmatter.description}</pre>
+          {/* <Description dangerouslySetInnerHTML={{ __html: frontmatter.description }} /> */}
         </DescriptionContainer>
       </LeftContainer>
       <RightContainer>

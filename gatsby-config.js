@@ -71,6 +71,7 @@ module.exports = {
           },
         ],
         plugins: [`gatsby-remark-images`],
+        // remarkPlugins: [require('remark-unwrap-images')],
       },
     },
     `gatsby-plugin-root-import`,
@@ -88,7 +89,6 @@ module.exports = {
         name: `blog`,
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-plugin-react-leaflet`,
     {
       resolve: "gatsby-plugin-load-script",

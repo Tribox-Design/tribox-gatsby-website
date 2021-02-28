@@ -3,10 +3,10 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import SEO from "../seo"
 import Layout from "../layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
+import MDXContainer from '../WorkTemplatePage/MDXContainer'
 // import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
 class WorkTemplate extends React.Component {
@@ -27,10 +27,7 @@ class WorkTemplate extends React.Component {
               src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
-            {/* <ProblemSolution frontmatter={post.frontmatter} /> */}
-            <MarkdownContainer>
-              <MDXRenderer>{post.body}</MDXRenderer>
-            </MarkdownContainer>
+            <MDXContainer mdx={post.body} />
             <MoreProjects currentPage={post.frontmatter.title} />
           </WorkContent>
         </WorkContainer>
