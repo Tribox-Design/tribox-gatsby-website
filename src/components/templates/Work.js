@@ -12,6 +12,7 @@ import WorkDetails from "../WorkTemplatePage/WorkDetails"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
+    console.log(post.body)
     return (
       <Layout page="Work">
         <SEO
@@ -42,11 +43,6 @@ export default WorkTemplate
 
 export const pageQuery = graphql`
   query WorkPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     mdx(fields: { slug: { eq: $slug } }) {
       body
       frontmatter {

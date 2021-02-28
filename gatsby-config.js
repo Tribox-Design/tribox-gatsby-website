@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Tribox Design`,
-    description: `Identify brands, simplify the complex.`,
+    description: `Defining brands, simplifying the complex.`,
     author: `@tyronskiii`,
     siteUrl: `https://dev-tribox-website-v3.netlify.app/`,
   },
@@ -88,12 +88,12 @@ module.exports = {
         name: `blog`,
       },
     },
-    "gatsby-transformer-remark",
-    "gatsby-plugin-react-leaflet",
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-react-leaflet`,
     {
-      resolve: 'gatsby-plugin-load-script',
+      resolve: "gatsby-plugin-load-script",
       options: {
-        src: 'https://widget.clutch.co/static/js/widget.js'
+        src: "https://widget.clutch.co/static/js/widget.js",
       },
     },
   ],

@@ -4,33 +4,49 @@ backend:
   branch: develop
 
 media_folder: content/assets
-public_folder: ../assets
+public_folder: /assets
 
 collections:
   - name: work
     label: Work
     folder: content/work
     create: true
+    path: "{{title}}/index"
     fields:
-      - { name: date, label: Date, widget: datetime }
+      - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true }
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: client, label: Client }
       - { name: services, label: Services }
-      - { name: isHighlighted, label: Is Highlighted, widget: boolean, default: false }
-      - { name: isPublishedWork, label: Publish Work, widget: boolean, default: true }
+      - {
+          name: isHighlighted,
+          label: Is Highlighted,
+          widget: boolean,
+          default: false,
+        }
+      - {
+          name: isPublishedWork,
+          label: Publish Work,
+          widget: boolean,
+          default: true,
+        }
       - { name: body, label: Body, widget: markdown }
   - name: blog
     label: Blog
     folder: content/blog
     create: true
-    slug: 'index'
-    
+    slug: "index"
+
     fields:
-      - { name: date, label: Date, widget: datetime }
+      - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true }
       - { name: title, label: Title }
       - { name: author, label: Author }
       - { name: tags, label: Tags, widget: "list", default: false }
-      - { name: isPublishedBlog, label: Publish Blog, widget: boolean, default: true }
+      - {
+          name: isPublishedBlog,
+          label: Publish Blog,
+          widget: boolean,
+          default: true,
+        }
       - { name: body, label: Body, widget: markdown }

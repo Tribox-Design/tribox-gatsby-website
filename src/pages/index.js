@@ -9,12 +9,12 @@ import Services from "../components/HomePage/Services"
 
 const IndexPage = () => (
   <Layout page="Home">
-    <SEO title="Home" />
+    {/* <SEO title=""description="Defining brands, simplifying the complex." />
     <IntroBanner />
     <HomeCarousel />
     <HighlightWorks />
     <WorkWithUs />
-    <Services />
+    <Services /> */}
   </Layout>
 )
 

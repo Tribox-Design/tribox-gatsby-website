@@ -27,10 +27,8 @@ const IntroContainer = styled.div`
   padding: 6rem 0 0 0;
 
   @media screen and (max-width: 768px) {
-    margin-top: 2rem;
     padding: 4rem 0 0 0;
   }
- 
 `
 
 const IntroContent = styled.div`
