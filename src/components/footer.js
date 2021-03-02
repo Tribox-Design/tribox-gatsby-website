@@ -145,8 +145,9 @@ const FooterLink = styled.a`
 
 const FooterP = styled.p`
   margin-bottom: 0;
-  font-size: normal;
+  font-size: 16px;
   line-height: 1.6;
+
   @media screen and (max-width: 768px) {
     line-height: 1.5;
     vertical-align: middle;
