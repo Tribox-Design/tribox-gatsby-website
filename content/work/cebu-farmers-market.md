@@ -13,6 +13,9 @@ description: |-
 client: Cebu Farmers Market
 services: Brand Identity Design, Promotion, Marketing Collaterals Prints,
   Illustrations and Digital Designs
+featuredOn: |-
+  World Brand Design
+  Packaging of the World
 isHighlighted: true
 isPublishedWork: true
 ---

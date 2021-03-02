@@ -70,7 +70,7 @@ const IntroH1 = styled.h1`
   }
 `
 
-const IntroP = styled.p`
+const IntroP = styled.div`
   font-size: clamp(22px, 2.7vw, 4rem);
   line-height: 1.2;
   margin-bottom: 0.4rem;

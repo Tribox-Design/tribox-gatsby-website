@@ -68,11 +68,13 @@ const ContactWrapper = styled.div`
   }
 `
 
-const ContactTitle = styled.p`
+const ContactTitle = styled.h3`
   font-weight: 600;
   color: #212121;
   font-size: 28px;
   letter-spacing: 0.5px;
+  margin-bottom: 0;
+  margin-top: 0;
 `
 
 const ContactCard = styled.div`

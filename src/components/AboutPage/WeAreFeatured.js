@@ -46,11 +46,13 @@ const FeaturedWrapper = styled.div`
   }
 `
 
-const Title = styled.p`
+const Title = styled.h3`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
+  margin-bottom: 0;
+  margin-top: 0;
 `
 
 const ImgContainer = styled.div`

@@ -1,11 +1,23 @@
 import React from "react"
 import styled from "styled-components"
 
+function FeaturedWork(props) {
+  if (props.feature) {
+    return (
+      <ServicesContainer>
+        <ServicesTitle>Featured on</ServicesTitle>
+        <FeaturedOnDesc>{props.feature}</FeaturedOnDesc>
+      </ServicesContainer>
+    )
+  }
+  return <></>
+}
+
 const WorkDetails = ({ frontmatter }) => {
   return (
     <WorkWrapper>
       <LeftContainer>
-          <Title>{frontmatter.title}</Title>
+        <Title>{frontmatter.title}</Title>
         <DescriptionContainer>
           <Description>{frontmatter.description}</Description>
         </DescriptionContainer>
@@ -19,6 +31,7 @@ const WorkDetails = ({ frontmatter }) => {
           <ServicesTitle>Services</ServicesTitle>
           <Services>{frontmatter.services}</Services>
         </ServicesContainer>
+        <FeaturedWork feature={frontmatter.featuredOn} />
       </RightContainer>
     </WorkWrapper>
   )
@@ -76,7 +89,7 @@ const DescriptionContainer = styled.div`
 `
 
 const Description = styled.pre`
-  font-weight: 300;  
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.5rem;
 `
@@ -121,5 +134,12 @@ const Services = styled.p`
   font-size: 18px;
   padding-top: 0.3rem;
   margin-bottom: 0;
+  font-size: 18px;
+`
+
+const FeaturedOnDesc = styled.pre`
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 0.3rem;
   font-size: 18px;
 `

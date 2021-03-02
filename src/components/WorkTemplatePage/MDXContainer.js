@@ -11,7 +11,8 @@ const MDXContainer = ({mdx}) => {
   )
 }
 
+export default MDXContainer
+
 const MarkdownContainer = styled.div`
   padding: 3rem 0;
 `
-export default MDXContainer

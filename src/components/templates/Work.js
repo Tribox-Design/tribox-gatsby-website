@@ -47,6 +47,7 @@ export const pageQuery = graphql`
         client
         description
         services
+        featuredOn
         thumbnail {
           childImageSharp {
             fluid {
@@ -82,8 +83,4 @@ const WorkContent = styled.div`
 const WorkImg = styled(Img)`
   max-width: 100%;
   position: relative;
-`
-
-const MarkdownContainer = styled.div`
-  padding: 3rem 0;
 `

@@ -66,11 +66,13 @@ const TitleContainer = styled.div`
   }
 `
 
-const Title = styled.p`
+const Title = styled.h3`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
+  margin-bottom: 0;
+  margin-top: 0;
 `
 
 const DescriptionContainer = styled.div`
@@ -87,7 +89,7 @@ const DescriptionContainer = styled.div`
   }
 `
 
-const Description = styled.p`
+const Description = styled.div`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
   color: #424242;

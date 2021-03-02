@@ -7,6 +7,8 @@ description: |-
   the source that drives them to make the world a better place.
 client: The Mystic Psychologist
 services: Branding, Logo
+featuredOn: |-
+  World Brand Design Society
 isHighlighted: true
 isPublishedWork: true
 ---
