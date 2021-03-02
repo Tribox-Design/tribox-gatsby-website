@@ -91,6 +91,6 @@ const ServiceTitle = styled.h3`
 
 const ServiceDescription = styled.p`
   margin-bottom: 0;
-  font-size: normal;
+  font-size: 16px;
   margin-top: 3px;
 `

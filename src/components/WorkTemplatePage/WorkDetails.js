@@ -5,9 +5,7 @@ const WorkDetails = ({ frontmatter }) => {
   return (
     <WorkWrapper>
       <LeftContainer>
-        <TitleContainer>
           <Title>{frontmatter.title}</Title>
-        </TitleContainer>
         <DescriptionContainer>
           <Description>{frontmatter.description}</Description>
         </DescriptionContainer>
@@ -66,14 +64,11 @@ const RightContainer = styled.div`
   }
 `
 
-const TitleContainer = styled.div`
-
-`
-
-const Title = styled.p`
+const Title = styled.h3`
   font-size: clamp(1rem, 6vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
+  margin: 0;
 `
 
 const DescriptionContainer = styled.div`
@@ -92,13 +87,15 @@ const ClientContainer = styled.div`
   }
 `
 
-const ClientTitle = styled.p`
+const ClientTitle = styled.div`
   font-size: 18px;
   font-weight: 600;
 `
 
 const Client = styled.p`
   font-weight: 300;
+  margin-bottom: 0;
+  font-size: 18px;
   padding-top: 0.3rem;
 `
 
@@ -115,9 +112,14 @@ const ServicesContainer = styled.div`
 const ServicesTitle = styled.p`
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 0;
+  font-size: 18px;
 `
 
 const Services = styled.p`
   font-weight: 300;
+  font-size: 18px;
   padding-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 18px;
 `

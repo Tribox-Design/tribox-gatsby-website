@@ -75,9 +75,7 @@ const MoreProjects = ({ currentPage }) => {
 
   return (
     <MoreWorksContainer>
-      <TitleContainer>
-        <MoreProjectsTitle>More Projects</MoreProjectsTitle>
-      </TitleContainer>
+      <MoreProjectsTitle>More Projects</MoreProjectsTitle>
       <RandomWorksContainer>
         {getRandomWorks(randomData)}
       </RandomWorksContainer>
@@ -92,7 +90,7 @@ const MoreWorksContainer = styled.div`
   padding: 2rem 0;
 `
 
-const MoreProjectsTitle = styled.p`
+const MoreProjectsTitle = styled.div`
   display: flex;
   font-size: clamp(1rem, 3vw, 1.6rem);
   letter-spacing: 1px;
@@ -145,7 +143,7 @@ const MoreWorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.p`
+const WorkTitle = styled.div`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
@@ -160,8 +158,4 @@ const WorkTitle = styled.p`
 const WorkLink = styled(Link)`
   height: 100%;
   text-decoration: none;
-`
-
-const TitleContainer = styled.div`
-
 `
