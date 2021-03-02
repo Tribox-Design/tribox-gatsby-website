@@ -18,7 +18,7 @@ const Layout = ({ children, page }) => {
       <Header page={page} toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

@@ -24,10 +24,10 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 2rem 0 0 0;
+  padding: 6rem 0 0 0;
 
   @media screen and (max-width: 768px) {
-    padding: 2rem 0 0 0;
+    padding: 4rem 0 0 0;
   }
 `
 
@@ -61,13 +61,13 @@ const IntroH1 = styled.h1`
   font-weight: bold;
   width: 81%;
   letter-spacing: -1px;
-  margin-bottom: -1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
     width: 93%;
-    margin-bottom: -1.5rem;
- }
+  }
 `
 
 const IntroP = styled.p`

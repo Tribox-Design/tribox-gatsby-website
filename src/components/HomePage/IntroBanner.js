@@ -27,7 +27,7 @@ const IntroContainer = styled.div`
   text-align: center;
   width: 100%;
   color: #fff;
-  padding: 0 0 3rem 0; 
+  padding: 3rem 0; 
 `
 
 const IntroContent = styled.div`
@@ -62,7 +62,8 @@ const IntroH1 = styled.h1`
   font-weight: bold;
   width: 95%;
   letter-spacing: -1px;
-  margin-bottom: -.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 
   @media screen and (max-width: 768px) {
     font-size: clamp(1.8rem, 4vw, 3rem);

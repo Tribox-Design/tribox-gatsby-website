@@ -84,8 +84,13 @@ const ServiceText = styled.div`
   maxwidth: 400px;
 `
 
-const ServiceTitle = styled.h3``
+const ServiceTitle = styled.h3`
+  margin-top: 0;
+  margin-bottom: 0;
+`
 
 const ServiceDescription = styled.p`
+  margin-bottom: 0;
+  font-size: normal;
   margin-top: 3px;
 `

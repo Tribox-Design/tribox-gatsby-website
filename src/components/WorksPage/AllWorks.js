@@ -75,6 +75,7 @@ const WorksWrapper = styled.div`
   grid-gap: 20px 40px;
   justify-items: center;
   max-width: 1140px;
+  width: 100%;
 
   @media screen and (max-width: 1140px) {
     padding: 0 2rem;
@@ -123,10 +124,9 @@ const WorkTitle = styled.div`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  ${'' /* font-size: 21px; */}
+  font-size: 21px;
   letter-spacing: 0.5px;
-  font-size: clamp(16px, 1.5vw, 2rem);
-
+  ${'' /* font-size: clamp(16px, 1.5vw, 2rem); */}
 
   &:hover {
     color: #424242;

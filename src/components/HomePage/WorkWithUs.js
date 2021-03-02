@@ -32,10 +32,6 @@ const WorkBannerContainer = styled.div`
   position: relative;
   color: #fff;
   padding: 2rem 0;
-
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-  }
 `
 
 const WorkBannerBg = styled.div`
@@ -73,16 +69,15 @@ const WorkBannerItems = styled.div`
   }
 `
 
-const WorkBannerH1 = styled.h1`
+const WorkBannerH1 = styled.div`
   font-size: clamp(1.5rem, 6vw, 4rem);
   letter-spacing: 1px;
   margin-bottom: 1rem;
   font-weight: bold;
 `
 
-const WorkBannerP = styled.p`
+const WorkBannerP = styled.div`
   font-size: clamp(1rem, 3vw, 2rem);
-  margin-bottom: 0.4rem;
   font-weight: 600;
 
   @media screen and (max-width: 768px) {
