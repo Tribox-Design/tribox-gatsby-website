@@ -74,7 +74,7 @@ const HighlightsContainer = styled.div`
 const HighlightsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  grid-gap: 30px 60px;
+  grid-gap: 26px 60px;
   justify-items: center;
   padding: 0 7rem;
 
@@ -113,7 +113,7 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.p`
+const WorkTitle = styled.div`
   padding-top: 6px;
   font-weight: 600;
   color: #212121;

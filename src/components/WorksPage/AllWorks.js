@@ -119,20 +119,22 @@ const WorkImg = styled(Img)`
   }
 `
 
-const WorkTitle = styled.p`
+const WorkTitle = styled.div`
   padding-top: 5px;
   font-weight: 600;
   color: #212121;
-  font-size: 21px;
+  ${'' /* font-size: 21px; */}
   letter-spacing: 0.5px;
+  font-size: clamp(16px, 1.5vw, 2rem);
+
 
   &:hover {
     color: #424242;
   }
 
-  @media screen and (max-width: 700px) {
+  ${'' /* @media screen and (max-width: 700px) {
     font-size: 18px;
-  }
+  } */}
 `
 
 const WorkLink = styled(Link)`

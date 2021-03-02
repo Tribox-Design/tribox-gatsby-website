@@ -9,12 +9,12 @@ import LocationMap from "../components/ContactPage/LocationMap"
 
 const IndexPage = () => (
   <Layout page="Contact">
-    {/* <SEO title="Contact Us" />
+    <SEO title="Contact Us" />
     <IntroContact />
     <ContactUs />
     <ContactDetails />
     <Clutch />
-    <LocationMap /> */}
+    <LocationMap />
   </Layout>
 )
 

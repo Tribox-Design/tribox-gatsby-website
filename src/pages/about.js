@@ -11,7 +11,7 @@ import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
 
 const IndexPage = () => (
   <Layout page="About">
-    {/* <SEO title="About Us" />
+    <SEO title="About Us" />
     <IntroAbout />
     <MissionVision />
     <Line />
@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Line />
     <OurClients />
     <Line />
-    <WeAreFeatured /> */}
+    <WeAreFeatured />
   </Layout>
 )
 

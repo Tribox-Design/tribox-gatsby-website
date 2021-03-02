@@ -27,10 +27,10 @@ const IntroContainer = styled.div`
   align-items: center;
   position: relative;
   color: #fff;
-  padding: 6rem 2rem;
+  padding: 2rem 2rem 5rem 2rem;
 
   @media screen and (max-width: 768px) {
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     justify-content: center;
   }
 `
@@ -56,14 +56,15 @@ const IntroH1 = styled.h1`
   font-weight: bold;
   width: 87%;
   letter-spacing: -1px;
+  margin-bottom: -.5rem;
 
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
-    width: 100%;
+    width: 95%;
   }
 `
 
-const IntroP = styled.p`
+const IntroP = styled.div`
   width: 85%;
   font-size: clamp(16px, 1.8vw, 2rem);
   line-height: 1.2;
