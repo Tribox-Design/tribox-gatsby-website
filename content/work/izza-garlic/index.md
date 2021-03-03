@@ -2,20 +2,38 @@
 date: 2021-01-24T14:16:03.216Z
 title: Izza Garlic
 thumbnail: ./izza-cover.jpg
-description: |-
-  Izza Garlic is a Cebu-based fried garlic producer offering a variety of garlic-based condiments from fried bits to sweet chilli oil.
+description: >-
+  Izza Garlic is a Cebu-based fried garlic producer offering 
 
-  The company was brought to life in May 2020 during the COVID-19 pandemic when, in addition to the virus itself, food became a primary source of concern. With dining out no longer being a practical option, many came to rely on home-cooked meals.
-  However, home cooks faced new challenges, from running out of recipes and ideas to finding the task tedious and becoming a chore.
+  a variety of garlic-based condiments from fried bits to sweet chilli oil.
 
-  To address these concerns, Izza Garlic came up with a way to spice up homemade meals and simplify home cooking and meal prepping for everyone in the city.
+
+  The company was brought to life in May 2020 during the
+
+  COVID-19 pandemic when, in addition to the virus itself, food
+
+  became a primary source of concern. With dining out no longer being a
+
+  practical option, many came to rely on home-cooked meals.
+
+  However, home cooks faced new challenges, from running out of
+
+  recipes and ideas to finding the task tedious and becoming a chore.
+
+
+  To address these concerns, Izza Garlic came up with a way to spice up
+
+  homemade meals and simplify home cooking and meal prepping for everyone in the city.
 client: Izza Garlic
 services: Brand Strategy Brand, Positioning Brand, Messaging Brand, Audit Brand,
   Identity Design, Brand Development, Copywriting
 featuredOn:
-- featured:
-    name: World Brand Design Society
-    link: https://www.packagingoftheworld.com/2020/08/izza-garlic.html
+  - featured:
+      name: Packaging Of The World
+      link: https://www.packagingoftheworld.com/2020/08/izza-garlic.html
+  - featured:
+      name: Brand Awesome
+      link: https://brandsawesome.com/project/izza-garlic/
 isHighlighted: true
 isPublishedWork: true
 ---
