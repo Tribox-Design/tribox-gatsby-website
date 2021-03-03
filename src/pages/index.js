@@ -9,7 +9,7 @@ import Services from "../components/HomePage/Services"
 
 const IndexPage = () => (
   <Layout page="Home">
-    <SEO title=""description="Defining brands, simplifying the complex." />
+    <SEO title="Home" description="Defining brands, simplifying the complex." />
     <IntroBanner />
     <HomeCarousel />
     <HighlightWorks />

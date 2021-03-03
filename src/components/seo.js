@@ -34,7 +34,11 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : 'Tribox Design'}
+      titleTemplate={
+        (title === "Home")
+          ? `Tribox Design`
+          : `%s | ${defaultTitle}`
+      }
       meta={[
         {
           name: `description`,

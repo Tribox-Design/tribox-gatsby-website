@@ -11,7 +11,11 @@ import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
 
 const IndexPage = () => (
   <Layout page="About">
-    <SEO title="About Us" />
+    <SEO
+      title="About Us"
+      description="Tribox Design is a local branding agency for Local Brands, SMEs and Startups.
+We are a passionate team with different expertise but with the same goals. We believe that using our expertise can help you and provide value to make a big impact to the community. Our work consists of Brand Identity Design, Brand Strategy and Graphics."
+    />
     <IntroAbout />
     <MissionVision />
     <Line />
