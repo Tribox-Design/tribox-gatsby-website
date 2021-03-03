@@ -3,13 +3,9 @@ date: 2021-01-22T15:46:14.125Z
 title: Jaxx Sportswear
 thumbnail: ./jaxx-cover.png
 description: |-
-  Because there are hundreds of clothing and apparel stores in Cebu City,
-  Lavender Satera, the owner, turned to us to help their company stand out
-  from the market. To meet their goals, we repositioned their brand, from
-  strategy development to brand identity design.
+  Because there are hundreds of clothing and apparel stores in Cebu City, Lavender Satera, the owner, turned to us to help their company stand out from the market. To meet their goals, we repositioned their brand, from strategy development to brand identity design.
 
-  Ms. Satera was eager to take on designs with an international vibe and
-  professional look.
+  Ms. Satera was eager to take on designs with an international vibe and professional look.
 client: Jaxx Sportswear
 services: Brand Messaging, Brand Positioning, Brand Strategy and Brand Identity Design.
 isHighlighted: false

@@ -3,15 +3,9 @@ date: 2021-01-22T15:54:56.280Z
 title: Leisure Pro Journeys
 thumbnail: ./leisurepro-cover.jpg
 description: |-
-  With more than 13 years of experience in the travel industry,
-  Leisure Pro is dedicated to helping foreign tourists looking
-  to travel around the Philippines, particularly in the province
-  of Cebu.
+  With more than 13 years of experience in the travel industry, Leisure Pro is dedicated to helping foreign tourists looking to travel around the Philippines, particularly in the province of Cebu.
 
-  Over the years, the company has expanded its list of services.
-  To complement this expansion, they decided to rebrand their
-  company. With our help, they have adopted a fresh brand identity
-  to offer customers a new journeying experience.
+  Over the years, the company has expanded its list of services. To complement this expansion, they decided to rebrand their company. With our help, they have adopted a fresh brand identity to offer customers a new journeying experience.
 client: Leisure Pro Journeys
 services: Brand Strategy, Messaging, Brand Identity Design, Brand Audit, Brand Collateral
 isHighlighted: false

@@ -9,9 +9,11 @@ function FeaturedWork(props) {
       const featureArray = []
       data.forEach((featuredOn, index) => {
         featureArray.push(
-          <WorkLink key={index} to={featuredOn.featured.link}>
-            {featuredOn.featured.name}
-          </WorkLink>
+          <FeatureContainer key={index}>
+            <FeatureLink to={featuredOn.featured.link}>
+              {featuredOn.featured.name}
+            </FeatureLink>
+          </FeatureContainer>
         )
       })
       return featureArray
@@ -73,7 +75,7 @@ const WorkWrapper = styled.div`
   @media screen and (max-width: 768px) {
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 4rem 0 2rem 0;
   }
 `
 
@@ -101,12 +103,18 @@ const Title = styled.h3`
 
 const DescriptionContainer = styled.div`
   padding-top: 0.5rem;
+  width: 70%;
+
+  @media screen and (max-width: 890px) {
+    width: 100%;
+  }
 `
 
 const Description = styled.pre`
   font-weight: 300;
   font-size: 18px;
   line-height: 1.5rem;
+  white-space: pre-wrap;
 `
 
 const ClientContainer = styled.div`
@@ -124,7 +132,7 @@ const Client = styled.p`
   font-weight: 300;
   margin-bottom: 0;
   font-size: 18px;
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
 `
 
 const ServicesContainer = styled.div`
@@ -132,7 +140,6 @@ const ServicesContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding-top: 1rem;
-    width: 50%;
     display: relative;
   }
 `
@@ -146,22 +153,19 @@ const ServicesTitle = styled.p`
 const Services = styled.p`
   font-weight: 300;
   font-size: 18px;
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
   margin-bottom: 0;
 `
 
-const FeaturedOnDesc = styled.pre`
-  font-weight: 300;
-  font-size: 18px;
-  padding-top: 0.3rem;
+const FeatureContainer = styled.div`
+  padding-top: 0.5rem;
 `
 
-const WorkLink = styled(Link)`
+const FeatureLink = styled(Link)`
   height: 100%;
   text-decoration: underline;
   font-weight: 300;
   font-size: 18px;
-  padding-top: 0.3rem;
   color: #000000;
 
   :hover {

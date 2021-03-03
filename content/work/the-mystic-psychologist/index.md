@@ -3,8 +3,7 @@ date: 2021-01-25T08:59:42.486Z
 title: The Mystic Psychologist
 thumbnail: ./the-mystic-psychologist.png
 description: |-
-  The Mystic Psychologist is a community connected to their souls and
-  the source that drives them to make the world a better place.
+  The Mystic Psychologist is a community connected to their souls and the source that drives them to make the world a better place.
 client: The Mystic Psychologist
 services: Branding, Logo
 isHighlighted: true

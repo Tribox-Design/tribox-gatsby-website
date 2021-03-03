@@ -3,14 +3,9 @@ date: 2021-01-22T14:05:29.266Z
 title: Tres Water Company
 thumbnail: ./tres-cover.jpg
 description: |-
-  Tres Water is a Cebu-based water company aiming
-  to be the city’s one-stop-shop water system. They
-  organize events and seminars on the proper management
-  and operations of water systems.
+  Tres Water is a Cebu-based water company aiming to be the city’s one-stop-shop water system. They organize events and seminars on the proper management and operations of water systems.
 
-  An advocate for clean water, they are dedicated to the vision
-  of providing clean and healthy water supplies for every Filipino
-  consumer.
+  An advocate for clean water, they are dedicated to the vision of providing clean and healthy water supplies for every Filipino consumer.
 client: Tres Water Company
 services: Brand Messaging, Brand Positioning, Brand Strategy and Brand Identity Design
 isHighlighted: true
