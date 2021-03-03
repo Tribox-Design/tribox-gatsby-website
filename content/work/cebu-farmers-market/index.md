@@ -13,6 +13,10 @@ description: |-
 client: Cebu Farmers Market
 services: Brand Identity Design, Promotion, Marketing Collaterals Prints,
   Illustrations and Digital Designs
+featuredOn:
+  - featured:
+      name: World Brand Design Society
+      link: https://worldbranddesign.com/tribox-create-cebu-farmers-market-brand-identity/
 isHighlighted: true
 isPublishedWork: true
 ---
