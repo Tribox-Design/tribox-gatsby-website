@@ -1,7 +1,7 @@
 ---
 date: 2021-01-24T14:16:03.216Z
 title: Izza Garlic
-thumbnail: ../assets/izza-cover.jpg
+thumbnail: ./izza-cover.jpg
 description: |-
   Izza Garlic is a Cebu-based fried garlic producer offering 
   a variety of garlic-based condiments from fried bits to sweet chilli oil.
@@ -18,9 +18,10 @@ description: |-
 client: Izza Garlic
 services: Brand Strategy Brand, Positioning Brand, Messaging Brand, Audit Brand,
   Identity Design, Brand Development, Copywriting
-featuredOn: |-
-  World Brand Design
-  Packaging of the World
+featuredOn:
+- featured:
+    name: World Brand Design Society
+    link: https://www.packagingoftheworld.com/2020/08/izza-garlic.html
 isHighlighted: true
 isPublishedWork: true
 ---
@@ -44,60 +45,60 @@ We positioned the brand image of Izza Garlic by first defining their vision-miss
 
 The design we developed for the brand was based on meticulous research on the psychology of condiments and packaging. Each design choice was selected with care.
 
-![izza1](../assets/izza-1.jpg)
+![izza1](izza-1.jpg)
 
-![izza2](../assets/izza-2.jpg)
+![izza2](izza-2.jpg)
 
-![izza3](../assets/izza-3.jpg)
+![izza3](izza-3.jpg)
 
-![izza4](../assets/izza-4.jpg)
+![izza4](izza-4.jpg)
 
-![izza5](../assets/izza-5.jpg)
+![izza5](izza-5.jpg)
 
-![izza6](../assets/izza-6.jpg)
+![izza6](izza-6.jpg)
 
-![izza7](../assets/izza-7.jpg)
+![izza7](izza-7.jpg)
 
-![izza8](../assets/izza-8.jpg)
+![izza8](izza-8.jpg)
 
-![izza9](../assets/izza-9.jpg)
+![izza9](izza-9.jpg)
 
-![izza10](../assets/izza-10.jpg)
+![izza10](izza-10.jpg)
 
-![izza11](../assets/izza-11.jpg)
+![izza11](izza-11.jpg)
 
-![izza12](../assets/izza-12.jpg)
+![izza12](izza-12.jpg)
 
-![izza13](../assets/izza-13.jpg)
+![izza13](izza-13.jpg)
 
-![izza15](../assets/izza-15.jpg)
+![izza Packaging](izza-15.jpg)
 
-![izza16](../assets/izza-16.jpg)
+![Izza Condiments](izza-16.jpg)
 
-![izza17](../assets/izza-17.jpg)
+![Daizer Izza Condiments](izza-17.jpg)
 
-![izza18](../assets/izza-18.jpg)
+![Pinoy breakfast with Izza Garlic](izza-18.jpg)
 
-![izza19](../assets/izza-19.jpg)
+![izza Packaging](izza-19.jpg)
 
-![izza20](../assets/izza-20.jpg)
+![izza Packaging](izza-20.jpg)
 
-![izza21](../assets/izza-21.jpg)
+![izza Packaging Spicy](izza-21.jpg)
 
-![izza22](../assets/izza-22.jpg)
+![izza Packaging](izza-22.jpg)
 
-![izza23](../assets/izza-23.jpg)
+![Packaging](izza-23.jpg)
 
-![izza24](../assets/izza-24.jpg)
+![Kitchen Tools and Utensils](izza-24.jpg)
 
-![izza25](../assets/izza-25.jpg)
+![Typography](izza-25.jpg)
 
-![izza26](../assets/izza-26.jpg)
+![Packaging](izza-26.jpg)
 
-![izza27](../assets/izza-27.jpg)
+![Logo based on the garlic](izza-27.jpg)
 
-![izza28](../assets/izza-28.jpg)
+![Old and new](izza-28.jpg)
 
-![izza29](../assets/izza-29.jpg)
+![Magka izza](izza-29.jpg)
 
-![izza30](../assets/izza-30.jpg)
+![Izza Garlic Menu](izza-30.jpg)

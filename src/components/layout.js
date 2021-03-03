@@ -3,6 +3,7 @@ import Header from "./header"
 import { GlobalStyle } from "./styles/GlobalStyles"
 import Footer from "../components/footer"
 import Dropdown from "./dropdown"
+import "./styles/mdxstyles.css"
 
 const Layout = ({ children, page }) => {
 

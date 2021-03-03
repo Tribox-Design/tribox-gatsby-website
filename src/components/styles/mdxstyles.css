@@ -9,11 +9,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-weight: 900;
 }
-
-
 
 ul {
   margin-bottom: 1.75rem;
@@ -38,3 +37,4 @@ blockquote {
   font-style: italic;
   border-left: 0.32813rem solid hsla(0,0%,0%,0.9);
 }
+

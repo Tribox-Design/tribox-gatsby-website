@@ -47,7 +47,12 @@ export const pageQuery = graphql`
         client
         description
         services
-        featuredOn
+        featuredOn {
+          featured {
+            link
+            name
+          }
+        }
         thumbnail {
           childImageSharp {
             fluid {

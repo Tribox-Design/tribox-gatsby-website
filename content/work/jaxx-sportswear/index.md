@@ -1,7 +1,7 @@
 ---
 date: 2021-01-22T15:46:14.125Z
 title: Jaxx Sportswear
-thumbnail: ../assets/jaxx-cover.png
+thumbnail: ./jaxx-cover.png
 description: |-
   Because there are hundreds of clothing and apparel stores in Cebu City,
   Lavender Satera, the owner, turned to us to help their company stand out
@@ -15,34 +15,34 @@ services: Brand Messaging, Brand Positioning, Brand Strategy and Brand Identity 
 isHighlighted: false
 isPublishedWork: true
 ---
-![jaxx1](../assets/jaxx-1.png)
+![jaxx1](./jaxx-1.png)
 
-![jaxx0](../assets/jaxx-0.jpg)
+![jaxx0](./jaxx-0.jpg)
 
-![jaxx2](../assets/jaxx-2.png)
+![jaxx2](./jaxx-2.png)
 
-![jaxx3](../assets/jaxx-3.png)
+![jaxx3](./jaxx-3.png)
 
-![jaxx4](../assets/jaxx-4.png)
+![jaxx4](./jaxx-4.png)
 
-![jaxx5](../assets/jaxx-5.png)
+![jaxx5](./jaxx-5.png)
 
-![jaxx6](../assets/jaxx-6.jpg)
+![jaxx6](./jaxx-6.jpg)
 
-![jaxx7](../assets/jaxx-7.png)
+![jaxx7](./jaxx-7.png)
 
-![jaxx8](../assets/jaxx-8.jpg)
+![jaxx8](./jaxx-8.jpg)
 
-![jaxx9](../assets/jaxx-9.png)
+![jaxx9](./jaxx-9.png)
 
-![jaxx10](../assets/jaxx-10.png)
+![jaxx10](./jaxx-10.png)
 
-![jaxx11](../assets/jaxx-11.png)
+![jaxx11](./jaxx-11.png)
 
-![jaxx12](../assets/jaxx-12.png)
+![jaxx12](./jaxx-12.png)
 
-![jaxx13](../assets/jaxx-13.png)
+![jaxx13](./jaxx-13.png)
 
-![jaxx14](../assets/jaxx-14.jpg)
+![jaxx14](./jaxx-14.jpg)
 
-![jaxx15](../assets/jaxx-15.jpg)
+![jaxx15](./jaxx-15.jpg)

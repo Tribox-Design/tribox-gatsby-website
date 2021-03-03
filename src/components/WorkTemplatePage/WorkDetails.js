@@ -1,12 +1,26 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 function FeaturedWork(props) {
-  if (props.feature) {
+  if (props.featuredOn) {
+    const data = props.featuredOn
+    function getAllFeaturedData(data) {
+      const featureArray = []
+      data.forEach((featuredOn, index) => {
+        featureArray.push(
+          <WorkLink key={index} to={featuredOn.featured.link}>
+            {featuredOn.featured.name}
+          </WorkLink>
+        )
+      })
+      return featureArray
+    }
+
     return (
       <ServicesContainer>
         <ServicesTitle>Featured on</ServicesTitle>
-        <FeaturedOnDesc>{props.feature}</FeaturedOnDesc>
+        {getAllFeaturedData(data)}
       </ServicesContainer>
     )
   }
@@ -14,6 +28,7 @@ function FeaturedWork(props) {
 }
 
 const WorkDetails = ({ frontmatter }) => {
+  console.log(frontmatter)
   return (
     <WorkWrapper>
       <LeftContainer>
@@ -31,7 +46,7 @@ const WorkDetails = ({ frontmatter }) => {
           <ServicesTitle>Services</ServicesTitle>
           <Services>{frontmatter.services}</Services>
         </ServicesContainer>
-        <FeaturedWork feature={frontmatter.featuredOn} />
+        <FeaturedWork featuredOn={frontmatter.featuredOn} />
       </RightContainer>
     </WorkWrapper>
   )
@@ -126,7 +141,6 @@ const ServicesTitle = styled.p`
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 0;
-  font-size: 18px;
 `
 
 const Services = styled.p`
@@ -134,12 +148,23 @@ const Services = styled.p`
   font-size: 18px;
   padding-top: 0.3rem;
   margin-bottom: 0;
-  font-size: 18px;
 `
 
 const FeaturedOnDesc = styled.pre`
   font-weight: 300;
   font-size: 18px;
   padding-top: 0.3rem;
+`
+
+const WorkLink = styled(Link)`
+  height: 100%;
+  text-decoration: underline;
+  font-weight: 300;
   font-size: 18px;
+  padding-top: 0.3rem;
+  color: #000000;
+
+  :hover {
+    color: #ff3333;
+  }
 `
