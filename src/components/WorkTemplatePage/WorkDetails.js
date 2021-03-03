@@ -163,12 +163,13 @@ const FeatureContainer = styled.div`
 
 const FeatureLink = styled(Link)`
   height: 100%;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 300;
   font-size: 18px;
   color: #000000;
 
   :hover {
     color: #ff3333;
+    text-decoration: underline;
   }
 `
