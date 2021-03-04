@@ -3,8 +3,7 @@ date: 2021-01-22T07:11:21.504Z
 title: Manglaba Laundry Service
 thumbnail: ./manglaba-logo.png
 description: |-
-  Manglaba is a laundry service based in Cebu City. Their vision was
-  to change their brand identity to one that is friendly, witty, and playful.
+  Manglaba is a laundry service based in Cebu City. Their vision was to change their brand identity to one that is friendly, witty, and playful.
   Manglaba’s target market is senior high students.
   We recreated their brand identity design.
 

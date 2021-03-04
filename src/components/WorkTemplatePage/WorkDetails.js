@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 function FeaturedWork(props) {
   if (props.featuredOn) {
@@ -10,7 +9,7 @@ function FeaturedWork(props) {
       data.forEach((featuredOn, index) => {
         featureArray.push(
           <FeatureContainer key={index}>
-            <FeatureLink to={featuredOn.featured.link}>
+            <FeatureLink href={featuredOn.featured.link} target="_blank" rel="noopener noreferrer">
               {featuredOn.featured.name}
             </FeatureLink>
           </FeatureContainer>
@@ -161,7 +160,7 @@ const FeatureContainer = styled.div`
   padding-top: 0.5rem;
 `
 
-const FeatureLink = styled(Link)`
+const FeatureLink = styled.a`
   height: 100%;
   text-decoration: none;
   font-weight: 300;

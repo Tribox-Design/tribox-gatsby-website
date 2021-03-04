@@ -8,23 +8,23 @@ export const servicesData = [
     title: "Brand Strategy",
     img: BrandStrategy,
     desc:
-      "A facilitated workshop between the agency, owners, founders and/or company representative for brand clarity and goals.",
+      "A long-term plan for the systematic development of the brand in alignment with a business strategy. The full brand strategy encompasses the Brand’s Heart, Brand Messaging, and Visual Identity.",
   },
   {
     title: "Brand Identity",
     img: BrandIdentity,
     desc:
-      "A strategic tangible assets based result of a facilitated brand strategy.",
+      "A strong visual identity for your business such as a logo, typography, dedicated color palette, and imagery.",
   },
   {
     title: "Sound Branding",
     img: SoundBranding,
-    desc: "A promotional jingle song for brand awareness and advertising.",
+    desc: "A specific sound that is connected to your brand’s values and personality. This includes audio scripts, jingles, voiceovers, sound logo, and a specific voice or style of music.",
   },
   {
-    title: "Digital & Online Identity",
+    title: "Web and Mobile App Development",
     img: OnlineIdentity,
     desc:
-      "A strategic Website and/or Mobile App with outstanding UI/UX design to strengthen the online presence of your brand.",
+      "A Web and Mobile App Development to increase your brand’s visibility, strengthen customer experience, and meet your business objectives.",
   },
 ]

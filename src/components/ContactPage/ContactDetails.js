@@ -18,7 +18,7 @@ const ContactDetails = () => {
           </ContactCard>
           <ContactCard>
             <ContactTitle>Address</ContactTitle>
-            <ContactLink href="https://g.page/triboxdesign?share">
+            <ContactLink href="https://g.page/triboxdesign?share" target="_blank" rel="noopener noreferrer">
               1401 Park Centrale Building, IT Park,
               <br />
               Lahug, Apas, Cebu City

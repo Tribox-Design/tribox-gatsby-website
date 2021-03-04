@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import { ourClientsData } from "../../data/OurClientsData"
-import { Link } from "gatsby"
 
 const OurClients = () => {
   return (
@@ -13,7 +12,7 @@ const OurClients = () => {
 
           <ImgContainer>
             {ourClientsData.map((item, index) => (
-              <ClientLink key={index} urlExists={item.url} to={item.url}>
+              <ClientLink key={index} urlExists={item.url} href={item.url} target="_blank" rel="noopener noreferrer">
                 <CustomImg src={item.svg} alt={item.client} />
               </ClientLink>
             ))}
@@ -97,7 +96,7 @@ const CustomImg = styled.img`
   }
 `
 
-const ClientLink = styled(Link)`
+const ClientLink = styled.a`
   cursor: ${({ urlExists }) => (urlExists ? "pointer" : null)};
   text-decoration: none;
 `

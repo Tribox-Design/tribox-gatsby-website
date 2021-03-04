@@ -15,7 +15,7 @@ const Footer = () => {
             </FooterLink>
           </ContactNumber>
           <Location>
-            <FooterLink href="https://g.page/triboxdesign?share">
+            <FooterLink href="https://g.page/triboxdesign?share" target="_blank" rel="noopener noreferrer">
               1401 Park Centrale Building, IT Park,
               <br />
               Lahug, Apas, Cebu City
@@ -26,7 +26,7 @@ const Footer = () => {
           <SocialMedia>
             {socialMediaData.map((props, index) => (
               <FooterImgContainer key={index}>
-                <FooterLink href={props.url}>
+                <FooterLink href={props.url} target="_blank" rel="noopener noreferrer">
                   <img src={props.img} alt={props.url} />
                 </FooterLink>
               </FooterImgContainer>
