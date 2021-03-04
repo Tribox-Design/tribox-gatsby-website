@@ -50,6 +50,8 @@ const ProductsWrapper = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 100%;
     grid-template-columns: 1fr;
+    grid-gap: 32px;
+    padding: 1rem 2rem;
   }
 `
 
@@ -64,6 +66,9 @@ const ServiceItem = styled.div`
 
 const ServiceImgContainer = styled.div`
   padding-right: 3rem;
+  margin: auto;
+  display: block;
+
   @media screen and (max-width: 768px) {
     padding-top: 0.5rem;
     padding-right: 2rem;
@@ -75,13 +80,14 @@ const CustomImg = styled.img`
   width: 70px;
 
   @media screen and (max-width: 768px) {
-    height: 64px;
-    width: 64px;
+    height: 62px;
+    width: 62px;
   }
 `
 
 const ServiceText = styled.div`
   maxwidth: 400px;
+  margin-top: 8px;
 `
 
 const ServiceTitle = styled.h3`

@@ -90,6 +90,10 @@ const WorkCard = styled.div`
   width: 100%;
   position: relative;
   transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `
 
 const WorkInfo = styled.div`

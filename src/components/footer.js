@@ -9,13 +9,17 @@ const Footer = () => {
         <FooterLeft>
           <ContactNumber>
             <FooterLink href="tel:+639174483092">+63 917 448 3092</FooterLink>
-            <br/>
+            <br />
             <FooterLink href="mailto:hello.triboxdesign@gmail.com">
               hello.triboxdesign@gmail.com
             </FooterLink>
           </ContactNumber>
           <Location>
-            <FooterLink href="https://g.page/triboxdesign?share" target="_blank" rel="noopener noreferrer">
+            <FooterLink
+              href="https://g.page/triboxdesign?share"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               1401 Park Centrale Building, IT Park,
               <br />
               Lahug, Apas, Cebu City
@@ -26,8 +30,12 @@ const Footer = () => {
           <SocialMedia>
             {socialMediaData.map((props, index) => (
               <FooterImgContainer key={index}>
-                <FooterLink href={props.url} target="_blank" rel="noopener noreferrer">
-                  <img src={props.img} alt={props.url} />
+                <FooterLink
+                  href={props.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <SocialMediaImg src={props.img} alt={props.url} />
                 </FooterLink>
               </FooterImgContainer>
             ))}
@@ -79,12 +87,11 @@ const FooterContent = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-
-}
+  }
 `
 
 const FooterLeft = styled.div`
-  width:100%;
+  width: 100%;
   padding: 1rem 0;
 
   @media screen and (max-width: 768px) {
@@ -97,7 +104,6 @@ const FooterRight = styled.div``
 const ContactNumber = styled.div`
   color: #fff;
   position: relative;
-
 `
 
 const Location = styled.div`
@@ -151,5 +157,14 @@ const FooterP = styled.p`
   @media screen and (max-width: 768px) {
     line-height: 1.5;
     vertical-align: middle;
+  }
+`
+
+const SocialMediaImg = styled.img`
+  transition: 0.2s;
+
+  :focus,
+  :hover {
+    transform: scale(1.1);
   }
 `

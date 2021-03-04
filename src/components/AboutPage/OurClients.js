@@ -85,14 +85,16 @@ const ImgContainer = styled.div`
 const CustomImg = styled.img`
   margin: auto;
   filter: grayscale(100%);
+  transition: 0.2s;
 
   @media screen and (max-width: 768px) {
     width: 82%;
     height: 82%;
   }
 
-  :hover {
+  &:hover {
     filter: grayscale(0);
+    transform: scale(1.05);
   }
 `
 
