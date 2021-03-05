@@ -18,6 +18,7 @@ class WorkTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
         />
         <WorkContainer>
           <WorkContent>
