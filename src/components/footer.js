@@ -61,8 +61,8 @@ const FooterContainer = styled.div`
   align-items: center;
   padding: 3rem 0;
 
-  @media screen and (max-width: 768px) {
-    padding: 2rem 0;
+  @media screen and (max-width: 1140px) {
+    padding: 2rem;
   }
 `
 
@@ -71,35 +71,30 @@ const FooterContent = styled.div`
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
-  display: inline-grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-gap: 250px;
-
-  @media screen and (max-width: 1140px) {
-    padding: 0 2rem;
-    grid-gap: 100px;
-  }
-
-  @media screen and (max-width: 875px) {
-    grid-gap: 50px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    justify-content: flex-start;
+    flex-flow: row wrap;
   }
 `
 
 const FooterLeft = styled.div`
-  width: 100%;
   padding: 1rem 0;
 
   @media screen and (max-width: 768px) {
     padding: 0;
+    width: 100%;
   }
 `
 
-const FooterRight = styled.div``
+const FooterRight = styled.div`
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+`
 
 const ContactNumber = styled.div`
   color: #fff;
@@ -117,7 +112,7 @@ const Location = styled.div`
 `
 
 const SocialMedia = styled.div`
-  margin: auto;
+  ${"" /* margin: 0; */}
 `
 
 const FooterImgContainer = styled.div`
@@ -129,6 +124,7 @@ const FooterImgContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 768px) {
+    margin-top: 2rem;
     height: 48px;
     width: 48px;
   }

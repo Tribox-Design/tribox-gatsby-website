@@ -40,8 +40,10 @@ const ContactContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 868px) {
-    padding: 3rem 0rem;
-    text-align: center;
+    padding: 2rem;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
   }
 `
 
