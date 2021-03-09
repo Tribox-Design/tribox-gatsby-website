@@ -8,16 +8,16 @@ const LatestBlog = ({ blogPost }) => {
     <BlogWrapper>
       <LeftContainer>
       <BlogImg
-              alt={blogPost.frontmatter.title}
-              src={blogPost.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={blogPost.frontmatter.thumbnail.childImageSharp.fluid}
+              alt={blogPost.node.frontmatter.title}
+              src={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+              fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
               imgStyle={{ objectFit: "contain" }}
             />
       </LeftContainer>
       <RightContainer>
-        <Title>{blogPost.title}</Title>
+        <Title>{blogPost.node.frontmatter.title}</Title>
         <DescriptionContainer>
-          <Description>{blogPost.description}</Description>
+          <Description>{blogPost.node.frontmatter.description}</Description>
         </DescriptionContainer>
       </RightContainer>
     </BlogWrapper>
