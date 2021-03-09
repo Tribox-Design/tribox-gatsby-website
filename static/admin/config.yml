@@ -48,13 +48,12 @@ collections:
     label: Blog
     folder: content/blog
     create: true
-    slug: "index"
-
+    slug: "{{title}}/index"
     fields:
       - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true }
-      - { name: title, label: Title }
-      - { name: author, label: Author }
-      - { name: tags, label: Tags, widget: "list", default: false }
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: string }
+      - { name: thumbnail, label: Cover Photo, widget: image }
       - {
           name: isPublishedBlog,
           label: Publish Blog,

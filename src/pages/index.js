@@ -9,7 +9,7 @@ import Services from "../components/HomePage/Services"
 
 const IndexPage = () => (
   <Layout page="Home">
-    <SEO title="Home" description="Defining brands, simplifying the complex." />
+    <SEO title="Home" description="Defining brands, simplifying the complex. Tribox Design is a local branding agency for Local Brands, SMEs and Startups." />
     <IntroBanner />
     <HomeCarousel />
     <HighlightWorks />

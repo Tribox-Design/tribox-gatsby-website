@@ -12,10 +12,10 @@ const TheDreamTeam = () => {
           </TitleContainer>
           <TeamContainer>
             {theDreamTeamData.map((props, index) => (
-              <div key={index}>
+              <TeamLink key={index} href={props.linkedin} target="_blank" rel="noopener noreferrer">
                 <Name>{props.name}</Name>
                 <PositionTitle>{props.position}</PositionTitle>
-              </div>
+              </TeamLink>
             ))}
           </TeamContainer>
         </ServiceWrapper>
@@ -92,4 +92,15 @@ const PositionTitle = styled.div`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
   color: #424242;
+`
+
+const TeamLink = styled.a`
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+
+  :focus,
+  :hover {
+    transform: scale(1.02);
+  }
 `

@@ -3,51 +3,13 @@ import styled from "styled-components"
 
 const IntroBlogs = () => {
   return (
-    <IntroContainer>
-      <IntroContent>
-        <IntroItems>
-          <IntroH1>Our Latest Blogs</IntroH1>
-        </IntroItems>
-      </IntroContent>
-    </IntroContainer>
+    <IntroItems>
+      <IntroH1>Our Latest Blogs</IntroH1>
+    </IntroItems>
   )
 }
 
 export default IntroBlogs
-
-const IntroContainer = styled.div`
-  display: flex;
-  text-align: center;
-  width: 100%;
-  color: #fff;
-  padding: 6rem 0;
-
-  @media screen and (max-width: 1140px) {
-    padding: 6rem 2rem;
-  }
-
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-    margin-top: 1rem;
-    padding: 2rem 0;
-  }
-`
-
-const IntroContent = styled.div`
-  z-index: 3;
-  max-width: 1140px;
-  margin: 0 auto;
-  width: 95%;
-
-  @media screen and (max-width: 1140px) {
-    padding: 1rem 0;
-    width: 100%;
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 1rem 2rem;
-  }
-`
 
 const IntroItems = styled.div`
   align-items: start;

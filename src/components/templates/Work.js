@@ -12,7 +12,6 @@ import MDXContainer from '../WorkTemplatePage/MDXContainer'
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    console.log(post.body)
     return (
       <Layout page="Work">
         <SEO
