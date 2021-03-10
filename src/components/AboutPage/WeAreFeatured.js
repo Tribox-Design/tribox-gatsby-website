@@ -25,7 +25,7 @@ const FeaturedContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
 
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
@@ -51,8 +51,7 @@ const Title = styled.h3`
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
 `
 
 const ImgContainer = styled.div`

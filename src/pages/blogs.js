@@ -5,7 +5,23 @@ import IntroBlogs from "../components/BlogsPage/IntroBlogs"
 import styled from "styled-components"
 import Line from "../components/line"
 import LatestBlog from "../components/BlogsPage/LatestBlog"
+import AllRemainingBlogs from '../components/BlogsPage/AllRemainingBlogs'
 import { useStaticQuery, graphql, Link } from "gatsby"
+
+function BlogPoint(props) {
+
+  if (props) {
+    return (
+      <AllBlogContent>
+        <IntroBlogs />
+        <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} />
+        <Line />
+        <AllRemainingBlogs blogs={props.blogPost.allMdx}/>
+      </AllBlogContent>
+    )
+  }
+  return <></>
+}
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -42,9 +58,7 @@ const IndexPage = () => {
       <SEO title="Blogs" />
       <BlogContainer>
         <AllBlogContent>
-          <IntroBlogs />
-          <LatestBlog blogPost={data.allMdx.edges[0]} />
-          <Line />
+          <BlogPoint blogPost={data} />
         </AllBlogContent>
       </BlogContainer>
     </Layout>
@@ -65,7 +79,6 @@ const BlogContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    justify-content: center;
     margin-top: 1rem;
     padding: 2rem 0;
   }

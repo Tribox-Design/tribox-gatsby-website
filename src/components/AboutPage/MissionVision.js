@@ -77,8 +77,9 @@ const DescriptionContainer = styled.div`
   width: 60%;
 `
 
-const Description = styled.div`
+const Description = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
+  margin: 0;
   color: #424242;
 `

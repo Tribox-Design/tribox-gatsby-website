@@ -88,9 +88,10 @@ const Name = styled.h4`
   margin-top: 0;
 `
 
-const PositionTitle = styled.div`
+const PositionTitle = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
+  margin: 0;
   color: #424242;
 `
 
