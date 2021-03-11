@@ -51,8 +51,6 @@ const IndexPage = () => {
       }
     }
   `)
-
-  console.log(data)
   return (
     <Layout page="Blog">
       <SEO title="Blogs" />

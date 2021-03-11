@@ -79,11 +79,6 @@ const BlogCard = styled.div`
   line-height: 1.5;
   width: 100%;
   position: relative;
-  transition: 0.2s ease;
-
-  &:hover {
-    transform: scale(1.02);
-  }
 `
 
 const BlogInfo = styled.div`
@@ -103,11 +98,9 @@ const BlogImg = styled(Img)`
   width: auto;
   height: auto;
   position: relative;
-  filter: brightness(97%);
-  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
-  &:hover {
-    filter: brightness(105%);
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
   }
 `
 

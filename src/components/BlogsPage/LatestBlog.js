@@ -1,8 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 const LatestBlog = ({ blogPost }) => {
+  var slugString = "/blogs" + blogPost.node.fields.slug
   return (
     <BlogWrapper>
       <LeftContainer>
@@ -14,7 +16,9 @@ const LatestBlog = ({ blogPost }) => {
         />
       </LeftContainer>
       <RightContainer>
-        <Title>{blogPost.node.frontmatter.title}</Title>
+        <FeatureLink to={slugString}>
+          <Title>{blogPost.node.frontmatter.title}</Title>
+        </FeatureLink>
         <DescriptionContainer>
           <Description>{blogPost.node.frontmatter.description}</Description>
         </DescriptionContainer>
@@ -71,11 +75,19 @@ const RightContainer = styled.div`
 const Title = styled.h3`
   font-size: clamp(1rem, 6vw, 2rem);
   font-weight: bold;
-  margin: 0;
+  margin: 0;  
+  color: #212121;
+
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
+
+
+  &:hover {
+    color: #424242;
+  }
+
 `
 
 const DescriptionContainer = styled.div`
@@ -97,17 +109,10 @@ const Description = styled.pre`
   }
 `
 
-const FeatureLink = styled.a`
+const FeatureLink = styled(Link)`
   height: 100%;
   text-decoration: none;
-  font-weight: 300;
-  font-size: 18px;
   color: #000000;
-
-  :hover {
-    color: #ff3333;
-    text-decoration: underline;
-  }
 `
 
 const BlogImg = styled(Img)`
