@@ -24,11 +24,18 @@ class BlogTemplate extends React.Component {
           <BlogContent>
             <Title>{post.frontmatter.title}</Title>
             <Date>{post.frontmatter.date}</Date>
-            <WorkImg
+            {/* <WorkImg
+              alt={post.frontmatter.title}
+              src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+              fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+            /> */}
+             </BlogContent>
+             <WorkImg
               alt={post.frontmatter.title}
               src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
+          <BlogContent>
             <MDXWrapper>
               <MDXContainer mdx={post.body} />
             </MDXWrapper>
@@ -75,7 +82,7 @@ const Title = styled.h1`
 
 const Date = styled.p`
   font-size: 16px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
@@ -83,27 +90,28 @@ const Date = styled.p`
 `
 
 const BlogContainer = styled.div`
-  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 4rem 0 2rem 0;
 `
 
 const BlogContent = styled.div`
   z-index: 3;
   max-width: 1140px;
   width: 100%;
-
+  margin: 0 auto;
   @media screen and (max-width: 1230px) {
     padding: 0 2rem;
   }
 `
 
 const WorkImg = styled(Img)`
-  max-width: 1140px;
+  max-width: 100%;
   position: relative;
 `
 
 const MDXWrapper = styled.div`
   max-width: 768px;
-  margin: 0 auto;
+  ${'' /* margin: 0 auto; */}
 `
