@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroBlogs from "../components/BlogsPage/IntroBlogs"
 import styled from "styled-components"
-import Line from "../components/line"
 import LatestBlog from "../components/BlogsPage/LatestBlog"
 import AllRemainingBlogs from '../components/BlogsPage/AllRemainingBlogs'
 import { useStaticQuery, graphql, Link } from "gatsby"
@@ -15,7 +14,6 @@ function BlogPoint(props) {
       <AllBlogContent>
         <IntroBlogs />
         <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} />
-        <Line />
         <AllRemainingBlogs blogs={props.blogPost.allMdx}/>
       </AllBlogContent>
     )
@@ -86,11 +84,9 @@ const AllBlogContent = styled.div`
   z-index: 3;
   max-width: 1140px;
   margin: 0 auto;
-  width: 95%;
 
   @media screen and (max-width: 1140px) {
     padding: 1rem 0;
-    width: 100%;
   }
 
   @media screen and (max-width: 768px) {

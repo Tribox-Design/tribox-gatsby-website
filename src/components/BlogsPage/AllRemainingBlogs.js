@@ -51,8 +51,8 @@ const BlogContainer = styled.div`
 const BlogWrapper = styled.div`
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 4fr);
-  grid-gap: 20px 40px;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 80px;
   max-width: 1140px;
   width: 100%;
 
@@ -93,10 +93,9 @@ const BlogInfo = styled.div`
 
 const BlogImg = styled(Img)`
   display: block;
-  max-width: 230px;
-  max-height: 230px;
   width: auto;
   height: auto;
+
   position: relative;
 
   @media screen and (max-width: 768px) {

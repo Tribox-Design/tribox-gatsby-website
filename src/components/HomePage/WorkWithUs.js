@@ -9,8 +9,7 @@ const WorkWithUs = () => {
       <WorkBannerContent>
         <WorkBannerItems>
           <WorkBannerH1>Work With Us</WorkBannerH1>
-          <WorkBannerP>Thinking to transform your brand identity?</WorkBannerP>
-          <WorkBannerP>Let's talk about it.</WorkBannerP>
+          <WorkBannerP>Thinking to transform and grow your brand?</WorkBannerP>
           <WorkBannerButton>
             <Button round="true" to="/contact" big="true">
               Let's Talk
