@@ -3,6 +3,22 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
+function FeatureTitle(props) {
+  if (props.item.node.frontmatter.link) {
+    return (
+      <ExternalLink href={props.item.node.frontmatter.link} target="_blank" rel="noopener noreferrer">
+        <BlogTitle>{props.item.node.frontmatter.title}</BlogTitle>
+      </ExternalLink>
+    )
+  }
+  var slugString = "/blogs" + props.item.node.fields.slug
+  return (
+    <BlogLink to={slugString}>
+      <BlogTitle>{props.item.node.frontmatter.title}</BlogTitle>
+    </BlogLink>
+  )
+}
+
 const AllRemainingBlogs = ({ blogs }) => {
   function getAllBlogs(data) {
     const blogsArray = []
@@ -10,21 +26,16 @@ const AllRemainingBlogs = ({ blogs }) => {
       if (index === 0) {
         return
       }
-      var slugString = "/blogs" + item.node.fields.slug
       blogsArray.push(
         <BlogCard key={index}>
-          <BlogLink to={slugString}>
             <BlogImg
               alt={item.node.frontmatter.title}
               src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
               imgStyle={{ objectFit: "contain" }}
             />
-          </BlogLink>
           <BlogInfo>
-            <BlogLink to={slugString}>
-              <BlogTitle>{item.node.frontmatter.title}</BlogTitle>
-            </BlogLink>
+            <FeatureTitle item={item} />
             <BlogDesc>{item.node.frontmatter.description}</BlogDesc>
           </BlogInfo>
         </BlogCard>
@@ -95,7 +106,6 @@ const BlogImg = styled(Img)`
   display: block;
   width: auto;
   height: auto;
-
   position: relative;
 
   @media screen and (max-width: 768px) {
@@ -110,6 +120,7 @@ const BlogTitle = styled.h3`
   font-size: 20px;
   letter-spacing: 0.5px;
   margin: 0;
+  text-align: left;
 
   &:hover {
     color: #424242;
@@ -132,6 +143,11 @@ const BlogDesc = styled.p`
 `
 
 const BlogLink = styled(Link)`
+  height: 100%;
+  text-decoration: none;
+`
+
+const ExternalLink = styled.a`
   height: 100%;
   text-decoration: none;
 `

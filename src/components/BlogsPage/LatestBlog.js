@@ -4,7 +4,6 @@ import Img from "gatsby-image"
 import { Link } from "gatsby"
 
 function FeatureTitle(props) {
-  var slugString = "/blogs" + props.blogPost.node.fields.slug
   if (props.blogPost.node.frontmatter.link) {
     return (
       <ExternalLink href={props.blogPost.node.frontmatter.link} target="_blank" rel="noopener noreferrer">
@@ -12,6 +11,7 @@ function FeatureTitle(props) {
       </ExternalLink>
     )
   }
+  var slugString = "/blogs" + props.blogPost.node.fields.slug
   return (
     <FeatureLink to={slugString}>
       <Title>{props.blogPost.node.frontmatter.title}</Title>
@@ -111,8 +111,8 @@ const DescriptionContainer = styled.div`
 const Description = styled.pre`
   font-weight: 300;
   font-size: 18px;
-
   white-space: pre-wrap;
+  text-align: left;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
