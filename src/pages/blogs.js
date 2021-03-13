@@ -36,6 +36,7 @@ const IndexPage = () => {
             frontmatter {
               title
               description
+              link
               thumbnail {
                 childImageSharp {
                   fluid(quality: 90) {

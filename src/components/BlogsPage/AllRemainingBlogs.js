@@ -7,7 +7,7 @@ const AllRemainingBlogs = ({ blogs }) => {
   function getAllBlogs(data) {
     const blogsArray = []
     data.edges.forEach((item, index) => {
-      if (index == 0) {
+      if (index === 0) {
         return
       }
       var slugString = "/blogs" + item.node.fields.slug

@@ -83,6 +83,13 @@ module.exports = {
         name: `blog`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/news`,
+        name: `news`,
+      },
+    },
     `gatsby-plugin-react-leaflet`,
     {
       resolve: "gatsby-plugin-load-script",

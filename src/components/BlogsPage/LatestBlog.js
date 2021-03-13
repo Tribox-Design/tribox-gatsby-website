@@ -3,8 +3,23 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 
+function FeatureTitle(props) {
+  var slugString = "/blogs" + props.blogPost.node.fields.slug
+  if (props.blogPost.node.frontmatter.link) {
+    return (
+      <ExternalLink href={props.blogPost.node.frontmatter.link} target="_blank" rel="noopener noreferrer">
+        <Title>{props.blogPost.node.frontmatter.title}</Title>
+      </ExternalLink>
+    )
+  }
+  return (
+    <FeatureLink to={slugString}>
+      <Title>{props.blogPost.node.frontmatter.title}</Title>
+    </FeatureLink>
+  )
+}
+
 const LatestBlog = ({ blogPost }) => {
-  var slugString = "/blogs" + blogPost.node.fields.slug
   return (
     <BlogWrapper>
       <LeftContainer>
@@ -16,9 +31,7 @@ const LatestBlog = ({ blogPost }) => {
         />
       </LeftContainer>
       <RightContainer>
-        <FeatureLink to={slugString}>
-          <Title>{blogPost.node.frontmatter.title}</Title>
-        </FeatureLink>
+        <FeatureTitle blogPost={blogPost} />
         <DescriptionContainer>
           <Description>{blogPost.node.frontmatter.description}</Description>
         </DescriptionContainer>
@@ -75,19 +88,16 @@ const RightContainer = styled.div`
 const Title = styled.h3`
   font-size: clamp(1rem, 6vw, 2rem);
   font-weight: bold;
-  margin: 0;  
+  margin: 0;
   color: #212121;
-
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
 
-
   &:hover {
     color: #424242;
   }
-
 `
 
 const DescriptionContainer = styled.div`
@@ -110,6 +120,12 @@ const Description = styled.pre`
 `
 
 const FeatureLink = styled(Link)`
+  height: 100%;
+  text-decoration: none;
+  color: #000000;
+`
+
+const ExternalLink = styled.a`
   height: 100%;
   text-decoration: none;
   color: #000000;

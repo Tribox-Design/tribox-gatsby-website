@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          filter: {frontmatter: {isPublishedBlog: {eq: true}}}
+          filter: {frontmatter: {isPublishedBlog: {eq: true}, link: {eq: null}}}
         ) {
           edges {
             node {
@@ -73,7 +73,6 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMdx.edges
 
     posts.forEach((post, index) => {
-      console.log(post.node.fields)
       createPage({
         path: `blogs${post.node.fields.slug}`,
         component: path.resolve(`./src/components/templates/Blog.js`),

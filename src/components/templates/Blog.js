@@ -4,8 +4,6 @@ import styled from "styled-components"
 import SEO from "../seo"
 import Layout from "../layout"
 import Img from "gatsby-image"
-import MoreProjects from "../WorkTemplatePage/MoreProjects"
-import WorkDetails from "../WorkTemplatePage/WorkDetails"
 import MDXContainer from "../WorkTemplatePage/MDXContainer"
 // import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
