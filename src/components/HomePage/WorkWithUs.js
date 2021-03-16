@@ -68,18 +68,20 @@ const WorkBannerItems = styled.div`
   }
 `
 
-const WorkBannerH1 = styled.div`
-  font-size: clamp(1.5rem, 6vw, 4rem);
+const WorkBannerH1 = styled.h3`
+  font-size: clamp(1.5rem, 6vw, 3.8rem);
   letter-spacing: 1px;
-  margin-bottom: 1rem;
+  margin: 0;
   font-weight: bold;
 `
 
 const WorkBannerP = styled.div`
+  margin-top: -2px;
   font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 600;
 
   @media screen and (max-width: 768px) {
+    margin-top: 4px;
     font-weight: 500;
   }
 `
@@ -90,7 +92,7 @@ const WorkBannerButton = styled.div`
   display: flex;
 
   @media screen and (max-width: 768px) {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;

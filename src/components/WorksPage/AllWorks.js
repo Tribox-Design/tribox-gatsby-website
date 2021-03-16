@@ -128,8 +128,8 @@ const WorkImg = styled(Img)`
 `
 
 const WorkTitle = styled.div`
-  padding-top: 5px;
-  font-weight: 600;
+  padding-top: 10px;
+  font-weight: normal;
   color: #212121;
   font-size: 20px;
   letter-spacing: 0.5px;

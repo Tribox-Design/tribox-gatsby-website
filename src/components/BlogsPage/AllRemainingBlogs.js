@@ -36,7 +36,7 @@ const AllRemainingBlogs = ({ blogs }) => {
             />
           <BlogInfo>
             <FeatureTitle item={item} />
-            <BlogDesc>{item.node.frontmatter.description}</BlogDesc>
+            <BlogDesc>{item.node.frontmatter.date}</BlogDesc>
           </BlogInfo>
         </BlogCard>
       )
@@ -56,14 +56,14 @@ export default AllRemainingBlogs
 const BlogContainer = styled.div`
   display: flex;
   width: 100%;
-  margin: 3rem 0;
+  margin: 3rem 0 0 0;
 `
 
 const BlogWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  grid-gap: 80px;
+  grid-gap: 30px;
   max-width: 1140px;
   width: 100%;
 
@@ -80,7 +80,7 @@ const BlogWrapper = styled.div`
   }
 
   @media screen and (max-width: 700px) {
-    grid-gap: 30px;
+
     grid-template-columns: 1fr;
     width: 100%;
   }
@@ -114,10 +114,11 @@ const BlogImg = styled(Img)`
 `
 
 const BlogTitle = styled.h3`
-  padding-top: 5px;
-  font-weight: 600;
+  padding-top: 1rem;
   color: #212121;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
@@ -133,13 +134,18 @@ const BlogTitle = styled.h3`
 
 const BlogDesc = styled.p`
   color: #212121;
-  font-size: 16px;
-  letter-spacing: 0.5px;
+  font-size: 12px;
+  padding-top: 5px;
+  letter-spacing: 0.75px;
   text-align: left;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  ${'' /* -webkit-line-clamp: 3; */}
   -webkit-box-orient: vertical;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 `
 
 const BlogLink = styled(Link)`

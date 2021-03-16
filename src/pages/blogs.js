@@ -5,10 +5,9 @@ import IntroBlogs from "../components/BlogsPage/IntroBlogs"
 import styled from "styled-components"
 import LatestBlog from "../components/BlogsPage/LatestBlog"
 import AllRemainingBlogs from '../components/BlogsPage/AllRemainingBlogs'
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 function BlogPoint(props) {
-
   if (props) {
     return (
       <AllBlogContent>
@@ -35,7 +34,7 @@ const IndexPage = () => {
             }
             frontmatter {
               title
-              description
+              date
               link
               thumbnail {
                 childImageSharp {
@@ -77,7 +76,7 @@ const BlogContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     margin-top: 1rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
 `
 
@@ -91,6 +90,6 @@ const AllBlogContent = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    padding: 1rem 2rem;
+    padding: 2rem 1rem;
   }
 `

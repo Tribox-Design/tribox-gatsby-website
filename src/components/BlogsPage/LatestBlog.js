@@ -33,7 +33,7 @@ const LatestBlog = ({ blogPost }) => {
       <RightContainer>
         <FeatureTitle blogPost={blogPost} />
         <DescriptionContainer>
-          <Description>{blogPost.node.frontmatter.description}</Description>
+          <Description>{blogPost.node.frontmatter.date}</Description>
         </DescriptionContainer>
       </RightContainer>
     </BlogWrapper>
@@ -60,7 +60,7 @@ const BlogWrapper = styled.div`
   @media screen and (max-width: 768px) {
     justify-content: start;
     align-items: start;
-    padding: 4rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
   }
 `
 
@@ -87,7 +87,7 @@ const RightContainer = styled.div`
 
 const Title = styled.h3`
   font-size: clamp(1rem, 6vw, 2rem);
-  font-weight: bold;
+  font-weight: normal;
   margin: 0;
   color: #212121;
 
@@ -109,10 +109,14 @@ const DescriptionContainer = styled.div`
 `
 
 const Description = styled.pre`
-  font-weight: 300;
+  color: #212121;
   font-size: 18px;
-  white-space: pre-wrap;
+  letter-spacing: 0.5px;
   text-align: left;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: pre-wrap;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;

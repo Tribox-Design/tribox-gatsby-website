@@ -84,7 +84,8 @@ const Name = styled.h4`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 600;
   color: #424242;
-  margin-bottom: 0;
+  margin-bottom: 4px;
+  letter-spacing: .5px;
   margin-top: 0;
 `
 

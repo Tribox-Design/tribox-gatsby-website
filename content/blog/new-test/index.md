@@ -2,7 +2,7 @@
 date: 2021-03-09
 title: New Test
 description: Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-thumbnail: photo-on-2-16-21-at-9.59-am.jpg
+thumbnail: windows.jpg
 isPublishedBlog: true
 ---
 # Lorem ipsumLorem ipsum

@@ -4,7 +4,7 @@ title: 🚨 AdtoKart GIVEAWAY ALERT! 🚨
 description: "We're giving away Pizza, chicken wings, and scallops to one lucky
   winner! Join our on-going giveaway with Foods of Cebu on instagram:
   https://www.instagram.com/p/CL1PQfGFo2o/"
-thumbnail: 150930380_182655290296733_4299372075015957705_o.jpg
+thumbnail: windows.jpg
 link: https://www.instagram.com/p/CL1PQfGFo2o/
 isPublishedBlog: true
 ---

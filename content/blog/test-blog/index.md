@@ -7,7 +7,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
   esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-thumbnail: t02b9mvlh-uthe7c5c6-defd8b063b8b-512.jpeg
+thumbnail: windows.jpg
 isPublishedBlog: true
 ---
 # Lorem ipsum
