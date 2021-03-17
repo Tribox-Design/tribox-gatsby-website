@@ -3,23 +3,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroBlogs from "../components/BlogsPage/IntroBlogs"
 import styled from "styled-components"
-import LatestBlog from "../components/BlogsPage/LatestBlog"
+// import LatestBlog from "../components/BlogsPage/LatestBlog"
 import AllRemainingBlogs from "../components/BlogsPage/AllRemainingBlogs"
 import { useStaticQuery, graphql } from "gatsby"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
-
-function BlogPoint(props) {
-  if (props) {
-    return (
-      <AllBlogContent>
-        <IntroBlogs />
-        {/* <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} /> */}
-        <AllRemainingBlogs blogs={props.blogPost.allMdx} />
-      </AllBlogContent>
-    )
-  }
-  return <></>
-}
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -69,6 +56,25 @@ const IndexPage = () => {
 
 export default IndexPage
 
+/// *********************************************************
+/// Functions
+///
+function BlogPoint(props) {
+  if (props) {
+    return (
+      <AllBlogContent>
+        <IntroBlogs />
+        {/* <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} /> */}
+        <AllRemainingBlogs blogs={props.blogPost.allMdx} />
+      </AllBlogContent>
+    )
+  }
+  return <></>
+}
+
+/// *********************************************************
+/// Styled Components
+///
 const BlogContainer = styled.div`
   display: flex;
   text-align: center;
@@ -81,8 +87,7 @@ const BlogContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    margin-top: 1rem;
-    padding: 1rem 0;
+    padding: 2px 0 0 0;
   }
 `
 

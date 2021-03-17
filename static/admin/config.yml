@@ -36,12 +36,14 @@ collections:
           label: Is Highlighted,
           widget: boolean,
           default: false,
+          hint: "Determine to show this Work project in HomePage."
         }
       - {
           name: isPublishedWork,
           label: Publish Work,
           widget: boolean,
           default: true,
+          hint: "Determine to publish this on the whole website. Turning this On will create a new site for this Work."
         }
       - { name: body, label: Body, widget: markdown }
   - name: blog
