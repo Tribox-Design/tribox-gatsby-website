@@ -28,31 +28,6 @@ const HighlightWorks = () => {
     }
   `)
 
-  function getHighlightedWorks(data) {
-    const worksArray = []
-    data.allMdx.edges.forEach((item, index) => {
-      worksArray.push(
-        <WorkCard key={index}>
-          <WorkLink to={"works" + item.node.fields.slug}>
-            <WorkImg
-              alt={item.node.frontmatter.title}
-              src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-              imgStyle={{ objectFit: 'contain' }}
-            />
-          </WorkLink>
-          <WorkInfo>
-            <WorkLink to={"works" + item.node.fields.slug}>
-              <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
-            </WorkLink>
-            {/* <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc> */}
-          </WorkInfo>
-        </WorkCard>
-      )
-    })
-    return worksArray
-  }
-
   return (
     <HighlightsContainer>
       <HighlightsWrapper>{getHighlightedWorks(data)}</HighlightsWrapper>
@@ -61,6 +36,34 @@ const HighlightWorks = () => {
 }
 
 export default HighlightWorks
+
+/// *********************************************************
+/// Functions
+///
+function getHighlightedWorks(data) {
+  const worksArray = []
+  data.allMdx.edges.forEach((item, index) => {
+    worksArray.push(
+      <WorkCard key={index}>
+        <WorkLink to={"works" + item.node.fields.slug}>
+          <WorkImg
+            alt={item.node.frontmatter.title}
+            src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+            fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain' }}
+          />
+        </WorkLink>
+        <WorkInfo>
+          <WorkLink to={"works" + item.node.fields.slug}>
+            <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
+          </WorkLink>
+          {/* <WorkDesc>{item.node.frontmatter.shortDescription}</WorkDesc> */}
+        </WorkInfo>
+      </WorkCard>
+    )
+  })
+  return worksArray
+}
 
 /// *********************************************************
 /// Styled Components
@@ -123,7 +126,7 @@ const WorkImg = styled(Img)`
 const WorkTitle = styled.div`
   padding-top: 10px;
   font-weight: normal;
-  color: #212121;
+  color: #000000;
   letter-spacing: 0.5px;
   font-size: clamp(16px, 1.5vw, 2rem);
 

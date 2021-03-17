@@ -10,7 +10,7 @@ class BlogTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     return (
-      <Layout page="Blog">
+      <Layout page="News">
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}

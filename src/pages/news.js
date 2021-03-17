@@ -39,9 +39,9 @@ const IndexPage = () => {
     }
   `)
   return (
-    <Layout page="Blog">
+    <Layout page="News">
       <SEO
-        title="Blogs"
+        title="News"
         description="Tribox Design provides the latest news and blogs of our recent activities and works."
         image={TriboxLogo}
       />

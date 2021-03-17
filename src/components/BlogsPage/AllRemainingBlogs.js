@@ -24,7 +24,7 @@ function FeatureTitle(props) {
       </ExternalLink>
     )
   }
-  var slugString = "/blogs" + props.item.node.fields.slug
+  var slugString = "/articles" + props.item.node.fields.slug
   return (
     <BlogLink to={slugString}>
       <BlogTitle>{props.item.node.frontmatter.title}</BlogTitle>
@@ -49,7 +49,7 @@ function getAllBlogs(data) {
         <BlogInfo>
           <BlogDesc>{item.node.frontmatter.category.toUpperCase()}</BlogDesc>
           <FeatureTitle item={item} />
-          <BlogDesc bold="true">{item.node.frontmatter.date}</BlogDesc>
+          {/* <BlogDesc>{item.node.frontmatter.date}</BlogDesc> */}
         </BlogInfo>
       </BlogCard>
     )
@@ -142,15 +142,15 @@ const BlogImg = styled(Img)`
 `
 
 const BlogTitle = styled.h3`
-  padding-top: 12px;
-  color: #212121;
+  padding-top: 4px;
+  color: #000000;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
-  margin-bottom: -1rem;
+  margin-bottom: -20px;
 
   &:hover {
     color: #424242;
@@ -164,7 +164,8 @@ const BlogTitle = styled.h3`
 const BlogDesc = styled.p`
   color: #424242;
   font-size: 12px;
-  font-weight: ${({ bold }) => (bold ? "bold" : "normal")};
+  ${'' /* font-weight: ${({ bold }) => (bold ? "bold" : "normal")}; */}
+  font-weight: normal;
   letter-spacing: 0.75px;
   text-align: left;
   overflow: hidden;

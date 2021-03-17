@@ -74,7 +74,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     posts.forEach((post, index) => {
       createPage({
-        path: `blogs${post.node.fields.slug}`,
+        path: `articles${post.node.fields.slug}`,
         component: path.resolve(`./src/components/templates/Blog.js`),
         context: {
           slug: post.node.fields.slug,
