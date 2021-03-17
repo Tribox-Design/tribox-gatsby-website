@@ -13,7 +13,7 @@ function BlogPoint(props) {
     return (
       <AllBlogContent>
         <IntroBlogs />
-        <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} />
+        {/* <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} /> */}
         <AllRemainingBlogs blogs={props.blogPost.allMdx} />
       </AllBlogContent>
     )

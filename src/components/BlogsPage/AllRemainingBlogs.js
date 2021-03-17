@@ -37,9 +37,7 @@ function getAllBlogs(data) {
   var blogWrapper = []
   var isTwoColumns = false
   data.edges.forEach((item, index) => {
-    if (index === 0) {
-      return
-    }
+
     blogsArray.push(
       <BlogCard key={index}>
         <BlogImg
