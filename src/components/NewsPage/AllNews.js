@@ -111,6 +111,8 @@ const StaggeredBlogs = styled.div`
 
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    margin-top: 3rem;
   }
 `
 
