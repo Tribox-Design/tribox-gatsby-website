@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 const AllRemainingNews = ({ blogs }) => {
-  return getAllNews(blogs)
+  return <Container>{getAllNews(blogs)}</Container>
 }
 
 export default AllRemainingNews
@@ -37,7 +37,6 @@ function getAllNews(data) {
   var blogWrapper = []
   var isTwoColumns = false
   data.edges.forEach((item, index) => {
-
     blogsArray.push(
       <BlogCard key={index}>
         <BlogImg
@@ -97,6 +96,10 @@ function getAllNews(data) {
 /// *********************************************************
 /// Styled Components
 ///
+const Container = styled.div`
+  padding-top: 1rem;
+`
+
 const StaggeredBlogs = styled.div`
   width: 100%;
   display: inline-grid;
@@ -111,8 +114,8 @@ const StaggeredBlogs = styled.div`
 
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
-    margin-top: 3rem;
+    grid-gap: 2rem;
+    margin-top: 2rem;
   }
 `
 
@@ -144,7 +147,7 @@ const BlogImg = styled(Img)`
 `
 
 const BlogTitle = styled.h3`
-  padding-top: 4px;
+  padding-top: 2px;
   color: #000000;
   font-size: 24px;
   font-weight: 500;
@@ -152,7 +155,6 @@ const BlogTitle = styled.h3`
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
-  margin-bottom: -20px;
 
   &:hover {
     color: #424242;
@@ -166,7 +168,7 @@ const BlogTitle = styled.h3`
 const BlogDesc = styled.p`
   color: #424242;
   font-size: 12px;
-  ${'' /* font-weight: ${({ bold }) => (bold ? "bold" : "normal")}; */}
+  ${"" /* font-weight: ${({ bold }) => (bold ? "bold" : "normal")}; */}
   font-weight: normal;
   letter-spacing: 0.75px;
   text-align: left;
