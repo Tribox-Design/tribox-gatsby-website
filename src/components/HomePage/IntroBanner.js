@@ -21,6 +21,9 @@ const IntroBanner = () => {
 
 export default IntroBanner
 
+/// *********************************************************
+/// Styled Components
+///
 const IntroContainer = styled.div`
   background: #ff3333;
   display: flex;

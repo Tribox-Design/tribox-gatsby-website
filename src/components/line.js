@@ -13,6 +13,9 @@ const Line = () => {
 
 export default Line
 
+/// *********************************************************
+/// Styled Components
+///
 const LineContainer = styled.div`
   display: flex;
   justify-content: center;

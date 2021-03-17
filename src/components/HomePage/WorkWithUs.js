@@ -23,6 +23,9 @@ const WorkWithUs = () => {
 
 export default WorkWithUs
 
+/// *********************************************************
+/// Styled Components
+///
 const WorkBannerContainer = styled.div`
   background: #ff3333;
   display: flex;

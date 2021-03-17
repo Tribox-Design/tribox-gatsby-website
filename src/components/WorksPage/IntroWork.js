@@ -15,6 +15,9 @@ const IntroWork = () => {
 
 export default IntroWork
 
+/// *********************************************************
+/// Styled Components
+///
 const IntroContainer = styled.div`
   display: flex;
   text-align: center;

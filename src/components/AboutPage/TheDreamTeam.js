@@ -26,6 +26,9 @@ const TheDreamTeam = () => {
 
 export default TheDreamTeam
 
+/// *********************************************************
+/// Styled Components
+///
 const ServiceContainer = styled.div`
   display: flex;
   justify-content: center;

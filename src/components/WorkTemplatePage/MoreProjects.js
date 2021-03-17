@@ -28,56 +28,12 @@ const MoreProjects = ({ currentPage }) => {
     }
   `)
 
-  function getRandomValue(maxLength) {
-    return Math.floor(Math.random() * maxLength);
-  }
-
-  function getRandomWorks(randomData) {
-    const worksArray = [], chosenRandomNumbers = [];
-    var currentIndex = 0;
-    randomData.allMdx.edges.forEach((item, index) => {
-      if (currentPage === item.node.frontmatter.title) {
-        currentIndex = index
-        return
-      }
-    })
-
-    while (chosenRandomNumbers.length < 3) {
-      const randomValue = getRandomValue(randomData.allMdx.edges.length)
-      if (!chosenRandomNumbers.includes(randomValue) && currentIndex !== randomValue ) {
-        chosenRandomNumbers.push(randomValue)
-      }
-    }
-
-    chosenRandomNumbers.forEach((item, index) => {
-      const slugString = '/works' + randomData.allMdx.edges[item].node.fields.slug
-      worksArray.push(
-        <WorkCard key={index}>
-          <WorkLink to={slugString}>
-            <MoreWorkImg
-              alt={randomData.allMdx.edges[item].node.frontmatter.title}
-              src={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid}
-              imgStyle={{ objectFit: 'contain' }}
-            />
-          </WorkLink>
-          <WorkInfo>
-            <WorkLink to={slugString}>
-              <WorkTitle>{randomData.allMdx.edges[item].node.frontmatter.title}</WorkTitle>
-            </WorkLink>
-          </WorkInfo>
-        </WorkCard>
-      )
-    })
-
-    return worksArray
-  }
 
   return (
     <MoreWorksContainer>
       <MoreProjectsTitle>More Projects</MoreProjectsTitle>
       <RandomWorksContainer>
-        {getRandomWorks(randomData)}
+        {getRandomWorks(randomData, currentPage)}
       </RandomWorksContainer>
       
     </MoreWorksContainer>
@@ -86,6 +42,57 @@ const MoreProjects = ({ currentPage }) => {
 
 export default MoreProjects
 
+/// *********************************************************
+/// Functions
+///
+function getRandomValue(maxLength) {
+  return Math.floor(Math.random() * maxLength);
+}
+
+function getRandomWorks(randomData, currentPage) {
+  const worksArray = [], chosenRandomNumbers = [];
+  var currentIndex = 0;
+  randomData.allMdx.edges.forEach((item, index) => {
+    if (currentPage === item.node.frontmatter.title) {
+      currentIndex = index
+      return
+    }
+  })
+
+  while (chosenRandomNumbers.length < 3) {
+    const randomValue = getRandomValue(randomData.allMdx.edges.length)
+    if (!chosenRandomNumbers.includes(randomValue) && currentIndex !== randomValue ) {
+      chosenRandomNumbers.push(randomValue)
+    }
+  }
+
+  chosenRandomNumbers.forEach((item, index) => {
+    const slugString = '/works' + randomData.allMdx.edges[item].node.fields.slug
+    worksArray.push(
+      <WorkCard key={index}>
+        <WorkLink to={slugString}>
+          <MoreWorkImg
+            alt={randomData.allMdx.edges[item].node.frontmatter.title}
+            src={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid.src}
+            fluid={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain' }}
+          />
+        </WorkLink>
+        <WorkInfo>
+          <WorkLink to={slugString}>
+            <WorkTitle>{randomData.allMdx.edges[item].node.frontmatter.title}</WorkTitle>
+          </WorkLink>
+        </WorkInfo>
+      </WorkCard>
+    )
+  })
+
+  return worksArray
+}
+
+/// *********************************************************
+/// Styled Components
+///
 const MoreWorksContainer = styled.div`
   padding: 2rem 0;
 `

@@ -11,6 +11,9 @@ const IntroBlogs = () => {
 
 export default IntroBlogs
 
+/// *********************************************************
+/// Styled Components
+///
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;

@@ -31,31 +31,6 @@ const AllWorks = () => {
     }
   `)
 
-  function getAllWorks(data) {
-    const worksArray = []
-    data.allMdx.edges.forEach((item, index) => {
-      var slugString = "/works" + item.node.fields.slug
-      worksArray.push(
-        <WorkCard key={index}>
-          <WorkLink to={slugString}>
-            <WorkImg
-              alt={item.node.frontmatter.title}
-              src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-              imgStyle={{ objectFit: "contain" }}
-            />
-          </WorkLink>
-          <WorkInfo>
-            <WorkLink to={slugString}>
-              <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
-            </WorkLink>
-          </WorkInfo>
-        </WorkCard>
-      )
-    })
-    return worksArray
-  }
-
   return (
     <WorksContainer>
       <WorksWrapper>{getAllWorks(data)}</WorksWrapper>
@@ -65,6 +40,37 @@ const AllWorks = () => {
 
 export default AllWorks
 
+/// *********************************************************
+/// Functions
+///
+function getAllWorks(data) {
+  const worksArray = []
+  data.allMdx.edges.forEach((item, index) => {
+    var slugString = "/works" + item.node.fields.slug
+    worksArray.push(
+      <WorkCard key={index}>
+        <WorkLink to={slugString}>
+          <WorkImg
+            alt={item.node.frontmatter.title}
+            src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+            fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+            imgStyle={{ objectFit: "contain" }}
+          />
+        </WorkLink>
+        <WorkInfo>
+          <WorkLink to={slugString}>
+            <WorkTitle>{item.node.frontmatter.title}</WorkTitle>
+          </WorkLink>
+        </WorkInfo>
+      </WorkCard>
+    )
+  })
+  return worksArray
+}
+
+/// *********************************************************
+/// Styled Components
+///
 const WorksContainer = styled.div`
   display: flex;
   width: 100%;

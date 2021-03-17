@@ -12,6 +12,9 @@ const LocationMap = () => {
 
 export default LocationMap
 
+/// *********************************************************
+/// Styled Components
+///
 const ContactContainer = styled.div`
   display: flex;
   background: #fff;

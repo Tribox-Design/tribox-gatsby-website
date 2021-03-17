@@ -3,6 +3,28 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 
+const LatestBlog = ({ blogPost }) => {
+  return (
+    <BlogWrapper>
+      <BlogImg
+        alt={blogPost.node.frontmatter.title}
+        src={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+        fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
+        imgStyle={{ objectFit: "contain" }}
+      />
+        <Description>{blogPost.node.frontmatter.category.toUpperCase()}</Description>
+      <FeatureTitle blogPost={blogPost} />
+    
+        <Description bold="true">{blogPost.node.frontmatter.date}</Description>
+    </BlogWrapper>
+  )
+}
+
+export default LatestBlog
+
+/// *********************************************************
+/// Functions
+///
 function FeatureTitle(props) {
   if (props.blogPost.node.frontmatter.link) {
     return (
@@ -23,25 +45,9 @@ function FeatureTitle(props) {
   )
 }
 
-const LatestBlog = ({ blogPost }) => {
-  return (
-    <BlogWrapper>
-      <BlogImg
-        alt={blogPost.node.frontmatter.title}
-        src={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-        fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
-        imgStyle={{ objectFit: "contain" }}
-      />
-        <Description>{blogPost.node.frontmatter.category.toUpperCase()}</Description>
-      <FeatureTitle blogPost={blogPost} />
-    
-        <Description bold="true">{blogPost.node.frontmatter.date}</Description>
-    </BlogWrapper>
-  )
-}
-
-export default LatestBlog
-
+/// *********************************************************
+/// Styled Components
+///
 const BlogWrapper = styled.div`
   padding: 3rem 0 0 0;
   justify-content: left;
@@ -67,6 +73,7 @@ const Title = styled.h3`
   margin: 0;
   padding-top: 8px;
   color: #212121;
+  margin-bottom: -6px;
 
   @media screen and (max-width: 768px) {
     font-size: 18px;

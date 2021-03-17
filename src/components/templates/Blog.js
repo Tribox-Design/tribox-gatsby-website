@@ -5,7 +5,6 @@ import SEO from "../seo"
 import Layout from "../layout"
 import Img from "gatsby-image"
 import MDXContainer from "../WorkTemplatePage/MDXContainer"
-// import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
 class BlogTemplate extends React.Component {
   render() {
@@ -22,17 +21,12 @@ class BlogTemplate extends React.Component {
           <BlogContent>
             <Title>{post.frontmatter.title}</Title>
             <Date>{post.frontmatter.date}</Date>
-            {/* <WorkImg
-              alt={post.frontmatter.title}
-              src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-            /> */}
-             </BlogContent>
-             <WorkImg
-              alt={post.frontmatter.title}
-              src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-            />
+          </BlogContent>
+          <WorkImg
+            alt={post.frontmatter.title}
+            src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+            fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+          />
           <BlogContent>
             <MDXWrapper>
               <MDXContainer mdx={post.body} />
@@ -65,6 +59,9 @@ export const pageQuery = graphql`
   }
 `
 
+/// *********************************************************
+/// Styled Components
+///
 const Title = styled.h1`
   font-size: clamp(1.4rem, 5vw, 3.5rem);
   font-weight: bold;
@@ -110,5 +107,5 @@ const WorkImg = styled(Img)`
 
 const MDXWrapper = styled.div`
   max-width: 768px;
-  ${'' /* margin: 0 auto; */}
+  ${"" /* margin: 0 auto; */}
 `

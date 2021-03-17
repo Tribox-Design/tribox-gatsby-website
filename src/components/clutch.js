@@ -21,6 +21,9 @@ const Clutch = () => {
 
 export default Clutch
 
+/// *********************************************************
+/// Styled Components
+///
 const Container = styled.div`
   display: flex;
   justify-content: center;

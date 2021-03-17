@@ -25,6 +25,9 @@ const Dropdown = ({ isOpen, toggle }) => {
 
 export default Dropdown
 
+/// *********************************************************
+/// Styled Components
+///
 const DropdownContainer = styled.div`
   position: fixed;
   z-index: 999;

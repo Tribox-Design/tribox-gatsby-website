@@ -21,6 +21,9 @@ const WeAreFeatured = () => {
 
 export default WeAreFeatured
 
+/// *********************************************************
+/// Styled Components
+///
 const FeaturedContainer = styled.div`
   display: flex;
   justify-content: center;

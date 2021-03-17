@@ -18,6 +18,9 @@ const IntroContact = () => {
 
 export default IntroContact
 
+/// *********************************************************
+/// Styled Components
+///
 const IntroContainer = styled.div`
   display: flex;
   justify-content: center;

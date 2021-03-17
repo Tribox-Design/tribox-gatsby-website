@@ -149,6 +149,9 @@ const ContactUs = () => {
 
 export default ContactUs
 
+/// *********************************************************
+/// Styled Components
+///
 const ContactContainer = styled.div`
   display: flex;
   background: #fff;

@@ -55,6 +55,9 @@ const Footer = () => {
 
 export default Footer
 
+/// *********************************************************
+/// Styled Components
+///
 const FooterContainer = styled.div`
   background: #ff3333;
   display: flex;

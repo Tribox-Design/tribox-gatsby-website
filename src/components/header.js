@@ -9,7 +9,6 @@ import TriboxLogoWhite from "../images/tribox-logo-white.png"
 
 const Header = ({ toggle, page }) => {
   const primaryBackground = page === "Home" || page === "About"
-
   return (
     <NavContainer primaryBackground={primaryBackground}>
       <Nav>
@@ -39,6 +38,9 @@ const Header = ({ toggle, page }) => {
 
 export default Header
 
+/// *********************************************************
+/// Styled Components
+///
 const NavContainer = styled.div`
   background: ${({ primaryBackground }) =>
     primaryBackground ? "#ff3333" : "#fffff"};
@@ -129,17 +131,3 @@ const LogoImg = styled.img`
     filter: brightness(105%);
   }
 `
-
-// const TriboxLogos = styled.i`
-//   height: 100%;
-//   width: 120px;
-//   background-image: url(${TriboxLogo});
-//   background-size: contain;
-//   fill: white;
-//   stroke: white;
-//   cursor: pointer;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   transform: translateY(-50%, 25%);
-// `

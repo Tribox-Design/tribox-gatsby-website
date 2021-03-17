@@ -32,6 +32,9 @@ const ContactDetails = () => {
 
 export default ContactDetails
 
+/// *********************************************************
+/// Styled Components
+///
 const ContactContainer = styled.div`
   display: flex;
   background: #fff;

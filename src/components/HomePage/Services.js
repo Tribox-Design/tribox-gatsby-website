@@ -24,6 +24,9 @@ const Services = () => {
 
 export default Services
 
+/// *********************************************************
+/// Styled Components
+///
 const ProductsContainer = styled.div`
   padding: 4rem calc((100vw - 1300px) / 2);
   background: #fff;

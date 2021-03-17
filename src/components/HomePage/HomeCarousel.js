@@ -34,23 +34,6 @@ const HomeCarousel = () => {
     }
   `)
 
-  function getCarouselItems(data) {
-    const carouselArray = []
-    data.allCarouselDataJson.edges.forEach((item, index) => {
-      carouselArray.push(
-        <SwiperSlide key={`slide-` + index}>
-          <ImgT
-            alt={item.node.alt}
-            src={item.node.img.childImageSharp.fluid.src}
-            fluid={item.node.img.childImageSharp.fluid}
-            imgStyle={{ objectFit: "contain" }}
-          />
-        </SwiperSlide>
-      )
-    })
-    return carouselArray
-  }
-
   return (
     <CarouSwiper
       control
@@ -68,6 +51,29 @@ const HomeCarousel = () => {
   )
 }
 
+/// *********************************************************
+/// Functions
+///
+function getCarouselItems(data) {
+  const carouselArray = []
+  data.allCarouselDataJson.edges.forEach((item, index) => {
+    carouselArray.push(
+      <SwiperSlide key={`slide-` + index}>
+        <ImgT
+          alt={item.node.alt}
+          src={item.node.img.childImageSharp.fluid.src}
+          fluid={item.node.img.childImageSharp.fluid}
+          imgStyle={{ objectFit: "contain" }}
+        />
+      </SwiperSlide>
+    )
+  })
+  return carouselArray
+}
+
+/// *********************************************************
+/// Styled Components
+///
 const CarouSwiper = styled(Swiper)`
   max-width: 1920px;
 `

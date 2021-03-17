@@ -60,6 +60,9 @@ Map.propTypes = {
 
 export default Map;
 
+/// *********************************************************
+/// Styled Components
+///
 const MapParent = styled.div`
   position: relative;
 `

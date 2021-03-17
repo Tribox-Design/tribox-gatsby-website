@@ -1,6 +1,35 @@
 import React from "react"
 import styled from "styled-components"
 
+const WorkDetails = ({ frontmatter }) => {
+  return (
+    <WorkWrapper>
+      <LeftContainer>
+        <Title>{frontmatter.title}</Title>
+        <DescriptionContainer>
+          <Description>{frontmatter.description}</Description>
+        </DescriptionContainer>
+      </LeftContainer>
+      <RightContainer>
+        <ClientContainer>
+          <ClientTitle>Client</ClientTitle>
+          <Client>{frontmatter.client}</Client>
+        </ClientContainer>
+        <ServicesContainer>
+          <ServicesTitle>Services</ServicesTitle>
+          <Services>{frontmatter.services}</Services>
+        </ServicesContainer>
+        <FeaturedWork featuredOn={frontmatter.featuredOn} />
+      </RightContainer>
+    </WorkWrapper>
+  )
+}
+
+export default WorkDetails
+
+/// *********************************************************
+/// Functions
+///
 function FeaturedWork(props) {
   if (props.featuredOn) {
     const data = props.featuredOn
@@ -28,33 +57,9 @@ function FeaturedWork(props) {
   return <></>
 }
 
-const WorkDetails = ({ frontmatter }) => {
-  console.log(frontmatter)
-  return (
-    <WorkWrapper>
-      <LeftContainer>
-        <Title>{frontmatter.title}</Title>
-        <DescriptionContainer>
-          <Description>{frontmatter.description}</Description>
-        </DescriptionContainer>
-      </LeftContainer>
-      <RightContainer>
-        <ClientContainer>
-          <ClientTitle>Client</ClientTitle>
-          <Client>{frontmatter.client}</Client>
-        </ClientContainer>
-        <ServicesContainer>
-          <ServicesTitle>Services</ServicesTitle>
-          <Services>{frontmatter.services}</Services>
-        </ServicesContainer>
-        <FeaturedWork featuredOn={frontmatter.featuredOn} />
-      </RightContainer>
-    </WorkWrapper>
-  )
-}
-
-export default WorkDetails
-
+/// *********************************************************
+/// Styled Components
+///
 const WorkWrapper = styled.div`
   display: grid;
   grid-template-columns: 7fr 3fr;

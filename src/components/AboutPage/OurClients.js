@@ -9,7 +9,6 @@ const OurClients = () => {
         <ClientWrapper>
           <Title>Our Valued</Title>
           <Title>Clients</Title>
-
           <ImgContainer>
             {ourClientsData.map((item, index) => (
               <ClientLink key={index} urlExists={item.url} href={item.url} target="_blank" rel="noopener noreferrer">
@@ -25,6 +24,9 @@ const OurClients = () => {
 
 export default OurClients
 
+/// *********************************************************
+/// Styled Components
+///
 const ClientContainer = styled.div`
   display: flex;
   justify-content: center;

@@ -7,7 +7,6 @@ import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
 import MDXContainer from '../WorkTemplatePage/MDXContainer'
-// import ProblemSolution from "../WorkTemplatePage/ProblemSolution"
 
 class WorkTemplate extends React.Component {
   render() {
@@ -65,6 +64,9 @@ export const pageQuery = graphql`
   }
 `
 
+/// *********************************************************
+/// Styled Components
+///
 const WorkContainer = styled.div`
   display: flex;
   justify-content: center;

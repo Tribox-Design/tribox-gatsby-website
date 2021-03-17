@@ -3,6 +3,15 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
+const AllRemainingBlogs = ({ blogs }) => {
+  return getAllBlogs(blogs)
+}
+
+export default AllRemainingBlogs
+
+/// *********************************************************
+/// Functions
+///
 function FeatureTitle(props) {
   if (props.item.node.frontmatter.link) {
     return (
@@ -23,76 +32,73 @@ function FeatureTitle(props) {
   )
 }
 
-const AllRemainingBlogs = ({ blogs }) => {
-  function getAllBlogs(data) {
-    var blogsArray = []
-    var blogWrapper = []
-    var isTwoColumns = false
-    data.edges.forEach((item, index) => {
-      if (index === 0) {
-        return
-      }
-      blogsArray.push(
-        <BlogCard key={index}>
-          <BlogImg
-            alt={item.node.frontmatter.title}
-            src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-            fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-            imgStyle={{ objectFit: "contain" }}
-          />
-          <BlogInfo>
-            <BlogDesc>{item.node.frontmatter.category.toUpperCase()}</BlogDesc>
-            <FeatureTitle item={item} />
-            <BlogDesc bold="true">{item.node.frontmatter.date}</BlogDesc>
-          </BlogInfo>
-        </BlogCard>
-      )
-      if (isTwoColumns) {
-        if (blogsArray.length > 1) {
-          isTwoColumns = false
+function getAllBlogs(data) {
+  var blogsArray = []
+  var blogWrapper = []
+  var isTwoColumns = false
+  data.edges.forEach((item, index) => {
+    if (index === 0) {
+      return
+    }
+    blogsArray.push(
+      <BlogCard key={index}>
+        <BlogImg
+          alt={item.node.frontmatter.title}
+          src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+          fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
+          imgStyle={{ objectFit: "contain" }}
+        />
+        <BlogInfo>
+          <BlogDesc>{item.node.frontmatter.category.toUpperCase()}</BlogDesc>
+          <FeatureTitle item={item} />
+          <BlogDesc bold="true">{item.node.frontmatter.date}</BlogDesc>
+        </BlogInfo>
+      </BlogCard>
+    )
+    if (isTwoColumns) {
+      if (blogsArray.length > 1) {
+        isTwoColumns = false
+        blogWrapper.push(
+          <StaggeredBlogs key={"TwoColumns" + index} isTwoColumns={true}>
+            {blogsArray}
+          </StaggeredBlogs>
+        )
+        blogsArray = []
+      } else {
+        if (data.edges.length - 1 === index) {
           blogWrapper.push(
             <StaggeredBlogs key={"TwoColumns" + index} isTwoColumns={true}>
               {blogsArray}
             </StaggeredBlogs>
           )
-          blogsArray = []
-        } else {
-          if (data.edges.length - 1 === index) {
-            blogWrapper.push(
-              <StaggeredBlogs key={"TwoColumns" + index} isTwoColumns={true}>
-                {blogsArray}
-              </StaggeredBlogs>
-            )
-          }
         }
+      }
+    } else {
+      if (blogsArray.length > 2) {
+        isTwoColumns = true
+        blogWrapper.push(
+          <StaggeredBlogs key={"ThreeColumns" + index} isTwoColumns={false}>
+            {blogsArray}
+          </StaggeredBlogs>
+        )
+        blogsArray = []
       } else {
-        if (blogsArray.length > 2) {
-          isTwoColumns = true
+        if (data.edges.length - 1 === index) {
           blogWrapper.push(
             <StaggeredBlogs key={"ThreeColumns" + index} isTwoColumns={false}>
               {blogsArray}
             </StaggeredBlogs>
           )
-          blogsArray = []
-        } else {
-          if (data.edges.length - 1 === index) {
-            blogWrapper.push(
-              <StaggeredBlogs key={"ThreeColumns" + index} isTwoColumns={false}>
-                {blogsArray}
-              </StaggeredBlogs>
-            )
-          }
         }
       }
-    })
-    return blogWrapper
-  }
-
-  return getAllBlogs(blogs)
+    }
+  })
+  return blogWrapper
 }
 
-export default AllRemainingBlogs
-
+/// *********************************************************
+/// Styled Components
+///
 const StaggeredBlogs = styled.div`
   width: 100%;
   display: inline-grid;
@@ -146,7 +152,7 @@ const BlogTitle = styled.h3`
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
-  margin-bottom: -4px;
+  margin-bottom: -6px;
 
   &:hover {
     color: #424242;

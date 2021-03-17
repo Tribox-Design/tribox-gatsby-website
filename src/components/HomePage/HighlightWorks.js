@@ -62,6 +62,9 @@ const HighlightWorks = () => {
 
 export default HighlightWorks
 
+/// *********************************************************
+/// Styled Components
+///
 const HighlightsContainer = styled.div`
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #fff;

@@ -20,6 +20,9 @@ const IntroAbout = () => {
 
 export default IntroAbout
 
+/// *********************************************************
+/// Styled Components
+///
 const IntroContainer = styled.div`
   background: #ff3333;
   display: flex;

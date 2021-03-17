@@ -23,6 +23,9 @@ const MissionVision = () => {
 
 export default MissionVision
 
+/// *********************************************************
+/// Styled Components
+///
 const MissionVisionContainer = styled.div`
   display: flex;
   justify-content: center;

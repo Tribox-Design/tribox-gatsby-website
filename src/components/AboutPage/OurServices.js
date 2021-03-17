@@ -23,6 +23,9 @@ const OurServices = () => {
 
 export default OurServices
 
+/// *********************************************************
+/// Styled Components
+///
 const ServiceContainer = styled.div`
   display: flex;
   justify-content: center;
