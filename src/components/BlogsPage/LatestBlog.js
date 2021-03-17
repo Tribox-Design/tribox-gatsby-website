@@ -12,10 +12,12 @@ const LatestBlog = ({ blogPost }) => {
         fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
         imgStyle={{ objectFit: "contain" }}
       />
-        <Description>{blogPost.node.frontmatter.category.toUpperCase()}</Description>
+      <Description>
+        {blogPost.node.frontmatter.category.toUpperCase()}
+      </Description>
       <FeatureTitle blogPost={blogPost} />
-    
-        <Description bold="true">{blogPost.node.frontmatter.date}</Description>
+
+      <Description bold="true">{blogPost.node.frontmatter.date}</Description>
     </BlogWrapper>
   )
 }
@@ -68,12 +70,15 @@ const BlogWrapper = styled.div`
 `
 
 const Title = styled.h3`
-  font-size: 23px;
-  font-weight: normal;
-  margin: 0;
-  padding-top: 8px;
+  padding-top: 12px;
   color: #212121;
-  margin-bottom: -6px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  margin: 0;
+  text-align: left;
+  margin-bottom: -1rem;
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -86,19 +91,16 @@ const Title = styled.h3`
 
 const Description = styled.p`
   color: #424242;
-  font-size: 14px;
-  font-weight: ${({ bold }) => (bold ? 'bold' : 'normal')};
-  letter-spacing: 0.5px;
+  font-size: 12px;
+  font-weight: ${({ bold }) => (bold ? "bold" : "normal")};
+  letter-spacing: 0.75px;
+  text-align: left;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   white-space: pre-wrap;
-  padding-top: 1rem;
   margin: 0;
-
-  @media screen and (max-width: 768px) {
-    font-size: 12px;
-  }
+  padding-top: 14px;
 `
 
 const FeatureLink = styled(Link)`

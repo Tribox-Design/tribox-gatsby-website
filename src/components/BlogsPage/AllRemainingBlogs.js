@@ -152,7 +152,7 @@ const BlogTitle = styled.h3`
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
-  margin-bottom: -6px;
+  margin-bottom: -1rem;
 
   &:hover {
     color: #424242;
