@@ -4,8 +4,9 @@ import SEO from "../components/seo"
 import IntroBlogs from "../components/BlogsPage/IntroBlogs"
 import styled from "styled-components"
 import LatestBlog from "../components/BlogsPage/LatestBlog"
-import AllRemainingBlogs from '../components/BlogsPage/AllRemainingBlogs'
+import AllRemainingBlogs from "../components/BlogsPage/AllRemainingBlogs"
 import { useStaticQuery, graphql } from "gatsby"
+import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 function BlogPoint(props) {
   if (props) {
@@ -13,7 +14,7 @@ function BlogPoint(props) {
       <AllBlogContent>
         <IntroBlogs />
         <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} />
-        <AllRemainingBlogs blogs={props.blogPost.allMdx}/>
+        <AllRemainingBlogs blogs={props.blogPost.allMdx} />
       </AllBlogContent>
     )
   }
@@ -34,8 +35,9 @@ const IndexPage = () => {
             }
             frontmatter {
               title
-              date
+              date(formatString: "MMMM DD, YYYY")
               link
+              category
               thumbnail {
                 childImageSharp {
                   fluid(quality: 90) {
@@ -51,7 +53,11 @@ const IndexPage = () => {
   `)
   return (
     <Layout page="Blog">
-      <SEO title="Blogs" />
+      <SEO
+        title="Blogs"
+        description="Tribox Design provides the latest news and blogs of our recent activities and works."
+        image={TriboxLogo}
+      />
       <BlogContainer>
         <AllBlogContent>
           <BlogPoint blogPost={data} />

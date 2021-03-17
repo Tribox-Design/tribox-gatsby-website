@@ -1,7 +1,7 @@
 ---
 date: 2021-03-09
 title: New Test
-description: Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+category: ARTICLE
 thumbnail: windows.jpg
 isPublishedBlog: true
 ---

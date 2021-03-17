@@ -6,7 +6,11 @@ import { Link } from "gatsby"
 function FeatureTitle(props) {
   if (props.blogPost.node.frontmatter.link) {
     return (
-      <ExternalLink href={props.blogPost.node.frontmatter.link} target="_blank" rel="noopener noreferrer">
+      <ExternalLink
+        href={props.blogPost.node.frontmatter.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Title>{props.blogPost.node.frontmatter.title}</Title>
       </ExternalLink>
     )
@@ -22,20 +26,16 @@ function FeatureTitle(props) {
 const LatestBlog = ({ blogPost }) => {
   return (
     <BlogWrapper>
-      <LeftContainer>
-        <BlogImg
-          alt={blogPost.node.frontmatter.title}
-          src={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-          fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
-          imgStyle={{ objectFit: "contain" }}
-        />
-      </LeftContainer>
-      <RightContainer>
-        <FeatureTitle blogPost={blogPost} />
-        <DescriptionContainer>
-          <Description>{blogPost.node.frontmatter.date}</Description>
-        </DescriptionContainer>
-      </RightContainer>
+      <BlogImg
+        alt={blogPost.node.frontmatter.title}
+        src={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+        fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
+        imgStyle={{ objectFit: "contain" }}
+      />
+        <Description>{blogPost.node.frontmatter.category}</Description>
+      <FeatureTitle blogPost={blogPost} />
+    
+        <Description bold="true">{blogPost.node.frontmatter.date}</Description>
     </BlogWrapper>
   )
 }
@@ -43,52 +43,29 @@ const LatestBlog = ({ blogPost }) => {
 export default LatestBlog
 
 const BlogWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 6fr 4fr;
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 
   @media screen and (max-width: 1140px) {
-    grid-gap: 1rem;
     padding: 2.5rem 0;
   }
 
   @media screen and (max-width: 890px) {
-    grid-template-columns: 1fr;
     padding: 2.5rem 0;
   }
 
   @media screen and (max-width: 768px) {
-    justify-content: start;
-    align-items: start;
     padding: 1rem 0 1rem 0;
   }
 `
 
-const LeftContainer = styled.div`
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding-right: 0rem;
-    display: relative;
-  }
-`
-
-const RightContainer = styled.div`
-  color: #000000;
-  text-align: left;
-  padding: 0 2rem;
-  width: 100%;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    display: relative;
-    padding: 0;
-  }
-`
-
 const Title = styled.h3`
-  font-size: clamp(1rem, 6vw, 2rem);
+  font-size: 23px;
   font-weight: normal;
   margin: 0;
+  padding-top: 8px;
   color: #212121;
 
   @media screen and (max-width: 768px) {
@@ -100,26 +77,20 @@ const Title = styled.h3`
   }
 `
 
-const DescriptionContainer = styled.div`
-  padding-top: 0.5rem;
-
-  @media screen and (max-width: 890px) {
-    width: 100%;
-  }
-`
-
-const Description = styled.pre`
-  color: #212121;
-  font-size: 18px;
+const Description = styled.p`
+  color: #424242;
+  font-size: 14px;
+  font-weight: ${({ bold }) => (bold ? 'bold' : 'normal')};
   letter-spacing: 0.5px;
-  text-align: left;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   white-space: pre-wrap;
+  padding-top: 1rem;
+  margin: 0;
 
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 `
 

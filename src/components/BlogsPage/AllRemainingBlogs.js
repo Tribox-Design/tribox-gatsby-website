@@ -35,8 +35,10 @@ const AllRemainingBlogs = ({ blogs }) => {
               imgStyle={{ objectFit: "contain" }}
             />
           <BlogInfo>
+          <BlogDesc>{item.node.frontmatter.category}</BlogDesc>
+
             <FeatureTitle item={item} />
-            <BlogDesc>{item.node.frontmatter.date}</BlogDesc>
+            <BlogDesc bold="true">{item.node.frontmatter.date}</BlogDesc>
           </BlogInfo>
         </BlogCard>
       )
@@ -114,7 +116,7 @@ const BlogImg = styled(Img)`
 `
 
 const BlogTitle = styled.h3`
-  padding-top: 1rem;
+  padding-top: 12px;
   color: #212121;
   font-size: 24px;
   font-weight: 500;
@@ -122,6 +124,7 @@ const BlogTitle = styled.h3`
   letter-spacing: 0.5px;
   margin: 0;
   text-align: left;
+  margin-bottom: -4px;
 
   &:hover {
     color: #424242;
@@ -133,19 +136,17 @@ const BlogTitle = styled.h3`
 `
 
 const BlogDesc = styled.p`
-  color: #212121;
+  color: #424242;
   font-size: 12px;
-  padding-top: 5px;
+  font-weight: ${({ bold }) => (bold ? 'bold' : 'normal')};
   letter-spacing: 0.75px;
   text-align: left;
   overflow: hidden;
   display: -webkit-box;
-  ${'' /* -webkit-line-clamp: 3; */}
   -webkit-box-orient: vertical;
-
-  @media screen and (max-width: 768px) {
-    margin: 0;
-  }
+  white-space: pre-wrap;
+  margin: 0;
+  padding-top: 14px;
 `
 
 const BlogLink = styled(Link)`
