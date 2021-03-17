@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import IntroBlogs from "../components/BlogsPage/IntroBlogs"
+import IntroBlogs from "../components/NewsPage/IntroNews"
 import styled from "styled-components"
 // import LatestBlog from "../components/BlogsPage/LatestBlog"
-import AllRemainingBlogs from "../components/BlogsPage/AllRemainingBlogs"
+import AllRemainingBlogs from "../components/NewsPage/AllNews"
 import { useStaticQuery, graphql } from "gatsby"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 

@@ -3,11 +3,11 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
-const AllRemainingBlogs = ({ blogs }) => {
-  return getAllBlogs(blogs)
+const AllRemainingNews = ({ blogs }) => {
+  return getAllNews(blogs)
 }
 
-export default AllRemainingBlogs
+export default AllRemainingNews
 
 /// *********************************************************
 /// Functions
@@ -32,7 +32,7 @@ function FeatureTitle(props) {
   )
 }
 
-function getAllBlogs(data) {
+function getAllNews(data) {
   var blogsArray = []
   var blogWrapper = []
   var isTwoColumns = false

@@ -1,15 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 
-const IntroBlogs = () => {
+const IntroNews = () => {
   return (
     <IntroItems>
-      <IntroH1>Our Latest Blogs</IntroH1>
+      <IntroH1>Our Latest News</IntroH1>
     </IntroItems>
   )
 }
 
-export default IntroBlogs
+export default IntroNews
 
 /// *********************************************************
 /// Styled Components
