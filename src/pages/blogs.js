@@ -89,6 +89,7 @@ const BlogContainer = styled.div`
 const AllBlogContent = styled.div`
   z-index: 3;
   max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
 
   @media screen and (max-width: 1140px) {

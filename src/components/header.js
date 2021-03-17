@@ -95,7 +95,7 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   color: ${({ primary, primaryBackground }) =>
-    primaryBackground ? "#fff" : primary ? "#ff3333" : "#1b1b1b"};
+    primaryBackground ? "#fff" : (primary ? "#ff3333" : "#1b1b1b")};
   font-size: 18px;
   font-weight: bold;
 

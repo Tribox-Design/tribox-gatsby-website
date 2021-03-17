@@ -32,7 +32,7 @@ const LatestBlog = ({ blogPost }) => {
         fluid={blogPost.node.frontmatter.thumbnail.childImageSharp.fluid}
         imgStyle={{ objectFit: "contain" }}
       />
-        <Description>{blogPost.node.frontmatter.category}</Description>
+        <Description>{blogPost.node.frontmatter.category.toUpperCase()}</Description>
       <FeatureTitle blogPost={blogPost} />
     
         <Description bold="true">{blogPost.node.frontmatter.date}</Description>
