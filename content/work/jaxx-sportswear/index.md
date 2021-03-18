@@ -1,7 +1,7 @@
 ---
 date: 2021-01-22T15:46:14.125Z
 title: Jaxx Sportswear
-thumbnail: ./jaxx-cover.png
+thumbnail: jaxx-sportswear-tribox-design.jpg
 description: >-
   Because there are hundreds of clothing and apparel stores in Cebu City,
   Lavender Satera, the owner, turned to us to help their company stand out from
