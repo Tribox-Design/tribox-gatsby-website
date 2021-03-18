@@ -24,7 +24,7 @@ featuredOn:
   - featured:
       name: SunStar Cebu
       link: https://www.sunstar.com.ph/article/1883475/Cebu/Business/IT-professional-takes-leap-in-opening-new-business
-isHighlighted: false
+isHighlighted: true
 isPublishedWork: true
 ---
 The company is an e-commerce business that offers delivery service of fresh, natural, and locally grown fruits and vegetables, meat and poultry, and other farm produce and products to consumers. Mr. Kho was one of the entrepreneurs whose other lines of businesses have been disrupted by the COVID-19 pandemic, prompting the need to find a more sustainable livelihood. The founder had decided to rebrand The Green Table to better project their vision – to ensure that every household has easy access to healthy food, and to support local farmers, the food security frontliners, who play a crucial part in our fight against this pandemic. 
