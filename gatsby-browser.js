@@ -15,6 +15,8 @@ const components = {
         width: "100%",
         marginBottom: "1.75rem",
         fontSize: "large",
+        lineHeight: "1.5rem",
+        fontWeight: "300"
       }}
       {...props}
     />

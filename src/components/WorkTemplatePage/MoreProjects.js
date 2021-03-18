@@ -151,14 +151,18 @@ const MoreWorkImg = styled(Img)`
 `
 
 const WorkTitle = styled.div`
-  padding-top: 5px;
-  font-weight: 600;
-  color: #212121;
-  font-size: 18px;
+  padding-top: 10px;
+  font-weight: normal;
+  color: #000000;
   letter-spacing: 0.5px;
+  font-size: clamp(16px, 1.3vw, 2rem);
 
   &:hover {
     color: #424242;
+  }
+
+  @media screen and (max-width: 868px) {
+    font-size: clamp(20px, 2.5vw, 3.7rem);
   }
 `
 
