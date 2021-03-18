@@ -12,8 +12,6 @@ services: Brand Strategy, Brand Identity, Naming
 featuredOn:
   - featured:
       name: World Brand Design Society
-  - featured:
-      name: World Brand Design Society
       link: https://worldbranddesign.com/tribox-design-creates-the-green-table-brand-identity/
   - featured:
       name: Packaging of the World

@@ -29,7 +29,7 @@ collections:
             name: featured
             widget: object
             fields:
-              - {label: Name, name: name, widget: string, default: "World Brand Design Society"}
+              - {label: Name, name: name, widget: string }
               - {label: Link, name: link, widget: string, required: false }
       - {
           name: isHighlighted,

@@ -11,7 +11,7 @@ import TriboxLogo from "../images/tribox-design-logo.jpg"
 const IndexPage = () => (
   <Layout page="Home">
     <SEO
-      title="Home"
+      title="Tribox Design"
       description="Defining brands, simplifying the complex. Tribox Design is a local branding agency for Local Brands, SMEs and Startups."
       image={TriboxLogo}
     />
