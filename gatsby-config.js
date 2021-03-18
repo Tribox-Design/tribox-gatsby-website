@@ -46,6 +46,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1140,
+              wrapperStyle: `margin-bottom: 1.75rem;`
             },
           },
           {
@@ -65,7 +66,7 @@ module.exports = {
           },
         ],
         plugins: [`gatsby-remark-images`],
-        // remarkPlugins: [require('remark-unwrap-images')],
+        remarkPlugins: [require('remark-unwrap-images')],
       },
     },
     `gatsby-plugin-root-import`,

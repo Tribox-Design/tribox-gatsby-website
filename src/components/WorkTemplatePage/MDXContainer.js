@@ -1,12 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
 
-const MDXContainer = ({mdx}) => {
+const shortCodes = {
+  wrapper: ({ children }) => <>{children}</>,
+}
+
+const MDXContainer = ({ mdx }) => {
   return (
     <MarkdownContainer>
-      <MDXRenderer>{mdx}</MDXRenderer>
-    </MarkdownContainer> 
+      <MDXProvider components={shortCodes}>
+        <MDXRenderer>{mdx}</MDXRenderer>
+      </MDXProvider>
+    </MarkdownContainer>
   )
 }
 

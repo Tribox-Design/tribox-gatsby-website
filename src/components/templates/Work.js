@@ -11,11 +11,13 @@ import MDXContainer from '../WorkTemplatePage/MDXContainer'
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
+
+    var description = post.frontmatter.description + ' | ' + post.frontmatter.services
     return (
       <Layout page="Work">
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={description}
           image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
         />
         <WorkContainer>

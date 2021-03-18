@@ -98,7 +98,7 @@ const RightContainer = styled.div`
   }
 `
 
-const Title = styled.h3`
+const Title = styled.h1`
   font-size: clamp(1rem, 6vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
@@ -127,9 +127,10 @@ const ClientContainer = styled.div`
   }
 `
 
-const ClientTitle = styled.div`
+const ClientTitle = styled.h4`
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
 `
 
 const Client = styled.p`
@@ -148,10 +149,10 @@ const ServicesContainer = styled.div`
   }
 `
 
-const ServicesTitle = styled.p`
+const ServicesTitle = styled.h4`
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 0;
+  margin: 0;
 `
 
 const Services = styled.p`
