@@ -13,10 +13,12 @@ const components = {
   p: props => (
     <p
       style={{
-        maxWidth: "580px",
+        maxWidth: "768px",
         width: "100%",
-        margiBottom: "1.75rem",
+        marginBottom: "1.75rem",
         fontSize: "large",
+        lineHeight: "1.6",
+        fontWeight: "300"
       }}
       {...props}
     />

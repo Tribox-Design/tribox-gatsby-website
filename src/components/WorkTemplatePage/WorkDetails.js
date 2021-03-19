@@ -116,8 +116,8 @@ const DescriptionContainer = styled.div`
 
 const Description = styled.pre`
   font-weight: 300;
-  font-size: 18px;
-  line-height: 1.5rem;
+  font-size: large;
+  line-height: 1.6rem;
   white-space: pre-wrap;
 `
 
@@ -160,6 +160,7 @@ const Services = styled.p`
   font-size: 18px;
   padding-top: 0.5rem;
   margin-bottom: 0;
+  line-height: 1.6rem;
 `
 
 const FeatureContainer = styled.div`

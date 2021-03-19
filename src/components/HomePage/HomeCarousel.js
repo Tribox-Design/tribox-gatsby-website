@@ -23,7 +23,7 @@ const HomeCarousel = () => {
             alt
             img {
               childImageSharp {
-                fluid(maxWidth: 1080, quality: 90) {
+                fluid(maxWidth: 1080, quality: 97) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -36,7 +36,6 @@ const HomeCarousel = () => {
 
   return (
     <CarouSwiper
-      control
       effect="fade"
       // navigation
       pagination

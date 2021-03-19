@@ -96,6 +96,7 @@ const ServiceText = styled.div`
 const ServiceTitle = styled.h3`
   margin-top: 0;
   margin-bottom: 0;
+  color: #212121;
 `
 
 const ServiceDescription = styled.p`
@@ -103,5 +104,8 @@ const ServiceDescription = styled.p`
   font-size: 16px;
   line-height: 1.35;
   letter-spacing: 0.5px;
-  margin-top: 3px;
+  margin-top: 4px;
+  font-weight: 300;
+  color: #212121;
+
 `

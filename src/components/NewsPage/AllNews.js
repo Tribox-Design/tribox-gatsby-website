@@ -12,6 +12,36 @@ export default AllRemainingNews
 /// *********************************************************
 /// Functions
 ///
+function FeatureImage(props) {
+  if (props.item.node.frontmatter.link) {
+    return (
+      <ExternalLink
+        href={props.item.node.frontmatter.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BlogImg
+          alt={props.item.node.frontmatter.title}
+          src={props.item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+          fluid={props.item.node.frontmatter.thumbnail.childImageSharp.fluid}
+          imgStyle={{ objectFit: "contain" }}
+        />
+      </ExternalLink>
+    )
+  }
+  var slugString = "/articles" + props.item.node.fields.slug
+  return (
+    <BlogLink to={slugString}>
+      <BlogImg
+        alt={props.item.node.frontmatter.title}
+        src={props.item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
+        fluid={props.item.node.frontmatter.thumbnail.childImageSharp.fluid}
+        imgStyle={{ objectFit: "contain" }}
+      />
+    </BlogLink>
+  )
+}
+
 function FeatureTitle(props) {
   if (props.item.node.frontmatter.link) {
     return (
@@ -38,19 +68,13 @@ function getAllNews(data) {
   var isTwoColumns = false
   data.edges.forEach((item, index) => {
     blogsArray.push(
-      <BlogCard key={index}>
-        <BlogImg
-          alt={item.node.frontmatter.title}
-          src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
-          fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-          imgStyle={{ objectFit: "contain" }}
-        />
+      <NewsCard key={index}>
+        <FeatureImage item={item} />
         <BlogInfo>
           <BlogDesc>{item.node.frontmatter.category.toUpperCase()}</BlogDesc>
           <FeatureTitle item={item} />
-          {/* <BlogDesc>{item.node.frontmatter.date}</BlogDesc> */}
         </BlogInfo>
-      </BlogCard>
+      </NewsCard>
     )
     if (isTwoColumns) {
       if (blogsArray.length > 1) {
@@ -119,10 +143,15 @@ const StaggeredBlogs = styled.div`
   }
 `
 
-const BlogCard = styled.div`
+const NewsCard = styled.div`
   line-height: 1.5;
   width: 100%;
   position: relative;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `
 
 const BlogInfo = styled.div`
@@ -138,9 +167,13 @@ const BlogInfo = styled.div`
 const BlogImg = styled(Img)`
   display: block;
   width: auto;
-  height: auto;
   position: relative;
+  filter: brightness(97%);
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
+  &:hover {
+    filter: brightness(105%);
+  }
   @media screen and (max-width: 768px) {
     max-width: 100%;
   }
@@ -168,7 +201,6 @@ const BlogTitle = styled.h3`
 const BlogDesc = styled.p`
   color: #424242;
   font-size: 12px;
-  ${"" /* font-weight: ${({ bold }) => (bold ? "bold" : "normal")}; */}
   font-weight: normal;
   letter-spacing: 0.75px;
   text-align: left;
