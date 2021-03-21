@@ -2,7 +2,7 @@
   "name": "tribox-gatsby-website",
   "private": true,
   "description": "Tribox website made with React, Gatsby, GraphQL, NetlifyCMS",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Tyrone Chris Abad <tyronechris67@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",

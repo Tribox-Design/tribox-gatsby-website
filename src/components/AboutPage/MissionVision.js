@@ -71,6 +71,7 @@ const Title = styled.h3`
 const TitleContainer = styled.div`
   width: 40%;
   display: inline-block;
+  padding-right: 1rem;
   @media screen and (max-width: 768px) {
     display: flex;
   }
