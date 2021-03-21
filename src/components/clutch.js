@@ -1,19 +1,23 @@
 import React from "react"
 import styled from "styled-components"
+import { Helmet } from "react-helmet"
 
 const Clutch = () => {
   return (
     <Container>
       <Content>
-          <div
-            className="clutch-widget"
-            data-url="https://widget.clutch.co"
-            data-widget-type="4"
-            data-expandifr="true"
-            data-height="auto"
-            data-snippets="true"
-            data-clutchcompany-id="1437608"
-          ></div>
+        <Helmet>
+          <script src="https://widget.clutch.co/static/js/widget.js" />
+        </Helmet>
+        <div
+          className="clutch-widget"
+          data-url="https://widget.clutch.co"
+          data-widget-type="4"
+          data-expandifr="true"
+          data-height="auto"
+          data-snippets="true"
+          data-clutchcompany-id="1437608"
+        ></div>
       </Content>
     </Container>
   )

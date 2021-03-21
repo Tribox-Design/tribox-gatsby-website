@@ -12,9 +12,7 @@ const IndexPage = () => {
     query AllNewsQuery {
       allMdx(
         sort: { fields: frontmatter___date, order: DESC }
-        filter: {
-          frontmatter: { isPublishedNews: { eq: true }}
-        }
+        filter: { frontmatter: { isPublishedNews: { eq: true } } }
       ) {
         edges {
           node {
@@ -35,6 +33,7 @@ const IndexPage = () => {
       }
     }
   `)
+
   return (
     <Layout page="News">
       <SEO
@@ -44,7 +43,7 @@ const IndexPage = () => {
       />
       <BlogContainer>
         <AllBlogContent>
-          <BlogPoint blogPost={data} />
+          <BlogPoint allNews={data} />
         </AllBlogContent>
       </BlogContainer>
     </Layout>
@@ -57,15 +56,12 @@ export default IndexPage
 /// Functions
 ///
 function BlogPoint(props) {
-  if (props) {
-    return (
-      <AllBlogContent>
-        <IntroBlogs />
-        <GetBlogs news={props.blogPost.allMdx} />
-      </AllBlogContent>
-    )
-  }
-  return <></>
+  return (
+    <AllBlogContent>
+      <IntroBlogs />
+      <GetBlogs news={props.allNews.allMdx.edges} />
+    </AllBlogContent>
+  )
 }
 
 /// *********************************************************

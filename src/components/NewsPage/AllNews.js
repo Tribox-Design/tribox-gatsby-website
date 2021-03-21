@@ -3,8 +3,8 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
-const AllRemainingNews = ({ blogs }) => {
-  return <Container>{getAllNews(blogs)}</Container>
+const AllRemainingNews = ({ allPosts }) => {
+  return <Container>{getAllNews(allPosts)}</Container>
 }
 
 export default AllRemainingNews
@@ -66,7 +66,7 @@ function getAllNews(data) {
   var blogsArray = []
   var blogWrapper = []
   var isTwoColumns = false
-  data.edges.forEach((item, index) => {
+  data.forEach((item, index) => {
     blogsArray.push(
       <NewsCard key={index}>
         <FeatureImage item={item} />
@@ -86,7 +86,7 @@ function getAllNews(data) {
         )
         blogsArray = []
       } else {
-        if (data.edges.length - 1 === index) {
+        if (data.length - 1 === index) {
           blogWrapper.push(
             <StaggeredBlogs key={"TwoColumns" + index} isTwoColumns={true}>
               {blogsArray}
@@ -104,7 +104,7 @@ function getAllNews(data) {
         )
         blogsArray = []
       } else {
-        if (data.edges.length - 1 === index) {
+        if (data.length - 1 === index) {
           blogWrapper.push(
             <StaggeredBlogs key={"ThreeColumns" + index} isTwoColumns={false}>
               {blogsArray}

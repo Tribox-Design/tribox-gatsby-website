@@ -33,15 +33,15 @@ const GetBlogs = ({ news }) => {
       }
     }
   `)
-
+  var allPosts = news
   const AllBlogs = data.allMdx.edges
-  console.log(AllBlogs)
-  AllBlogs.concat(news)
-  console.log(AllBlogs)
-
   if (AllBlogs.length > 0) {
+    allPosts =  AllBlogs.concat(news)
+  } 
+
+  if (allPosts.length > 0) {
     return (
-      <AllNews news={AllBlogs} />
+      <AllNews allPosts={allPosts} />
     )
   }
 
