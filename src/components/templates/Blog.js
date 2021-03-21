@@ -16,7 +16,6 @@ class BlogTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
           image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
         />
-
         <BlogContainer>
           <BlogContent>
             <Title>{post.frontmatter.title}</Title>
@@ -88,6 +87,7 @@ const Title = styled.h1`
   letter-spacing: -1px;
   margin-top: -4px;
   margin-bottom: 0;
+  
   @media screen and (max-width: 868px) {
     font-size: clamp(2rem, 4vw, 3.7rem);
     margin-top: 0;

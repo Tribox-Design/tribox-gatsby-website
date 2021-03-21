@@ -57,6 +57,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: 'Abyss' // Or install your favorite theme from GitHub
+            }
           },
           {
             resolve: `gatsby-remark-copy-linked-files`,
@@ -92,11 +95,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-leaflet`,
-    // {
-    //   resolve: "gatsby-plugin-load-script",
-    //   options: {
-    //     src: "https://widget.clutch.co/static/js/widget.js",
-    //   },
-    // },
   ],
 }
