@@ -106,19 +106,19 @@ exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
     type Frontmatter {
-      tags: [String!]!
+      category: String!
     }
     type Frontmatter {
-      link: [String!]!
+      link: String!
     }
     type Frontmatter {
-      isPublishedBlog: [String!]!
+      isPublishedBlog: Boolean!
     }
     type Frontmatter {
-      isPublishedNews: [String!]!
+      isPublishedNews: Boolean!
     }
     type Frontmatter {
-      isPublishedWork: [String!]!
+      isPublishedWork: Boolean!
     }
   `
   createTypes(typeDefs)

@@ -61,7 +61,7 @@ function BlogPoint(props) {
     return (
       <AllBlogContent>
         <IntroBlogs />
-        <GetBlogs blogs={props.blogPost.allMdx} />
+        <GetBlogs news={props.blogPost.allMdx} />
       </AllBlogContent>
     )
   }

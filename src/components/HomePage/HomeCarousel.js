@@ -23,7 +23,7 @@ const HomeCarousel = () => {
             alt
             img {
               childImageSharp {
-                fluid(maxWidth: 1080, quality: 97) {
+                fluid(maxWidth: 1080, quality: 96) {
                   ...GatsbyImageSharpFluid
                 }
               }
