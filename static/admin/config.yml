@@ -75,8 +75,8 @@ collections:
       - { name: thumbnail, label: Cover Photo, widget: image }
       - { name: link, label: Link, widget: string, hint: "Add URL to an external site." }
       - {
-          name: isPublishedBlog,
-          label: Publish Blog,
+          name: isPublishedNews,
+          label: Publish News,
           widget: boolean,
           default: true,
         }

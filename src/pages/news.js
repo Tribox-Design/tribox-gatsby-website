@@ -3,31 +3,28 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroBlogs from "../components/NewsPage/IntroNews"
 import styled from "styled-components"
-// import LatestBlog from "../components/BlogsPage/LatestBlog"
-import AllRemainingBlogs from "../components/NewsPage/AllNews"
+import GetBlogs from "../components/NewsPage/GetBlogs"
 import { useStaticQuery, graphql } from "gatsby"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query AllBlogsQuery {
+    query AllNewsQuery {
       allMdx(
         sort: { fields: frontmatter___date, order: DESC }
-        filter: { frontmatter: { isPublishedBlog: { eq: true } } }
+        filter: {
+          frontmatter: { isPublishedNews: { eq: true }}
+        }
       ) {
         edges {
           node {
-            fields {
-              slug
-            }
             frontmatter {
               title
-              date(formatString: "MMMM DD, YYYY")
               link
               category
               thumbnail {
                 childImageSharp {
-                  fluid(quality: 90) {
+                  fluid(quality: 92) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -64,8 +61,7 @@ function BlogPoint(props) {
     return (
       <AllBlogContent>
         <IntroBlogs />
-        {/* <LatestBlog blogPost={props.blogPost.allMdx.edges[0]} /> */}
-        <AllRemainingBlogs blogs={props.blogPost.allMdx} />
+        <GetBlogs blogs={props.blogPost.allMdx} />
       </AllBlogContent>
     )
   }

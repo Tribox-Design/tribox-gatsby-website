@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          filter: {frontmatter: {isPublishedBlog: {eq: true}, link: {eq: null}}}
+          filter: {frontmatter: {isPublishedBlog: {eq: true}}}
         ) {
           edges {
             node {
@@ -100,4 +100,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type Frontmatter {
+      tags: [String!]!
+    }
+    type Frontmatter {
+      link: [String!]!
+    }
+    type Frontmatter {
+      isPublishedBlog: [String!]!
+    }
+    type Frontmatter {
+      isPublishedNews: [String!]!
+    }
+    type Frontmatter {
+      isPublishedWork: [String!]!
+    }
+  `
+  createTypes(typeDefs)
 }
