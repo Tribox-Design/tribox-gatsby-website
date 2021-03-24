@@ -21,4 +21,5 @@ const ContactContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 2rem;
 `

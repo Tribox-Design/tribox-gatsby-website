@@ -6,7 +6,15 @@ import Img from "gatsby-image"
 const HighlightWorks = () => {
   const data = useStaticQuery(graphql`
     query WorksQuery {
-      allMdx(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {isHighlighted: {eq: true}, isPublishedWork: {eq: true}}}) {
+      allMdx(
+        sort: { fields: frontmatter___date, order: DESC }
+        filter: {
+          frontmatter: {
+            isHighlighted: { eq: true }
+            isPublishedWork: { eq: true }
+          }
+        }
+      ) {
         edges {
           node {
             fields {
@@ -44,13 +52,19 @@ function getHighlightedWorks(data) {
   const worksArray = []
   data.allMdx.edges.forEach((item, index) => {
     worksArray.push(
-      <WorkCard key={index}>
+      <WorkCard
+        key={index}
+        data-sal="fade"
+        data-sal-duration="700"
+        data-sal-delay="100"
+        data-sal-easing="ease"
+      >
         <WorkLink to={"works" + item.node.fields.slug}>
           <WorkImg
             alt={item.node.frontmatter.title}
             src={item.node.frontmatter.thumbnail.childImageSharp.fluid.src}
             fluid={item.node.frontmatter.thumbnail.childImageSharp.fluid}
-            imgStyle={{ objectFit: 'contain' }}
+            imgStyle={{ objectFit: "contain" }}
           />
         </WorkLink>
         <WorkInfo>
@@ -80,7 +94,7 @@ const HighlightsContainer = styled.div`
 const HighlightsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  grid-gap: 26px 60px;
+  grid-gap: 28px 64px;
   justify-items: center;
   padding: 0 7rem;
 

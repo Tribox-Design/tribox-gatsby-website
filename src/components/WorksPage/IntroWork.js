@@ -4,7 +4,12 @@ import styled from "styled-components"
 const IntroWork = () => {
   return (
     <IntroContainer>
-      <IntroContent>
+      <IntroContent
+        data-sal="slide-left"
+        data-sal-duration="700"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <IntroItems>
           <IntroH1>Defining brands, simplifying the complex.</IntroH1>
         </IntroItems>

@@ -68,7 +68,13 @@ function getAllNews(data) {
   var isTwoColumns = false
   data.forEach((item, index) => {
     blogsArray.push(
-      <NewsCard key={index}>
+      <NewsCard
+        key={index}
+        data-sal="fade"
+        data-sal-duration="700"
+        data-sal-delay={index > 2 ? "100" : "1000"}
+        data-sal-easing="ease"
+      >
         <FeatureImage item={item} />
         <BlogInfo>
           <BlogDesc>{item.node.frontmatter.category.toUpperCase()}</BlogDesc>

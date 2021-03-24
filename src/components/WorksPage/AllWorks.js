@@ -48,7 +48,13 @@ function getAllWorks(data) {
   data.allMdx.edges.forEach((item, index) => {
     var slugString = "/works" + item.node.fields.slug
     worksArray.push(
-      <WorkCard key={index}>
+      <WorkCard
+        key={index}
+        data-sal="fade"
+        data-sal-duration="700"
+        data-sal-delay={index > 2 ? "100" : "1000"}
+        data-sal-easing="ease"
+      >
         <WorkLink to={slugString}>
           <WorkImg
             alt={item.node.frontmatter.title}

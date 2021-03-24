@@ -4,12 +4,17 @@ import styled from "styled-components"
 const IntroContact = () => {
   return (
     <IntroContainer>
-      <IntroContent>
+      <IntroContent
+        data-sal="slide-left"
+        data-sal-duration="700"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <IntroItems>
           <IntroH1>
             We love cluttered things, mind and ideas. Let's solve this together.
           </IntroH1>
-          <IntroP>Let us know how we can help.</IntroP> 
+          <IntroP>Let us know how we can help.</IntroP>
         </IntroItems>
       </IntroContent>
     </IntroContainer>

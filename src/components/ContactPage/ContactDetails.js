@@ -3,7 +3,12 @@ import styled from "styled-components"
 
 const ContactDetails = () => {
   return (
-    <ContactContainer>
+    <ContactContainer
+      data-sal="fade"
+      data-sal-duration="600"
+      data-sal-delay="100"
+      data-sal-easing="ease"
+    >
       <ContactWidth>
         <ContactWrapper>
           <ContactCard>
@@ -18,7 +23,11 @@ const ContactDetails = () => {
           </ContactCard>
           <ContactCard>
             <ContactTitle>Address</ContactTitle>
-            <ContactLink href="https://g.page/triboxdesign?share" target="_blank" rel="noopener noreferrer">
+            <ContactLink
+              href="https://g.page/triboxdesign?share"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               1401 Park Centrale Building, IT Park,
               <br />
               Lahug, Apas, Cebu City
@@ -39,6 +48,7 @@ const ContactContainer = styled.div`
   display: flex;
   background: #fff;
   padding: 3rem 5rem;
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
 

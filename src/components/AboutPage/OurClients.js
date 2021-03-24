@@ -11,7 +11,17 @@ const OurClients = () => {
           <Title>Clients</Title>
           <ImgContainer>
             {ourClientsData.map((item, index) => (
-              <ClientLink key={index} urlExists={item.url} href={item.url} target="_blank" rel="noopener noreferrer">
+              <ClientLink
+                key={index}
+                urlExists={item.url}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-sal="fade"
+                data-sal-duration="700"
+
+                data-sal-easing="ease"
+              >
                 <CustomImg src={item.svg} alt={item.client} />
               </ClientLink>
             ))}

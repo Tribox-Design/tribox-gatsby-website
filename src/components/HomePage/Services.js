@@ -8,10 +8,20 @@ const Services = () => {
       <ProductsWrapper>
         {servicesData.map((props, index) => (
           <ServiceItem key={index}>
-            <ServiceImgContainer>
+            <ServiceImgContainer
+              data-sal="zoom-in"
+              data-sal-duration="700"
+              data-sal-delay="600"
+              data-sal-easing="ease"
+            >
               <CustomImg src={props.img} alt={props.title} />
             </ServiceImgContainer>
-            <ServiceText>
+            <ServiceText
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="600"
+              data-sal-easing="ease"
+            >
               <ServiceTitle>{props.title}</ServiceTitle>
               <ServiceDescription>{props.desc}</ServiceDescription>
             </ServiceText>
@@ -107,5 +117,4 @@ const ServiceDescription = styled.p`
   margin-top: 4px;
   font-weight: 300;
   color: #212121;
-
 `

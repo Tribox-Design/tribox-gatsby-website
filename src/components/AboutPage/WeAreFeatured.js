@@ -8,7 +8,12 @@ const WeAreFeatured = () => {
       <FeaturedContent>
         <FeaturedWrapper>
           <Title>We are featured internationally</Title>
-          <ImgContainer>
+          <ImgContainer
+            data-sal="fade"
+            data-sal-duration="700"
+
+            data-sal-easing="ease"
+          >
             {weAreFeaturedData.map((item, index) => (
               <CustomImg key={index} src={item.img} alt={item.feature} />
             ))}

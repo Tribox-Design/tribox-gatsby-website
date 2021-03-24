@@ -33,7 +33,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-bottom: 2rem;
 `
 
 const Content = styled.div`

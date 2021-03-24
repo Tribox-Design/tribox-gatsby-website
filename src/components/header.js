@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
-
 import { menuData } from "../data/MenuData"
 import TriboxLogo from "../images/tribox-logo.png"
 import TriboxLogoWhite from "../images/tribox-logo-white.png"
@@ -10,8 +9,10 @@ import TriboxLogoWhite from "../images/tribox-logo-white.png"
 const Header = ({ toggle, page }) => {
   const primaryBackground = page === "Home" || page === "About"
   return (
-    <NavContainer primaryBackground={primaryBackground}>
-      <Nav>
+    <NavContainer primaryBackground={primaryBackground} data-sal="fade"
+    data-sal-duration="100"
+    data-sal-easing="ease">
+      <Nav data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease">
         <NavLink to="/">
           <LogoImg
             src={primaryBackground ? TriboxLogoWhite : TriboxLogo}
@@ -63,7 +64,7 @@ const Nav = styled.nav`
   @media screen and (max-width: 1140px) {
     width: 99%;
   }
-  
+
   @media screen and (max-width: 768px) {
     width: 96.7%;
   }
@@ -97,12 +98,13 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   color: ${({ primary, primaryBackground }) =>
-    primaryBackground ? "#fff" : (primary ? "#ff3333" : "#1b1b1b")};
+    primaryBackground ? "#fff" : primary ? "#ff3333" : "#1b1b1b"};
   font-size: 18px;
   font-weight: bold;
 
   &:hover {
-    color: ${({ primary, primaryBackground }) => (primary && !primaryBackground ? "#ff3333" : "#424242")};
+    color: ${({ primary, primaryBackground }) =>
+      primary && !primaryBackground ? "#ff3333" : "#424242"};
   }
 `
 

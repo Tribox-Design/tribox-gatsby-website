@@ -4,10 +4,20 @@ import { Button } from "../Button"
 
 const IntroBanner = () => {
   return (
-    <IntroContainer>
-      <IntroContent>
+    <IntroContainer data-sal="fade"
+    data-sal-duration="100"
+    data-sal-easing="ease">
+      <IntroContent
+        data-sal="slide-left"
+        data-sal-duration="700"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <IntroItems>
-          <IntroH1>Our mission is to promote the growth of every Filipino brand through creativity and well-developed strategies.</IntroH1>
+          <IntroH1>
+            Our mission is to promote the growth of every Filipino brand through
+            creativity and well-developed strategies.
+          </IntroH1>
           <IntroButton>
             <Button round="true" to="/about" big="true">
               More about us
@@ -30,7 +40,7 @@ const IntroContainer = styled.div`
   text-align: center;
   width: 100%;
   color: #fff;
-  padding: 3rem 0; 
+  padding: 3rem 0;
 `
 
 const IntroContent = styled.div`
@@ -38,7 +48,7 @@ const IntroContent = styled.div`
   max-width: 1140px;
   margin: 0 auto;
   padding: 2rem 0rem;
-  
+
   @media screen and (max-width: 1140px) {
     padding: 1rem 2rem;
   }

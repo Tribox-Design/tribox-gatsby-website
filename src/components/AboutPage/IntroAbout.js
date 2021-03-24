@@ -3,14 +3,27 @@ import styled from "styled-components"
 
 const IntroAbout = () => {
   return (
-    <IntroContainer>
-      <IntroContent>
+    <IntroContainer
+      data-sal="fade"
+      data-sal-duration="100"
+      data-sal-easing="ease"
+    >
+      <IntroContent
+        data-sal="slide-left"
+        data-sal-duration="700"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <IntroItems>
           <IntroH1>
-          Tribox Design is a local branding agency for Local Brands, SMEs and Startups.
+            Tribox Design is a local branding agency for Local Brands, SMEs and
+            Startups.
           </IntroH1>
           <IntroP>
-          We are a passionate team with different expertise but with the same goals. We believe that using our expertise can help you and provide value to make a big impact to the community. Our work consists of Brand Identity Design, Brand Strategy and Graphics.
+            We are a passionate team with different expertise but with the same
+            goals. We believe that using our expertise can help you and provide
+            value to make a big impact to the community. Our work consists of
+            Brand Identity Design, Brand Strategy and Graphics.
           </IntroP>
         </IntroItems>
       </IntroContent>

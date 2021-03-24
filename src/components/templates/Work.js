@@ -6,24 +6,29 @@ import Layout from "../layout"
 import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
-import MDXContainer from '../WorkTemplatePage/MDXContainer'
+import MDXContainer from "../WorkTemplatePage/MDXContainer"
 
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
 
-    var description = post.frontmatter.description + ' | ' + post.frontmatter.services + ' | Best branding in Cebu.'
+    var description = post.frontmatter.description + " | Best branding in Cebu."
     return (
       <Layout page="Work">
         <SEO
           title={post.frontmatter.title}
           description={description}
           image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+          keywords={post.frontmatter.services}
         />
         <WorkContainer>
           <WorkContent>
             <WorkDetails frontmatter={post.frontmatter} />
             <WorkImg
+               data-sal="fade"
+        data-sal-duration="800"
+        data-sal-delay="500"
+        data-sal-easing="ease"
               alt={post.frontmatter.title}
               src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}

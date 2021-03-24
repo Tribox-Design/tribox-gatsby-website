@@ -10,7 +10,12 @@ const ContactUs = () => {
       .join("&")
   }
   return (
-    <ContactContainer>
+    <ContactContainer
+      data-sal="fade"
+      data-sal-duration="600"
+      data-sal-delay="1000"
+      data-sal-easing="ease"
+    >
       <ContactWidth>
         <Formik
           initialValues={{
@@ -30,7 +35,8 @@ const ContactUs = () => {
                 "Content-Type": "application/x-www-form-urlencoded",
               },
               body: encode({ "form-name": "Contact", ...values }),
-            }).then(() => {
+            })
+              .then(() => {
                 alert("Successfully submitted. We'll get back to you shortly.")
                 actions.resetForm()
               })
@@ -192,7 +198,7 @@ const ContactCard = styled.div`
   width: 100%;
   position: relative;
   transition: 0.2s ease;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
 `
 
 const MyLabel = styled.label`
@@ -210,7 +216,6 @@ const PainPointCheckBox = styled(Field)`
 const PainPointLabel = styled.label`
   font-size: 14px;
   padding: 2px 0 0 0;
-
 `
 
 const InputForm = styled(Field)`
@@ -280,7 +285,7 @@ const PainPointsItem = styled.div`
 const FormButton = styled.button`
   border: 0;
   background: #ff3333;
-  padding: .7rem 3rem .7rem 3rem;
+  padding: 0.7rem 3rem 0.7rem 3rem;
   color: white;
   width: auto;
   text-transform: uppercase;

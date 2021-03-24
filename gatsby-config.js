@@ -30,6 +30,7 @@ module.exports = {
         icon: `src/images/tribox.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -94,6 +95,6 @@ module.exports = {
         name: `news`,
       },
     },
-    `gatsby-plugin-react-leaflet`,
+    `gatsby-plugin-react-leaflet`
   ],
 }

@@ -4,13 +4,23 @@ import styled from "styled-components"
 const WorkDetails = ({ frontmatter }) => {
   return (
     <WorkWrapper>
-      <LeftContainer>
+      <LeftContainer
+        data-sal="slide-left"
+        data-sal-duration="700"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <Title>{frontmatter.title}</Title>
         <DescriptionContainer>
           <Description>{frontmatter.description}</Description>
         </DescriptionContainer>
       </LeftContainer>
-      <RightContainer>
+      <RightContainer
+        data-sal="fade"
+        data-sal-duration="800"
+        data-sal-delay="500"
+        data-sal-easing="ease"
+      >
         <ClientContainer>
           <ClientTitle>Client</ClientTitle>
           <Client>{frontmatter.client}</Client>
@@ -38,7 +48,11 @@ function FeaturedWork(props) {
       data.forEach((featuredOn, index) => {
         featureArray.push(
           <FeatureContainer key={index}>
-            <FeatureLink href={featuredOn.featured.link} target="_blank" rel="noopener noreferrer">
+            <FeatureLink
+              href={featuredOn.featured.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {featuredOn.featured.name}
             </FeatureLink>
           </FeatureContainer>

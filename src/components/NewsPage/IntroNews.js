@@ -3,7 +3,12 @@ import styled from "styled-components"
 
 const IntroNews = () => {
   return (
-    <IntroItems>
+    <IntroItems
+      data-sal="slide-left"
+      data-sal-duration="700"
+      data-sal-delay="500"
+      data-sal-easing="ease"
+    >
       <IntroH1>Our Latest News</IntroH1>
     </IntroItems>
   )

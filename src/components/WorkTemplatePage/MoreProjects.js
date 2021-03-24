@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const MoreProjects = ({ currentPage }) => {
   const randomData = useStaticQuery(graphql`
     query RandomWorksQuery {
-      allMdx(filter: {frontmatter: {isPublishedWork: {eq: true}}}) {
+      allMdx(filter: { frontmatter: { isPublishedWork: { eq: true } } }) {
         edges {
           node {
             fields {
@@ -28,14 +28,17 @@ const MoreProjects = ({ currentPage }) => {
     }
   `)
 
-
   return (
-    <MoreWorksContainer>
+    <MoreWorksContainer
+      data-sal="fade"
+      data-sal-duration="700"
+      data-sal-delay="100"
+      data-sal-easing="ease"
+    >
       <MoreProjectsTitle>More Projects</MoreProjectsTitle>
       <RandomWorksContainer>
         {getRandomWorks(randomData, currentPage)}
       </RandomWorksContainer>
-      
     </MoreWorksContainer>
   )
 }
@@ -46,12 +49,13 @@ export default MoreProjects
 /// Functions
 ///
 function getRandomValue(maxLength) {
-  return Math.floor(Math.random() * maxLength);
+  return Math.floor(Math.random() * maxLength)
 }
 
 function getRandomWorks(randomData, currentPage) {
-  const worksArray = [], chosenRandomNumbers = [];
-  var currentIndex = 0;
+  const worksArray = [],
+    chosenRandomNumbers = []
+  var currentIndex = 0
   randomData.allMdx.edges.forEach((item, index) => {
     if (currentPage === item.node.frontmatter.title) {
       currentIndex = index
@@ -61,26 +65,37 @@ function getRandomWorks(randomData, currentPage) {
 
   while (chosenRandomNumbers.length < 3) {
     const randomValue = getRandomValue(randomData.allMdx.edges.length)
-    if (!chosenRandomNumbers.includes(randomValue) && currentIndex !== randomValue ) {
+    if (
+      !chosenRandomNumbers.includes(randomValue) &&
+      currentIndex !== randomValue
+    ) {
       chosenRandomNumbers.push(randomValue)
     }
   }
 
   chosenRandomNumbers.forEach((item, index) => {
-    const slugString = '/works' + randomData.allMdx.edges[item].node.fields.slug
+    const slugString = "/works" + randomData.allMdx.edges[item].node.fields.slug
     worksArray.push(
       <WorkCard key={index}>
         <WorkLink to={slugString}>
           <MoreWorkImg
             alt={randomData.allMdx.edges[item].node.frontmatter.title}
-            src={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid.src}
-            fluid={randomData.allMdx.edges[item].node.frontmatter.thumbnail.childImageSharp.fluid}
-            imgStyle={{ objectFit: 'contain' }}
+            src={
+              randomData.allMdx.edges[item].node.frontmatter.thumbnail
+                .childImageSharp.fluid.src
+            }
+            fluid={
+              randomData.allMdx.edges[item].node.frontmatter.thumbnail
+                .childImageSharp.fluid
+            }
+            imgStyle={{ objectFit: "contain" }}
           />
         </WorkLink>
         <WorkInfo>
           <WorkLink to={slugString}>
-            <WorkTitle>{randomData.allMdx.edges[item].node.frontmatter.title}</WorkTitle>
+            <WorkTitle>
+              {randomData.allMdx.edges[item].node.frontmatter.title}
+            </WorkTitle>
           </WorkLink>
         </WorkInfo>
       </WorkCard>
