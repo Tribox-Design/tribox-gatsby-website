@@ -12,7 +12,7 @@ class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
 
-    var description = post.frontmatter.description + ' | ' + post.frontmatter.services
+    var description = post.frontmatter.description + ' | ' + post.frontmatter.services + ' | Best branding in Cebu.'
     return (
       <Layout page="Work">
         <SEO

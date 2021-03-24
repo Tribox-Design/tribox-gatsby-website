@@ -13,7 +13,7 @@ class BlogTemplate extends React.Component {
       <Layout page="News">
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={post.frontmatter.description}
           image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
         />
         <BlogContainer>

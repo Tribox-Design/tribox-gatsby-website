@@ -60,11 +60,9 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
+  "repository": "git+https://github.com/gatsbyjs/gatsby-starter-default.git",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-default#readme"
 }

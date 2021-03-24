@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout page="Contact">
     <SEO
       title="Contact Us"
-      description="We love cluttered things, mind and ideas. Let's solve this together. Contact Tribox Design and let us know how we can help."
+      description="We love cluttered things, mind and ideas. Let's solve this together. Contact Tribox Design and let us know how we can help. Contact Number: +639174483092 | Address: 1401 Park Centrale Building, IT Park, Lahug, Apas, Cebu City. "
       image={TriboxLogo}
     />
     <IntroContact />
