@@ -11,7 +11,7 @@ description: >-
 
   Ms. Satera was eager to take on designs with an international vibe and professional look.
 client: Jaxx Sportswear
-services: Brand Messaging, Brand Positioning, Brand Strategy and Brand Identity Design.
+services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isHighlighted: true
 isPublishedWork: true
 ---
