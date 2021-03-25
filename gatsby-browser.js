@@ -80,3 +80,11 @@ const components = {
 export const wrapRootElement = ({ element }) => {
   return <MDXProvider components={components}>{element}</MDXProvider>
 }
+
+const HeadComponents = [
+  <script src="https://widget.clutch.co/static/js/widget.js" />
+]
+
+export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
+  setHeadComponents(HeadComponents)
+}

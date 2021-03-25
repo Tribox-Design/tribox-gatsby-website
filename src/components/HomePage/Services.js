@@ -17,7 +17,7 @@ const Services = () => {
               <CustomImg src={props.img} alt={props.title} />
             </ServiceImgContainer>
             <ServiceText
-              data-sal="slide-left"
+              data-sal="slide-up"
               data-sal-duration="700"
               data-sal-delay="600"
               data-sal-easing="ease"

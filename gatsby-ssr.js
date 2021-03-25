@@ -18,7 +18,7 @@ const components = {
         marginBottom: "1.75rem",
         fontSize: "large",
         lineHeight: "1.6",
-        fontWeight: "300"
+        fontWeight: "300",
       }}
       {...props}
     />
@@ -27,4 +27,12 @@ const components = {
 
 export const wrapRootElement = ({ element }) => {
   return <MDXProvider components={components}>{element}</MDXProvider>
+}
+
+const HeadComponents = [
+  <script src="https://widget.clutch.co/static/js/widget.js" />
+]
+
+export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
+  setHeadComponents(HeadComponents)
 }
