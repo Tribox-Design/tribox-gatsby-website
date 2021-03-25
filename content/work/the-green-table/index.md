@@ -9,7 +9,7 @@ description: The Tribox Design team worked closely with The Green Table’s
   Greening Life”.
 client: The Green Table
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
-  Digital Design,Naming, Packaging Design
+  Digital Design, Naming, Packaging Design
 featuredOn:
   - featured:
       name: World Brand Design Society
