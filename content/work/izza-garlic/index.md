@@ -15,8 +15,8 @@ description: >-
 
   To address these concerns, Izza Garlic came up with a way to spice up homemade meals and simplify home cooking and meal prepping for everyone in the city.
 client: Izza Garlic
-services: Brand Strategy, Brand Identity, Packaging, Messaging Brand, Audit
-  Brand, Brand Development, Copywriting
+services: Brand Strategy, Brand Identity, Packaging, Messaging, Brand
+  Positioning, Copywriting
 featuredOn:
   - featured:
       name: Packaging Of The World
