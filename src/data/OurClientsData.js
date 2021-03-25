@@ -12,7 +12,7 @@ import Tres from "../images/work-logo-tres.svg"
 import Jaxx from "../images/work-logo-jaxx.svg"
 
 export const ourClientsData = [
-  { client: "The Green Table", svg: TGT, url: 'https://thegreentable.co/' },
+  { client: "The Green Table", svg: TGT, url: 'https://thegreentable.ph/' },
   { client: "Izza Garlic", svg: Izza, url: 'https://facebook.com/izzagarliccebu' },
   { client: "The Mystic Psychologist", svg: TMP, url: 'https://facebook.com/TheMysticPsychologist' },
   { client: "Jaxx Sportswear", svg: Jaxx, url: 'https://facebook.com/jaiyanahswearandtrends' },

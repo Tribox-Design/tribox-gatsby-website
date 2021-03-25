@@ -4,9 +4,11 @@ import { Button } from "../Button"
 
 const IntroBanner = () => {
   return (
-    <IntroContainer data-sal="fade"
-    data-sal-duration="100"
-    data-sal-easing="ease">
+    <IntroContainer
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-easing="ease"
+    >
       <IntroContent
         data-sal="slide-left"
         data-sal-duration="700"

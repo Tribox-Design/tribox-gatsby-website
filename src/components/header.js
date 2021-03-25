@@ -9,9 +9,12 @@ import TriboxLogoWhite from "../images/tribox-logo-white.png"
 const Header = ({ toggle, page }) => {
   const primaryBackground = page === "Home" || page === "About"
   return (
-    <NavContainer primaryBackground={primaryBackground} data-sal="fade"
-    data-sal-duration="100"
-    data-sal-easing="ease">
+    <NavContainer
+      primaryBackground={primaryBackground}
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-easing="ease"
+    >
       <Nav data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease">
         <NavLink to="/">
           <LogoImg

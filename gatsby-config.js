@@ -95,6 +95,7 @@ module.exports = {
         name: `news`,
       },
     },
-    `gatsby-plugin-react-leaflet`
+    `gatsby-plugin-react-leaflet`,
+    `gatsby-plugin-modal-routing`
   ],
 }

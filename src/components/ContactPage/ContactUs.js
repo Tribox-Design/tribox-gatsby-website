@@ -10,12 +10,7 @@ const ContactUs = () => {
       .join("&")
   }
   return (
-    <ContactContainer
-      data-sal="fade"
-      data-sal-duration="600"
-      data-sal-delay="1000"
-      data-sal-easing="ease"
-    >
+    <ContactContainer>
       <ContactWidth>
         <Formik
           initialValues={{
@@ -69,7 +64,12 @@ const ContactUs = () => {
           <Form name="Contact" data-netlify={true} netlify-honeypot="bot-field">
             <Field type="hidden" name="bot-field" />
             <ContactWrapper>
-              <ContactCard>
+              <ContactCard
+                data-sal="fade"
+                data-sal-duration="600"
+                data-sal-delay="900"
+                data-sal-easing="ease"
+              >
                 <MyLabel>Name *</MyLabel>
                 <NameContainer>
                   <FirstNameContainer>
@@ -120,7 +120,12 @@ const ContactUs = () => {
                 <MyLabel htmlFor="address">Address</MyLabel>
                 <InputForm name="address" placeholder="Business Address" />
               </ContactCard>
-              <ContactCard>
+              <ContactCard
+                data-sal="fade"
+                data-sal-duration="600"
+                data-sal-delay="900"
+                data-sal-easing="ease"
+              >
                 <MyLabel>What needs to be solved today?</MyLabel>
                 <PainPointsContainer>
                   {painPointsData.map((props, index) => (

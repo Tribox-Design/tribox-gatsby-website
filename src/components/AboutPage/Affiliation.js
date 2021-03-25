@@ -1,19 +1,19 @@
 import React from "react"
 import styled from "styled-components"
-import { weAreFeaturedData } from "../../data/WeAreFeaturedData"
+import { affiliationsData } from "../../data/AffiliationsData"
 
-const WeAreFeatured = () => {
+const Affiliation = () => {
   return (
     <FeaturedContainer>
       <FeaturedContent>
         <FeaturedWrapper>
-          <Title>We are featured internationally</Title>
+          <Title>Memberships and Affiliations</Title>
           <ImgContainer
             data-sal="fade"
             data-sal-duration="700"
             data-sal-easing="ease"
           >
-            {weAreFeaturedData.map((item, index) => (
+            {affiliationsData.map((item, index) => (
               <CustomImg key={index} src={item.img} alt={item.feature} />
             ))}
           </ImgContainer>
@@ -23,7 +23,7 @@ const WeAreFeatured = () => {
   )
 }
 
-export default WeAreFeatured
+export default Affiliation
 
 /// *********************************************************
 /// Styled Components
@@ -71,7 +71,9 @@ const ImgContainer = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     text-align: center;
-  }
+    grid-gap: 0;
+    padding: 4rem;
+}
 `
 
 const CustomImg = styled.img`
@@ -79,6 +81,6 @@ const CustomImg = styled.img`
   width: 100%;
 
   @media screen and (max-width: 768px) {
-    width: 85%;
+    width: 80%;
   }
 `

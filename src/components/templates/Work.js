@@ -7,6 +7,7 @@ import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
 import MDXContainer from "../WorkTemplatePage/MDXContainer"
+import PrologueContact from "../WorkTemplatePage/PrologueContact"
 
 class WorkTemplate extends React.Component {
   render() {
@@ -25,15 +26,12 @@ class WorkTemplate extends React.Component {
           <WorkContent>
             <WorkDetails frontmatter={post.frontmatter} />
             <WorkImg
-               data-sal="fade"
-        data-sal-duration="800"
-        data-sal-delay="500"
-        data-sal-easing="ease"
               alt={post.frontmatter.title}
               src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
             <MDXContainer mdx={post.body} />
+            <PrologueContact title={post.frontmatter.title} />
             <MoreProjects currentPage={post.frontmatter.title} />
           </WorkContent>
         </WorkContainer>

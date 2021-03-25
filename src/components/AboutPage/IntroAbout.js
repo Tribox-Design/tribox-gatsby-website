@@ -5,7 +5,7 @@ const IntroAbout = () => {
   return (
     <IntroContainer
       data-sal="fade"
-      data-sal-duration="100"
+      data-sal-duration="500"
       data-sal-easing="ease"
     >
       <IntroContent
@@ -21,9 +21,9 @@ const IntroAbout = () => {
           </IntroH1>
           <IntroP>
             We are a passionate team with different expertise but with the same
-            goals. We believe that using our expertise can help you and provide
+            goals. We believe that using our expertise can help you provide
             value to make a big impact to the community. Our work consists of
-            Brand Identity Design, Brand Strategy and Graphics.
+            Brand Strategy, Brand Identity, and Digital Marketing.
           </IntroP>
         </IntroItems>
       </IntroContent>

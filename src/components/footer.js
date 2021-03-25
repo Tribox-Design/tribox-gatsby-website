@@ -44,7 +44,7 @@ const Footer = () => {
             <FooterP>
               &copy; 2021 Tribox Design. All Rights Reserved.
               <br />
-              Tribox Design is a registered Trademark in WIPO
+              Tribox Design is a registered Trademark in the Philippines.
             </FooterP>
           </TradeMark>
         </FooterRight>

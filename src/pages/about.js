@@ -8,6 +8,7 @@ import MissionVision from "../components/AboutPage/MissionVision"
 import OurServices from "../components/AboutPage/OurServices"
 import OurClients from "../components/AboutPage/OurClients"
 import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
+import Affiliation from "../components/AboutPage/Affiliation"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const IndexPage = () => (
@@ -26,6 +27,8 @@ We are a passionate team with different expertise but with the same goals. We be
     <OurServices />
     <Line />
     <OurClients />
+    <Line />
+    <Affiliation />
     <Line />
     <WeAreFeatured />
   </Layout>

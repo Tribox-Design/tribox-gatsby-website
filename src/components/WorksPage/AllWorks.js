@@ -80,7 +80,7 @@ function getAllWorks(data) {
 const WorksContainer = styled.div`
   display: flex;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 `
 
 const WorksWrapper = styled.div`
@@ -114,6 +114,7 @@ const WorkCard = styled.div`
   transition: 0.2s ease;
 
   &:hover {
+    data-sal-delay: 0;
     transform: scale(1.02);
   }
 `

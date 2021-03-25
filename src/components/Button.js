@@ -10,7 +10,6 @@ export const Button = styled(Link)`
   font-size: ${({ big }) => (big ? '18px' : '16px')};
   outline: none;
   border: none;
-
   min-width: 100px;
   cursor: pointer;
   text-decoration: none;
@@ -24,8 +23,8 @@ export const Button = styled(Link)`
     linear-gradient(100deg, rgba(0,0,0,0.2) 0%, transparent 100%),
     )}; */}
 
-    ${'' /* background: ${({ primary }) => (primary ? '#F7F7F7' : '#FC000D')}; */}
-    color: ${({ primary }) => (primary ? '#ff3333' : '#ff616f')};
+    background: ${({ primary }) => (primary ? '#424242' : '#ffffff')};
+    color: ${({ primary }) => (primary ? '#ffffff' : '#ff3333')};
     ${'' /* transform: translateY(-1px); */}
   }
 

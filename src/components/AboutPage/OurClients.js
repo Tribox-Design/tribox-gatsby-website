@@ -19,7 +19,6 @@ const OurClients = () => {
                 rel="noopener noreferrer"
                 data-sal="fade"
                 data-sal-duration="700"
-
                 data-sal-easing="ease"
               >
                 <CustomImg src={item.svg} alt={item.client} />
