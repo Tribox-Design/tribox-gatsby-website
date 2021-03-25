@@ -8,8 +8,8 @@ description: The Tribox Design team worked closely with The Green Table’s
   Collar Enterprise Philippines as part of their advocacy “Greening Business,
   Greening Life”.
 client: The Green Table
-services: Brand Strategy, Brand Identity, Brand Messaging, Brand
-  Positioning,Naming, Packaging Design
+services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
+  Digital Design,Naming, Packaging Design
 featuredOn:
   - featured:
       name: World Brand Design Society
