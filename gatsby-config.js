@@ -96,6 +96,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-leaflet`,
-    `gatsby-plugin-modal-routing`
   ],
 }

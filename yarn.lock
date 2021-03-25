@@ -6968,17 +6968,6 @@ gatsby-plugin-mdx@^1.10.1:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-modal-routing@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-modal-routing/-/gatsby-plugin-modal-routing-1.2.0.tgz#0d5f19d18e4b281dd59dd3cb9eb3ab7088cb0d11"
-  integrity sha512-MnAm6yO8XXb/Umet27kAWsvHVCV6kCjoU5gIKo/eIwTLkY+wXwgHlhZ+XZsb22z9qG792BtuQzhhDhH8DvJ/dw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    lodash "^4.17.11"
-    react "^16.8.1"
-    react-dom "^16.8.1"
-    react-modal "^3.8.1"
-
 gatsby-plugin-netlify-cms@^4.7.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.10.0.tgz#d404356f6fd4aef9a7511327948089cb6d33aab1"
@@ -13129,7 +13118,7 @@ react-dnd@^7.3.2:
     invariant "^2.1.0"
     shallowequal "^1.1.0"
 
-react-dom@^16.8.1, react-dom@^16.8.4:
+react-dom@^16.8.4:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -13426,7 +13415,7 @@ react-window@^1.8.5:
     "@babel/runtime" "^7.0.0"
     memoize-one ">=3.1.1 <6"
 
-react@^16.8.1, react@^16.8.4:
+react@^16.8.4:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

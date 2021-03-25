@@ -65,20 +65,25 @@ const ImgContainer = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(3, 3fr);
   width: 100%;
-  grid-gap: 160px;
-  padding: 2rem 3rem;
+  grid-gap: 60px;
+  padding: 4rem 3rem;
+  justify-content: space-evenly;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     text-align: center;
+    grid-gap: 80px;
+    padding: 4rem 2rem;
   }
 `
 
 const CustomImg = styled.img`
   margin: auto;
   width: 100%;
+  max-height: 120px;
 
   @media screen and (max-width: 768px) {
-    width: 85%;
+    max-height: 120px;
+    width: 75%;
   }
 `

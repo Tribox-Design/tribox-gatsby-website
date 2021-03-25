@@ -1,5 +1,5 @@
 import POTW from "../images/potw.png"
-import BrandsAwesome from "../images/brands-awesome.png"
+import BrandsAwesome from "../images/brands-awesome.svg"
 import WBDS from "../images/wbds.jpg"
 
 export const weAreFeaturedData = [
