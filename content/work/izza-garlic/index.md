@@ -22,7 +22,7 @@ featuredOn:
       name: Packaging Of The World
       link: https://www.packagingoftheworld.com/2020/08/izza-garlic.html
   - featured:
-      name: Brand Awesome
+      name: Brands Awesome
       link: https://brandsawesome.com/project/izza-garlic/
 isHighlighted: true
 isPublishedWork: true
