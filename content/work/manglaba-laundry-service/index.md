@@ -13,7 +13,7 @@ description: >-
 
   Since Bulingon, Manglaba!
 client: Manglaba Laundry Service
-services: Logo, Brand Identity
+services: Brand Identity, Brand Messaging
 isHighlighted: false
 isPublishedWork: true
 ---

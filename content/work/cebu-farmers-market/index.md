@@ -3,15 +3,15 @@ date: 2021-01-22T13:21:10.502Z
 title: Cebu Farmers Market
 thumbnail: cebu-farmers-market-tribox-design.jpg
 description: >-
-  Cebu Farmers Marker (CFM) is a non-profit organization based in Cebu City.
+  Cebu Farmers Market (CFM) is a non-profit organization based in Cebu City.
   This is a market that features fresh, organic, and naturally grown fruits and
   vegetables from local farmers in Cebu. They have operated since 2004, helping
   farmers sell their fresh produce to the community.
 
   As a founder of CFM, Teresa D. Ruelas advocates the “Farm Right, Eat Right, Live Right” campaign to Cebuanos.
 client: Cebu Farmers Market
-services: Brand Identity Design, Promotion, Marketing Collaterals Prints,
-  Illustrations and Digital Designs
+services: Brand Strategy, Brand Identity, Promotion, Marketing Collaterals
+  Prints, Illustrations and Digital Designs
 featuredOn:
   - featured:
       name: World Brand Design Society

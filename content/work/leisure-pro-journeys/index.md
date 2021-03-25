@@ -10,7 +10,7 @@ description: >-
 
   Over the years, the company has expanded its list of services. To complement this expansion, they decided to rebrand their company. With our help, they have adopted a fresh brand identity to offer customers a new journeying experience.
 client: Leisure Pro Journeys
-services: Brand Strategy, Messaging, Brand Identity Design, Brand Audit, Brand Collateral
+services: Brand Strategy, Brand Identity, Messaging, Brand Audit, Brand Collaterals
 isHighlighted: false
 isPublishedWork: true
 ---
