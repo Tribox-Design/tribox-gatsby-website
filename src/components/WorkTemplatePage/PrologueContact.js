@@ -32,6 +32,10 @@ const IntroContent = styled.div`
   max-width: 1140px;
   margin: 0 auto;
   padding-bottom: 4rem;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 2rem;
+  }
 `
 
 const IntroItems = styled.div`
@@ -40,6 +44,11 @@ const IntroItems = styled.div`
   color: #212121;
   max-width: 60%;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+    margin-bottom: 1.5rem;
+  }
 `
 
 const IntroP = styled.div`
@@ -48,4 +57,10 @@ const IntroP = styled.div`
   margin-bottom: 0.4rem;
   padding-top: 2rem;
   color: #424242;
+
+  @media screen and (max-width: 768px) {
+    font-size: clamp(18px, 2vw, 3rem);
+    padding-top: 0;
+    line-height: 1.3
+  }
 `

@@ -127,9 +127,9 @@ const FooterImgContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 768px) {
-    margin-top: 2rem;
     height: 48px;
     width: 48px;
+    margin: 24px 10px 10px 0px;
   }
 `
 

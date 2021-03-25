@@ -81,9 +81,4 @@ const CustomImg = styled.img`
   margin: auto;
   width: 100%;
   max-height: 120px;
-
-  @media screen and (max-width: 768px) {
-    max-height: 120px;
-    width: 75%;
-  }
 `

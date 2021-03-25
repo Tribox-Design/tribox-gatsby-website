@@ -144,7 +144,7 @@ const ContactUs = () => {
                   <TextAreaForm
                     component="textarea"
                     name="message"
-                    placeholder="Tell us about your ideas, timeline and budget range."
+                    placeholder="Tell us about your ideas, timeline, and budget range."
                   />
                 </div>
 
