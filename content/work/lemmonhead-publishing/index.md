@@ -11,7 +11,7 @@ description: >-
 
   The CEO partnered with us to rebrand the company, aiming to maintain a brand identity that’s distinct and unique.
 client: Lemmonhead Publishing
-services: Brand Identity, Logo
+services: Brand Identity
 isHighlighted: false
 isPublishedWork: true
 ---
