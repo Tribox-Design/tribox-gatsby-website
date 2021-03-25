@@ -10,8 +10,8 @@ description: >-
 
   As a founder of CFM, Teresa D. Ruelas advocates the “Farm Right, Eat Right, Live Right” campaign to Cebuanos.
 client: Cebu Farmers Market
-services: Brand Identity Design, Promotion, Marketing Collaterals Prints,
-  Illustrations and Digital Designs
+services: Brad Strategy, Brand Identity, Promotion, Marketing Collaterals
+  Prints, Illustrations and Digital Designs
 featuredOn:
   - featured:
       name: World Brand Design Society
