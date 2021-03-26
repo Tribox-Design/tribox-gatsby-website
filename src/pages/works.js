@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout page="Work">
     <SEO
       title="Our Works"
-      description="Defining brands, simplifying the complex."
+      description="Defining brands, simplifying the complex. To promote the growth of every Filipino brand through creativity and well-developed strategies."
       image={TriboxLogo}
     />
     <IntroWork />

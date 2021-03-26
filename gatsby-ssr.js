@@ -30,7 +30,7 @@ export const wrapRootElement = ({ element }) => {
 }
 
 const HeadComponents = [
-  <script src="https://widget.clutch.co/static/js/widget.js" />
+  <script src="https://widget.clutch.co/static/js/widget.js" async />
 ]
 
 export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {

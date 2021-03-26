@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, title, image, keywords }) {
       title={title}
       titleTemplate={
         (title === "Tribox Design")
-          ? `Tribox Design`
+          ? `Tribox Design - Defining brands, simplifying the complex`
           : `%s | ${defaultTitle}`
       }
       meta={[

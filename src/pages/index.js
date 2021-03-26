@@ -8,12 +8,15 @@ import WorkWithUs from "../components/HomePage/WorkWithUs"
 import Services from "../components/HomePage/Services"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
+const seoKeywords = "marketing, digital marketing, cebu, brand, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow"
+
 const IndexPage = () => (
   <Layout page="Home">
     <SEO
       title="Tribox Design"
-      description="Defining brands, simplifying the complex. Tribox Design is a local branding agency for Local Brands, SMEs and Startups."
+      description="Tribox Design is a Cebu based local branding agency for Local Brands, SMEs and Startups. We are a passionate team with different expertise but with the same goals. We believe that using our expertise can help you provide value to make a big impact to the community. Our work consists of Brand Strategy, Brand Identity, and Digital Marketing."
       image={TriboxLogo}
+      keywords={seoKeywords}
     />
     <IntroBanner />
     <HomeCarousel />

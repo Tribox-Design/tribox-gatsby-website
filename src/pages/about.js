@@ -11,13 +11,16 @@ import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
 import Affiliation from "../components/AboutPage/Affiliation"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
+const seoKeywords =
+  "Brand Positioning, Label/Packaging Design, Brand Messaging, Sound Branding, Brand Identity Design, Digital Marketing, Brand Naming, Illustration, Brand Evaluation Research, Web/Mobile App Development"
+
 const IndexPage = () => (
   <Layout page="About">
     <SEO
       title="About Us"
-      description="Tribox Design is a local branding agency for Local Brands, SMEs and Startups.
-We are a passionate team with different expertise but with the same goals. We believe that using our expertise can help you and provide value to make a big impact to the community. Our work consists of Brand Identity Design, Brand Strategy and Graphics."
+      description="Tribox Design and Advertising OPCorp. is a Cebu based Branding and Advertising agency founded in 2019 by three entrepreneurs and creatives, Inusentes A. Catapusan Jr. (CEO), Regine Marie V. Ylaya (COO), and Tyrone Chris B. Abad (CTO). The company’s line of business includes Brand Strategy, Brand Identity, Graphic Design, Web Development, and Mobile Development. Our mission is to promote the growth of local SMEs and startup businesses through strategy and creativity. We aim to level the playing field for artists and entrepreneurs so they can express their creativity, enhance their craft, and fuel their passion to achieve their individual goals. We envision a community of artists and entrepreneurs driven by their aspirations and passion for their craft to unlock opportunities and attain success."
       image={TriboxLogo}
+      keywords={seoKeywords}
     />
     <IntroAbout />
     <MissionVision />
