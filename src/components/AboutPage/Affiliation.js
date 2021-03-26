@@ -14,7 +14,7 @@ const Affiliation = () => {
             data-sal-easing="ease"
           >
             {affiliationsData.map((item, index) => (
-              <CustomImg key={index} src={item.img} alt={item.feature} />
+              <CustomImg key={index} src={item.img} alt={item.affiliate} />
             ))}
           </ImgContainer>
         </FeaturedWrapper>
