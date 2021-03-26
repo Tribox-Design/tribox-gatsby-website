@@ -22,7 +22,7 @@ const GetBlogs = ({ news }) => {
               category
               thumbnail {
                 childImageSharp {
-                  fluid(quality: 92) {
+                  fluid(quality: 90) {
                     ...GatsbyImageSharpFluid
                   }
                 }

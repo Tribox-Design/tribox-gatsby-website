@@ -23,7 +23,7 @@ const HomeCarousel = () => {
             alt
             img {
               childImageSharp {
-                fluid(maxWidth: 1080, quality: 96) {
+                fluid(maxWidth: 1080, quality: 94) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -79,6 +79,7 @@ const CarouSwiper = styled(Swiper)`
 
 const ImgT = styled.img`
   width: 100%;
+  height: auto;
   liststyle: none;
 `
 

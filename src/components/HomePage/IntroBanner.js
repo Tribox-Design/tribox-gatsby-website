@@ -21,7 +21,7 @@ const IntroBanner = () => {
             creativity and well-developed strategies.
           </IntroH1>
           <IntroButton>
-            <Button round="true" to="/about" big="true">
+            <Button round="true" to="/about/" big="true">
               More about us
             </Button>
           </IntroButton>

@@ -15,7 +15,7 @@ const PrologueContact = ({ title }) => {
           To find out more about {title} or any of our brands, get in touch.
         </IntroP>
       </IntroItems>
-      <Button primary to="/contact" big="false">
+      <Button primary to="/contact/" big="false">
         Get in touch
       </Button>
     </IntroContent>

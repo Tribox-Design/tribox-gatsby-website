@@ -119,16 +119,13 @@ const SocialMedia = styled.div`
 `
 
 const FooterImgContainer = styled.div`
-  height: 54px;
-  width: 54px;
+  
   align-items: center;
   margin: 10px 20px 10px 0px;
   display: inline-block;
   justify-content: space-between;
 
   @media screen and (max-width: 768px) {
-    height: 48px;
-    width: 48px;
     margin: 24px 10px 10px 0px;
   }
 `
@@ -161,9 +158,17 @@ const FooterP = styled.p`
 
 const SocialMediaImg = styled.img`
   transition: 0.2s;
+  aspect-ratio: 1;
+  height: 54px;
+  width: 54px;
 
   :focus,
   :hover {
     transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 48px;
+    width: 48px;
   }
 `

@@ -11,7 +11,7 @@ const WorkWithUs = () => {
           <WorkBannerH1>Work With Us</WorkBannerH1>
           <WorkBannerP>Thinking to transform and grow your brand?</WorkBannerP>
           <WorkBannerButton>
-            <Button round="true" to="/contact" big="true">
+            <Button round="true" to="/contact/" big="true">
               Let's Talk
             </Button>
           </WorkBannerButton>
