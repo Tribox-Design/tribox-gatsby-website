@@ -5,7 +5,7 @@ thumbnail: the-mystic-pyschologist-tribox-design.jpg
 description: The Mystic Psychologist is a community connected to their souls and
   the source that drives them to make the world a better place.
 client: The Mystic Psychologist
-services: "Brand Strategy, Brand Identity, Brand Messaging, Digital Design, "
+services: Brand Strategy, Brand Identity, Brand Messaging, Digital Design
 featuredOn:
   - featured:
       name: World Brand Design Society
