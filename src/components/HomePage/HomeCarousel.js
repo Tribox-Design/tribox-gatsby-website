@@ -11,6 +11,7 @@ import SwiperCore, {
 import "swiper/swiper-bundle.css"
 import "../styles/styles.css"
 import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual, EffectFade])
 
@@ -77,7 +78,7 @@ const CarouSwiper = styled(Swiper)`
   max-width: 1920px;
 `
 
-const ImgT = styled.img`
+const ImgT = styled(Img)`
   width: 100%;
   height: auto;
   liststyle: none;
