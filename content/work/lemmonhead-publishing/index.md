@@ -23,7 +23,7 @@ isPublishedWork: true
 
 ![lemmonhead](./lemmonhead-4.png)
 
-![lemmonhead](./lemmonhead-5.jpg)
+![lemmonhead](lemmonhead-5.jpg)
 
 ![lemmonhead](./lemmonhead-6.jpg)
 
