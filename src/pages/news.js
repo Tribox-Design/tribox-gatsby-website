@@ -7,6 +7,9 @@ import GetBlogs from "../components/NewsPage/GetBlogs"
 import { useStaticQuery, graphql } from "gatsby"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
+const seoKeywords =
+  "work, strategy, development, business, marketing, online, identity, digital marketing, cebu, brand, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow"
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query AllNewsQuery {
@@ -40,6 +43,7 @@ const IndexPage = () => {
         title="News"
         description="Tribox Design provides the latest news and blogs of our recent activities and works."
         image={TriboxLogo}
+        keywords={seoKeywords}
       />
       <BlogContainer>
         <AllBlogContent>

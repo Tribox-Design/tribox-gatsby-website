@@ -11,18 +11,7 @@ const OurClients = () => {
           <Title>Clients</Title>
           <ImgContainer>
             {ourClientsData.map((item, index) => (
-              <ClientLink
-                key={index}
-                urlExists={item.url}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-sal="fade"
-                data-sal-duration="700"
-                data-sal-easing="ease"
-              >
-                <CustomImg src={item.svg} alt={item.client} />
-              </ClientLink>
+              <ClientImage key={index} item={item} />
             ))}
           </ImgContainer>
         </ClientWrapper>
@@ -32,6 +21,33 @@ const OurClients = () => {
 }
 
 export default OurClients
+
+function ClientImage(props) {
+  if (props.item.url) {
+    return (
+      <ClientLink
+        href={props.item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-sal="fade"
+        data-sal-duration="700"
+        data-sal-easing="ease"
+      >
+        <CustomImg src={props.item.svg} alt={props.item.client} />
+      </ClientLink>
+    )
+  }
+
+  return (
+    <CustomImg
+      src={props.item.svg}
+      alt={props.item.client}
+      data-sal="fade"
+      data-sal-duration="700"
+      data-sal-easing="ease"
+    />
+  )
+}
 
 /// *********************************************************
 /// Styled Components
@@ -110,6 +126,6 @@ const CustomImg = styled.img`
 `
 
 const ClientLink = styled.a`
-  cursor: ${({ urlExists }) => (urlExists ? "pointer" : null)};
+  cursor: pointer;
   text-decoration: none;
 `
