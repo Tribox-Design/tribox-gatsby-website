@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: totzk9/tribox-gatsby-website
-  branch: develop
+  branch: master
 
 media_folder: content/assets
 public_folder: /assets
