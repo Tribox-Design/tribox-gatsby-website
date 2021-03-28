@@ -35,7 +35,7 @@ function SEO({ description, lang, meta, title, image, keywords }) {
       }}
       title={title}
       titleTemplate={
-        (title === "Tribox Design")
+        title === "Tribox Design"
           ? `Tribox Design - Defining brands, simplifying the complex`
           : `%s | ${defaultTitle}`
       }
@@ -81,8 +81,23 @@ function SEO({ description, lang, meta, title, image, keywords }) {
           content: metaDescription,
         },
       ].concat(meta)}
-      
-    />
+    >
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Branding Agency",
+          "url": "https://triboxdesign.com",
+          "name": "Tribox Design",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+639174483092",
+            "contactType": "Customer Support"
+          }
+        }
+      `}
+      </script>
+    </Helmet>
   )
 }
 
