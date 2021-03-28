@@ -14,36 +14,37 @@ services: Brand Strategy, Brand Identity, Messaging, Brand Audit, Brand Collater
 isHighlighted: false
 isPublishedWork: true
 ---
-![leisurepro](./leisurepro-0.png)
 
-![leisurepro1](./leisurepro-1.png)
+![Leisure Pro Journeys - Experience Journeys Design Banner](./leisurepro-0.png "Leisure Pro Journeys - Experience Journeys Design Banner")
 
-![leisurepro2](./leisurepro-2.jpg)
+![Leisure Pro Journeys - Promotion Design Banner](./leisurepro-1.png "Leisure Pro Journeys - Promotion Design Banner")
 
-![leisurepro3 ](./leisurepro-3.jpg)
+![Leisure Pro Journeys - Promotion Book Now ads](./leisurepro-2.jpg "Leisure Pro Journeys - Promotion Book Now ads")
 
-![leisurepro4](./leisurepro-4.png)
+![Leisure Pro Journeys - Promotion Book Now ads](./leisurepro-3.jpg "Leisure Pro Journeys - Promotion Book Now ads")
 
-![leisurepro5](./leisurepro-5.png)
+![Leisure Pro Journeys - Logo Color Templates](./leisurepro-4.png "Leisure Pro Journeys - Logo Color Templates")
 
-![leisurepro7](./leisurepro-7.png)
+![Leisure Pro Journeys - Logo Color Templates](./leisurepro-5.png "Leisure Pro Journeys - Logo Color Templates")
 
-![leisurepro8](./leisurepro-8.jpg)
+![Leisure Pro Journeys - Logo Color Templates](./leisurepro-7.png "Leisure Pro Journeys - Logo Color Templates")
 
-![leisurepro9](./leisurepro-9.jpg)
+![Leisure Pro Journeys - Quotes Social Media posts](./leisurepro-8.jpg "Leisure Pro Journeys - Quotes social Media posts")
 
-![leisurepro10](./leisurepro-10.jpg)
+![Leisure Pro Journeys - Quotes Social Media posts](./leisurepro-9.jpg "Leisure Pro Journeys - Quotes Social Media posts")
 
-![leisurepro11](./leisurepro-11.jpg)
+![Leisure Pro Journeys - Promotion Vacations](./leisurepro-10.jpg "Leisure Pro Journeys - Promotion Vacations")
 
-![leisurepro12](./leisurepro-12.jpg)
+![Leisure Pro Journeys - Package and Promos](./leisurepro-11.jpg "Leisure Pro Journeys - Package and Promos")
 
-![leisurepro13](./leisurepro-13.jpg)
+![Leisure Pro Journeys - Business Card, Apparels and Paperworks](./leisurepro-12.jpg "Leisure Pro Journeys - Business Card, Apparels and Paperworks")
 
-![leisurepro14](./leisurepro-14.jpg)
+![Leisure Pro Journeys - Stickers](./leisurepro-13.jpg "Leisure Pro Journeys - Stickers")
 
-![leisurepro15](./leisurepro-15.jpg)
+![Leisure Pro Journeys - Eco bag](./leisurepro-14.jpg "Leisure Pro Journeys - Eco bag")
 
-![leisurepro16](./leisurepro-16.jpg)
+![Leisure Pro Journeys - Travelling Portfolio](./leisurepro-15.jpg "Leisure Pro Journeys - Travelling Portfolio")
 
-![leisurepro17](./leisurepro-17.png)
+![Leisure Pro Journeys - Logo Wireframing and design](./leisurepro-16.jpg "Leisure Pro Journeys - Logo Wireframing and design")
+
+![Leisure Pro Journeys - Logo Design](./leisurepro-17.png "Leisure Pro Journeys - Logo Design")

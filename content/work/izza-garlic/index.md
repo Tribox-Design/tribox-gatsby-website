@@ -27,6 +27,7 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
+
 ### The Challenge
 
 Izza Garlic needed to develop their brand message and simplify their brand identity in terms of design, brand positioning, social media engagement, and attracting leads.
@@ -47,60 +48,60 @@ We positioned the brand image of Izza Garlic by first defining their vision-miss
 
 The design we developed for the brand was based on meticulous research on the psychology of condiments and packaging. Each design choice was selected with care.
 
-![izza1](izza-1.jpg)
+![Izza Garlic - Garlic Product Photography](izza-1.jpg "Izza Garlic - Garlic Product Photography")
 
-![izza2](izza-2.jpg)
+![Izza Garlic - All Products](izza-2.jpg)
 
-![izza3](izza-3.jpg)
+![Izza Garlic - All Products](izza-3.jpg)
 
-![izza4](izza-4.jpg)
+![Izza Garlic - Chilli Product](izza-4.jpg)
 
-![izza5](izza-5.jpg)
+![Izza Garlic - Condiment](izza-5.jpg)
 
-![izza6](izza-6.jpg)
+![Izza Garlic](izza-6.jpg)
 
-![izza7](izza-7.jpg)
+![Izza Garlic - Smeltering watering mouth](izza-7.jpg)
 
-![izza8](izza-8.jpg)
+![Izza Garlic - Packaging](izza-8.jpg)
 
-![izza9](izza-9.jpg)
+![Izza Garlic - Label](izza-9.jpg)
 
-![izza10](izza-10.jpg)
+![Izza Garlic - All Products](izza-10.jpg)
 
-![izza11](izza-11.jpg)
+![Izza Garlic - All Products](izza-11.jpg)
 
-![izza12](izza-12.jpg)
+![Izza Garlic - Labels](izza-12.jpg)
 
-![izza13](izza-13.jpg)
+![Izza Garlic - labels](izza-13.jpg)
 
-![izza Packaging](izza-15.jpg)
+![Izza Garlic - Packaging](izza-15.jpg "Izza Garlic - Packaging")
 
-![Izza Condiments](izza-16.jpg)
+![Izza Garlic - Condiments](izza-16.jpg "Izza Garlic - Condiments")
 
-![Daizer Izza Condiments](izza-17.jpg)
+![Izza Garlic - Pinoy breakfast with Izza Garlic](izza-17.jpg "Izza Garlic - Pinoy breakfast with Izza Garlic")
 
-![Pinoy breakfast with Izza Garlic](izza-18.jpg)
+![Izza Garlic - Daizer Izza Condiments](izza-18.jpg "Izza Garlic - Daizer Izza Condiments")
 
-![izza Packaging](izza-19.jpg)
+![Izza Garlic - Packaging](izza-19.jpg "Izza Garlic - Packaging")
 
-![izza Packaging](izza-20.jpg)
+![Izza Garlic - Packaging](izza-20.jpg "Izza Garlic - Packaging")
 
-![izza Packaging Spicy](izza-21.jpg)
+![Izza Garlic - Packaging Spicy](izza-21.jpg "Izza Garlic - Packaging Spicy")
 
-![izza Packaging](izza-22.jpg)
+![Izza Garlic - Packaging](izza-22.jpg "Izza Garlic - Packaging")
 
-![Packaging](izza-23.jpg)
+![Izza Garlic - Packaging](izza-23.jpg "Izza Garlic - Packaging")
 
-![Kitchen Tools and Utensils](izza-24.jpg)
+![Izza Garlic - Kitchen Tools and Utensils](izza-24.jpg "Izza Garlic - Kitchen Tools and Utensils")
 
-![Typography](izza-25.jpg)
+![Izza Garlic - Typography](izza-25.jpg "Izza Garlic - Typography")
 
-![Packaging](izza-26.jpg)
+![Izza Garlic - Packaging](izza-26.jpg "Izza Garlic - Packaging")
 
-![Logo based on the garlic](izza-27.jpg)
+![Izza Garlic - Logo based on the garlic](izza-27.jpg "Izza Garlic - Logo based on the garlic")
 
-![Old and new](izza-28.jpg)
+![Izza Garlic - Old and new](izza-28.jpg "Izza Garlic - Old and new")
 
-![Magka izza](izza-29.jpg)
+![Izza Garlic - Magka izza](izza-29.jpg "Izza Garlic - Magka izza")
 
-![Izza Garlic Menu](izza-30.jpg)
+![Izza Garlic - Izza Garlic Menu](izza-30.jpg "Izza Garlic - Izza Garlic Menu")

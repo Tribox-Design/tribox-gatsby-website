@@ -14,36 +14,37 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isHighlighted: true
 isPublishedWork: true
 ---
-![tres](./tres-0.png)
 
-![tres](./tres-1.png)
+![Tres Water Company - The Final Logo](./tres-0.png "Tres Water Company - The Final Logo")
 
-![tres3](./tres-2.png)
+![Tres Water Company - Facebook profile and Cover photo](./tres-1.png "Tres Water Company - Facebook profile and Cover photo")
 
-![tres4](./tres-4.png)
+![Tres Water Company - Labelling and Packaging 5 gallons](./tres-2.png "Tres Water Company - Labelling and Packaging 5 gallons")
 
-![tres5](./tres-5.png)
+![Tres Water Company - Paperworks, Business Card, Stationaries Design](./tres-4.png "Tres Water Company - Paperworks, Business Card, Stationaries Design")
 
-![tres6](./tres-6.png)
+![Tres Water Company - Eco bag](./tres-5.png "Tres Water Company - Eco bag")
 
-![tres7](./tres-7.jpg)
+![Tres Water Company - Brochure Front](./tres-6.jpg "Tres Water Company - Brochure Front")
 
-![tres8](./tres-8.png)
+![Tres Water Company - Brochure Back](./tres-7.png "Tres Water Company - Brochure Back")
 
-![tres9](./tres-9.png)
+![Tres Water Company - Packaging Bottled water Design](./tres-8.png "Tres Water Company - Packaging Bottled water Design")
 
-![tres10](./tres-10.png)
+![Tres Water Company - Business Card Design](./tres-9.png "Tres Water Company - Business Card Design")
 
-![tres11](./tres-11.jpg)
+![Tres Water Company - Delivery Truck Design](./tres-10.jpg "Tres Water Company - Delivery Truck Design")
 
-![tres12](./tres-12.jpg)
+![Tres Water Company - Portrayal of the brand](./tres-11.jpg "Tres Water Company - Portrayal of the brand")
 
-![tres13](./tres-13.jpg)
+![Tres Water Company - Instagram Design](./tres-12.jpg "Tres Water Company - Instagram Design")
 
-![tres14](./tres-14.jpg)
+![Tres Water Company - Polo shirt - Uniform design](./tres-13.jpg "Tres Water Company - Polo shirt - Uniform design")
 
-![tres15](./tres-15.jpg)
+![Tres Water Company - Happy brochure](./tres-14.jpg "Tres Water Company - Happy brochure")
 
-![tres16](./tres-16.jpg)
+![Tres Water Company - Billboard Design](./tres-15.jpg "Tres Water Company - Billboard Design")
 
-![tres17](./tres-17.jpg)
+![Tres Water Company - The design and research of Logo](./tres-16.jpg "Tres Water Company - The design and research of Logo")
+
+![Tres Water Company - Old and New | Before and After Logo](./tres-17.jpg "Tres Water Company - Old and New | Before and After Logo")

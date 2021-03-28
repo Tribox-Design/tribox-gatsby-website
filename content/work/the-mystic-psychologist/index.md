@@ -13,24 +13,25 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
-![image](./mystic_psychologist_1.png "image")
 
-![image](./mystic_psychologist_2.jpg "image")
+![The Mystic Psychologist - The Company Research](./mystic_psychologist_1.png "The Mystic Psychologist - The Company Research")
 
-![image](./mystic_psychologist_3.jpg "image")
+![The Mystic Psychologist - Stationary Paperworks design](./mystic_psychologist_2.jpg "The Mystic Psychologist - Stationary Paperworks design")
 
-![image](./mystic_psychologist_4.jpg "image")
+![The Mystic Psychologist - Connected Souls Billboard Design](./mystic_psychologist_3.jpg "The Mystic Psychologist - Connected Souls Billboard Design")
 
-![image](./mystic_psychologist_5.jpg "image")
+![The Mystic Psychologist - Business Card Design](./mystic_psychologist_4.jpg "The Mystic Psychologist - Business Card Design")
 
-![image](./mystic_psychologist_6.jpg "image")
+![The Mystic Psychologist - T-shirt Design](./mystic_psychologist_5.jpg "The Mystic Psychologist - T-shirt Design")
 
-![image](./mystic_psychologist_7.png "image")
+![The Mystic Psychologist - Facebook profile and cover photo Design](./mystic_psychologist_6.jpg "The Mystic Psychologist - Facebook profile and cover photo Design")
 
-![image](./mystic_psychologist_8.png "image")
+![The Mystic Psychologist - Instagram portfolio](./mystic_psychologist_7.png "The Mystic Psychologist - Instagram portfolio")
 
-![image](./mystic_psychologist_9.png "image")
+![The Mystic Psychologist - You're enough | You're not alone billboard](./mystic_psychologist_8.png "The Mystic Psychologist - You're enough | You're not alone billboard")
 
-![image](./mystic_psychologist_10.png "image")
+![The Mystic Psychologist - The Final Logo](./mystic_psychologist_9.png "The Mystic Psychologist - The Final Logo")
 
-![image](./mystic_psychologist_11.png "image")
+![The Mystic Psychologist - Old and new | Before and After logo](./mystic_psychologist_10.png "The Mystic Psychologist - Old and new | Before and After logo")
+
+![The Mystic Psychologist - Logo Template](./mystic_psychologist_11.png "The Mystic Psychologist - Logo Template")

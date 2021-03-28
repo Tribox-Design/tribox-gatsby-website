@@ -17,26 +17,27 @@ services: Brand Identity, Brand Messaging
 isHighlighted: false
 isPublishedWork: true
 ---
-![banners](./manglaba-1.png)
 
-![tshirt](./manglaba-2.png)
+![Manglaba Laundry Service - banners](./manglaba-1.png "Manglaba Laundry Service - banners")
 
-![logo](./manglaba-3.png)
+![Manglaba Laundry Service - tshirt](./manglaba-2.png "Manglaba Laundry Service - tshirt")
 
-![logo](./manglaba-4.png)
+![Manglaba Laundry Service - logo](./manglaba-3.png "Manglaba Laundry Service - logo")
 
-![wireframe](./manglaba-5.jpg)
+![Manglaba Laundry Service - logo](./manglaba-4.png "Manglaba Laundry Service - logo")
 
-![social distancing](./manglaba-8.jpg)
+![Manglaba Laundry Service - wireframe](./manglaba-5.jpg "Manglaba Laundry Service - wireframe")
 
-![multi logo](./manglaba-9.jpg)
+![Manglaba Laundry Service - social distancing](./manglaba-8.jpg "Manglaba Laundry Service - social distancing")
 
-![logo only](./manglaba-10.jpg)
+![Manglaba Laundry Service - multi logo](./manglaba-9.jpg "Manglaba Laundry Service - multi logo")
 
-![orange](./manglaba-11.jpg)
+![Manglaba Laundry Service - logo only](./manglaba-10.jpg "Manglaba Laundry Service - logo only")
 
-![yellow](./manglaba-12.jpg)
+![Manglaba Laundry Service - orange](./manglaba-11.jpg "Manglaba Laundry Service - orange")
 
-![all](./manglaba-13.jpg)
+![Manglaba Laundry Service - yellow](./manglaba-12.jpg "Manglaba Laundry Service - yellow")
 
-![transformation](./manglaba-7.jpg)
+![Manglaba Laundry Service - all](./manglaba-13.jpg "Manglaba Laundry Service - all")
+
+![Manglaba Laundry Service - transformation](./manglaba-7.jpg "Manglaba Laundry Service - transformation")

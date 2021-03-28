@@ -15,20 +15,20 @@ services: Brand Identity
 isHighlighted: false
 isPublishedWork: true
 ---
-![lemmonhead](./lemmonhead-1.png)
+![Lemmonhead Publishing - Tshirt design](./lemmonhead-1.png "Lemmonhead Publishing - Tshirt design")
 
-![lemmonhead](./lemmonhead-2.jpg)
+![Lemmonhead Publishing - Good Quality Music](./lemmonhead-2.jpg "Lemmonhead Publishing - Good Quality Music")
 
-![lemmonhead](./lemmonhead-3.png)
+![Lemmonhead Publishing - T-shirt designs](./lemmonhead-3.png "Lemmonhead Publishing - T-shirt designs")
 
-![lemmonhead](./lemmonhead-4.png)
+![Lemmonhead Publishing - Stationary, Business Card and paperworks design](./lemmonhead-4.png "Lemmonhead Publishing - Stationary, Business Card and paperworks design")
 
-![lemmonhead](lemmonhead-5.jpg)
+![Lemmonhead Publishing - Record, Promote, Licence, Royalty Music](lemmonhead-5.jpg "Lemmonhead Publishing - Record, Promote, Licence, Royalty Music")
 
-![lemmonhead](./lemmonhead-6.jpg)
+![Lemmonhead Publishing - Bisrock Track CDs and Album](./lemmonhead-6.jpg "Lemmonhead Publishing - Bisrock Track CDs and Album")
 
-![lemmonhead](./lemmonhead-7.jpg)
+![Lemmonhead Publishing - Logo Template](./lemmonhead-7.jpg "Lemmonhead Publishing - Logo Template")
 
-![lemmonhead](./lemmonhead-8.jpg)
+![Lemmonhead Publishing - Bisan Asa Music Promotion](./lemmonhead-8.jpg "Lemmonhead Publishing - Bisan Asa Music Promotion")
 
-![lemmonhead](./lemmonhead-9.jpg)
+![Lemmonhead Publishing - Logo Wireframing and design](./lemmonhead-9.jpg "Lemmonhead Publishing - Logo Wireframing and design")
