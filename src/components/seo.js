@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image, keywords }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -34,15 +34,27 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={
+        title === "Tribox Design"
+          ? `Tribox Design - Defining brands, simplifying the complex`
+          : `%s | ${defaultTitle}`
+      }
       meta={[
         {
           name: `description`,
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: keywords,
+        },
+        {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:image`,
+          content: image,
         },
         {
           property: `og:description`,
@@ -69,7 +81,23 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Branding Agency",
+          "url": "https://triboxdesign.com",
+          "name": "Tribox Design",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+639174483092",
+            "contactType": "Customer Support"
+          }
+        }
+      `}
+      </script>
+    </Helmet>
   )
 }
 
