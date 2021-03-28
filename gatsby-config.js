@@ -3,7 +3,7 @@ module.exports = {
     title: `Tribox Design`,
     description: `Defining brands, simplifying the complex.`,
     author: `@tyronskiii`,
-    siteUrl: `https://triboxdesign.com/`,
+    siteUrl: `https://dev-tribox-website-v3.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
