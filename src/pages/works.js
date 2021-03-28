@@ -6,7 +6,7 @@ import IntroWork from "../components/WorksPage/IntroWork"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const seoKeywords =
-  "work, strategy, development, business, marketing, online, identity, digital marketing, cebu, brand, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow"
+  "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow, local"
 
 const IndexPage = () => (
   <Layout page="Work">

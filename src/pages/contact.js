@@ -8,7 +8,8 @@ import ContactUs from "../components/ContactPage/ContactUs"
 import LocationMap from "../components/ContactPage/LocationMap"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
-const seoKeywords = "Brand Strategy, Illustration, Brand Identity, Sound Branding, Digital Marketing, Web Development, Packaging Design, Mobile App Development"
+const seoKeywords =
+  "Brand Strategy, Illustration, Brand Identity, Sound Branding, Digital Marketing, Web Development, Packaging Design, Mobile App Development"
 
 const IndexPage = () => (
   <Layout page="Contact">
