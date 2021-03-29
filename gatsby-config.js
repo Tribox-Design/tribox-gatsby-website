@@ -9,13 +9,6 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/admin`],
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -104,16 +97,25 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-leaflet`,
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "UA-168011287" // Google Analytics / GA
-          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-        ],
-      },
-    },
+    // Uncomment when releasing for production
+    //
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     // You can add multiple tracking ids and a pageview event will be fired for all of them.
+    //     trackingIds: [
+    //       "UA-168011287" // Google Analytics / GA
+    //       // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+    //       // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+    //     ],
+    //   },
+    // },
+    // `gatsby-plugin-robots-txt`,
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     exclude: [`/admin`],
+    //   },
+    // },
   ],
 }
