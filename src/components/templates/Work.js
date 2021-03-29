@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import styled from "styled-components"
 import SEO from "../seo"
 import Layout from "../layout"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
 import MDXContainer from "../WorkTemplatePage/MDXContainer"
@@ -12,14 +12,14 @@ import PrologueContact from "../WorkTemplatePage/PrologueContact"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-
+    console.log(post.frontmatter.thumbnail)
     var description = post.frontmatter.description + " | Best branding in Cebu."
     return (
       <Layout page="Work">
         <SEO
           title={post.frontmatter.title}
           description={description}
-          image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+          image={post.frontmatter.thumbnail.childImageSharp.fluid.originalImg}
           keywords={post.frontmatter.services}
         />
         <WorkContainer>
@@ -27,8 +27,8 @@ class WorkTemplate extends React.Component {
             <WorkDetails frontmatter={post.frontmatter} />
             <WorkImg
               alt={post.frontmatter.title}
-              src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
-              fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+              src={post.frontmatter.thumbnail.childImageSharp.fluid.originalImg}
+              // fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
             <MDXContainer mdx={post.body} />
             <PrologueContact title={post.frontmatter.title} />
@@ -60,7 +60,7 @@ export const pageQuery = graphql`
         thumbnail {
           childImageSharp {
             fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
+              originalImg
             }
           }
         }
@@ -92,7 +92,7 @@ const WorkContent = styled.div`
   }
 `
 
-const WorkImg = styled(Img)`
+const WorkImg = styled.img`
   max-width: 100%;
   position: relative;
 `
