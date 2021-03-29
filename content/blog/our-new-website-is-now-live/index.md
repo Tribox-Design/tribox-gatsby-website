@@ -1,6 +1,6 @@
 ---
 date: 2021-03-29T06:01:26.762Z
-title: our new website is now live
+title: Our new website is now live
 category: Blog
 thumbnail: tribox-design-new-website3.jpg
 isPublishedBlog: true
