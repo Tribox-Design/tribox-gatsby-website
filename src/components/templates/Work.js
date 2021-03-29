@@ -28,7 +28,6 @@ class WorkTemplate extends React.Component {
             <WorkImg
               alt={post.frontmatter.title}
               src={post.frontmatter.thumbnail.childImageSharp.fluid.originalImg}
-              // fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
             />
             <MDXContainer mdx={post.body} />
             <PrologueContact title={post.frontmatter.title} />
