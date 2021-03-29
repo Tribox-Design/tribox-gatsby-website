@@ -16,7 +16,7 @@ const MoreProjects = ({ currentPage }) => {
               title
               thumbnail {
                 childImageSharp {
-                  fluid {
+                  fluid(quality: 98) {
                     ...GatsbyImageSharpFluid
                   }
                 }

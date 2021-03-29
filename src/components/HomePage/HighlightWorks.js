@@ -24,7 +24,7 @@ const HighlightWorks = () => {
               title
               thumbnail {
                 childImageSharp {
-                  fluid(quality: 90) {
+                  fluid(quality: 98) {
                     ...GatsbyImageSharpFluid
                   }
                 }

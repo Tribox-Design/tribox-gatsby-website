@@ -1,7 +1,7 @@
 ---
 date: 2021-03-18T02:54:36.993Z
 title: The Green Table
-thumbnail: 1-diy-smoothie-kit-tribox-design.jpg
+thumbnail: 1.jpg
 description: The Tribox Design team worked closely with The Green Table’s
   founder, Mr. Neil Kho, to develop the new brand identity of his farm produce
   and products company. The Green Table was founded in 2017, a product of Green
@@ -45,44 +45,44 @@ They envisioned to be the first choice for healthy smoothies and locally produce
 
 <!--EndFragment-->
 
-![The Green Table Ph - Tribox Design](0-official-the-green-table-logo-tribox-design.jpg "The Green Table Ph - Tribox Design")
+![The Green Table Ph - Tribox Design](0.jpg "The Green Table Ph - Tribox Design")
 
-![The Green Table Ph - Smoothie kit Detoxing Green](2-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
+![The Green Table Ph - Smoothie kit Detoxing Green](2.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
 
-![The Green Table Ph - Smoothie kit Tropical Mango](3-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Tropical Mango")
+![The Green Table Ph - Smoothie kit Tropical Mango](3.jpg "The Green Table Ph - Smoothie kit Tropical Mango")
 
-![The Green Table Ph - Smoothie kit Immunity Boost](4-official-the-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Immunity Boost")
+![The Green Table Ph - Smoothie kit Immunity Boost](4.jpg "The Green Table Ph - Smoothie kit Immunity Boost")
 
-![The Green Table Ph - Smoothie kit Tropical Mango](5-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Tropical Mango")
+![The Green Table Ph - Smoothie kit Tropical Mango](5.jpg "The Green Table Ph - Smoothie kit Tropical Mango")
 
-![The Green Table Ph - Smoothie kit Immunity Boost](6-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Immunity Boost")
+![The Green Table Ph - Smoothie kit Immunity Boost](6.jpg "The Green Table Ph - Smoothie kit Immunity Boost")
 
-![The Green Table Ph - Smoothie kit Detoxing Green](7-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
+![The Green Table Ph - Smoothie kit Detoxing Green](7.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
 
-![The Green Table Ph - Blended Smoothie kit](9-official-the-green-blended-smoothie-kit-tribox-design.jpg "The Green Table Ph - Blended Smoothie kit")
+![The Green Table Ph - Blended Smoothie kit](9.jpg "The Green Table Ph - Blended Smoothie kit")
 
-![The Green Table Ph - Made easier & healthier for you - Billboard](10-official-the-green-tagline-tribox-design.jpg "The Green Table Ph - Made easier & healthier for you - Billboard")
+![The Green Table Ph - Made easier & healthier for you - Billboard](10.jpg "The Green Table Ph - Made easier & healthier for you - Billboard")
 
-![The Green Table Ph - Paper bag](11-official-the-paper-bag-tribox-design.jpg "The Green Table Ph - Paper bag")
+![The Green Table Ph - Paper bag](11.jpg "The Green Table Ph - Paper bag")
 
-![The Green Table Ph - Whats on the table - Billboard](12-official-the-billboard-2-tribox-design.jpg "The Green Table Ph - Whats on the table - Billboard")
+![The Green Table Ph - Whats on the table - Billboard](12.jpg "The Green Table Ph - Whats on the table - Billboard")
 
-![The Green Table Ph - Door Sign - Tribox Design](13-official-the-door-tribox-design.jpg "The Green Table Ph - Door Sign - Tribox Design")
+![The Green Table Ph - Door Sign - Tribox Design](13.jpg "The Green Table Ph - Door Sign - Tribox Design")
 
-![The Green Table Ph - The official Logo - Tribox Design](14.1-official-the-logo-tribox-design.jpg "The Green Table Ph - The official Logo - Tribox Design")
+![The Green Table Ph - The official Logo - Tribox Design](14.1.jpg "The Green Table Ph - The official Logo - Tribox Design")
 
-![The Green Table Ph - The official Logo - Tribox Design](14-official-the-logo-tribox-design.jpg "The Green Table Ph - The official Logo - Tribox Design")
+![The Green Table Ph - The official Logo - Tribox Design](14.jpg "The Green Table Ph - The official Logo - Tribox Design")
 
-![The Green Table Ph - Stationary Paperworks and Menu - Tribox design](15-official-the-staionary-tribox-design.jpg "The Green Table Ph - Stationary Paperworks and Menu - Tribox design")
+![The Green Table Ph - Stationary Paperworks and Menu - Tribox design](15.jpg "The Green Table Ph - Stationary Paperworks and Menu - Tribox design")
 
-![The Green Table Ph - Apron Design - Tribox Design](16-official-the-apron-tribox-design.jpg "The Green Table Ph - Apron Design - Tribox Design")
+![The Green Table Ph - Apron Design - Tribox Design](16.jpg "The Green Table Ph - Apron Design - Tribox Design")
 
-![The Green Table Ph - Mug Design - Tribox Design](17-official-the-mug-tribox-design.png "The Green Table Ph - Mug Design - Tribox Design")
+![The Green Table Ph - Mug Design - Tribox Design](17.png "The Green Table Ph - Mug Design - Tribox Design")
 
-![The Green Table Ph - Polo t-shirt Design - Tribox Design](18-official-the-polo-tribox-design.jpg "The Green Table Ph - Polo t-shirt Design - Tribox Design")
+![The Green Table Ph - Polo t-shirt Design - Tribox Design](18.jpg "The Green Table Ph - Polo t-shirt Design - Tribox Design")
 
-![The Green Table Ph - Official Posters - Tribox Design](19-official-the-posters-tribox-design.jpg "The Green Table Ph - Official Posters - Tribox Design")
+![The Green Table Ph - Official Posters - Tribox Design](19.jpg "The Green Table Ph - Official Posters - Tribox Design")
 
-![The Green Table Ph - Official Posters - Tribox Design](20-official-the-product-desc-tribox-design.jpg "The Green Table Ph - Official Posters - Tribox Design")
+![The Green Table Ph - Official Posters - Tribox Design](20.jpg "The Green Table Ph - Official Posters - Tribox Design")
 
-![The Green Table Ph - Old and new - Before and after logos - Tribox Design](21-official-the-before-and-after-logo-tribox-design.jpg "The Green Table Ph - Old and new - Before and after logos - Tribox Design")
+![The Green Table Ph - Old and new - Before and after logos - Tribox Design](21.jpg "The Green Table Ph - Old and new - Before and after logos - Tribox Design")
