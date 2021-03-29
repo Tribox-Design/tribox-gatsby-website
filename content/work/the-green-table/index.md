@@ -1,7 +1,7 @@
 ---
 date: 2021-03-18T02:54:36.993Z
 title: The Green Table
-thumbnail: 1-diy-smoothie-kit-tribox-design.jpg
+thumbnail: 1-DIY-Smoothie-Kit-Tribox-Design.jpg
 description: The Tribox Design team worked closely with The Green Table’s
   founder, Mr. Neil Kho, to develop the new brand identity of his farm produce
   and products company. The Green Table was founded in 2017, a product of Green
@@ -45,9 +45,9 @@ They envisioned to be the first choice for healthy smoothies and locally produce
 
 <!--EndFragment-->
 
-![The Green Table Ph - Tribox Design](0-official-the-green-table-logo-tribox-design.jpg "The Green Table Ph - Tribox Design")
+![The Green Table Ph - Tribox Design](0-Official-The-Green-Table-Logo-Tribox-Design.jpg "The Green Table Ph - Tribox Design")
 
-![The Green Table Ph - Smoothie kit Detoxing Green](2-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
+![The Green Table Ph - Smoothie kit Detoxing Green](2-Official-The-Green-Smoothie-Kit-Tribox-Design.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
 
 ![The Green Table Ph - Smoothie kit Tropical Mango](3-official-the-green-smoothie-kit-tribox-design.jpg "The Green Table Ph - Smoothie kit Tropical Mango")
 
