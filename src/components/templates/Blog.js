@@ -14,7 +14,7 @@ class BlogTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description}
-          image={post.frontmatter.thumbnail.childImageSharp.fluid.src}
+          image={post.frontmatter.thumbnail.childImageSharp.original.src}
         />
         <BlogContainer>
           <BlogContent>
@@ -23,8 +23,7 @@ class BlogTemplate extends React.Component {
           </BlogContent>
           <WorkImg
             alt={post.frontmatter.title}
-            src={post.frontmatter.thumbnail.childImageSharp.fluid.src}
-            fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+            src={post.frontmatter.thumbnail.childImageSharp.original.src}
           />
           <BlogContent>
             <MDXContainer mdx={post.body} />
@@ -46,8 +45,8 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         thumbnail {
           childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
+            original {
+              src
             }
           }
         }
@@ -102,7 +101,7 @@ const Date = styled.p`
   }
 `
 
-const WorkImg = styled(Img)`
+const WorkImg = styled.img`
   max-width: 100%;
   position: relative;
   margin-top: 3rem;
