@@ -1,7 +1,6 @@
 ---
 date: 2021-03-30T04:49:22.532Z
-title: "From Loly to Adtokart: to empower local businesses and building a
-  positive experience for the local community."
+title: "From Loly to Adtokart: to empower local businesses"
 category: Blog
 thumbnail: 1.png
 isPublishedBlog: true
