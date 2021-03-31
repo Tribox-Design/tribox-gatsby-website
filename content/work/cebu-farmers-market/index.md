@@ -21,4 +21,8 @@ isPublishedWork: true
 ---
 ![](3ab35e9632c5b906f1774272bd260972.gif)
 
+![](a448f012ac2681e47ebdd86aaf8a274a.gif)
+
+![](silhouette-solo-dribbble-03_v4.gif)
+
 ![](93663200-8230-45a7-9bc9-976ade253d05_rw_1920.gif)
