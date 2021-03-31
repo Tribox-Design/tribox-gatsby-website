@@ -13,7 +13,7 @@ And as their family grows, their services change and progress. With a refreshed 
 
 Adtokart — empowering local businesses and building a positive experience for the local community. ![🛒](https://static.xx.fbcdn.net/images/emoji.php/v9/t1c/1/16/1f6d2.png)![🧡](https://static.xx.fbcdn.net/images/emoji.php/v9/tfd/1/16/1f9e1.png)
 
-Support and their local business partners by downloading the app at [onelink.to/adtokart](https://l.facebook.com/l.php?u=http%3A%2F%2Fonelink.to%2Fadtokart%3Ffbclid%3DIwAR0WZ40F1Vg-HY_YMAeropCjUaPoVgEP4GN3ZANFc7p_qWBbsW0TU0Dmgi8&h=AT1J8ATD-gQmXbBvGGGrlnZsZhXIrPRwrgqlrgsVP5KARd9jhLm9OD8XlvoplW14GtLySJSLGMKUQKsk2ER6XQaTWoJtGqYCEsmu-CQtUWvDoNsQw1Qr9zuqKs9HvWsxnkri&__tn__=-UK-R&c[0]=AT0qALjk4lacpZm8KDS5yTaIwKS2oku--rD8QjlMrl1zv0LgbZgQ0HWUo1YFLlX_8B1Ns87G2yx-chQzuTj5T8eST8jRsninM2yj6b3dn2WE1l_gJuZDZO0wMSlxpXk42255aVA5Hz6sRG-azedvxNaDyHdXohr_kfOVFZX8lAiB2Q) ![💙](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f499.png)
+Support and their local business partners by downloading the app at [onelink.to/adtokart](https://onelink.to/adtokart) ![💙](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f499.png)
 
 <!--EndFragment-->
 
