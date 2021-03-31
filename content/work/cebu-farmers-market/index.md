@@ -19,7 +19,11 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
+
+
 ![](3ab35e9632c5b906f1774272bd260972.gif)
+
+![](logo-design-golden-ratio-infinity.gif)
 
 ![](a448f012ac2681e47ebdd86aaf8a274a.gif)
 
