@@ -92,15 +92,20 @@ const Title = styled.h3`
 `
 
 const ImgContainer = styled.div`
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: inline-grid;
-  grid-template-columns: repeat(4, 4fr);
-  grid-gap: 1rem 3rem;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 2rem 7rem;
   width: 100%;
+
+  @media screen and (max-width: 1140px) {
+    grid-gap: 2rem 4rem;
+ }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 2fr);
-  }
+    grid-gap: 2rem 2rem;
+ }
 
   @media screen and (max-width: 564px) {
     grid-gap: 0rem;
