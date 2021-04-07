@@ -92,24 +92,18 @@ const Title = styled.h3`
 `
 
 const ImgContainer = styled.div`
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: inline-grid;
-  grid-template-columns: repeat(3, 3fr);
-  grid-gap: 2rem 7rem;
+  grid-template-columns: repeat(4, 4fr);
+  grid-gap: 1rem 3rem;
   width: 100%;
 
-  @media screen and (max-width: 1140px) {
-    grid-gap: 2rem 4rem;
- }
-
   @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 2rem 2rem;
- }
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 0;
+  }
 
   @media screen and (max-width: 564px) {
-    grid-gap: 0rem;
-    grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
 `
@@ -120,8 +114,8 @@ const CustomImg = styled.img`
   transition: 0.2s;
 
   @media screen and (max-width: 768px) {
-    width: 82%;
-    height: 82%;
+    width: 88%;
+    height: 88%;
   }
 
   &:hover {
