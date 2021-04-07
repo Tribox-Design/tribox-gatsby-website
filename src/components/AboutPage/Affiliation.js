@@ -70,13 +70,18 @@ const ImgContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     display: grid;
-    grid-template-columns: 1fr;
     text-align: center;
-    grid-gap: 60px;
+    ${"" /* grid-gap: 60px; */}
   }
 `
 
 const CustomImg = styled.img`
   margin: auto;
   max-height: 130px;
+
+  @media screen and (max-width: 768px) {
+    margin: auto;
+    width: 100%;
+    max-height: 120px;
+  }
 `
