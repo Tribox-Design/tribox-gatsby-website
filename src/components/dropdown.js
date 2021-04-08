@@ -33,7 +33,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: ${({ headerBackground }) => headerBackground};
+  background: ${({ headerBackground }) => headerBackground === "#000000" ? "#000000" : "#ff3333"};
   display: grid;
   align-items: center;
   top: 0;
@@ -54,7 +54,7 @@ const Icon = styled.div`
 `
 
 const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #ffffff;
 `
 
 const DropdownWrapper = styled.div``
@@ -69,13 +69,12 @@ const DropdownMenu = styled.div`
 
 const DropdownLink = styled(Link)`
   display: flex;
-  color: #fff;
   align-items: center;
   justify-content: center;
   font-size: 32px;
   text-decoration: none;
   list-style: none;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 
