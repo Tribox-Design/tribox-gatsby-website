@@ -6,22 +6,14 @@ import { FaTimes } from "react-icons/fa"
 
 const Dropdown = ({ isOpen, toggle, headerBackground }) => {
   return (
-    <DropdownContainer
-      isOpen={isOpen}
-      onClick={toggle}
-      headerBackground={headerBackground}
-    >
+    <DropdownContainer isOpen={isOpen} onClick={toggle} headerBackground={headerBackground}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <DropdownWrapper>
         <DropdownMenu>
           {menuData.map((props, index) => (
-            <DropdownLink
-              to={props.link}
-              key={index}
-              headerBackground={headerBackground}
-            >
+            <DropdownLink to={props.link} key={index} headerBackground={headerBackground}>
               {props.title}
             </DropdownLink>
           ))}
@@ -73,10 +65,6 @@ const DropdownMenu = styled.div`
   grid-template-rows: repeat(4, 80px);
   text-align: center;
   margin-bottom: 4rem;
-
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(4, 60px);
-  }
 `
 
 const DropdownLink = styled(Link)`
@@ -90,10 +78,9 @@ const DropdownLink = styled(Link)`
   color: #fff;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-
+  
   &:hover {
-    ${"" /* color: #000d1a; */}
-    color: ${({ headerBackground }) =>
-      headerBackground === "#000d1a" ? "#ff3333" : "#000d1a"};
+    ${'' /* color: #000d1a; */}
+    color: ${({ headerBackground }) => headerBackground === "#000000" ? "#ff3333" : "#000d1a"};
   }
 `
