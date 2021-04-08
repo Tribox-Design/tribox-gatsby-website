@@ -37,14 +37,14 @@ export default IntroAbout
 /// Styled Components
 ///
 const IntroContainer = styled.div`
-  background: #ff3333;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   color: #fff;
   padding: 6rem 2rem;
-
+  
   @media screen and (max-width: 768px) {
     padding: 4rem 2rem 2rem 2rem;
     justify-content: center;
