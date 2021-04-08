@@ -44,9 +44,12 @@ const IntroContainer = styled.div`
   position: relative;
   color: #fff;
   padding: 6rem 2rem;
-  
+  margin-top: -5rem;
+  padding-top: 11rem;
+
   @media screen and (max-width: 768px) {
     padding: 4rem 2rem 2rem 2rem;
+    padding-top: 9rem;
     justify-content: center;
   }
 `
