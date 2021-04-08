@@ -12,7 +12,7 @@ const seoKeywords =
   "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow, local"
 
 const IndexPage = () => (
-  <Layout page="Home">
+  <Layout page="Home" headerBackground="#ff3333">
     <SEO
       title="Tribox Design"
       description="Tribox Design is a Cebu based local branding agency for Local Brands, SMEs and Startups. We believe that using our expertise can help you provide value to make a big impact to the community. Our work consists of Brand Strategy, Brand Identity, and Digital Marketing."

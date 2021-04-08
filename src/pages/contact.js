@@ -12,7 +12,7 @@ const seoKeywords =
   "Brand Strategy, Illustration, Brand Identity, Sound Branding, Digital Marketing, Web Development, Packaging Design, Mobile App Development"
 
 const IndexPage = () => (
-  <Layout page="Contact">
+  <Layout page="Contact" headerBackground="#ffffff">
     <SEO
       title="Contact Us"
       description="We love cluttered things, mind and ideas. Let's solve this together. Contact Tribox Design and let us know how we can help. Contact Number: +639174483092 | Address: 1401 Park Centrale Building, IT Park, Lahug, Apas, Cebu City. "

@@ -4,9 +4,9 @@ import { menuData } from "../data/MenuData"
 import { Link } from "gatsby"
 import { FaTimes } from "react-icons/fa"
 
-const Dropdown = ({ isOpen, toggle }) => {
+const Dropdown = ({ isOpen, toggle, headerBackground }) => {
   return (
-    <DropdownContainer isOpen={isOpen} onClick={toggle}>
+    <DropdownContainer isOpen={isOpen} onClick={toggle} headerBackground={headerBackground}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
@@ -33,7 +33,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #ff3333;
+  background: ${({ headerBackground }) => headerBackground};
   display: grid;
   align-items: center;
   top: 0;

@@ -37,7 +37,7 @@ export default IntroAbout
 /// Styled Components
 ///
 const IntroContainer = styled.div`
-  background: #ff3333;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;

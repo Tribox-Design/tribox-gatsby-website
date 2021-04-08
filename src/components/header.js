@@ -6,11 +6,11 @@ import { menuData } from "../data/MenuData"
 import TriboxLogo from "../images/tribox-logo.png"
 import TriboxLogoWhite from "../images/tribox-logo-white.png"
 
-const Header = ({ toggle, page }) => {
+const Header = ({ toggle, page, headerBackground }) => {
   const primaryBackground = page === "Home" || page === "About"
   return (
     <NavContainer
-      primaryBackground={primaryBackground}
+      primaryBackground={headerBackground}
       data-sal="fade"
       data-sal-duration="500"
       data-sal-easing="ease"
@@ -27,7 +27,7 @@ const Header = ({ toggle, page }) => {
           {menuData.map((props, index) => (
             <NavLink
               primary={page === props.title}
-              primaryBackground={primaryBackground}
+              primaryBackground={headerBackground}
               to={props.link}
               key={index}
             >
@@ -47,7 +47,7 @@ export default Header
 ///
 const NavContainer = styled.div`
   background: ${({ primaryBackground }) =>
-    primaryBackground ? "#ff3333" : "#fffff"};
+    primaryBackground };
   display: flex;
   text-align: center;
   width: 100%;
