@@ -43,6 +43,8 @@ const IntroContainer = styled.div`
   width: 100%;
   color: #fff;
   padding: 3rem 0;
+  margin-top: -5rem;
+  padding-top: 8rem;
 `
 
 const IntroContent = styled.div`
