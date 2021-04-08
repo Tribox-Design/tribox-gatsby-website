@@ -33,7 +33,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: ${({ headerBackground }) => headerBackground};
+  background: ${({ headerBackground }) => headerBackground === "#000000" ? "#000000" : "#ff3333"};
   display: grid;
   align-items: center;
   top: 0;
