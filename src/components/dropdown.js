@@ -76,7 +76,7 @@ const DropdownLink = styled(Link)`
   color: #fff;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 32px;
   text-decoration: none;
   list-style: none;
   color: #fff;
