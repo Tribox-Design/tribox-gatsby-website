@@ -13,7 +13,7 @@ const Dropdown = ({ isOpen, toggle, headerBackground }) => {
       <DropdownWrapper>
         <DropdownMenu>
           {menuData.map((props, index) => (
-            <DropdownLink to={props.link} key={index}>
+            <DropdownLink to={props.link} key={index} headerBackground={headerBackground}>
               {props.title}
             </DropdownLink>
           ))}
@@ -84,6 +84,7 @@ const DropdownLink = styled(Link)`
   transition: 0.2s ease-in-out;
 
   &:hover {
-    color: #000d1a;
+    ${'' /* color: #000d1a; */}
+    color: ${({ headerBackground }) => headerBackground === "#000000" ? "#ff3333" : "#000d1a"};
   }
 `

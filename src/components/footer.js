@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import { socialMediaData } from "../data/SocialMediaData"
 
-const Footer = () => {
+const Footer = ({footerBackground}) => {
   return (
-    <FooterContainer>
+    <FooterContainer footerBackground={footerBackground}>
       <FooterContent>
         <FooterLeft>
           <ContactNumber>
@@ -59,7 +59,7 @@ export default Footer
 /// Styled Components
 ///
 const FooterContainer = styled.div`
-  background: #ff3333;
+  background: ${({ footerBackground }) => footerBackground};
   display: flex;
   align-items: center;
   padding: 3rem 0;

@@ -46,8 +46,7 @@ export default Header
 /// Styled Components
 ///
 const NavContainer = styled.div`
-  background: ${({ primaryBackground }) =>
-    primaryBackground };
+  background: ${({ primaryBackground }) => primaryBackground};
   display: flex;
   text-align: center;
   width: 100%;

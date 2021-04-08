@@ -38,7 +38,7 @@ const IndexPage = () => {
   `)
 
   return (
-    <Layout page="News">
+    <Layout page="News" headerBackground="#ffffff" footerBackground="#ff3333"> 
       <SEO
         title="News"
         description="Tribox Design provides the latest news and blogs of our recent activities and works."

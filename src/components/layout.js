@@ -5,7 +5,7 @@ import Footer from "../components/footer"
 import Dropdown from "./dropdown"
 import "./styles/mdxstyles.css"
 
-const Layout = ({ children, page, headerBackground }) => {
+const Layout = ({ children, page, headerBackground, footerBackground }) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +19,7 @@ const Layout = ({ children, page, headerBackground }) => {
       <Header page={page} toggle={toggle} headerBackground={headerBackground}/>
       <Dropdown isOpen={isOpen} toggle={toggle} headerBackground={headerBackground}/>
       <main>{children}</main>
-      <Footer />
+      <Footer footerBackground={footerBackground}/>
     </>
   )
 }
