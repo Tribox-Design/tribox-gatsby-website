@@ -71,6 +71,8 @@ const ImgContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: grid;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     ${"" /* grid-gap: 60px; */}
   }
 `
