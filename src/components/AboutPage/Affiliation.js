@@ -33,7 +33,7 @@ const FeaturedContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0 2rem 0;
-
+  
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
   }
@@ -69,11 +69,15 @@ const ImgContainer = styled.div`
   padding: 4rem 1rem;
 
   @media screen and (max-width: 768px) {
-    display: grid;
+    ${"" /* display: grid; */}
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
     ${"" /* grid-gap: 60px; */}
+  }
+
+  @media screen and (max-width: 400px) {
+    grid-gap: 0px;
   }
 `
 
@@ -85,5 +89,10 @@ const CustomImg = styled.img`
     margin: auto;
     max-width: 110px;
     max-height: 90px;
+  }
+
+  @media screen and (max-width: 454px) {
+    max-width: 80px;
+    max-height: 60px;
   }
 `
