@@ -10,6 +10,10 @@ import TGT from "../images/work-logo-tgt.svg"
 import TMP from "../images/work-logo-tmp.svg"
 import Tres from "../images/work-logo-tres.svg"
 import Jaxx from "../images/work-logo-jaxx.svg"
+import Alfheim from "../images/work-logo-alfheim.svg"
+import AvemariaLiturgical from "../images/work-logo-avemaria-liturgical.svg"
+import BisdakRadio from "../images/work-logo-bisdak-radio.svg"
+import JuniorC from "../images/work-logo-juniorc.svg"
 
 export const ourClientsData = [
   { client: "The Green Table", svg: TGT, url: 'https://thegreentable.ph/' },
@@ -24,4 +28,8 @@ export const ourClientsData = [
   { client: "Manglaba Laundry Service", svg: Manglaba, url: 'https://facebook.com/MangLabaNata' },
   { client: "His And Her", svg: HisAndHer, url: 'https://facebook.com/hisandhercebu' },
   { client: "CAFE-I", svg: CafeI, url: 'https://facebook.com/CAFEIinc' },
+  { client: "Alfheim Poolvilla Resort", svg: Alfheim, url: 'http://alfheimresort.com/' },
+  { client: "Avemaria Liturgical Center", svg: AvemariaLiturgical, url: 'https://facebook.com/AveMariaLC' },
+  { client: "Bisdak Radio", svg: BisdakRadio, url: 'http://bisdakradio.com/' },
+  { client: "Junior-C Auto Repair Shop", svg: JuniorC, url: 'https://facebook.com/juniorcarscebu' },
 ]
