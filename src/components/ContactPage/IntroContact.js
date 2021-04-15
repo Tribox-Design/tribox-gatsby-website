@@ -14,7 +14,7 @@ const IntroContact = () => {
           <IntroH1>
             We love cluttered things, mind and ideas. Let's solve this together.
           </IntroH1>
-          <IntroP>Let us know how we can help.</IntroP>
+          {/* <IntroP>Let us know how we can help.</IntroP> */}
         </IntroItems>
       </IntroContent>
     </IntroContainer>
@@ -57,6 +57,7 @@ const IntroItems = styled.div`
   max-height: 100%;
   color: #212121;
   line-height: 1.1;
+  padding-bottom: 1rem;
 
   @media screen and (max-width: 768px) {
     line-height: 1.3;
