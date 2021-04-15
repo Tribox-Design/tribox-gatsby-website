@@ -4,16 +4,16 @@ import { menuData } from "../data/MenuData"
 import { Link } from "gatsby"
 import { FaTimes } from "react-icons/fa"
 
-const Dropdown = ({ isOpen, toggle }) => {
+const Dropdown = ({ isOpen, toggle, headerBackground }) => {
   return (
-    <DropdownContainer isOpen={isOpen} onClick={toggle}>
+    <DropdownContainer isOpen={isOpen} onClick={toggle} headerBackground={headerBackground}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <DropdownWrapper>
         <DropdownMenu>
           {menuData.map((props, index) => (
-            <DropdownLink to={props.link} key={index}>
+            <DropdownLink to={props.link} key={index} headerBackground={headerBackground}>
               {props.title}
             </DropdownLink>
           ))}
@@ -33,7 +33,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #ff3333;
+  background: ${({ headerBackground }) => headerBackground === "#000000" ? "#000000" : "#ff3333"};
   display: grid;
   align-items: center;
   top: 0;
@@ -65,10 +65,6 @@ const DropdownMenu = styled.div`
   grid-template-rows: repeat(4, 80px);
   text-align: center;
   margin-bottom: 4rem;
-
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(4, 60px);
-  }
 `
 
 const DropdownLink = styled(Link)`
@@ -76,14 +72,15 @@ const DropdownLink = styled(Link)`
   color: #fff;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 32px;
   text-decoration: none;
   list-style: none;
   color: #fff;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-
+  
   &:hover {
-    color: #000d1a;
+    ${'' /* color: #000d1a; */}
+    color: ${({ headerBackground }) => headerBackground === "#000000" ? "#ff3333" : "#000d1a"};
   }
 `

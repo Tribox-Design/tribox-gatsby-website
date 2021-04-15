@@ -12,7 +12,6 @@ import PrologueContact from "../WorkTemplatePage/PrologueContact"
 class WorkTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    console.log(post.frontmatter.thumbnail)
     var description = post.frontmatter.description + " | Best branding in Cebu."
     return (
       <Layout page="Work">

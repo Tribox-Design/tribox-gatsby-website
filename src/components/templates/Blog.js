@@ -94,6 +94,8 @@ const Title = styled.h1`
 
 const Date = styled.p`
   font-size: 16px;
+  letter-spacing: .5px;
+  margin-top: 8px;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;

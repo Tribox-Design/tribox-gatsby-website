@@ -81,13 +81,14 @@ const Title = styled.h3`
 const DescriptionContainer = styled.div`
   display: inline-grid;
   width: 60%;
-  grid-template-columns: repeat(2, 4fr);
+  grid-template-rows: repeat(5, 4fr);
   grid-gap: 1.3rem 0;
+  grid-auto-flow: column;
 
-  @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
-  }
   @media screen and (max-width: 768px) {
+    grid-template-rows: null;
+    grid-template-columns: repeat(1, 4f);
+    grid-auto-flow: row;
     padding-left: 10px;
   }
 `

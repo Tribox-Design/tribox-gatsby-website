@@ -6,11 +6,11 @@ import { menuData } from "../data/MenuData"
 import TriboxLogo from "../images/tribox-logo.png"
 import TriboxLogoWhite from "../images/tribox-logo-white.png"
 
-const Header = ({ toggle, page }) => {
+const Header = ({ toggle, page, headerBackground }) => {
   const primaryBackground = page === "Home" || page === "About"
   return (
     <NavContainer
-      primaryBackground={primaryBackground}
+      primaryBackground={headerBackground}
       data-sal="fade"
       data-sal-duration="500"
       data-sal-easing="ease"
@@ -46,8 +46,7 @@ export default Header
 /// Styled Components
 ///
 const NavContainer = styled.div`
-  background: ${({ primaryBackground }) =>
-    primaryBackground ? "#ff3333" : "#fffff"};
+  background: ${({ primaryBackground }) => primaryBackground};
   display: flex;
   text-align: center;
   width: 100%;
@@ -101,7 +100,7 @@ const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   color: ${({ primary, primaryBackground }) =>
-    primaryBackground ? "#fff" : primary ? "#ff3333" : "#1b1b1b"};
+    primaryBackground ? "#ffffff" : primary ? "#ff3333" : "#1b1b1b"};
   font-size: 18px;
   font-weight: bold;
 
@@ -113,7 +112,7 @@ const NavLink = styled(Link)`
 
 const Bars = styled(FaBars)`
   display: none;
-  color: ${({ primaryBackground }) => (primaryBackground ? "#fff" : "#1b1b1b")};
+  color: ${({ primaryBackground }) => (primaryBackground ? "#ffffff" : "#1b1b1b")};
 
   @media screen and (max-width: 768px) {
     display: block;
@@ -130,7 +129,7 @@ const LogoImg = styled.img`
   height: 56px;
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-  stroke: #fff;
+  stroke: #ffffff;
 
   &:hover {
     filter: brightness(105%);

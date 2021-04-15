@@ -19,13 +19,13 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
-![cfm1](./cfm-1.png)
+![cfm1](./cfm-1.jpg)
 
-![cfm2](./cfm-2.png)
+![cfm2](./cfm-2.jpg)
 
-![cfm3](./cfm-3.png)
+![cfm3](./cfm-3.jpg)
 
-![cfm4](./cfm-4.png)
+![cfm4](./cfm-4.jpg)
 
 ![cfm5](./cfm-5.png)
 

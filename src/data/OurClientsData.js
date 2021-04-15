@@ -10,18 +10,28 @@ import TGT from "../images/work-logo-tgt.svg"
 import TMP from "../images/work-logo-tmp.svg"
 import Tres from "../images/work-logo-tres.svg"
 import Jaxx from "../images/work-logo-jaxx.svg"
+import Alfheim from "../images/work-logo-alfheim.svg"
+import AvemariaLiturgical from "../images/work-logo-avemaria-liturgical.svg"
+import BisdakRadio from "../images/work-logo-bisdak-radio.svg"
+import JuniorC from "../images/work-logo-juniorc.svg"
+import AdtoKart from "../images/work-logo-adtokart.svg"
 
 export const ourClientsData = [
+  { client: "AdtoKart", svg: AdtoKart, url: 'https://adtokart.ph/' },
   { client: "The Green Table", svg: TGT, url: 'https://thegreentable.ph/' },
   { client: "Izza Garlic", svg: Izza, url: 'https://facebook.com/izzagarliccebu' },
   { client: "The Mystic Psychologist", svg: TMP, url: 'https://facebook.com/TheMysticPsychologist' },
-  { client: "Jaxx Sportswear", svg: Jaxx, url: 'https://facebook.com/jaiyanahswearandtrends' },
-  { client: "Cebu Farmers Market", svg: CFM, url: 'https://facebook.com/cebufarmersmarket' },
   { client: "Lemmonhead Publishing", svg: Lemmonhead, url: 'https://facebook.com/LemmonheadPublishing' },
-  { client: "Tres Water Company", svg: Tres, url: 'https://facebook.com/treswater' },
-  { client: "Leisure Pro", svg: LeisurePro, url: 'https://facebook.com/bestphilippinestour' },
+  { client: "Jaxx Sportswear", svg: Jaxx },
+  { client: "Cebu Farmers Market", svg: CFM },
+  { client: "Tres Water Company", svg: Tres },
+  { client: "Leisure Pro", svg: LeisurePro },
   { client: "Dito's Sinamak", svg: Ditos },
-  { client: "Manglaba Laundry Service", svg: Manglaba, url: 'https://facebook.com/MangLabaNata' },
-  { client: "His And Her", svg: HisAndHer, url: 'https://facebook.com/hisandhercebu' },
-  { client: "CAFE-I", svg: CafeI, url: 'https://facebook.com/CAFEIinc' },
+  { client: "Manglaba Laundry Service", svg: Manglaba },
+  { client: "His And Her", svg: HisAndHer },
+  { client: "CAFE-I", svg: CafeI },
+  { client: "Alfheim Poolvilla Resort", svg: Alfheim },
+  { client: "Avemaria Liturgical Center", svg: AvemariaLiturgical },
+  { client: "Bisdak Radio", svg: BisdakRadio},
+  { client: "Junior-C Auto Repair Shop", svg: JuniorC },
 ]

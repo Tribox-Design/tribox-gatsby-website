@@ -13,6 +13,13 @@ const Clutch = () => {
           data-height="auto"
           data-snippets="true"
           data-clutchcompany-id="1437608"
+          data-clutchcompany-domain="https://triboxdesign.com"
+          data-header-color="#ff3333"
+          data-header-text-color="#ffffff"
+          data-footer-color="#ff3333"
+          data-footer-text-color="#ffffff"
+          data-primary-color="#ff3333"
+          data-background-color="#ffffff"
         ></div>
       </Content>
     </Container>
