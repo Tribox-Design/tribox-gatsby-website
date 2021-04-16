@@ -49,11 +49,11 @@ The design we developed for the brand was based on meticulous research on the ps
 
 ### **Team**
 
-Brand Strategist & Creative Director: Inu Catapusan
-Researcher & Art Director: Regine Ylaya
-Copywriter: Faye Penetrante
-Typeface: John Misael Villanueva
-Photography: Jan Mat
+Brand Strategist & Creative Director: **Inu Catapusan**
+Researcher & Art Director: **Regine Ylaya**
+Copywriter: **Faye Penetrante**
+Typeface: **John Misael Villanueva**
+Photography: **Jan Mat**
 
 ![Izza Garlic - Garlic Product Photography](izza-1.jpg "Izza Garlic - Garlic Product Photography")
 
