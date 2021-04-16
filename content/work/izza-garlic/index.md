@@ -27,7 +27,6 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
-
 ### The Challenge
 
 Izza Garlic needed to develop their brand message and simplify their brand identity in terms of design, brand positioning, social media engagement, and attracting leads.
@@ -47,6 +46,16 @@ We positioned the brand image of Izza Garlic by first defining their vision-miss
 ### Design
 
 The design we developed for the brand was based on meticulous research on the psychology of condiments and packaging. Each design choice was selected with care.
+
+### **Team**
+
+Brand Strategist & Creative Director: Inu Catapusan
+Researcher & Art Director: Regine Ylaya
+Copywriter: Faye Penetrante
+Typeface: John Misael Villanueva
+Photography: Jan Mat
+
+
 
 ![Izza Garlic - Garlic Product Photography](izza-1.jpg "Izza Garlic - Garlic Product Photography")
 
