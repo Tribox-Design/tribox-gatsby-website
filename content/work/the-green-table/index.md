@@ -40,6 +40,16 @@ The Green Table: Made Easier & Healthier for You
 
 They envisioned to be the first choice for healthy smoothies and locally produced fruits and vegetables while empowering local farmers to go beyond their capabilities.
 
+<!--StartFragment-->
+
+Team:
+
+Brand Strategist & Creative Director: Inu Catapusan
+
+Researcher & Art Director: Regine Ylaya
+
+<!--EndFragment-->
+
 <!--EndFragment-->
 
 ![The Green Table Ph - Tribox Design](0.jpg "The Green Table Ph - Tribox Design")
