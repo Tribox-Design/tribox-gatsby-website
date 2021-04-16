@@ -55,8 +55,6 @@ Copywriter: Faye Penetrante
 Typeface: John Misael Villanueva
 Photography: Jan Mat
 
-
-
 ![Izza Garlic - Garlic Product Photography](izza-1.jpg "Izza Garlic - Garlic Product Photography")
 
 ![Izza Garlic - All Products](izza-2.jpg)
