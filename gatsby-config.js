@@ -3,13 +3,20 @@ module.exports = {
     title: `Tribox Design`,
     description: `Defining brands, simplifying the complex.`,
     author: `@tyronskiii`,
-    siteUrl: `https://triboxdesign.com/`,
+    siteUrl: `https://triboxdesign.com`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://triboxdesign.com',
+        sitemap: 'https://triboxdesign.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
