@@ -14,7 +14,7 @@ class WorkTemplate extends React.Component {
     const post = this.props.data.mdx
     var description = post.frontmatter.description + " | Best branding in Cebu."
     return (
-      <Layout page="Work">
+      <Layout page="Work" headerBackground="#ffffff" footerBackground="#ff3333">
         <SEO
           title={post.frontmatter.title}
           description={description}
