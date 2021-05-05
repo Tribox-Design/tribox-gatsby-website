@@ -17,8 +17,8 @@ const ContactDetails = () => {
           </ContactCard>
           <ContactCard>
             <ContactTitle>Email</ContactTitle>
-            <ContactLink href="mailto:hello.triboxdesign@gmail.com">
-              hello.triboxdesign@gmail.com
+            <ContactLink href="mailto:hello@triboxdesign.com">
+              hello@triboxdesign.com
             </ContactLink>
           </ContactCard>
           <ContactCard>
