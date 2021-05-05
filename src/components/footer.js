@@ -10,8 +10,8 @@ const Footer = ({ footerBackground }) => {
           <ContactNumber>
             <FooterLink href="tel:+639174483092">+63 917 448 3092</FooterLink>
             <br />
-            <FooterLink href="mailto:hello.triboxdesign@gmail.com">
-              hello.triboxdesign@gmail.com
+            <FooterLink href="mailto:hello@triboxdesign.com">
+              hello@triboxdesign.com
             </FooterLink>
           </ContactNumber>
           <Location>
