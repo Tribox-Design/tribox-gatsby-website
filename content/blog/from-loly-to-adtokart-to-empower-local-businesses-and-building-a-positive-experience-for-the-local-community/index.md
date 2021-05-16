@@ -17,6 +17,6 @@ Adtokart — empowering local businesses and building a positive experience for 
 
 ![Adtokart-Tribox Design](5.png)
 
-![Adtokart-Tribox Design](2.png)
+![Adtokart-Tribox Design](artboard-4.png)
 
 ![Adtokart-Tribox Design](artboard-8.png)
