@@ -1,7 +1,7 @@
 ---
 date: 2021-05-16T14:11:22.072Z
 title: "Rebranding Loly to Adtokart "
-thumbnail: artboard-4.png
+thumbnail: artboard-8.png
 description: >-
   An initiative that started out as a local directory to create a space for
   Cebu’s local sellers and business-owners alike, it is Adtokart's goal to
@@ -31,7 +31,7 @@ isPublishedWork: true
 
 ![Adtokart Instagram](artboard-7.png)
 
-![](artboard-8.png "Adtokart Icon")
+![](artboard-4.png "Adtokart Icon")
 
 ![](artboard-1.png "Adtokart Stationery")
 
