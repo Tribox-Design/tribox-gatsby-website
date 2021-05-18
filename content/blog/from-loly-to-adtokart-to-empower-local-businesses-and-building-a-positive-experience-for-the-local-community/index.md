@@ -3,7 +3,7 @@ date: 2021-03-30T04:49:22.532Z
 title: "From Loly to Adtokart: to empower local businesses"
 category: Blog
 thumbnail: 1.png
-isPublishedBlog: true
+isPublishedBlog: false
 ---
 <!--StartFragment-->
 
@@ -21,6 +21,6 @@ Adtokart — empowering local businesses and building a positive experience for 
 
 ![Adtokart-Tribox Design](5.png)
 
-![Adtokart-Tribox Design](artboard-4.png)
+![Adtokart-Tribox Design]()
 
 ![Adtokart-Tribox Design](artboard-8.png)
