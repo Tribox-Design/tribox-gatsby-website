@@ -17,24 +17,22 @@ services: Brand Strategy, Brand Identity, Naming, Messaging
 isHighlighted: true
 isPublishedWork: true
 ---
-![](artboard-11.png "Before & After Loly to Adtokart")
+![Before & After Loly to Adtokart](artboard-11.png "Before & After Loly to Adtokart")
 
-![](artboard-10.png "Official logo Adtokart")
+![Official logo Adtokart](artboard-10.png "Official logo Adtokart")
 
-![](artboard-9.png "Adtokart App Logo")
+![Adtokart App Logo](artboard-9.png "Adtokart App Logo")
 
-![](artboard-3.png "Adtokart Signage")
+![Adtokart Signage](artboard-3.png "Adtokart Signage")
 
-![](artboard-6.png "Adtokart social media")
+![Adtokart social media](artboard-6.png "Adtokart social media")
 
-![](artboard-5.png "Adtokart Facebook")
+![Adtokart Facebook](artboard-5.png "Adtokart Facebook")
 
-![Adtokart Instagram](artboard-7.png)
+![Adtokart Instagram](artboard-7.png "Adtokart Instagram")
 
-![](artboard-4.png "Adtokart Icon")
+![Adtokart Icon](artboard-4.png "Adtokart Icon")
 
-![](artboard-1.png "Adtokart Stationery")
+![Adtokart Stationery](artboard-1.png "Adtokart Stationery")
 
-![](artboard-2.png)
-
-![]()
+![Adtokart App Feature](artboard-2.png "Adtokart App Feature")
