@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
-const AllWorks = () => {
+const AllPortfolio = () => {
   const data = useStaticQuery(graphql`
     query AllPortfolioQuery {
       allMdx(
@@ -19,7 +19,7 @@ const AllWorks = () => {
               title
               thumbnail {
                 childImageSharp {
-                  fluid(quality: 98) {
+                  fluid(quality: 93) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -38,7 +38,7 @@ const AllWorks = () => {
   )
 }
 
-export default AllWorks
+export default AllPortfolio
 
 /// *********************************************************
 /// Functions

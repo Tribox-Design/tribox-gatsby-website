@@ -109,11 +109,9 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
 
-    // Create work posts pages.
+    // Create portfolio posts pages.
     const posts = result.data.allMdx.edges
-
     posts.forEach((post, index) => {
-      console.log(post.node.fields)
       createPage({
         path: `portfolio${post.node.fields.slug}`,
         component: path.resolve(`./src/components/templates/Portfolio.js`),
@@ -126,7 +124,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
-  return Promise.all([workPost, blogPost, portfolioPost])
+  return Promise.all([portfolioPost, workPost, blogPost])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -152,6 +150,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       link: String!
     }
     type Frontmatter {
+      isPublishedPortfolio: Boolean!
+    }
+    type Frontmatter {
       isPublishedBlog: Boolean!
     }
     type Frontmatter {
@@ -159,9 +160,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       isPublishedWork: Boolean!
-    }
-    type Frontmatter {
-      isPublishedPortfolio: Boolean!
     }
   `
   createTypes(typeDefs)

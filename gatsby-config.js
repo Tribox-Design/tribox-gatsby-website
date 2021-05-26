@@ -111,6 +111,13 @@ module.exports = {
         name: `news`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/portfolio`,
+        name: `portfolio`,
+      },
+    },
     `gatsby-plugin-react-leaflet`,
     {
       resolve: `gatsby-plugin-google-gtag`,

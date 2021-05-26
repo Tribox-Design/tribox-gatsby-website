@@ -3,24 +3,23 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AllPortfolio from "../components/PortfolioPage/AllPortfolio"
 import IntroPortfolio from "../components/PortfolioPage/IntroPortfolio"
-import TriboxLogo from "../images/tribox-design-logo.jpg"
+import TriboxLogo from "../images/tribox-logo.png"
 import Footer from "../components/footer"
 import styled from "styled-components"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import { Link } from "gatsby"
 
-const seoKeywords =
-  "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow, local"
-
 const IndexPage = () => (
   <>
     <GlobalStyle />
     <NavContainer
-      data-sal="fade"
-      data-sal-duration="500"
-      data-sal-easing="ease"
+      // data-sal="fade"
+      // data-sal-duration="500"
+      // data-sal-easing="ease"
     >
-      <Nav data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease">
+      <Nav 
+      // data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease"
+      >
         <NavLink to="/">
           <LogoImg src={TriboxLogo} alt="Home" />
         </NavLink>
@@ -50,7 +49,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   z-index: 300;
   margin: 0 auto;
-  max-width: 1188px;
+  max-width: 1140px;
   width: 100%;
   padding: 2.8rem 0 0 0;
 
