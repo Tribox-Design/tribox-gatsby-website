@@ -89,7 +89,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          filter: {frontmatter: {isPublishedPortolio: {eq: true}}}
+          filter: {frontmatter: {isPublishedPortfolio: {eq: true}}}
         ) {
           edges {
             node {
