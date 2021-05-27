@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title, image, keywords }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: `@triboxdesign`,
         },
         {
           name: `twitter:title`,
@@ -79,6 +79,10 @@ function SEO({ description, lang, meta, title, image, keywords }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `facebook-domain-verification`,
+          content: `3e3vl046chhes24r4nmzdyr9jyurmj`,
         },
       ].concat(meta)}
     >
