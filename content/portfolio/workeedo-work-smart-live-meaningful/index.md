@@ -1,7 +1,7 @@
 ---
 date: 2021-05-27T05:09:45.641Z
 title: Workeedo - Work smart. Live meaningful
-thumbnail: artboard-4.png
+thumbnail: artboard-12.png
 description: "Workeedo is a coworking space that provides a holistic approach to
   fulfill the objectives of individuals such as work, business, lifestyle, and
   family. Workeedo is a place where everything will be done. "
