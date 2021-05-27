@@ -1,7 +1,7 @@
 ---
 date: 2021-05-27T02:54:25.753Z
 title: Workeedo- Humanizing working space
-thumbnail: 6.png
+thumbnail: billboard-3.jpg
 description: >
   Workeedo is a coworking space that provides a holistic approach to fulfill the
   objectives of individuals such as work, business, lifestyle, and family.
