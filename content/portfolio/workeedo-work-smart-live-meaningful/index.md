@@ -9,13 +9,9 @@ client: Workeedo
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isPublishedPortfolio: true
 ---
-
-
 ![](artboard-1.png)
 
-
-
-![](artboard-2.png)
+![](business-card.jpg)
 
 ![](artboard-3.png)
 
