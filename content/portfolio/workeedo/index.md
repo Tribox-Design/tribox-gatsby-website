@@ -11,13 +11,11 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 featuredOn: []
 isPublishedPortfolio: true
 ---
-
-
 ![Workeedo - Tribox Design](0.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](1.png "Workeedo - Tribox Design")
 
-![Workeedo - Tribox Design](2.1.png "Workeedo - Tribox Design")
+![Workeedo - Tribox Design](5.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](2.png "Workeedo - Tribox Design")
 
@@ -27,15 +25,19 @@ isPublishedPortfolio: true
 
 ![Workeedo - Tribox Design](4.1.png "Workeedo - Tribox Design")
 
-![The Green Table Ph - Blended Smoothie kit](4.png "The Green Table Ph - Blended Smoothie kit")
+![Workeedo - Tribox Design](4.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](5.png "Workeedo - Tribox Design")
 
-![Workeedo - Tribox Design](6.png "Workeedo - Tribox Design")
+![Workeedo - Tribox Design]( "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](7.png "Workeedo - Tribox Design")
 
-![Workeedo - Tribox Design](8.png "Workeedo - Tribox Design")
+![Workeedo - Tribox Design](6.png "Workeedo - Tribox Design")
+
+![](7.png)
+
+![](8.png)
 
 ![Workeedo - Tribox Design](9.png "Workeedo - Tribox Design")
 
