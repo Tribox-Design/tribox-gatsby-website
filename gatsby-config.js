@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/admin`],
+        exclude: [`/admin`, `/portfolio`],
       },
     },
     {
@@ -109,6 +109,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/news`,
         name: `news`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/portfolio`,
+        name: `portfolio`,
       },
     },
     `gatsby-plugin-react-leaflet`,

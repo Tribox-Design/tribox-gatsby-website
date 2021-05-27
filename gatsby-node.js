@@ -85,8 +85,46 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
+  const portfolioPost = graphql(
+    `
+      {
+        allMdx(
+          filter: {frontmatter: {isPublishedPortfolio: {eq: true}}}
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
 
-  return Promise.all([workPost, blogPost])
+    // Create portfolio posts pages.
+    const posts = result.data.allMdx.edges
+    posts.forEach((post, index) => {
+      createPage({
+        path: `portfolio${post.node.fields.slug}`,
+        component: path.resolve(`./src/components/templates/Portfolio.js`),
+        context: {
+          slug: post.node.fields.slug,
+        },
+      })
+    })
+
+    return null
+  })
+
+  return Promise.all([portfolioPost, workPost, blogPost])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -110,6 +148,9 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       link: String!
+    }
+    type Frontmatter {
+      isPublishedPortfolio: Boolean!
     }
     type Frontmatter {
       isPublishedBlog: Boolean!

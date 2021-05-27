@@ -80,3 +80,35 @@ collections:
           widget: boolean,
           default: true,
         }
+  - name: portfolio
+    label: Portfolio
+    folder: content/portfolio
+    create: true
+    path: "{{title}}/index"
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: thumbnail, label: Cover Photo, widget: image, required: false, hint: "Please provide 2000x1333 resolution for cover photos." }
+      - { name: description, label: Description, widget: text }
+      - { name: client, label: Client }
+      - { name: services, label: Services }
+      - name: "featuredOn"
+        label: "Featured On"
+        widget: "list"
+        summary: '{{fields.featured.name}} - {{fields.featured.link}}'
+        required: false
+        fields:
+          - label: Featured
+            name: featured
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string }
+              - {label: Link, name: link, widget: string, required: false }
+      - {
+          name: isPublishedPortfolio,
+          label: Publish Portfolio,
+          widget: boolean,
+          default: true,
+          hint: "Determine to add this on the website. Turning this On will create a new site for this Work."
+        }
+      - { name: body, label: Body, widget: markdown }
