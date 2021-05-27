@@ -6,10 +6,15 @@ import Footer from "../components/footer"
 import styled from "styled-components"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <>
     <GlobalStyle />
+    <Helmet>
+      <meta name={`robots`} content={`${`noindex`},${`nofollow`}`} />
+      <link rel="canonical" href="https://triboxdesign.com/" />
+    </Helmet>
     <NavContainer
       data-sal="fade"
       data-sal-duration="500"

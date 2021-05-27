@@ -1,10 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-import MoreProjects from "../WorkTemplatePage/MoreProjects"
 import WorkDetails from "../WorkTemplatePage/WorkDetails"
 import MDXContainer from "../WorkTemplatePage/MDXContainer"
-import PrologueContact from "../WorkTemplatePage/PrologueContact"
 import Footer from "../footer"
 import TriboxLogo from "../../images/tribox-logo.png"
 import { Link } from "gatsby"
@@ -18,6 +16,7 @@ class PortfolioTemplate extends React.Component {
       <div>
         <GlobalStyle />
         <Helmet>
+          <meta name={`robots`} content={`${`noindex`},${`nofollow`}`} />
           <link rel="canonical" href="https://triboxdesign.com/" />
         </Helmet>
         <NavContainer
@@ -104,7 +103,6 @@ const WorkImg = styled.img`
   max-width: 100%;
   position: relative;
 `
-
 
 const NavContainer = styled.div`
   background: ${({ primaryBackground }) => primaryBackground};
