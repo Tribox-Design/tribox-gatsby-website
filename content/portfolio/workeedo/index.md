@@ -12,11 +12,11 @@ isPublishedPortfolio: true
 ---
 ![Workeedo - Tribox Design](0.png)
 
-![Workeedo - Tribox Design](1.png)
+![Workeedo - Tribox Design](artboard-12.png)
 
-![Workeedo - Tribox Design](5.png)
+![Workeedo - Tribox Design](artboard-8.png)
 
-![Workeedo - Tribox Design](2.png)
+![Workeedo - Tribox Design](artboard-13.png)
 
 ![Workeedo - Tribox Design](3.1.png)
 
@@ -24,9 +24,9 @@ isPublishedPortfolio: true
 
 ![Workeedo - Tribox Design](4.1.png)
 
-![Workeedo - Tribox Design](4.png)
+![](artboard-16.png)
 
-
+![Workeedo - Tribox Design](artboard-9.png)
 
 ![](7.png)
 
@@ -42,6 +42,6 @@ isPublishedPortfolio: true
 
 ![Workeedo - Tribox Design](13.png)
 
-![Workeedo - Tribox Design](14.png)
+![Workeedo - Tribox Design](artboard-6.png)
 
-![Workeedo - Tribox Design](15.png)
+![Workeedo - Tribox Design](artboard-7.png)
