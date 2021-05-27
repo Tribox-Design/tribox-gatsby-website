@@ -9,6 +9,7 @@ import Footer from "../footer"
 import TriboxLogo from "../../images/tribox-logo.png"
 import { Link } from "gatsby"
 import { GlobalStyle } from "../styles/GlobalStyles"
+import { Helmet } from "react-helmet"
 
 class PortfolioTemplate extends React.Component {
   render() {
@@ -16,6 +17,9 @@ class PortfolioTemplate extends React.Component {
     return (
       <div>
         <GlobalStyle />
+        <Helmet>
+          <link rel="canonical" href="https://triboxdesign.com/" />
+        </Helmet>
         <NavContainer
           data-sal="fade"
           data-sal-duration="500"
