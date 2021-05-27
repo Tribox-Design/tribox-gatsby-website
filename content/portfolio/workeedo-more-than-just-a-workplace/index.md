@@ -12,23 +12,19 @@ isPublishedPortfolio: true
 ---
 ![Workeedo - Tribox Design](2.jpg "Workeedo - Tribox Design")
 
-
-
 ![Workeedo - Tribox Design](3.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](4.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](5.png "Workeedo - Tribox Design")
 
-
-
 ![Workeedo - Tribox Design](6.png "Workeedo - Tribox Design")
+
+![](7.png)
 
 ![Workeedo - Tribox Design](8.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](9.png "Workeedo - Tribox Design")
-
-
 
 ![Workeedo - Tribox Design](10.png "Workeedo - Tribox Design")
 
