@@ -124,7 +124,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
-  return Promise.all([portfolioPost, workPost, blogPost])
+  return Promise.all([workPost, blogPost, portfolioPost])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
