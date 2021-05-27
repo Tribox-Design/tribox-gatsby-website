@@ -25,15 +25,15 @@ isPublishedWork: true
 
 ![Tres Water Company - Eco bag](./tres-5.png "Tres Water Company - Eco bag")
 
-![Tres Water Company - Brochure Front](./tres-6.jpg "Tres Water Company - Brochure Front")
+![Tres Water Company - Brochure Front](./tres-6.png "Tres Water Company - Brochure Front")
 
-![Tres Water Company - Brochure Back](./tres-7.png "Tres Water Company - Brochure Back")
+![Tres Water Company - Brochure Back](./tres-7.jpg "Tres Water Company - Brochure Back")
 
 ![Tres Water Company - Packaging Bottled water Design](./tres-8.png "Tres Water Company - Packaging Bottled water Design")
 
 ![Tres Water Company - Business Card Design](./tres-9.png "Tres Water Company - Business Card Design")
 
-![Tres Water Company - Delivery Truck Design](./tres-10.jpg "Tres Water Company - Delivery Truck Design")
+![Tres Water Company - Delivery Truck Design](./tres-10.png "Tres Water Company - Delivery Truck Design")
 
 ![Tres Water Company - Portrayal of the brand](./tres-11.jpg "Tres Water Company - Portrayal of the brand")
 
