@@ -12,7 +12,7 @@ isPublishedPortfolio: true
 ---
 ![Workeedo - Tribox Design](2.jpg "Workeedo - Tribox Design")
 
-![Workeedo - Tribox Design](1.png "Workeedo - Tribox Design")
+![Workeedo - Tribox Design]( "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](3.png "Workeedo - Tribox Design")
 
