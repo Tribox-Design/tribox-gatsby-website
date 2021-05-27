@@ -50,7 +50,3 @@ isPublishedPortfolio: true
 ![Workeedo - Tribox Design](14.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](15.png "Workeedo - Tribox Design")
-
-![]()
-
-![]()
