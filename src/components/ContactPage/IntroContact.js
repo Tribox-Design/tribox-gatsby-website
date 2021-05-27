@@ -78,15 +78,3 @@ const IntroH1 = styled.h1`
     width: 93%;
   }
 `
-
-const IntroP = styled.div`
-  font-size: clamp(21px, 2.5vw, 4rem);
-  line-height: 1.2;
-  margin-bottom: 0.4rem;
-  padding-top: 2rem;
-  color: #424242;
-  
-  @media screen and (max-width: 868px) {
-    font-size: clamp(24px, 4vw, 3.7rem);
-  }
-`

@@ -1,6 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import AllPortfolio from "../components/PortfolioPage/AllPortfolio"
 import IntroPortfolio from "../components/PortfolioPage/IntroPortfolio"
 import TriboxLogo from "../images/tribox-logo.png"
@@ -13,13 +11,11 @@ const IndexPage = () => (
   <>
     <GlobalStyle />
     <NavContainer
-      // data-sal="fade"
-      // data-sal-duration="500"
-      // data-sal-easing="ease"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-easing="ease"
     >
-      <Nav 
-      // data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease"
-      >
+      <Nav data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease">
         <NavLink to="/">
           <LogoImg src={TriboxLogo} alt="Home" />
         </NavLink>
