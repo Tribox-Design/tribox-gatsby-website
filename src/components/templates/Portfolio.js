@@ -35,8 +35,6 @@ class PortfolioTemplate extends React.Component {
               src={post.frontmatter.thumbnail.childImageSharp.fluid.originalImg}
             />
             <MDXContainer mdx={post.body} />
-            <PrologueContact title={post.frontmatter.title} />
-            <MoreProjects currentPage={post.frontmatter.title} />
           </WorkContent>
         </WorkContainer>
         <Footer footerBackground="#ff3333" />
