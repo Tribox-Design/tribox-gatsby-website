@@ -27,7 +27,7 @@ isPublishedPortfolio: true
 
 ![Workeedo - Tribox Design](4.png)
 
-![](5.png)
+
 
 ![](7.png)
 
