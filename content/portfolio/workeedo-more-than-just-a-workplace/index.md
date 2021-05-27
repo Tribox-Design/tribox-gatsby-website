@@ -1,7 +1,7 @@
 ---
 date: 2021-05-27T03:55:34.394Z
 title: Workeedo- More than just a workplace
-thumbnail: 1.png
+thumbnail: ""
 description: "Workeedo is a coworking space that provides a holistic approach to
   fulfill the objectives of individuals such as work, business, lifestyle, and
   family. Workeedo is a place where everything will be done. "
