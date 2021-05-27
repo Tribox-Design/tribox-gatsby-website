@@ -24,7 +24,7 @@ isPublishedPortfolio: true
 
 ![Workeedo - Tribox Design](6.png "Workeedo - Tribox Design")
 
-![The Green Table Ph - Blended Smoothie kit](4.png "The Green Table Ph - Blended Smoothie kit")
+![Workeedo - Tribox Design](4.png "Workeedo - Tribox Design")
 
 ![Workeedo - Tribox Design](5.png "Workeedo - Tribox Design")
 
