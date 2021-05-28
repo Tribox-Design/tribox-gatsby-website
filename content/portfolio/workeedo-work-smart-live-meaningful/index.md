@@ -15,6 +15,8 @@ isPublishedPortfolio: true
 
 ![](artboard-1.png)
 
+![](mac-laptop.jpg)
+
 ![](artboard-3.png)
 
 ![](artboard-6.png)
