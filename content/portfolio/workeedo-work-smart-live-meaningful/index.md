@@ -11,11 +11,9 @@ isPublishedPortfolio: true
 ---
 ![](artboard-4.png)
 
-![](artboard-2.png)
+![](business-card.jpg)
 
 ![](artboard-1.png)
-
-
 
 ![](artboard-3.png)
 
