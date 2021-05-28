@@ -15,7 +15,7 @@ isPublishedPortfolio: true
 
 ![](artboard-1.png)
 
-![]()
+
 
 ![](artboard-3.png)
 
