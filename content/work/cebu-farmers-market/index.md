@@ -16,6 +16,9 @@ featuredOn:
   - featured:
       name: World Brand Design Society
       link: https://worldbranddesign.com/tribox-create-cebu-farmers-market-brand-identity/
+  - featured:
+      link: https://www.facebook.com/GDiaries/videos/4076967615684424
+      name: GDiaries
 isHighlighted: true
 isPublishedWork: true
 ---
