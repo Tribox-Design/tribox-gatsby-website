@@ -23,6 +23,9 @@ featuredOn:
   - featured:
       name: SunStar Cebu
       link: https://www.sunstar.com.ph/article/1883475/Cebu/Business/IT-professional-takes-leap-in-opening-new-business
+  - featured:
+      name: Yahoo News
+      link: https://ph.news.yahoo.com/da-7-green-table-deal-020800446.html
 isHighlighted: true
 isPublishedWork: true
 ---
