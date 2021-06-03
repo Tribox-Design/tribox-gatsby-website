@@ -8,7 +8,7 @@ description: Workeedo is a coworking space that provides a holistic approach to
 client: Workeedo
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 featuredOn: []
-isPublishedPortfolio: false
+isPublishedPortfolio: true
 ---
 ![Workeedo - Tribox Design](0.png)
 
