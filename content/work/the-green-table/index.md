@@ -58,7 +58,13 @@ Researcher & Art Director: Regine Ylaya
 
 <!--EndFragment-->
 
+
+
 ![The Green Table Ph - Tribox Design](0.jpg "The Green Table Ph - Tribox Design")
+
+![](tgt2.jpg)
+
+![](tgt3.jpg)
 
 ![The Green Table Ph - Smoothie kit Detoxing Green](2.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
 
