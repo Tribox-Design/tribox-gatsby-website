@@ -58,13 +58,9 @@ Researcher & Art Director: Regine Ylaya
 
 <!--EndFragment-->
 
-
-
 ![The Green Table Ph - Tribox Design](0.jpg "The Green Table Ph - Tribox Design")
 
-![](tgt2.jpg)
 
-![](tgt3.jpg)
 
 ![The Green Table Ph - Smoothie kit Detoxing Green](2.jpg "The Green Table Ph - Smoothie kit Detoxing Green")
 
@@ -103,5 +99,13 @@ Researcher & Art Director: Regine Ylaya
 ![The Green Table Ph - Official Posters - Tribox Design](19.jpg "The Green Table Ph - Official Posters - Tribox Design")
 
 ![The Green Table Ph - Official Posters - Tribox Design](20.jpg "The Green Table Ph - Official Posters - Tribox Design")
+
+![](tgt3.jpg)
+
+![](tgt2.jpg)
+
+![](tgt4.jpg)
+
+![](tgt5.jpg)
 
 ![The Green Table Ph - Old and new - Before and after logos - Tribox Design](21.jpg "The Green Table Ph - Old and new - Before and after logos - Tribox Design")
