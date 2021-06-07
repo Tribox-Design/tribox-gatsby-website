@@ -26,6 +26,9 @@ featuredOn:
   - featured:
       name: Yahoo News
       link: https://ph.news.yahoo.com/da-7-green-table-deal-020800446.html
+  - featured:
+      name: G Diaries
+      link: https://www.facebook.com/watch/?v=220733662968849
 isHighlighted: true
 isPublishedWork: true
 ---
