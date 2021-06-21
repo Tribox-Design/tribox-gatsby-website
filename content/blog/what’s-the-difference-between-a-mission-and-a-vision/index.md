@@ -2,9 +2,11 @@
 date: 2021-06-21T05:53:02.158Z
 title: What’s the difference between a mission and a vision?
 category: Blog
-thumbnail: 166755440_501124504608465_952343569848066131_n.png
+thumbnail: tribox-design-the-strategic-pyramid.jpg
 isPublishedBlog: true
 ---
+
+
 ![](167535441_501124517941797_9053904539425740883_n.png)
 
 ![](167082555_501124477941801_99430628928891276_n.png)
