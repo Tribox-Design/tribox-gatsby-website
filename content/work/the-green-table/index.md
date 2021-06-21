@@ -29,6 +29,9 @@ featuredOn:
   - featured:
       name: G Diaries
       link: https://www.facebook.com/watch/?v=220733662968849
+  - featured:
+      name: Spot.ph
+      link: https://bit.ly/3qdN6QT
 isHighlighted: true
 isPublishedWork: true
 ---
