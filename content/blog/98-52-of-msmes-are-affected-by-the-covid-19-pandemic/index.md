@@ -11,9 +11,21 @@ Here's how we can help.
 
 1. Buy Gift Cards
 
+   It helps the small business and you'll have something to look forward to.
 2. Shop Online
 
+   <!--StartFragment-->
+
+   Shop Online. Consider the small players before you automatically buy from large e-commerce companies like Lazada or Shopee.
+
+   <!--EndFragment-->
 3. Share & Engage
+
+   <!--StartFragment-->
+
+   Share on social media your favorite local businesses and encourage your community to do the same.
+
+   <!--EndFragment-->
 
 <!--EndFragment-->
 
