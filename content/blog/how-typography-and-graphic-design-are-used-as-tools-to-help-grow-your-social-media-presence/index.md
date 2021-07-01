@@ -6,6 +6,8 @@ category: BLOG
 thumbnail: artboard-5.png
 isPublishedBlog: true
 ---
+![](artboard-1.png)
+
 ![](artboard-1-copy.png)
 
 ![](artboard-2.png)
