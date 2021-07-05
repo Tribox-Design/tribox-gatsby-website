@@ -1,3 +1,6 @@
+@import 'helvetica-bold.css';
+@import 'helvetica-light.css';
+
 .swiper-pagination-bullet-active {
   background-color: #424242;
 }
