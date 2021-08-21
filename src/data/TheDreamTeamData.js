@@ -10,6 +10,11 @@ export const theDreamTeamData = [
     linkedin: "https://www.linkedin.com/in/regineylaya/",
   },
   {
+    name: "Tyrone Chris Abad",
+    position: "Chief Technology Officer",
+    linkedin: "https://www.linkedin.com/in/tyrone-chris-abad-9375a6162/",
+  },
+  {
     name: "Michael Relativo",
     position: "Business Coach",
     linkedin: "https://www.linkedin.com/in/michael-relativo-080b7052/",

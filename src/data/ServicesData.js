@@ -1,7 +1,7 @@
 import BrandStrategy from "../images/brand-strategy.svg"
 import BrandIdentity from "../images/brand-identity.svg"
 import SoundBranding from "../images/sound-branding.svg"
-import OnlineIdentity from "../images/digital-marketing-logo.png"
+import OnlineIdentity from "../images/online-identity.svg"
 
 export const servicesData = [
   {
@@ -22,9 +22,9 @@ export const servicesData = [
     desc: "A specific sound that is connected to your brand’s values and personality. This includes audio scripts, jingles, voiceovers, sound logo, and a specific voice or style of music.",
   },
   {
-    title: "Digital Marketing",
+    title: "Web and Mobile App Development",
     img: OnlineIdentity,
     desc:
-      "Tribox Design is a dynamic and versatile brand management and digital marketing agency that relies on tried and tested strategies to build your online visibility and help your business attract new clients.",
+      "A Web and Mobile App Development to increase your brand’s visibility, strengthen customer experience, and meet your business objectives.",
   },
 ]
