@@ -1,7 +1,7 @@
 import BrandStrategy from "../images/brand-strategy.svg"
 import BrandIdentity from "../images/brand-identity.svg"
 import SoundBranding from "../images/sound-branding.svg"
-import OnlineIdentity from "../images/digital-marketing-logo.svg"
+import OnlineIdentity from "../images/digital-marketing-logo.png"
 
 export const servicesData = [
   {
