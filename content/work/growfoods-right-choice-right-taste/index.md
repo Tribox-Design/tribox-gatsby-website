@@ -10,4 +10,4 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
 isHighlighted: true
 isPublishedWork: true
 ---
-Full story soon
+Full story soon.
