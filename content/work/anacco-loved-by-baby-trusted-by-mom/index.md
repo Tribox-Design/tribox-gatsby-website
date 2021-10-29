@@ -13,4 +13,4 @@ featuredOn: []
 isHighlighted: true
 isPublishedWork: true
 ---
-Full story soon
+Full story soon.
