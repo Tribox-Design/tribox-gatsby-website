@@ -10,7 +10,7 @@ client: NK PARADISE CREATIONS LLC
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
   Packaging Design, Copywriting
 featuredOn: []
-isHighlighted: false
+isHighlighted: true
 isPublishedWork: true
 ---
 Full story soon
