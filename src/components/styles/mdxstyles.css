@@ -1,0 +1,40 @@
+p {
+  margin-bottom: 1.75rem;
+  font-size: large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+ul {
+  margin-bottom: 1.75rem;
+}
+
+li {
+  margin-bottom: calc(1.75rem / 2);
+}
+
+blockquote {
+  margin-left: -1.75rem;
+  margin-right: 1.75rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.42188rem;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.75rem;
+  font-size: 1.20112rem;
+  line-height: 1.75rem;
+  color: hsla(0,0%,0%,0.59);
+  font-style: italic;
+  border-left: 0.32813rem solid hsla(0,0%,0%,0.9);
+}
+
