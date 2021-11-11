@@ -8,5 +8,5 @@ export const ourServicesData = [
   { service: "Sound Branding" },
   { service: "Digital Marketing" },
   { service: "Illustration" },
-  { service: "Web/Mobile App Development" }
+  { service: "Website Development" }
 ]
