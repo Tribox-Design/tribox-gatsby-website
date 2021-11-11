@@ -12,7 +12,7 @@ import Affiliation from "../components/AboutPage/Affiliation"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const seoKeywords =
-  "Brand Positioning, Label/Packaging Design, Brand Messaging, Sound Branding, Brand Identity Design, Digital Marketing, Brand Naming, Illustration, Brand Evaluation Research, Website Development"
+  "Brand Positioning, Label/Packaging Design, Brand Messaging, Sound Branding, Brand Identity Design, Digital Marketing, Brand Naming, Illustration, Brand Evaluation Research, Website Development "
 
 const IndexPage = () => (
   <Layout page="About" headerBackground="#000000" footerBackground="#000000">
