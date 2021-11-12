@@ -49,8 +49,6 @@ Comfort, Innovation, Sustainability, Trust
 
 Tagline: Loved by Baby. Trusted by Mom.
 
-
-
 Creative Agency : Tribox Design & Advertising OPC
 
 Client: NK Paradise Creations LLC
@@ -60,6 +58,32 @@ Office: Hawaii
 Market Region: Hawaii (US)
 
 Sector: Retail
+
+
+
+<!--StartFragment-->
+
+Project Team:
+
+Brand Strategy: Inu Catapusan 
+
+Corporate Strategy: Regine Ylaya
+
+Creative Direction: Inu Catapusan
+
+Art Direction: Regine Ylaya
+
+Typeface Design: Inu Catapusan
+
+Research: Regine Ylaya
+
+Collaborators:
+
+Project Copywriter: Faye Penetrante
+
+
+
+<!--EndFragment-->
 
 <!--EndFragment-->
 
