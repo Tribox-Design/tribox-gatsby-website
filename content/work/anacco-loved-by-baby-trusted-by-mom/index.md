@@ -67,9 +67,11 @@ Sector: Retail
 
 ![](4-lettermark-of-anacco-tribox-design.jpg)
 
+![](5-imoji-icons-of-anacco-tribox-design.jpg)
+
 ![](11-typography-of-anacco-tribox-design.jpg)
 
-![](12-typography2-of-anacco-tribox-design.jpg)
+![](8-typography2-of-anacco-tribox-design.jpg)
 
 ![](13-baby-jacket-of-anacco-tribox-design.jpg)
 
@@ -81,11 +83,11 @@ Sector: Retail
 
 ![](18-baby-excited-of-anacco-tribox-design.jpg)
 
-![](19-instagram-story-of-anacco-tribox-design.jpg)
+![](14-instagram-story-of-anacco-tribox-design.jpg)
 
-![](20-facebookpage-of-anacco-tribox-design.jpg)
+![](15-facebookpage-of-anacco-tribox-design.jpg)
 
-![](21-amazib-page-of-anacco-tribox-design.jpg)
+![](16-amazib-page-of-anacco-tribox-design.jpg)
 
 ![](22-enamil-pin-of-anacco-tribox-design.jpg)
 
