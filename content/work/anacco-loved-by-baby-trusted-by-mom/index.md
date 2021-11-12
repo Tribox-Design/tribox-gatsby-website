@@ -59,8 +59,6 @@ Market Region: Hawaii (US)
 
 Sector: Retail
 
-
-
 <!--StartFragment-->
 
 Project Team:
@@ -81,8 +79,6 @@ Collaborators:
 
 Project Copywriter: Faye Penetrante
 
-
-
 <!--EndFragment-->
 
 <!--EndFragment-->
@@ -91,17 +87,25 @@ Project Copywriter: Faye Penetrante
 
 ![](4-lettermark-of-anacco-tribox-design.jpg)
 
-![](5-imoji-icons-of-anacco-tribox-design.jpg)
+![](artboard-1-copy-2.png)
+
+![](mittents-anacco.jpg)
 
 ![](11-typography-of-anacco-tribox-design.jpg)
 
 ![](8-typography2-of-anacco-tribox-design.jpg)
+
+![](5-imoji-icons-of-anacco-tribox-design.jpg)
 
 ![](13-baby-jacket-of-anacco-tribox-design.jpg)
 
 ![](14-baby-shirts-of-anacco-tribox-design.jpg)
 
 ![](15-baby-boots-of-anacco-tribox-design.jpg)
+
+![](artboard-1-copy-3.png)
+
+![](artboard-1-copy-4.png)
 
 ![](16-baby-happy-of-anacco-tribox-design.jpg)
 
