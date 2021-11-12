@@ -45,21 +45,11 @@ We envision a community that prioritizes, promotes, and proactively pursues the 
 
 Core Values
 
-Comfort
+Comfort, Innovation, Sustainability, Trust
 
-Innovation 
+Tagline: Loved by Baby. Trusted by Mom.
 
-Sustainability 
 
-Trust
-
- 
-
-Tagline
-
-Loved by Baby. Trusted by Mom.
-
- 
 
 Creative Agency : Tribox Design & Advertising OPC
 
@@ -70,8 +60,6 @@ Office: Hawaii
 Market Region: Hawaii (US)
 
 Sector: Retail
-
-
 
 <!--EndFragment-->
 
