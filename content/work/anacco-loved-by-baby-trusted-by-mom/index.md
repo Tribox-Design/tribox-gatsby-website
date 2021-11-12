@@ -145,6 +145,8 @@ Project Copywriter: Faye Penetrante
 
 ![](artboard-1-copy-3.png)
 
+![](mittents-anacco.jpg)
+
 ![](artboard-1-copy-4.png)
 
 ![](billboard-copy.jpg)
