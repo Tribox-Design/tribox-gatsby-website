@@ -87,9 +87,9 @@ Project Copywriter: Faye Penetrante
 
 ![](4-lettermark-of-anacco-tribox-design.jpg)
 
-![](artboard-1-copy-2.png)
+![]()
 
-![](mittents-anacco.jpg)
+![]()
 
 ![](11-typography-of-anacco-tribox-design.jpg)
 
@@ -103,9 +103,9 @@ Project Copywriter: Faye Penetrante
 
 ![](15-baby-boots-of-anacco-tribox-design.jpg)
 
-![](artboard-1-copy-3.png)
+![]()
 
-![](artboard-1-copy-4.png)
+![]()
 
 ![](16-baby-happy-of-anacco-tribox-design.jpg)
 
@@ -140,6 +140,12 @@ Project Copywriter: Faye Penetrante
 ![](32-gift-of-anacco-tribox-design.jpg)
 
 ![](33-gif-boxt-of-anacco-tribox-design.jpg)
+
+![](artboard-1-copy-2.png)
+
+![](artboard-1-copy-3.png)
+
+![](artboard-1-copy-4.png)
 
 ![](billboard-copy.jpg)
 
