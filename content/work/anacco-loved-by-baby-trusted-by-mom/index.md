@@ -85,11 +85,13 @@ Project Copywriter: Faye Penetrante
 
 ![](3-official-logo-anacco-tribox-design.jpg)
 
-![](4-lettermark-of-anacco-tribox-design.jpg)
-
 ![]()
 
-![]()
+![](anacco-baby-logo.png)
+
+![](anacco-official-logo-yellow.png)
+
+![](anacco-secondary-logo.png)
 
 ![](11-typography-of-anacco-tribox-design.jpg)
 
