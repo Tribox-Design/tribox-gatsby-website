@@ -2,7 +2,7 @@
 date: 2020-08-19T08:43:36.484Z
 title: "Izza Garlic featured on Brands Awesome "
 category: Featured
-thumbnail: 74c37b102202269.5f31615a006fc.jpg
+thumbnail: artboard-1-copy-4.png
 link: https://brandsawesome.com/project/izza-garlic/
 isPublishedNews: true
 ---
