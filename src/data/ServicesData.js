@@ -17,11 +17,6 @@ export const servicesData = [
       "A strong visual identity for your business such as a logo, typography, dedicated color palette, and imagery.",
   },
   {
-    title: "Sound Branding",
-    img: SoundBranding,
-    desc: "A specific sound that is connected to your brand’s values and personality. This includes audio scripts, jingles, voiceovers, sound logo, and a specific voice or style of music.",
-  },
-  {
     title: "Digital Marketing",
     img: OnlineIdentity,
     desc:
