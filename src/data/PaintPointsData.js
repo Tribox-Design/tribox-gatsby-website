@@ -4,6 +4,5 @@ export const painPointsData = [
   { service: "Brand Identity" },
   { service: "Digital Marketing" },
   { service: "Web Development" },
-  { service: "Packaging Design" },
-  { service: "Mobile App Development" }
+  { service: "Packaging Design" }
 ]

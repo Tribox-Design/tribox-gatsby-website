@@ -9,7 +9,7 @@ import LocationMap from "../components/ContactPage/LocationMap"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const seoKeywords =
-  "Brand Strategy, Illustration, Brand Identity, Digital Marketing, Web Development, Packaging Design, Mobile App Development"
+  "Brand Strategy, Illustration, Brand Identity, Digital Marketing, Web Development, Packaging Design"
 
 const IndexPage = () => (
   <Layout page="Contact" headerBackground="#ffffff" footerBackground="#ff3333">
