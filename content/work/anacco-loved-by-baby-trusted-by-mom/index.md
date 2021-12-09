@@ -9,7 +9,13 @@ description: >+
 client: NK PARADISE CREATIONS LLC
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
   Packaging Design, Copywriting
-featuredOn: []
+featuredOn:
+  - featured:
+      link: https://worldbranddesign.com/brand-identity-for-anacco-baby-company-in-hawaii-by-tribox-design/
+      name: " World Brand Design Society"
+  - featured:
+      link: https://packagingoftheworld.com/2021/11/anacco.html
+      name: Packaging of the World
 isHighlighted: true
 isPublishedWork: true
 ---
