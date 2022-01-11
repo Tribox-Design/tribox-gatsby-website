@@ -4,7 +4,7 @@ title: Gestalt Wellness Institute | Recover Wellness. Discover Life
 thumbnail: 20.png
 description: Full Story Soon.
 client: Gestalt Wellness Institute Southeast Asia, Inc.
-services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
+services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isHighlighted: false
 isPublishedWork: true
 ---
