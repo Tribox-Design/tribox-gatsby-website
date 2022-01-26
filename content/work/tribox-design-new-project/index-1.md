@@ -9,3 +9,5 @@ isHighlighted: false
 isPublishedWork: true
 ---
 Full Story Soon.
+
+![](tribox-design-new-project.jpg)
