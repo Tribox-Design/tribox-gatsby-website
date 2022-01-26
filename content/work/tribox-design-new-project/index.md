@@ -7,7 +7,7 @@ description: Brand identity for Gestalt Wellness Institute,  a multidisciplinary
   institution committed to self-discovery and expansion.
 client: Gestalt Wellness Institute Southeast Asia, Inc.
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
-isHighlighted: false
+isHighlighted: true
 isPublishedWork: true
 ---
 ![](ads-poster.png)
