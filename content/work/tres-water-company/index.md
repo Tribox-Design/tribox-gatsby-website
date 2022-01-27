@@ -11,7 +11,7 @@ description: >-
   An advocate for clean water, they are dedicated to the vision of providing clean and healthy water supplies for every Filipino consumer.
 client: Tres Water Company
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
-isHighlighted: true
+isHighlighted: false
 isPublishedWork: true
 ---
 
