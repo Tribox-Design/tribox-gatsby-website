@@ -10,52 +10,48 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isHighlighted: true
 isPublishedWork: true
 ---
-![](ads-poster.png)
+![GWI Ads Campaign](ads-poster.png)
 
-![](4.png)
+![GWI Logo in Black](4.png)
 
-![](6.png)
+![GWI website](6.png)
 
-![](7.png)
+![GWI Instagram](7.png)
 
-![](8.png)
+![GWI Facebook](8.png)
 
-![](9.png)
+![GWI Poster](9.png)
 
-![](10.png)
+![GWI Poster 2](10.png)
 
-![](11.png)
+![GWI Poster 3](11.png)
 
-![](12.png)
+![GWI A4](12.png)
 
-![](13.png)
+![GWI Calling Card](13.png)
 
-![](14.png)
+![GWI Envelope](14.png)
 
-![](15.png)
+![GWI Icons](15.png)
 
-![](16.png)
+![GWI ](16.png)
 
-![](17.png)
+![GWI Mug](17.png)
 
-![](18.png)
+![GWI Keychain](18.png)
 
-![](19.png)
+![GWI Tote Bag](19.png)
 
-![](20.png)
+![GWI Jacket](20.png)
 
-![](brand-guidelines.png)
+![GWI Brand Guideline](brand-guidelines.png)
 
-![](25.png)
+![GWI Flag](25.png)
 
-![](27.png)
+![GWI Polo](27.png)
 
-![](28.png)
+![GWI Tshirt](28.png)
 
-![](lanyard_id_badge_mockup_22.jpg)
-
-
-
-
+![GWI ID](lanyard_id_badge_mockup_22.jpg)
 
 Full Story Soon.
