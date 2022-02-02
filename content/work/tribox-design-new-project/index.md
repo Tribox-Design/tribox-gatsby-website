@@ -44,7 +44,7 @@ isPublishedWork: true
 
 ![GWI Jacket](20.png)
 
-![GWI Brand Guideline](brand-guidelines.png)
+![GWI Brand Guideline]()
 
 ![GWI Flag](25.png)
 
