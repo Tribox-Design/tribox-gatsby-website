@@ -3,7 +3,7 @@ date: 2022-02-02T01:20:16.764Z
 title: Tribox Design Reviews Amazing 2021, Walks Down Memory Lane with Clutch’s
   Year in Review
 category: BLOG
-thumbnail: total_reviews_2021.png
+thumbnail: total_reviews_2021.jpg
 isPublishedBlog: true
 ---
 <!--StartFragment-->
