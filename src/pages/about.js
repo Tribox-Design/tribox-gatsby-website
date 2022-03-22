@@ -29,8 +29,6 @@ const IndexPage = () => (
     <Line />
     <OurServices />
     <Line />
-    <OurClients />
-    <Line />
     <Affiliation />
     <Line />
     <WeAreFeatured />

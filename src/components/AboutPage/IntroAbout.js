@@ -16,15 +16,8 @@ const IntroAbout = () => {
       >
         <IntroItems>
           <IntroH1>
-            Tribox Design is a local branding agency for Local Brands, SMEs and
-            Startups.
+          We are a passionate team with different expertise. We believe that using our expertise can help you create brands that make a big impact on the community. Just like you, we think outside the box. We work with business owners and founders that are purpose-driven, have a vision, are committed to their brand, and are not afraid to take risks.
           </IntroH1>
-          <IntroP>
-            We are a passionate team with different expertise but with the same
-            goals. We believe that using our expertise can help you provide
-            value to make a big impact to the community. Our work consists of
-            Brand Strategy, Brand Identity, and Digital Marketing.
-          </IntroP>
         </IntroItems>
       </IntroContent>
     </IntroContainer>

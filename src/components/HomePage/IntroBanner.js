@@ -17,8 +17,7 @@ const IntroBanner = () => {
       >
         <IntroItems>
           <IntroH1>
-            Our mission is to promote the growth of every Filipino brand through
-            creativity and well-developed strategies.
+          We are the only full-branding agency in Cebu that works directly with business owners and founders. Our works reflect their purpose, vision, and commitment. We are specializing in Brand Strategy, Brand Identity, Typography, and Package Design. 
           </IntroH1>
           <IntroButton>
             <Button round="true" to="/about/" big="true">
