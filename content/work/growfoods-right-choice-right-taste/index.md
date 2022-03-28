@@ -14,6 +14,8 @@ Full story soon.
 
 ![](0.png)
 
+![](hanging-wall-sign-mockup-4.jpg)
+
 ![](10.png)
 
 ![](11.png)
