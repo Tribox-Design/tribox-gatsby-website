@@ -1,7 +1,7 @@
 ---
 date: 2022-01-06T03:35:51.010Z
 title: Gestalt Wellness Institute | Recover Wellness. Discover Life
-thumbnail: 3.png
+thumbnail: gwi-wall.jpg
 description: Brand identity for Gestalt Wellness Institute,  a multidisciplinary
   services as a collaborative, efficient, and sustainable mental health
   institution committed to self-discovery and expansion.
@@ -10,9 +10,11 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
 isHighlighted: true
 isPublishedWork: true
 ---
+![](3.png)
+
 ![GWI Ads Campaign](ads-poster.png)
 
-![GWI Logo in Black](4.png)
+![GWI Logo in Black]()
 
 ![GWI website](6.png)
 
