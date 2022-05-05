@@ -16,3 +16,7 @@ isHighlighted: true
 isPublishedWork: true
 ---
 ![](men-with-canvas-bag-mockup.jpg)
+
+![](macaque-mark-official.png)
+
+![](official-typeface-macaqueartboard-1.png)
