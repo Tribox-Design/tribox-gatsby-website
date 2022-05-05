@@ -26,3 +26,13 @@ isPublishedWork: true
 ![](wordmark-macaqueartboard-1.png)
 
 ![](mark-macaqueartboard-1.png)
+
+![](official-logo-macaqueartboard-1.png)
+
+![](embossed-logo-macaque.jpg)
+
+![](20.png)
+
+![](18.png)
+
+![](29.png)
