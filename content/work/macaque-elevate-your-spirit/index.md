@@ -20,3 +20,9 @@ isPublishedWork: true
 ![](macaque-mark-official.png)
 
 ![](official-typeface-macaqueartboard-1.png)
+
+![](official-typeface-macaque-2artboard-1.png)
+
+![](wordmark-macaqueartboard-1.png)
+
+![](mark-macaqueartboard-1.png)
