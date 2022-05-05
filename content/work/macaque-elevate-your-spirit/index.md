@@ -23,9 +23,9 @@ isPublishedWork: true
 
 ![](official-typeface-macaque-2artboard-1.png)
 
-![](wordmark-macaqueartboard-1.png)
+![](official-typeface-macaque-logoartboard-1.png)
 
-![](mark-macaqueartboard-1.png)
+
 
 ![](official-logo-macaqueartboard-1.png)
 
