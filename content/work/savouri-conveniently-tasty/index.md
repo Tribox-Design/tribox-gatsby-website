@@ -23,6 +23,8 @@ services: Brand Identity, Brand Messaging, Packaging Design
 isHighlighted: true
 isPublishedWork: true
 ---
+![](2-official-logo.png)
+
 ![](4-typography.png)
 
 ![](3-pattern2.png)
