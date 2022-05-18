@@ -7,6 +7,10 @@ description: Brand identity for Gestalt Wellness Institute,  a multidisciplinary
   institution committed to self-discovery and expansion.
 client: Gestalt Wellness Institute Southeast Asia, Inc.
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning
+featuredOn:
+  - featured:
+      link: https://philstarlife.com/self/233782-desensitization-gen-z?page=3&fbclid=IwAR1Ulioi6hMjuCrEn4Mi_i64Cr7OOkkDXoT19gc08zS5bkLxcuaCZegE0RU
+      name: The Desensitization of Gen Z | Philstar Life
 isHighlighted: true
 isPublishedWork: true
 ---
