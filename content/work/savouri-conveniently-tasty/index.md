@@ -1,7 +1,7 @@
 ---
 date: 2022-05-05T00:09:46.165Z
 title: Savouri- Conveniently tasty
-thumbnail: 2-official-logo.png
+thumbnail: 13-poster.png
 description: >-
   Tribox Design have created a new Brand Identity and Packaging Design for
   Savouri Food Products. Savouri envision to become the top-of-mind food
