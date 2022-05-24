@@ -1,7 +1,7 @@
 ---
 date: 2022-05-04T23:59:10.505Z
 title: Macaque-Elevate your spirit
-thumbnail: men-with-canvas-bag-mockup.jpg
+thumbnail: embossed-logo-macaque.jpg
 description: >-
   Macaque is a premium spirits brand born in the heart of Hsinchu County,
   Taiwan. Each bottle is meant to be shared among friends and family as we toast
