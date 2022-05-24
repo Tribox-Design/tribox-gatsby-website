@@ -1,7 +1,7 @@
 ---
 date: 2022-05-05T01:28:48.134Z
 title: LOC Jewelry- Everyday luxe
-thumbnail: official-logo-of-loc-jewelry.png
+thumbnail: 13-website-mockup-1.png
 description: >-
   Tribox Design have created the Brand Identity of LOC Jewelry.  A staple for
   everyday jewelry wear and is known for its quality to last a lifetime.
