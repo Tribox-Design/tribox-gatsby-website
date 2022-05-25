@@ -13,7 +13,11 @@ services: Brand Identity, Packaging Design
 isHighlighted: true
 isPublishedWork: true
 ---
+
+
 ![](27-sationaries-1.png)
+
+![](loc-shopping-bag.jpg)
 
 ![](26-ads-billboard.png)
 
