@@ -1,5 +1,5 @@
 ---
-date: 2022-06-16T06:46:53.361Z
+date: 2022-06-16T07:41:36.465Z
 title: "TD Alpha: A Typeface by Tribox Design"
 thumbnail: artboard-1.png
 description: >-
