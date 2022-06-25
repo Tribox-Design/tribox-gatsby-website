@@ -7,8 +7,6 @@ isPublishedBlog: true
 ---
 <!--StartFragment-->
 
-**The Branding Industry Should Take Notice of Tribox Design**
-
 When working in [branding](https://clutch.co/agencies/branding/packages), every industry is fair game. Everything from a farmer’s market to a psychology clinic can reach out to us for our services and we have to deliver. This is why we don’t just need to be insightful about the fields we do know, we need to know how to adequately research the industries we don’t.
 
 This dedication to learning is what sets Tribox Design apart from the rest of our competition. We’re not afraid to delve into fields beyond our scope because we’re confident in our ability to engage with any subject matter on a deeper level.
@@ -26,7 +24,5 @@ We are the only full-branding agency in Cebu that works directly with business o
 We are a passionate team with different expertise. We believe that using our expertise can help you create brands that make a big impact on the community. Just like you, we think outside the box. We work with business owners and founders that are purpose-driven, have a vision, are committed to their brand, and are not afraid to take risks.
 
 Learn more about the services that helped us gain so much positive attention by visiting our website. You can also [reach out to our team](https://triboxdesign.com/contact/) directly via phone, email, or the contact form on our page. Don’t miss this chance to elevate your company’s image and work with us today.
-
-
 
 <!--EndFragment-->
