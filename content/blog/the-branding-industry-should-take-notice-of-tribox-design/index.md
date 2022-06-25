@@ -2,7 +2,7 @@
 date: 2022-06-25T00:52:24.989Z
 title: The Branding Industry Should Take Notice of Tribox Design
 category: BLOG
-thumbnail: artboard-1.png
+thumbnail: artboard-1-copy.png
 isPublishedBlog: true
 ---
 <!--StartFragment-->
