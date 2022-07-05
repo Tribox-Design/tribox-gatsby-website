@@ -12,7 +12,7 @@ description: >-
   FREE download :https://inutype.gumroad.com/l/TDAlpha
 client: TRIBOX DESIGN
 services: TYPEFACE DESIGN
-isHighlighted: false
+isHighlighted: true
 isPublishedWork: true
 ---
 ![](artboard-1-copy.png)
