@@ -1,7 +1,7 @@
 ---
 date: 2022-07-05T06:01:06.455Z
 title: TD REJ is a handwriting-inspired font.
-thumbnail: artboard-1.png
+thumbnail: rej-cover.png
 description: >+
   TD REJ is a handwriting-inspired font. Consistently inconsistent, the letters
   mimic natural handwriting that's equally friendly, classy, and simple, with
@@ -18,7 +18,7 @@ isPublishedWork: true
 
 ![](artboard-3.png)
 
-![](artboard-4.png)
+![](td-rej-a-z.png)
 
 ![](artboard-5.png)
 
@@ -27,7 +27,3 @@ isPublishedWork: true
 ![](artboard-7.png)
 
 ![](artboard-8.png)
-
-![](artboard-9.png)
-
-![](artboard-10.png)
