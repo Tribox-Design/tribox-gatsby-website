@@ -7,7 +7,7 @@ isPublishedBlog: true
 ---
 <!--StartFragment-->
 
-Beta is a bold san serif typeface best used for headlines, titles and display. Inspired by Futura and Helvetica.
+Beta is a bold sans serif typeface inspired by Futura and Helvetica. It is best used for headlines, titles, and display.
 
 You can try and download it here: [https://inutype.gumroad.com/l/tdbeta](https://inutype.gumroad.com/l/tdbeta?fbclid=IwAR1jNK4XZAZjyIqjQEOZ2i27Hu9fWTQ6437K0TlrVy1vcvL7L37jYuZeX1M)
 
