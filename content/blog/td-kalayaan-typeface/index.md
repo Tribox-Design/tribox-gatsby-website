@@ -13,6 +13,14 @@ Free Download here: [https://inutype.gumroad.com/l/TDkalayaan](https://inutype.g
 
 <!--EndFragment-->
 
-
-
 ![Kalayaan Typeface](kalayaan-about.png "TD Kalayaan Typeface")
+
+![Kalayaan Typeface](kalayaan-glyphs.png "TD Kalayaan Typeface")
+
+![Kalayaan Typeface](kalyaan-features.png)
+
+![Kalayaan Typeface](kalyaan-pattern.png)
+
+![Kalayaan Typeface](kalyaan-type-uses-3.png)
+
+![Kalayaan Typeface](kalyaan-type-uses.png)
