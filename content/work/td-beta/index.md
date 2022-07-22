@@ -11,7 +11,7 @@ description: >-
 client: Tribox Design
 services: Typeface Design
 isHighlighted: true
-isPublishedWork: false
+isPublishedWork: true
 ---
 ![](td-beta-2.png)
 
