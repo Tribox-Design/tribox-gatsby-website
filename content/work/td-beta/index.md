@@ -20,3 +20,9 @@ isPublishedWork: true
 ![](td-beta-4-.jpg)
 
 ![](td-beta-5.png)
+
+![](td-beta-6.png)
+
+![](td-beta-7.png)
+
+![](td-beta-8.png)
