@@ -3,7 +3,7 @@ date: 2022-07-13T12:39:39.496Z
 title: TD Beta
 category: BLOG
 thumbnail: beta-cover.png
-isPublishedBlog: true
+isPublishedBlog: false
 ---
 <!--StartFragment-->
 
