@@ -22,4 +22,4 @@ isPublishedWork: true
 
 ![](td-beta-5.png)
 
-![]()
+![](td-beta-7.png)
