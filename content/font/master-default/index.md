@@ -4,7 +4,7 @@ title: Master Default Do Not Delete
 thumbnail: artboard-1-copy.png
 description: >-
   Master Default
-isPublishedFont: true
+isPublishedFont: false
 ---
 Master Default
 
