@@ -56,20 +56,6 @@ collections:
       - { name: title, label: Title }
       - { name: thumbnail, label: Cover Photo, widget: image, hint: "Please provide 2000x1333 resolution for cover photos." }
       - { name: description, label: Description, widget: text }
-      - { name: client, label: Client }
-      - { name: services, label: Services }
-      - name: "featuredOn"
-        label: "Featured On"
-        widget: "list"
-        summary: '{{fields.featured.name}} - {{fields.featured.link}}'
-        required: false
-        fields:
-          - label: Featured
-            name: featured
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string }
-              - {label: Link, name: link, widget: string, required: false }
       - {
           name: isPublishedFont,
           label: Publish Font,

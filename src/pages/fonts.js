@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AllFonts from "../components/WorksPage/AllFonts"
-import IntroFont from "../components/WorksPage/IntroFont"
+import AllFonts from "../components/FontsPage/AllFonts"
+import IntroFont from "../components/FontsPage/IntroFont"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 
 const seoKeywords =
