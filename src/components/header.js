@@ -130,6 +130,7 @@ const LogoImg = styled.img`
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   stroke: #ffffff;
+  margin-left: -5px;
 
   &:hover {
     filter: brightness(105%);
