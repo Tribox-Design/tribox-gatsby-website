@@ -126,7 +126,7 @@ const Bars = styled(FaBars)`
 `
 
 const LogoImg = styled.img`
-  height: 56px;
+  height: 64px;
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   stroke: #ffffff;
