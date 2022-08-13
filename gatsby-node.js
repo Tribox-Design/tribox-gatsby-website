@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          filter: {frontmatter: {isPublishedWork: {eq: true}}}
+          filter: {frontmatter: {isPublishedFont: {eq: true}}}
         ) {
           edges {
             node {
@@ -165,7 +165,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
-  return Promise.all([workPost, blogPost, portfolioPost])
+  return Promise.all([workPost, fontPost, blogPost, portfolioPost])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
