@@ -15,7 +15,7 @@ class FontTemplate extends React.Component {
           title={post.frontmatter.title}
           description={description}
           image={post.frontmatter.thumbnail.childImageSharp.fluid.originalImg}
-          keywords={post.frontmatter.services}
+          keywords={'font creation'}
         />
         <BlogContainer>
           <BlogContent>
@@ -45,13 +45,6 @@ export const pageQuery = graphql`
         title
         client
         description
-        services
-        featuredOn {
-          featured {
-            link
-            name
-          }
-        }
         thumbnail {
           childImageSharp {
             fluid(quality: 100) {
