@@ -191,6 +191,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       link: String!
     }
     type Frontmatter {
+      isPublishedFont: Boolean!
+    }
+    type Frontmatter {
       isPublishedPortfolio: Boolean!
     }
     type Frontmatter {
@@ -201,9 +204,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       isPublishedWork: Boolean!
-    }
-    type Frontmatter {
-      isPublishedFont: Boolean!
     }
   `
   createTypes(typeDefs)
