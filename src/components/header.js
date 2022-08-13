@@ -3,8 +3,8 @@ import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
 import { menuData } from "../data/MenuData"
-import TriboxLogo from "../images/tribox-logo.png"
-import TriboxLogoWhite from "../images/tribox-logo-white.png"
+import TriboxLogo from "../images/tribox-logo-2022.png"
+import TriboxLogoWhite from "../images/tribox-logo-white-2022.png"
 
 const Header = ({ toggle, page, headerBackground }) => {
   const primaryBackground = page === "Home" || page === "About"
@@ -126,7 +126,7 @@ const Bars = styled(FaBars)`
 `
 
 const LogoImg = styled.img`
-  height: 56px;
+  height: 80px;
   position: absolute;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   stroke: #ffffff;
