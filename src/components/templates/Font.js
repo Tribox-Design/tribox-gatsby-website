@@ -8,7 +8,7 @@ import MDXContainer from "../WorkTemplatePage/MDXContainer"
 class FontTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    var description = post.frontmatter.description + " | Best branding in Cebu."
+    var description = post.frontmatter.description + " | Best branding agency in Cebu."
     return (
       <Layout page="Font" headerBackground="#ffffff" footerBackground="#ff3333">
         <SEO
