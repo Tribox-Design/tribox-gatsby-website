@@ -45,6 +45,47 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
+  const fontPost = graphql(
+    `
+      {
+        allMdx(
+          filter: {frontmatter: {isPublishedFont: {eq: true}}}
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
+
+    // Create font posts pages.
+    const posts = result.data.allMdx.edges
+
+    posts.forEach((post, index) => {
+      console.log(post.node.fields)
+      createPage({
+        path: `fonts${post.node.fields.slug}`,
+        component: path.resolve(`./src/components/templates/Font.js`),
+        context: {
+          slug: post.node.fields.slug,
+        },
+      })
+    })
+
+    return null
+  })
+
   const blogPost = graphql(
     `
       {
@@ -124,7 +165,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 
-  return Promise.all([workPost, blogPost, portfolioPost])
+  return Promise.all([workPost, fontPost, blogPost, portfolioPost])
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -148,6 +189,9 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       link: String!
+    }
+    type Frontmatter {
+      isPublishedFont: Boolean!
     }
     type Frontmatter {
       isPublishedPortfolio: Boolean!

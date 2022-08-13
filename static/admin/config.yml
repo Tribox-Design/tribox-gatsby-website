@@ -46,6 +46,24 @@ collections:
           hint: "Determine to publish this on the whole website. Turning this On will create a new site for this Work."
         }
       - { name: body, label: Body, widget: markdown }
+  - name: font
+    label: Font
+    folder: content/font
+    create: true
+    path: "{{title}}/index"
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: thumbnail, label: Cover Photo, widget: image, hint: "Please provide 2000x1333 resolution for cover photos." }
+      - { name: description, label: Description, widget: text }
+      - {
+          name: isPublishedFont,
+          label: Publish Font,
+          widget: boolean,
+          default: true,
+          hint: "Determine to publish this on the whole website. Turning this On will create a new site for this Font."
+        }
+      - { name: body, label: Body, widget: markdown }
   - name: blog
     label: Blog
     folder: content/blog
