@@ -6,6 +6,6 @@ description: >-
   Master Default
 client: Master Default
 services: Master Default
-isPublishedPortfolio: false
+isPublishedFont: false
 ---
 Master Default
