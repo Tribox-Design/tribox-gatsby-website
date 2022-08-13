@@ -11,7 +11,7 @@ const IntroFont = () => {
         data-sal-easing="ease"
       >
         <IntroItems>
-          <IntroH1>Defining brands, simplifying the complex.</IntroH1>
+          <IntroH1>A Filipino Custom Typeface Design for Businesses and Brands</IntroH1>
         </IntroItems>
       </IntroContent>
     </IntroContainer>
