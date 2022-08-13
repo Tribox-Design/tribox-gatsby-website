@@ -3,8 +3,8 @@ import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
 import { menuData } from "../data/MenuData"
-import TriboxLogo from "../images/tribox-logo.png"
-import TriboxLogoWhite from "../images/tribox-logo-white.png"
+import TriboxLogo from "../images/tribox-logo-2022.png"
+import TriboxLogoWhite from "../images/tribox-logo-white-2022.png"
 
 const Header = ({ toggle, page, headerBackground }) => {
   const primaryBackground = page === "Home" || page === "About"
