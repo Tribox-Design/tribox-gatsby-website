@@ -2,7 +2,7 @@
 date: 2022-08-16T15:44:27.298Z
 title: Tribox Design's TD Kalayaan font is now on Canva!
 category: BLOG
-thumbnail: artboard-1-copy.jpg
+thumbnail: ""
 isPublishedBlog: true
 ---
 <!--StartFragment-->
