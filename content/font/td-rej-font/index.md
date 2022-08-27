@@ -9,12 +9,10 @@ description: >
   writing style, both digitally and in print.
 isPublishedFont: true
 ---
-
-
 ![](artboard-1.png)
 
 ![](artboard-2.png)
 
 ![](artboard-4.png)
 
-[You can download here for FREE: https://inutype.gumroad.com/l/tdrej](<You can download here for FREE: https://inutype.gumroad.com/l/tdrej>)
+You can download here for FREE: <https://inutype.gumroad.com/l/tdrej>
