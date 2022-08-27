@@ -25,3 +25,6 @@ isPublishedFont: true
 ![](artboard-1-copy-5.jpg)
 
 ![](artboard-2.jpg)
+
+TD Alpha A Typeface by Tribox Design 
+  FREE download: <https://inutype.gumroad.com/l/TDAlpha>
