@@ -12,7 +12,7 @@ description: >-
   FREE download: https://inutype.gumroad.com/l/TDAlpha
 isPublishedFont: true
 ---
-![](artboard-1-copy-6.jpg)
+
 
 ![](artboard-1-copy.jpg)
 
