@@ -1,7 +1,7 @@
 ---
 date: 2022-08-16T12:00:56.909Z
 title: "TD Alpha: A Typeface by Tribox Design"
-thumbnail: artboard-1.gif
+thumbnail: artboard-1.jpg
 description: >-
   TD Alpha A Typeface by Tribox Design
 
@@ -12,16 +12,16 @@ description: >-
   FREE download: https://inutype.gumroad.com/l/TDAlpha
 isPublishedFont: true
 ---
-![](artboard-1-copy-6.gif)
+![](artboard-1-copy-6.jpg)
 
-![](artboard-1-copy.gif)
+![](artboard-1-copy.jpg)
 
-![](artboard-1-copy-2.gif)
+![](artboard-1-copy-2.jpg)
 
-![](artboard-1-copy-3.gif)
+![](artboard-1-copy-3.jpg)
 
-![](artboard-1-copy-4.gif)
+![](artboard-1-copy-4.jpg)
 
-![](artboard-1-copy-5.gif)
+![](artboard-1-copy-5.jpg)
 
-![](artboard-2.gif)
+![](artboard-2.jpg)
