@@ -49,8 +49,4 @@ isPublishedWork: true
 
 ![](16-notebook.png)
 
-
-
 ![](2-official-logo.png)
-
-![](savouri-reviews.png)
