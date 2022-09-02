@@ -21,6 +21,6 @@ Free Download here: [https://inutype.gumroad.com/l/TDkalayaan](https://inutype.g
 
 ![Kalayaan Typeface](kalyaan-pattern.png)
 
-![Kalayaan Typeface](kalyaan-type-uses-3.png)
+![Kalayaan Typeface](kalyaan-type-uses-3.jpg)
 
 ![Kalayaan Typeface](kalyaan-type-uses.png)
