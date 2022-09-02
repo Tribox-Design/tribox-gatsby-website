@@ -27,7 +27,7 @@ Defining Brands, Simplifying the complex | [www.triboxdesign.com](http://www.tri
 
 ![](kalyaan-pattern.png)
 
-![](kalyaan-type-uses-3.png)
+![](kalyaan-type-uses-3.jpg)
 
 ![](kalyaan-type-uses.png)
 
