@@ -1,7 +1,7 @@
 ---
 date: 2022-08-14T02:19:32.336Z
 title: TD REJ Font
-thumbnail: artboard-5.png
+thumbnail: artboard-4.png
 description: >
   TD REJ is a handwriting-inspired font designed by Tribox Design. Consistently
   inconsistent, the letters mimic natural handwriting that's equally friendly,
@@ -13,6 +13,6 @@ isPublishedFont: true
 
 ![](artboard-2.png)
 
-![](artboard-4.png)
+![](artboard-5.png)
 
 You can download here for FREE: <https://inutype.gumroad.com/l/tdrej>
