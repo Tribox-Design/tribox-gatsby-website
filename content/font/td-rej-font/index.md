@@ -15,4 +15,8 @@ isPublishedFont: true
 
 ![](artboard-5.png)
 
+![](artboard-3.png)
+
 You can download here for FREE: <https://inutype.gumroad.com/l/tdrej>
+
+Featured on Type63: https://bit.ly/3CSbgIX
