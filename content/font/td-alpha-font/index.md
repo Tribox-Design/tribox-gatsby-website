@@ -16,7 +16,7 @@ isPublishedFont: true
 
 ![](artboard-1-copy-5.png)
 
-Feature on Type63: https://bit.ly/3AJTqF9
+Featured on Type63: https://bit.ly/3AJTqF9
 
 ![](artboard-3.png)
 
