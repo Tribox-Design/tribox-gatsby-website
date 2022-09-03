@@ -16,6 +16,8 @@ isPublishedFont: true
 
 ![](gahigdilastationaries.jpg)
 
+![](gahig-dila-collaterals.jpg)
+
 ![](artboard-5-2.png)
 
 Gahig Dila is a rough cutout-style display typeface by Tribox Design. It's best used for posters, headlines and displays. 
