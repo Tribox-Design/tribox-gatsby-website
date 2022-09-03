@@ -16,4 +16,6 @@ isPublishedFont: true
 
 ![](artboard-1-copy-5.png)
 
+![](artboard-3.png)
+
 This font is available to download at https://inutype.gumroad.com/l/TDAlpha
