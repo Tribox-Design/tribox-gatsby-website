@@ -9,8 +9,8 @@ description: >-
   You can try and download it here: https://inutype.gumroad.com/l/tdbeta
 client: Tribox Design
 services: Typeface Design
-isHighlighted: true
-isPublishedWork: true
+isHighlighted: false
+isPublishedWork: false
 ---
 ![](td-beta-2.png)
 
