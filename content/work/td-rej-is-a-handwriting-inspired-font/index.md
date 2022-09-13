@@ -11,8 +11,8 @@ description: >+
 
 client: Tribox Design
 services: Typeface Design
-isHighlighted: true
-isPublishedWork: true
+isHighlighted: false
+isPublishedWork: false
 ---
 ![](artboard-2.png)
 
