@@ -1,7 +1,7 @@
 ---
 date: 2021-01-25T08:59:42.486Z
 title: The Mystic Psychologist
-thumbnail: the-mystic-pyschologist-tribox-design.jpg
+thumbnail: mystic_psychologist_3.jpg
 description: The Mystic Psychologist is a community connected to their souls and
   the source that drives them to make the world a better place.
 client: The Mystic Psychologist
@@ -13,12 +13,11 @@ featuredOn:
 isHighlighted: true
 isPublishedWork: true
 ---
-
-![The Mystic Psychologist - The Company Research](./mystic_psychologist_1.png "The Mystic Psychologist - The Company Research")
+![The Mystic Psychologist - The Company Research](the-mystic-pyschologist-tribox-design.jpg "The Mystic Psychologist - The Company Research")
 
 ![The Mystic Psychologist - Stationary Paperworks design](./mystic_psychologist_2.jpg "The Mystic Psychologist - Stationary Paperworks design")
 
-![The Mystic Psychologist - Connected Souls Billboard Design](./mystic_psychologist_3.jpg "The Mystic Psychologist - Connected Souls Billboard Design")
+![The Mystic Psychologist - Connected Souls Billboard Design](mystic_psychologist_1.png "The Mystic Psychologist - Connected Souls Billboard Design")
 
 ![The Mystic Psychologist - Business Card Design](./mystic_psychologist_4.jpg "The Mystic Psychologist - Business Card Design")
 
