@@ -1,7 +1,7 @@
 ---
 date: 2022-09-14T05:09:25.516Z
 title: CAFE I | Food for the Well-Being of All, People and Planet
-thumbnail: cafe-i-logo.png
+thumbnail: cafe-i-website.jpg
 description: >-
   The Communities for Alternative Food Ecosystems Initiative (CAFÉ-I) is a
   SEC-registered non-stock, non-profit, non-government organization that offers
@@ -13,9 +13,9 @@ services: Brand Identity System
 isHighlighted: true
 isPublishedWork: true
 ---
-![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-tagline.png "CAFE I Tagline")
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-logo.jpg "CAFE I Tagline")
 
-![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-website.jpg "CAFE I Website")
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-tagline.jpg "CAFE I Website")
 
 ![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-business-card.jpg "CAFE I Business Card")
 
