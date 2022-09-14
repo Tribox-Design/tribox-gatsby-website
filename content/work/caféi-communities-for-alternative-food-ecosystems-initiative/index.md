@@ -9,7 +9,7 @@ description: "The company was most impressed by how the Tribox Design team
   the company. Via Clutch.co "
 client: Communities for Alternative Food Ecosystems Initiative
 services: Brand Identity System
-isHighlighted: true
-isPublishedWork: true
+isHighlighted: false
+isPublishedWork: false
 ---
 ![](cafe-i-tagline.jpg)
