@@ -13,4 +13,20 @@ services: Brand Identity System
 isHighlighted: true
 isPublishedWork: true
 ---
-![](cafe-i-tagline.png)
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-tagline.png "CAFE I Tagline")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-website.jpg "CAFE I Website")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-business-card.jpg "CAFE I Business Card")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-letter-head.jpg "CAFE Ietterhead")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-logo-partners.jpg "CAFE I Partners Logo")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-tote-bag.jpg "CAFE I Tote Bag")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-posters.jpg "CAFE I Poster")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-press.jpg "CAFE I Press")
+
+![ Communities for Alternative Food Ecosystems Initiative (CAFEi) ](cafe-i-shirt.jpg "CAFE I Tshirt")
