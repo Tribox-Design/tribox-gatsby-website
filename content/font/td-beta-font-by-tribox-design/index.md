@@ -11,8 +11,14 @@ description: >-
   TD Beta is a bold sans serif typeface inspired by Futura and Helvetica. It is best used for headlines, titles, and display.
 isPublishedFont: true
 ---
+The following character set contains 186 glyphs and is the recommended minimum for Latin-based display fonts. Please note that this limited character set supports a few major Western languages only.
+
+TD Beta is a bold sans serif typeface inspired by Futura and Helvetica. It is best used for headlines, titles, and display.
+
 D﻿ownload TD Beta on Myfonts by Monotype. | https://www.myfonts.com/collections/td-beta-font-inusentes-catapusan
 
 ![TD-Beta-Typeface-Analytic](td-beta-typeface-analytics.jpg "Tribox Design Fonts")
 
 ![TD Beta Intro Card](td-beta-intro.jpg "TD Beta Tribox Design fonts")
+
+![](td-beta-192-glyphsy.jpg)
