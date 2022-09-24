@@ -1,0 +1,18 @@
+---
+date: 2022-09-24T10:37:02.601Z
+title: TD Beta font by Tribox Design
+thumbnail: td-beta-cover-myfonts-monotype.jpg
+description: >-
+  The following character set contains 186 glyphs and is the recommended minimum
+  for Latin-based display fonts. Please note that this limited character set
+  supports a few major Western languages only.
+
+
+  TD Beta is a bold sans serif typeface inspired by Futura and Helvetica. It is best used for headlines, titles, and display.
+isPublishedFont: true
+---
+D﻿ownload TD Beta on Myfonts by Monotype. | https://www.myfonts.com/collections/td-beta-font-inusentes-catapusan
+
+
+
+![TD-Beta-Typeface-Analytic](td-beta-typeface-analytics.jpg "Tribox Design Fonts")
