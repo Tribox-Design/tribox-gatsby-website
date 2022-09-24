@@ -1,7 +1,7 @@
 ---
 date: 2022-09-24T10:37:02.601Z
 title: TD Beta font by Tribox Design
-thumbnail: td-beta-cover-myfonts-monotype.jpg
+thumbnail: td-beta-cover-myfonts2-monotype.jpg
 description: >-
   The following character set contains 186 glyphs and is the recommended minimum
   for Latin-based display fonts. Please note that this limited character set
