@@ -13,6 +13,6 @@ isPublishedFont: true
 ---
 D﻿ownload TD Beta on Myfonts by Monotype. | https://www.myfonts.com/collections/td-beta-font-inusentes-catapusan
 
-
-
 ![TD-Beta-Typeface-Analytic](td-beta-typeface-analytics.jpg "Tribox Design Fonts")
+
+![TD Beta Intro Card](td-beta-intro.jpg "TD Beta Tribox Design fonts")
