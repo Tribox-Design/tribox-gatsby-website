@@ -21,4 +21,14 @@ D﻿ownload TD Beta on Myfonts by Monotype. | https://www.myfonts.com/collection
 
 ![TD Beta Intro Card](td-beta-intro.jpg "TD Beta Tribox Design fonts")
 
-![](td-beta-192-glyphsy.jpg)
+![TD Beta Tribox Design fonts](td-beta-192-glyphsy.jpg "TD Beta Tribox Design fonts")
+
+![TD Beta Tribox Design fonts](td-beta-3.png "TD Beta Tribox Design fonts")
+
+![TD Beta Tribox Design fonts](td-beta-collateralsjpg.jpg "TD Beta Tribox Design fonts")
+
+![TD Beta Tribox Design fonts](td-beta-collaterals-5.jpg "TD Beta Tribox Design fonts")
+
+![TD Beta Tribox Design fonts](td-beta-7.jpg "TD Beta Tribox Design fonts")
+
+![TD Beta Tribox Design fonts](td-beta-8.jpg "TD Beta Tribox Design fonts")
