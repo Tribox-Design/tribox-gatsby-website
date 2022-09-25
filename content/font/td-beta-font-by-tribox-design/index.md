@@ -25,6 +25,8 @@ D﻿ownload TD Beta on Myfonts by Monotype. | https://www.myfonts.com/collection
 
 ![TD Beta Tribox Design fonts](td-beta-3.png "TD Beta Tribox Design fonts")
 
+![](white_tote_bag_mockup.jpg)
+
 ![TD Beta Tribox Design fonts](td-beta-collateralsjpg.jpg "TD Beta Tribox Design fonts")
 
 ![TD Beta Tribox Design fonts](td-beta-collaterals-5.jpg "TD Beta Tribox Design fonts")
