@@ -17,7 +17,7 @@ It is best used for headlines, titles, display, and even long paragraphs on digi
 
 <!--EndFragment-->
 
-![](1-copy.jpg)
+![TD Beta Light](1-copy.jpg "TD Beta Light")
 
 <!--StartFragment-->
 
@@ -25,12 +25,10 @@ The TD Beta font, proudly crafted by our very own Inu Catapusan and the Tribox D
 
 <!--EndFragment-->
 
-![](3-copy.jpg)
+![TD Beta Light](3-copy.jpg "TD Beta Light")
 
-![](4-copy.jpg)
+![TD Beta Light](4-copy.jpg "TD Beta Light")
 
 Y﻿ou can download it here: https://www.myfonts.com/collections/td-beta-font-inusentes-catapusan
 
-
-
-![](5-copy.jpg)
+![TD Beta Light](5-copy.jpg "TD Beta Light")
