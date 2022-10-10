@@ -1,7 +1,7 @@
 ---
 date: 2022-10-10T11:29:18.765Z
 title: TD Beta Light By Tribox Design
-thumbnail: 2-copy.jpg
+thumbnail: 1-copy.jpg
 description: >-
   TD Beta is a bold and light sans serif typeface inspired by Futura and
   Helvetica.
