@@ -6,7 +6,7 @@ description: >+
   Alpha is an intuitive typeface crafted to depict change, the new normal, and
   unbridled opportunities.
 
-isPublishedFont: false
+isPublishedFont: true
 ---
 Alpha is an intuitive typeface crafted to depict change, the new normal, and unbridled opportunities.
 
