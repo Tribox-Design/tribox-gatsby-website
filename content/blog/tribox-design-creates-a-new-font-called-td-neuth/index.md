@@ -2,7 +2,7 @@
 date: 2022-11-21T04:16:19.952Z
 title: Tribox Design creates a new font called TD Neuth
 category: BLOG
-thumbnail: td-neuth-website-2.jpg
+thumbnail: td-neuth.jpg
 isPublishedBlog: true
 ---
 <!--StartFragment-->
