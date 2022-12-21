@@ -17,7 +17,7 @@ Download here: [https://www.myfonts.com/colle…/td-neuth-font-tribox-design](h
 
 ![TD Neuth Font by Tribox Design](td-neuth-cover-website.jpg "TD Neuth Font")
 
-![TD Neuth Font by Tribox Design]( "TD Neuth Font")
+![TD Neuth Font by Tribox Design](td-neuth-fonts-by-tribox-design-cover.jpg "TD Neuth Font")
 
 ![TD Neuth Font by Tribox Design]( "TD Neuth Font")
 
