@@ -1,6 +1,6 @@
 ---
 date: 2022-12-27T04:33:21.874Z
-title: "Tribox Design creates font called TD Neuth on Monotype "
+title: "Tribox Design creates a font called TD Neuth on Monotype "
 category: BLOG
 thumbnail: td-neuth.jpg
 isPublishedBlog: true
