@@ -8,7 +8,7 @@ services: Brand Strategy, Brand Identity, Digital Design, Illustration
 isHighlighted: true
 isPublishedWork: true
 ---
-![](official-logo-of-sirao-garden-laartboard-1.png)
+![Tribox Design portfolio](official-logo-of-sirao-garden-laartboard-1.png "Tribox Design Sirao Garden")
 
 ![Tribox Design portfolio](official-logo-of-sirao-gardenartboard-1.jpg "Tribox Design Sirao Garden")
 
