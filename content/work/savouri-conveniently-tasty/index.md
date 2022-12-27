@@ -1,7 +1,7 @@
 ---
 date: 2022-05-05T00:09:46.165Z
 title: Savouri- Conveniently tasty
-thumbnail: 13-poster.png
+thumbnail: fda-copy-3.jpg
 description: >-
   Tribox Design have created a new Brand Identity and Packaging Design for
   Savouri Food Products. Savouri envision to become the top-of-mind food
@@ -23,30 +23,34 @@ services: Brand Identity, Brand Messaging, Packaging Design
 isHighlighted: true
 isPublishedWork: true
 ---
-![](2-official-logo-2.png)
 
-![](4-typography.png)
 
-![](3-pattern2.png)
+![Tribox design porfolio](2-official-logo-2.png "Tribox design Savouri")
 
-![](5-logo-variation.png)
+![Tribox design porfolio](fda-copy-.jpg "Tribox design Savouri")
 
-![](6-busines-cards.png)
+![Tribox design porfolio](4-typography.png "Tribox design Savouri")
 
-![](8-polo-shirts.png)
+![Tribox design porfolio](3-pattern2.png "Tribox design Savouri")
 
-![](9-instagram.png)
+![Tribox design porfolio](5-logo-variation.png "Tribox design Savouri")
 
-![](10-facebook.png)
+![Tribox design porfolio](6-busines-cards.png "Tribox design Savouri")
 
-![](11-totebag.png)
+![Tribox design porfolio](8-polo-shirts.png "Tribox design Savouri")
 
-![](13-poster.png)
+![Tribox design porfolio](9-instagram.png "Tribox design Savouri")
 
-![](14-poster.png)
+![Tribox design porfolio](10-facebook.png "Tribox design Savouri")
 
-![](15-laptop.png)
+![Tribox design porfolio](11-totebag.png "Tribox design Savouri")
 
-![](16-notebook.png)
+![Tribox design porfolio](13-poster.png "Tribox design Savouri")
 
-![](2-official-logo.png)
+![Tribox design porfolio](14-poster.png "Tribox design Savouri")
+
+![Tribox design porfolio](15-laptop.png "Tribox design Savouri")
+
+![Tribox design porfolio](16-notebook.png "Tribox design Savouri")
+
+![Tribox design porfolio](2-official-logo.png "Tribox design Savouri")
