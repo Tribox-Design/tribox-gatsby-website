@@ -10,6 +10,8 @@ isPublishedWork: true
 ---
 ![Tribox Design portfolio](official-logo-of-sirao-garden-laartboard-1.png "Tribox Design Sirao Garden")
 
+![](artboard-2.jpg)
+
 ![Tribox Design portfolio](5-copy-7.jpg "Tribox Design Sirao Garden")
 
 ![Tribox Design portfolio](5-copy-6.jpg "Tribox Design Sirao Garden")
