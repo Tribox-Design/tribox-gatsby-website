@@ -4,7 +4,7 @@ title: Sirao Garden-Little Amsterdam
 thumbnail: sirao-garden-official-logo.png
 description: Full Story soon
 client: Sirao Garden
-services: Brand Strategy, Brand Identity, Digital Design, Illustration
+services: Brand Strategy, Brand Identity, Typeface Design, Digital Design, Illustration
 isHighlighted: true
 isPublishedWork: true
 ---
