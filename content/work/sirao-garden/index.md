@@ -12,14 +12,12 @@ isPublishedWork: true
 
 ![](artboard-2.jpg)
 
-![Tribox Design portfolio](5-copy-7.jpg "Tribox Design Sirao Garden")
 
-![Tribox Design portfolio](5-copy-6.jpg "Tribox Design Sirao Garden")
 
-![Tribox Design portfolio](5-copy-5.jpg "Tribox Design Sirao Garden")
+![Tribox Design portfolio](12-2.jpg "Tribox Design Sirao Garden")
 
-![Tribox Design portfolio](5-copy-4.jpg "Tribox Design Sirao Garden")
+![Tribox Design portfolio](12-1-copy.jpg "Tribox Design Sirao Garden")
 
-![](5-copy-8.jpg)
+![Tribox Design portfolio](s84-pm-2698-ploy-mockup.jpg "Tribox Design Sirao Garden")
 
 Full Story soon
