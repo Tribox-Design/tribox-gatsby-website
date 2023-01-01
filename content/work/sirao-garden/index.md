@@ -26,7 +26,7 @@ isPublishedWork: true
 
 ![Tribox Design portfolio](sirao-garden-logo.jpg "Tribox Design Sirao Garden")
 
-![Tribox Design portfolio](sirao-garden-billboard-in-ayala.jpg "Tribox Design Sirao Garden")
+![Tribox Design portfolio](sirao-garden-billboard-with-man.jpg "Tribox Design Sirao Garden")
 
 ![Tribox Design portfolio](sirao-garden-posters-flowers.jpg "Tribox Design Sirao Garden")
 
