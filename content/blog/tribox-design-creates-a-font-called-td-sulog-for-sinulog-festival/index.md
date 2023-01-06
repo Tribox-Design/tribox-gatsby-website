@@ -3,7 +3,7 @@ date: 2022-12-27T02:25:49.405Z
 title: Tribox Design creates a font called TD Sulog for Sinulog Festival
 category: BLOG
 thumbnail: 36.jpg
-isPublishedBlog: false
+isPublishedBlog: true
 ---
 <!--StartFragment-->
 
