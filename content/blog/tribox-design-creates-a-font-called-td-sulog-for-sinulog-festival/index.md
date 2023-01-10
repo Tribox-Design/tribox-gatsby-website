@@ -59,11 +59,9 @@ Try our Sinulog Logo: [https://bit.ly/3vLa9WH](https://bit.ly/3vLa9WH?fbclid=IwA
 
 ![Sinulog Logo](14-1-posster-wa.jpg "Tribox Design Porfolio Sinulog")
 
-
-
 ![Sinulog Logo](15-street-poster.jpg "Tribox Design Porfolio Sinulog")
 
-![Sinulog Logo]( "Tribox Design Porfolio Sinulog")
+![Sinulog Logo](16-tote-bag.jpg "Tribox Design Porfolio Sinulog")
 
 ![Sinulog Logo](17-flag.jpg "Tribox Design Porfolio Sinulog")
 
