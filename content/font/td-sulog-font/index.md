@@ -14,44 +14,100 @@ If you are a creative, artist, or designer and would like to use our font, you c
 Free download : TD Sulog Font | https://bit.ly/3X6xSNf
 Try our Sinulog Logo: https://bit.ly/3vLa9WH
 
-![](0-cover.jpg)
+![Sinulog Logo](0-cover.jpg "Sinulog Logo")
 
-![](1-0.jpg)
+![Sinulog Logo](1-0.jpg "Sinulog Logo")
 
-![](2-1.jpg)
+![Sinulog Logo](2-1.jpg "Sinulog Logo")
 
-![](2-intro-copy.jpg)
+![Sinulog Logo](2-intro-copy.jpg "Sinulog Logo")
 
-![](3-a-z.jpg)
+![Sinulog Logo](3-a-z.jpg "Sinulog Logo")
 
-![](3-a-z-copy.jpg)
+![Sinulog Logo](3-a-z-copy.jpg "Sinulog Logo")
 
-![](4-1-pit-sesnor.jpg)
+![Sinulog Logo](4-1-pit-sesnor.jpg "Sinulog Logo")
 
-![](36.jpg)
+![Sinulog Logo](36.jpg "Sinulog Logo")
 
-![](5-mossyagit-og-kusgoo_.jpg)
+![Sinulog Logo](5-mossyagit-og-kusgoo_.jpg "Sinulog Logo")
 
-![](6-pritit.jpg)
+![Sinulog Logo](6-pritit.jpg "Sinulog Logo")
 
-![](7-queen.jpg)
+![Sinulog Logo](7-queen.jpg "Sinulog Logo")
 
-![](8-sinulog-history.jpg)
+![Sinulog Logo](8-sinulog-history.jpg "Sinulog Logo")
 
-![](9-patterns.jpg)
+![Sinulog Logo](9-patterns.jpg "Sinulog Logo")
 
-![](10-g.jpg)
+![Sinulog Logo](10-g.jpg "Sinulog Logo")
 
-![](11-sticker.jpg)
+![Sinulog Logo](11-sticker.jpg "Sinulog Logo")
 
-![](12-1-sinug-experience.jpg)
+![Sinulog Logo](12-1-sinug-experience.jpg "Sinulog Logo")
 
-![](12-provinces.jpg)
+![Sinulog Logo](12-provinces.jpg "Sinulog Logo")
 
-![](14-1-posster-wa.jpg)
+![Sinulog Logo](14-1-posster-wa.jpg "Sinulog Logo")
 
-![](14-2-bilboard-aya.jpg)
+![Sinulog Logo](14-2-bilboard-aya.jpg "Sinulog Logo")
 
-![](14-insta.jpg)
+![Sinulog Logo](14-insta.jpg "Sinulog Logo")
 
-![](15-street-poster.jpg)
+![Sinulog Logo](15-street-poster.jpg "Sinulog Logo")
+
+![Sinulog Logo](26-church.jpg "Sinulog Logo")
+
+![Sinulog Logo](22-pin.jpg "Sinulog Logo")
+
+![Sinulog Logo](20-poter.jpg "Sinulog Logo")
+
+![Sinulog Logo](21-girl-ith-totebag.jpg "Sinulog Logo")
+
+![Sinulog Logo](18-poster.jpg "Sinulog Logo")
+
+![Sinulog Logo](25-fag.jpg "Sinulog Logo")
+
+![Sinulog Logo](22-1-billboard.jpg "Sinulog Logo")
+
+![Sinulog Logo](18-poster.jpg "Sinulog Logo")
+
+![Sinulog Logo](24-float.jpg "Sinulog Logo")
+
+![Sinulog Logo](amlorr.jpg "Sinulog Logo")
+
+![Sinulog Logo](dreamaria.jpg "Sinulog Logo")
+
+![Sinulog Logo](illustrations.jpg "Sinulog Logo")
+
+![Sinulog Logo](jeg.jpg "Sinulog Logo")
+
+![Sinulog Logo](steven.jpg "Sinulog Logo")
+
+![Sinulog Logo](27-ccex.jpg "Sinulog Logo")
+
+![Sinulog Logo](28-fuente.jpg "Sinulog Logo")
+
+![Sinulog Logo](33-ayaa.jpg "Sinulog Logo")
+
+![Sinulog Logo](32-naia.jpg "Sinulog Logo")
+
+![Sinulog Logo](34-carbon.jpg "Sinulog Logo")
+
+![Sinulog Logo](35-poster.jpg "Sinulog Logo")
+
+![Sinulog Logo](38.jpg "Sinulog Logo")
+
+![Sinulog Logo](39-ticker.jpg "Sinulog Logo")
+
+![Sinulog Logo](40-mf.jpg "Sinulog Logo")
+
+![Sinulog Logo](42-fuente.jpg "Sinulog Logo")
+
+![Sinulog Logo](41-poter.jpg "Sinulog Logo")
+
+![Sinulog Logo](42-fuente.jpg "Sinulog Logo")
+
+![Sinulog Logo](43-coon.jpg "Sinulog Logo")
+
+![Sinulog Logo](44.jpg "Sinulog Logo")
