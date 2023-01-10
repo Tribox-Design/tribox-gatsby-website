@@ -50,9 +50,9 @@ Try our Sinulog Logo: https://bit.ly/3vLa9WH
 
 ![Sinulog Logo](14-1-posster-wa.jpg "Sinulog Logo")
 
-![Sinulog Logo](14-2-bilboard-aya.jpg "Sinulog Logo")
+![Sinulog Logo]( "Sinulog Logo")
 
-![Sinulog Logo](14-insta.jpg "Sinulog Logo")
+![Sinulog Logo]( "Sinulog Logo")
 
 ![Sinulog Logo](15-street-poster.jpg "Sinulog Logo")
 
