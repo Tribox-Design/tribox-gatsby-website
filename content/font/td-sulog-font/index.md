@@ -48,12 +48,6 @@ Try our Sinulog Logo: https://bit.ly/3vLa9WH
 
 ![Sinulog Logo](12-provinces.jpg "Sinulog Logo")
 
-![Sinulog Logo](14-1-posster-wa.jpg "Sinulog Logo")
-
-![Sinulog Logo]( "Sinulog Logo")
-
-![Sinulog Logo]( "Sinulog Logo")
-
 ![Sinulog Logo](15-street-poster.jpg "Sinulog Logo")
 
 ![Sinulog Logo](26-church.jpg "Sinulog Logo")
