@@ -88,6 +88,10 @@ Try our Sinulog Logo: https://bit.ly/3vLa9WH
 
 ![Sinulog Logo](34-carbon.jpg "Sinulog Logo")
 
+![](14-insta.jpg)
+
+![](14-2-bilboard-aya.jpg)
+
 ![Sinulog Logo](35-poster.jpg "Sinulog Logo")
 
 ![Sinulog Logo](38.jpg "Sinulog Logo")
