@@ -127,6 +127,7 @@ const NumberBackground = styled.div`
   width: 70px;
   align-items: center;
   text-align: center;
+  justify-content: center;
   margin: auto;
 
   @media screen and (max-width: 768px) {
