@@ -19,8 +19,6 @@ const OurProcess = () => {
               </NumberBackground>
               <Description>Discovery</Description>
             </ProcessContainer>
-
-            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#FAD403"}>
@@ -28,8 +26,6 @@ const OurProcess = () => {
               </NumberBackground>
               <Description>Strategy</Description>
             </ProcessContainer>
-
-            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#43B54A"}>
@@ -37,8 +33,6 @@ const OurProcess = () => {
               </NumberBackground>
               <Description>Design</Description>
             </ProcessContainer>
-
-            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#B3549F"}>
@@ -86,7 +80,7 @@ const FeaturedWrapper = styled.div`
 
 const ProcessesContainer = styled.div`
   display: inline-grid;
-  grid-template-columns: repeat(7, 4fr);
+  grid-template-columns: repeat(4, 4fr);
   width: 100%;
   grid-gap: 60px;
   padding: 4rem 3rem;
@@ -95,15 +89,13 @@ const ProcessesContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     text-align: center;
-    grid-gap: 0;
+    grid-gap: 15px;
     padding: 2rem 1rem;
     padding-bottom: 1rem;
   }
 
   @media screen and (max-width: 400px) {
-    grid-template-columns: repeat(4, 4fr);
     text-align: center;
-    grid-gap: 0;
     padding: 2rem 1rem;
     padding-bottom: 1rem;
   }
