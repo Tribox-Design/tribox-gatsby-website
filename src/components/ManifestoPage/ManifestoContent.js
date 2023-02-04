@@ -57,11 +57,11 @@ const ServiceWrapper = styled.div`
 const NumberContainer = styled.div`
   width: 20%;
   padding-right: 2rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
 
   @media screen and (max-width: 617px) {
     padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
 `
 
