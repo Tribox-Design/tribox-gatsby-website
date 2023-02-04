@@ -17,7 +17,7 @@ const IntroBanner = () => {
       >
         <IntroItems>
           <IntroH1>
-          We are the only full-branding agency in Cebu that works directly with business owners and founders. Our works reflect their purpose, vision, and commitment. We are specializing in Brand Strategy, Brand Identity, Typeface Design, and Packaging Design. 
+            We are an independent branding agency and the only branding company in Cebu specializing in Brand Strategy, Brand Identity, Typeface Design, and Packaging Design. We work with business leaders and founders that are purpose-driven, have a vision to build a better future, and strive to empower and improve people's lives.
           </IntroH1>
           <IntroButton>
             <Button round="true" to="/about/" big="true">
