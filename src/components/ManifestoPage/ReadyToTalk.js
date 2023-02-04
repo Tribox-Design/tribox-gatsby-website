@@ -64,7 +64,7 @@ const Description = styled.p`
   font-size: clamp(2rem, 3vw, 1.2rem);
   font-weight: 300;
   color: #424242;
-  text-align: right;
+  text-align: center;
   vertical-align: middle;
   padding: 0;
   margin-right: 40px;
