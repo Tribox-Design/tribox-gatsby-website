@@ -71,7 +71,7 @@ const Number = styled.h3`
   font-weight: bold;
   color: #ff3333;
   margin-bottom: 0;
-  margin-top: 16px;
+  margin-top: 8px;
 `
 
 const Title = styled.h3`

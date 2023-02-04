@@ -65,7 +65,7 @@ const IntroItems = styled.div`
   width: 70%;
   max-height: 100%;
   color: #000000;
-  line-height: 1.1;
+  line-height: 1.4;
 
   @media screen and (max-width: 768px) {
     width: 80%;
@@ -79,7 +79,7 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(3rem, 6vw, 4rem);
   font-weight: bold;
   letter-spacing: -1px;
   margin-top: 0;
