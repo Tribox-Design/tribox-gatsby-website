@@ -104,7 +104,8 @@ const ProcessesContainer = styled.div`
 const ProcessContainer = styled.div`
   align-items: center;
   text-align: center;
-  margin: 0;
+  margin: auto;
+  justify-content: center;
 `
 
 const Title = styled.h3`
@@ -123,7 +124,8 @@ const NumberBackground = styled.div`
   width: 64px;
   align-items: center;
   text-align: center;
-  padding: 4px 4px;
+  padding: 4px;
+  margin: auto;
 `
 
 const Description = styled.p`
@@ -131,4 +133,8 @@ const Description = styled.p`
   font-weight: 300;
   margin-top: 20px;
   color: #424242;
+
+  @media screen and (max-width: 768px) {
+    font-size: clamp(1.5rem, 3vw, 1.2rem);
+  }
 `
