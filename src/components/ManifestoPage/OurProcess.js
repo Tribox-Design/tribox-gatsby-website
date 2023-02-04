@@ -122,6 +122,7 @@ const Title = styled.h3`
   font-weight: bold;
   color: ${({ color }) => color};
   vertical-align: middle;
+  padding-bottom: 5px;
 
   @media screen and (max-width: 768px) {
     font-size: clamp(1rem, 4vw, 2rem);

@@ -67,7 +67,7 @@ const Description = styled.p`
   text-align: center;
   vertical-align: middle;
   margin: auto 40px;
-  padding-top: 16px;
+  padding-top: 14px;
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
@@ -88,6 +88,7 @@ const ContactUs = styled.button`
   margin: 1rem auto;
   font-size: 18px;
   transition: 0.2s ease-in-out;
+  border-radius: 50px;
 
   &:hover {
     background: #424242;
