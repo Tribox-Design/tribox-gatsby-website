@@ -72,12 +72,16 @@ const TitleContainer = styled.div`
 `
 
 const Title = styled.h3`
-  font-size: clamp(1.4rem, 5vw, 2.1rem);
+  font-size: clamp(1.2rem, 5vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
   margin-bottom: 0;
   margin-top: 0;
+
+  @media screen and (max-width: 788px) {
+    padding-right: 3rem;
+  }
 `
 
 const DescriptionContainer = styled.div`

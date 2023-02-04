@@ -68,9 +68,11 @@ const IntroItems = styled.div`
   line-height: 1.4;
 
   @media screen and (max-width: 768px) {
+    line-height: 1.2;
     width: 80%;
   }
   @media screen and (max-width: 616px) {
+    line-height: 1;
     width: 85%;
   }
   @media screen and (max-width: 565px) {

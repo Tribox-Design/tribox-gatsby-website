@@ -112,10 +112,14 @@ const Title = styled.h3`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
-  // color: #212121;
   color: ${({ color }) => color};
   vertical-align: middle;
-  padding-bottom: 4px;
+
+  @media screen and (max-width: 768px) {
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    height: 56px;
+    width: 56px;
+  }
 `
 
 const NumberBackground = styled.div`
@@ -127,6 +131,11 @@ const NumberBackground = styled.div`
   text-align: center;
   padding: 4px;
   margin: auto;
+
+  @media screen and (max-width: 768px) {
+    height: 56px;
+    width: 56px;
+  }
 `
 
 const Description = styled.p`

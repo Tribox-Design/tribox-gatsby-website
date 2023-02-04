@@ -77,10 +77,9 @@ const Description = styled.p`
 const ContactUs = styled.button`
   border: 0;
   background: #ff3333;
-  padding: 1.2rem 2.8rem;
+  padding: 1.2rem 2.5rem;
   color: white;
   width: auto;
-  text-transform: uppercase;
   cursor: pointer;
   margin: 1rem auto;
   font-size: 18px;
