@@ -9,5 +9,6 @@ export const featuredData = [
   { name: "Clutch" },
   { name: "Adobo Magazine" },
   { name: "GMA" },
-  { name: "APAC Insider" }
+  { name: "APAC Insider" },
+  { name: "Sunstar" }
 ]

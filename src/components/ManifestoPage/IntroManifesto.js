@@ -62,14 +62,13 @@ const IntroContent = styled.div`
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;
-  width: 70%;
+  width: 80%;
   max-height: 100%;
   color: #000000;
   line-height: 1.4;
 
   @media screen and (max-width: 768px) {
     line-height: 1.2;
-    width: 80%;
   }
   @media screen and (max-width: 616px) {
     line-height: 1;
@@ -86,6 +85,10 @@ const IntroH1 = styled.h1`
   letter-spacing: -1px;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: 565px) {
+    font-size: clamp(2.5rem, 3vw, 3rem);
+  }
 `
 
 const Description = styled.p`
