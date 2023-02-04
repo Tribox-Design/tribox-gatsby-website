@@ -22,7 +22,6 @@ const IndexPage = () => (
       keywords={seoKeywords}
     />
     <IntroAbout />
-    <Line />
     <TheDreamTeam />
     <Line />
     <OurServices />
