@@ -116,9 +116,7 @@ const Title = styled.h3`
   vertical-align: middle;
 
   @media screen and (max-width: 768px) {
-    font-size: clamp(1.2rem, 5vw, 2rem);
-    height: 56px;
-    width: 56px;
+    font-size: clamp(1rem, 4vw, 2rem);
   }
 `
 
@@ -136,6 +134,11 @@ const NumberBackground = styled.div`
     height: 56px;
     width: 56px;
   }
+
+  @media screen and (max-width: 500px) {
+    height: 48px;
+    width: 48px;
+  }
 `
 
 const Description = styled.p`
@@ -146,5 +149,8 @@ const Description = styled.p`
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
+  }
+  @media screen and (max-width: 500px) {
+    font-size: clamp(1rem, 2vw, 1rem);
   }
 `
