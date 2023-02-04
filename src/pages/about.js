@@ -4,12 +4,11 @@ import SEO from "../components/seo"
 import IntroAbout from "../components/AboutPage/IntroAbout"
 import Line from "../components/line"
 import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
-import MissionVision from "../components/AboutPage/MissionVision"
 import OurServices from "../components/AboutPage/OurServices"
-import OurClients from "../components/AboutPage/OurClients"
-import WeAreFeatured from "../components/AboutPage/WeAreFeatured"
+import Featured from "../components/AboutPage/Featured"
 import Affiliation from "../components/AboutPage/Affiliation"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
+import Awards from "../components/AboutPage/Awards"
 
 const seoKeywords =
   "Brand Positioning, Label/Packaging Design, Brand Messaging, Brand Identity Design, Digital Marketing, Brand Naming, Illustration, Brand Evaluation Research, Website Development"
@@ -23,15 +22,15 @@ const IndexPage = () => (
       keywords={seoKeywords}
     />
     <IntroAbout />
-    <MissionVision />
-    <Line />
     <TheDreamTeam />
     <Line />
     <OurServices />
     <Line />
     <Affiliation />
     <Line />
-    <WeAreFeatured />
+    <Featured />
+    <Line />
+    <Awards />
   </Layout>
 )
 

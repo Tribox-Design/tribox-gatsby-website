@@ -4,22 +4,20 @@ import { affiliationsData } from "../../data/AffiliationsData"
 
 const Affiliation = () => {
   return (
-    <FeaturedContainer>
-      <FeaturedContent>
-        <FeaturedWrapper>
-          <Title>Memberships and Affiliations</Title>
-          <ImgContainer
-            data-sal="fade"
-            data-sal-duration="700"
-            data-sal-easing="ease"
-          >
-            {affiliationsData.map((item, index) => (
-              <CustomImg key={index} src={item.img} alt={item.affiliate} />
+    <ServiceContainer>
+      <ServiceContent>
+        <ServiceWrapper>
+          <TitleContainer>
+            <Title>Memberships and Affiliations</Title>
+          </TitleContainer>
+          <DescriptionContainer>
+            {affiliationsData.map((props, index) => (
+              <Description key={index}>{props.affiliate}</Description>
             ))}
-          </ImgContainer>
-        </FeaturedWrapper>
-      </FeaturedContent>
-    </FeaturedContainer>
+          </DescriptionContainer>
+        </ServiceWrapper>
+      </ServiceContent>
+    </ServiceContainer>
   )
 }
 
@@ -28,24 +26,25 @@ export default Affiliation
 /// *********************************************************
 /// Styled Components
 ///
-const FeaturedContainer = styled.div`
+const ServiceContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0 2rem 0;
-  
+  padding: 4rem 0;
+
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
   }
 `
 
-const FeaturedContent = styled.div`
+const ServiceContent = styled.div`
   z-index: 3;
   max-width: 1140px;
   width: 100%;
 `
 
-const FeaturedWrapper = styled.div`
+const ServiceWrapper = styled.div`
+  display: flex;
   padding: 1rem 3rem;
 
   @media screen and (max-width: 564px) {
@@ -53,46 +52,49 @@ const FeaturedWrapper = styled.div`
   }
 `
 
+
+const TitleContainer = styled.div`
+  width: 40%;
+
+  padding-right: 11.8rem;
+  @media screen and (max-width: 1000px) {
+    padding-right: 8rem;
+  }
+  @media screen and (max-width: 920px) {
+    padding-right: 6rem;
+  }
+  @media screen and (max-width: 788px) {
+    padding-right: 3rem;
+  }
+  @media screen and (max-width: 617px) {
+    padding-right: 1rem;
+  }
+`
+
 const Title = styled.h3`
-  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  font-size: clamp(1.2rem, 5vw, 2rem);
   letter-spacing: 1px;
   font-weight: bold;
   color: #212121;
-  margin: 0;
-`
+  margin-bottom: 0;
+  margin-top: 0;
 
-const ImgContainer = styled.div`
-  display: flex;
-  grid-template-columns: repeat(3, 3fr);
-  width: 100%;
-  grid-gap: 24px;
-  padding: 4rem 1rem;
-
-  @media screen and (max-width: 768px) {
-    ${"" /* display: grid; */}
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    ${"" /* grid-gap: 60px; */}
-  }
-
-  @media screen and (max-width: 400px) {
-    grid-gap: 0px;
+  @media screen and (max-width: 788px) {
+    padding-right: 3rem;
   }
 `
 
-const CustomImg = styled.img`
-  margin: auto;
-  max-height: 130px;
+const DescriptionContainer = styled.div`
+  width: 60%;
 
   @media screen and (max-width: 768px) {
-    margin: auto;
-    max-width: 110px;
-    max-height: 90px;
+    padding-left: 10px;
   }
+`
 
-  @media screen and (max-width: 454px) {
-    max-width: 80px;
-    max-height: 60px;
-  }
+const Description = styled.p`
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-weight: 300;
+  margin-bottom: 1.3rem;
+  color: #424242;
 `
