@@ -8,9 +8,7 @@ const ReadyToTalk = () => {
       <FeaturedContent>
         <FeaturedWrapper>
           <Description>Ready to talk?</Description>
-          <Button round="false" to="/contact/" big="true">
-            Contact us
-          </Button>
+          <ContactUs to="/contact/">Contact us</ContactUs>
         </FeaturedWrapper>
       </FeaturedContent>
     </FeaturedContainer>
@@ -45,7 +43,7 @@ const FeaturedWrapper = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(2, 2fr);
   padding: 4rem 3rem;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   grid-gap: 60px;
 
@@ -89,5 +87,22 @@ const Description = styled.p`
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
+  }
+`
+
+const ContactUs = styled.button`
+  border: 0;
+  background: #ff3333;
+  padding: 0.7rem 3rem 0.7rem 3rem;
+  color: white;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 1rem auto;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: #424242;
   }
 `
