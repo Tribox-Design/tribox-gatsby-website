@@ -1,30 +1,27 @@
 import React from "react"
 import styled from "styled-components"
-import { theDreamTeamData } from "../../data/TheDreamTeamData.js"
+import { awardsData } from "../../data/AwardsData"
 
-const TheDreamTeam = () => {
+const Awards = () => {
   return (
     <ServiceContainer>
       <ServiceContent>
         <ServiceWrapper>
           <TitleContainer>
-            <Title>Our Team</Title>
+            <Title>Globally Featured</Title>
           </TitleContainer>
-          <TeamContainer>
-            {theDreamTeamData.map((props, index) => (
-              <TeamLink key={index} href={props.linkedin} target="_blank" rel="noopener noreferrer">
-                <Name>{props.name}</Name>
-                <PositionTitle>{props.position}</PositionTitle>
-              </TeamLink>
+          <DescriptionContainer>
+            {awardsData.map((props, index) => (
+              <Description key={index}>{props.name}</Description>
             ))}
-          </TeamContainer>
+          </DescriptionContainer>
         </ServiceWrapper>
       </ServiceContent>
     </ServiceContainer>
   )
 }
 
-export default TheDreamTeam
+export default Awards
 
 /// *********************************************************
 /// Styled Components
@@ -54,15 +51,25 @@ const ServiceWrapper = styled.div`
     padding: 0 2rem;
   }
 `
-
 const TitleContainer = styled.div`
   width: 40%;
-  display: inline-block;
-  padding-right: 1rem;
+
+  padding-right: 11.8rem;
+  @media screen and (max-width: 1000px) {
+    padding-right: 8rem;
+  }
+  @media screen and (max-width: 920px) {
+    padding-right: 6rem;
+  }
+  @media screen and (max-width: 788px) {
+    padding-right: 3rem;
+  }
+  @media screen and (max-width: 617px) {
+    padding-right: 1rem;
+  }
 `
 
 const Title = styled.h3`
-  display: flex;
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
@@ -71,41 +78,17 @@ const Title = styled.h3`
   margin-top: 0;
 `
 
-const TeamContainer = styled.div`
-  display: inline-grid;
+const DescriptionContainer = styled.div`
   width: 60%;
-  grid-template-columns: repeat(2, 2fr);
-  grid-gap: 2rem;
 
   @media screen and (max-width: 768px) {
     padding-left: 10px;
-    grid-template-columns: 1fr;
   }
 `
 
-const Name = styled.h4`
-  font-size: clamp(1rem, 3vw, 1.2rem);
-  font-weight: 600;
-  color: #424242;
-  margin-bottom: 4px;
-  letter-spacing: .5px;
-  margin-top: 0;
-`
-
-const PositionTitle = styled.p`
+const Description = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
   margin: 0;
   color: #424242;
-`
-
-const TeamLink = styled.a`
-  cursor: pointer;
-  text-decoration: none;
-  transition: 0.2s;
-
-  :focus,
-  :hover {
-    transform: scale(1.02);
-  }
 `

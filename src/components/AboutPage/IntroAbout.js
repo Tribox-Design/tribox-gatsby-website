@@ -16,7 +16,7 @@ const IntroAbout = () => {
       >
         <IntroItems>
           <IntroH1>
-          We are a passionate team with different expertise. We believe that using our expertise can help you create brands that make a big impact on the community. Just like you, we think outside the box. We work with business owners and founders that are purpose-driven, have a vision, are committed to their brand, and are not afraid to take risks.
+            We are a group of experts. Empathy, design, strategy and creativity are the common denominators in everything we do. We create brands that make a big impact on the community and aim to build a better future. We think outside the box.
           </IntroH1>
         </IntroItems>
       </IntroContent>

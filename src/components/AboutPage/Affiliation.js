@@ -8,15 +8,11 @@ const Affiliation = () => {
       <FeaturedContent>
         <FeaturedWrapper>
           <Title>Memberships and Affiliations</Title>
-          <ImgContainer
-            data-sal="fade"
-            data-sal-duration="700"
-            data-sal-easing="ease"
-          >
-            {affiliationsData.map((item, index) => (
-              <CustomImg key={index} src={item.img} alt={item.affiliate} />
+          <DescriptionContainer>
+            {affiliationsData.map((props, index) => (
+              <Description key={index}>{props.affiliate}</Description>
             ))}
-          </ImgContainer>
+          </DescriptionContainer>
         </FeaturedWrapper>
       </FeaturedContent>
     </FeaturedContainer>
@@ -61,38 +57,61 @@ const Title = styled.h3`
   margin: 0;
 `
 
-const ImgContainer = styled.div`
-  display: flex;
-  grid-template-columns: repeat(3, 3fr);
-  width: 100%;
-  grid-gap: 24px;
-  padding: 4rem 1rem;
+// const ImgContainer = styled.div`
+//   display: flex;
+//   grid-template-columns: repeat(3, 3fr);
+//   width: 100%;
+//   grid-gap: 24px;
+//   padding: 4rem 1rem;
+
+//   @media screen and (max-width: 768px) {
+//     ${"" /* display: grid; */}
+//     text-align: center;
+//     padding-top: 2rem;
+//     padding-bottom: 1rem;
+//     ${"" /* grid-gap: 60px; */}
+//   }
+
+//   @media screen and (max-width: 400px) {
+//     grid-gap: 0px;
+//   }
+// `
+
+// const CustomImg = styled.img`
+//   margin: auto;
+//   max-height: 130px;
+
+//   @media screen and (max-width: 768px) {
+//     margin: auto;
+//     max-width: 110px;
+//     max-height: 90px;
+//   }
+
+//   @media screen and (max-width: 454px) {
+//     max-width: 80px;
+//     max-height: 60px;
+//   }
+// `
+
+
+const DescriptionContainer = styled.div`
+  display: inline-grid;
+  width: 60%;
+  grid-template-rows: repeat(5, 4fr);
+  grid-gap: 1.3rem 0;
+  grid-auto-flow: column;
 
   @media screen and (max-width: 768px) {
-    ${"" /* display: grid; */}
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    ${"" /* grid-gap: 60px; */}
-  }
-
-  @media screen and (max-width: 400px) {
-    grid-gap: 0px;
+    grid-template-rows: null;
+    grid-template-columns: repeat(1, 4f);
+    grid-auto-flow: row;
+    padding-left: 10px;
   }
 `
 
-const CustomImg = styled.img`
-  margin: auto;
-  max-height: 130px;
-
-  @media screen and (max-width: 768px) {
-    margin: auto;
-    max-width: 110px;
-    max-height: 90px;
-  }
-
-  @media screen and (max-width: 454px) {
-    max-width: 80px;
-    max-height: 60px;
-  }
+const Description = styled.p`
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-weight: 300;
+  margin: 0;
+  color: #424242;
 `

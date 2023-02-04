@@ -8,7 +8,7 @@ const OurServices = () => {
       <ServiceContent>
         <ServiceWrapper>
           <TitleContainer>
-            <Title>What we love to do</Title>
+            <Title>Our Expertise</Title>
           </TitleContainer>
           <DescriptionContainer>
             {ourServicesData.map((props, index) => (
