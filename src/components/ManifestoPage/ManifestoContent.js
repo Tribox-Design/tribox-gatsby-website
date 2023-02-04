@@ -8,9 +8,9 @@ const ManifestoContent = () => {
       <ServiceContent>
         {manifestoData.map((props, index) => (
             <ServiceWrapper key={index}>
-              <TitleContainer>
-                <Title>{props.number}</Title>
-              </TitleContainer>
+              <NumberContainer>
+                <Number>{props.number}</Number>
+              </NumberContainer>
               <DescriptionContainer>
               <Title>{props.title}</Title>
                 <Description key={index}>{props.description}</Description>
@@ -53,30 +53,30 @@ const ServiceWrapper = styled.div`
   }
 `
 
-const TitleContainer = styled.div`
-  width: 40%;
+const NumberContainer = styled.div`
+  width: 25%;
+  padding-right: 3rem;
 
-  padding-right: 11.8rem;
-  @media screen and (max-width: 1000px) {
-    padding-right: 8rem;
-  }
-  @media screen and (max-width: 920px) {
-    padding-right: 6rem;
-  }
-  @media screen and (max-width: 788px) {
-    padding-right: 3rem;
-  }
   @media screen and (max-width: 617px) {
     padding-right: 1rem;
   }
 `
 
-const Title = styled.h3`
+const Number = styled.h3`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
   font-weight: bold;
-  color: #212121;
+  color: #ff3333;
   margin-bottom: 0;
+  margin-top: 0;
+`
+
+const Title = styled.h3`
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 4px;
   margin-top: 0;
 `
 

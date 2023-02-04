@@ -47,6 +47,7 @@ const IntroContent = styled.div`
   max-width: 1140px;
   margin: 0 auto;
   width: 95%;
+  text-align: start;
 
   @media screen and (max-width: 1140px) {
     padding: 1rem 0;
@@ -82,7 +83,7 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(1.4rem, 5vw, 3.5rem);
+  font-size: clamp(1.6rem, 5vw, 3.5rem);
   font-weight: bold;
   letter-spacing: -1px;
   margin-top: 0;
@@ -94,8 +95,8 @@ const IntroH1 = styled.h1`
 `
 
 const Description = styled.p`
-  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-size: clamp(2rem, 3vw, 1.2rem);
   font-weight: 300;
-  margin: 0;
+  margin-bottom: 30px;
   color: #424242;
 `
