@@ -114,7 +114,7 @@ const Title = styled.h3`
   font-weight: bold;
   color: ${({ color }) => color};
   vertical-align: middle;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 
   @media screen and (max-width: 768px) {
     font-size: clamp(1rem, 4vw, 2rem);
@@ -128,7 +128,6 @@ const NumberBackground = styled.div`
   width: 64px;
   align-items: center;
   text-align: center;
-  padding: 4px;
   margin: auto;
 
   @media screen and (max-width: 768px) {
