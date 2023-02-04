@@ -8,7 +8,7 @@ const Awards = () => {
       <ServiceContent>
         <ServiceWrapper>
           <TitleContainer>
-            <Title>Globally Featured</Title>
+            <Title>Awards</Title>
           </TitleContainer>
           <DescriptionContainer>
             {awardsData.map((props, index) => (
@@ -51,6 +51,7 @@ const ServiceWrapper = styled.div`
     padding: 0 2rem;
   }
 `
+
 const TitleContainer = styled.div`
   width: 40%;
 
@@ -89,6 +90,6 @@ const DescriptionContainer = styled.div`
 const Description = styled.p`
   font-size: clamp(1rem, 3vw, 1.2rem);
   font-weight: 300;
-  margin: 0;
+  margin-bottom: 1.3rem;
   color: #424242;
 `

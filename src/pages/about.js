@@ -4,7 +4,6 @@ import SEO from "../components/seo"
 import IntroAbout from "../components/AboutPage/IntroAbout"
 import Line from "../components/line"
 import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
-import MissionVision from "../components/AboutPage/MissionVision"
 import OurServices from "../components/AboutPage/OurServices"
 import Featured from "../components/AboutPage/Featured"
 import Affiliation from "../components/AboutPage/Affiliation"
@@ -23,7 +22,6 @@ const IndexPage = () => (
       keywords={seoKeywords}
     />
     <IntroAbout />
-    <MissionVision />
     <Line />
     <TheDreamTeam />
     <Line />

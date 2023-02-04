@@ -81,7 +81,7 @@ const Title = styled.h3`
 const DescriptionContainer = styled.div`
   display: inline-grid;
   width: 60%;
-  grid-template-rows: repeat(5, 4fr);
+  grid-template-rows: repeat(6, 4fr);
   grid-gap: 1.3rem 0;
   grid-auto-flow: column;
 
