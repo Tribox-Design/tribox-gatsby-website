@@ -134,7 +134,7 @@ const Description = styled.p`
   margin-top: 20px;
   color: #424242;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
   }
 `
