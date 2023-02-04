@@ -6,7 +6,7 @@ import Clutch from "../components/clutch"
 import ContactDetails from "../components/ContactPage/ContactDetails"
 import ContactUs from "../components/ContactPage/ContactUs"
 import LocationMap from "../components/ContactPage/LocationMap"
-import TriboxLogo from "../images/tribox-design-logo.jpg"
+import TriboxLogo from "../images/tribox-logo-2022.png"
 
 const seoKeywords =
   "Brand Strategy, Illustration, Brand Identity, Digital Marketing, Web Development, Packaging Design"

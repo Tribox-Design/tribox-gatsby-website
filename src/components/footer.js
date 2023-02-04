@@ -42,7 +42,7 @@ const Footer = ({ footerBackground }) => {
           </SocialMedia>
           <TradeMark>
             <FooterP>
-              &copy; 2022 Tribox Design. All Rights Reserved.
+              &copy; 2023 Tribox Design. All Rights Reserved.
               <br />
               Tribox Design is a registered trademark in the Philippines.
             </FooterP>

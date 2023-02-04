@@ -7,7 +7,7 @@ import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
 import OurServices from "../components/AboutPage/OurServices"
 import Featured from "../components/AboutPage/Featured"
 import Affiliation from "../components/AboutPage/Affiliation"
-import TriboxLogo from "../images/tribox-design-logo.jpg"
+import TriboxLogo from "../images/tribox-logo-2022.png"
 import Awards from "../components/AboutPage/Awards"
 
 const seoKeywords =

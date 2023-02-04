@@ -6,7 +6,7 @@ import HomeCarousel from "../components/HomePage/HomeCarousel"
 import HighlightWorks from "../components/HomePage/HighlightWorks"
 import WorkWithUs from "../components/HomePage/WorkWithUs"
 import Services from "../components/HomePage/Services"
-import TriboxLogo from "../images/tribox-design-logo.jpg"
+import TriboxLogo from "../images/tribox-logo-2022.png"
 
 const seoKeywords =
   "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow"

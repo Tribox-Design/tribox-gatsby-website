@@ -5,7 +5,7 @@ import IntroBlogs from "../components/NewsPage/IntroNews"
 import styled from "styled-components"
 import GetBlogs from "../components/NewsPage/GetBlogs"
 import { useStaticQuery, graphql } from "gatsby"
-import TriboxLogo from "../images/tribox-design-logo.jpg"
+import TriboxLogo from "../images/tribox-logo-2022.png"
 
 const seoKeywords =
   "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow, local"
