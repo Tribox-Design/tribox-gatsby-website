@@ -115,6 +115,7 @@ const Title = styled.h3`
   // color: #212121;
   color: ${({ color }) => color};
   vertical-align: middle;
+  padding-bottom: 4px;
 `
 
 const NumberBackground = styled.div`

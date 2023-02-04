@@ -67,6 +67,7 @@ const Description = styled.p`
   text-align: center;
   vertical-align: middle;
   margin: auto 40px;
+  padding-top: 40px;
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
