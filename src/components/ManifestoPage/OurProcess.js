@@ -8,45 +8,45 @@ const OurProcess = () => {
       <FeaturedContent>
         <FeaturedWrapper>
           <Title color={"black"}>Our Process</Title>
-          <ProcessContainer
+          <ProcessesContainer
             data-sal="fade"
             data-sal-duration="700"
             data-sal-easing="ease"
           >
-            <div>
+            <ProcessContainer>
               <NumberBackground background={"#ff3333"}>
                 <Title color={"white"}>1</Title>
               </NumberBackground>
               <Description>Discovery</Description>
-            </div>
+            </ProcessContainer>
 
-            <Title color={"white"}>`{'>'}`</Title>
+            <Title color={"black"}>`{'>'}`</Title>
             
-            <div>
+            <ProcessContainer>
               <NumberBackground background={"#FAD403"}>
                 <Title color={"black"}>2</Title>
               </NumberBackground>
               <Description>Strategy</Description>
-            </div>
+            </ProcessContainer>
 
-            <Title color={"white"}>`{'>'}`</Title>
+            <Title color={"black"}>`{'>'}`</Title>
             
-            <div>
+            <ProcessContainer>
               <NumberBackground background={"#43B54A"}>
                 <Title color={"white"}>3</Title>
               </NumberBackground>
               <Description>Design</Description>
-            </div>
+            </ProcessContainer>
 
-            <Title color={"white"}>`{'>'}`</Title>
+            <Title color={"black"}>`{'>'}`</Title>
             
-            <div>
+            <ProcessContainer>
               <NumberBackground background={"#B3549F"}>
                 <Title color={"white"}>4</Title>
               </NumberBackground>
               <Description>Execution</Description>
-            </div>
-          </ProcessContainer>
+            </ProcessContainer>
+          </ProcessesContainer>
         </FeaturedWrapper>
       </FeaturedContent>
     </FeaturedContainer>
@@ -84,7 +84,7 @@ const FeaturedWrapper = styled.div`
 `
 
 
-const ProcessContainer = styled.div`
+const ProcessesContainer = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(4, 4fr);
   width: 100%;
@@ -100,6 +100,10 @@ const ProcessContainer = styled.div`
   }
 `
 
+const ProcessContainer = styled.div`
+  align: center;
+`
+
 const Title = styled.h3`
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   letter-spacing: 1px;
@@ -112,13 +116,13 @@ const Title = styled.h3`
 const NumberBackground = styled.div`
   background: ${({ background }) => background};
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  padding: 20px;
+  align: center;
 `
 
 const Description = styled.p`
   font-size: clamp(2.1rem, 3vw, 1.2rem);
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-top: 20px;
   color: #424242;
 `
