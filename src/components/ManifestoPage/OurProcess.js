@@ -119,11 +119,11 @@ const Title = styled.h3`
 const NumberBackground = styled.div`
   background: ${({ background }) => background};
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 64px;
+  width: 64px;
   align-items: center;
   text-align: center;
-  padding: 8px 0;
+  padding: 4px 4px;
 `
 
 const Description = styled.p`
