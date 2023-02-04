@@ -49,7 +49,7 @@ const FeaturedWrapper = styled.div`
   padding: 4rem 3rem;
   justify-content: center;
   width: 100%;
-  grid-gap: 60px;
+  grid-gap: 40px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -63,31 +63,12 @@ const FeaturedWrapper = styled.div`
   }
 `
 
-
-const Title = styled.h3`
-  font-size: clamp(1.5rem, 5vw, 2.2rem);
-  letter-spacing: 1px;
-  font-weight: bold;
-  color: ${({ color }) => color};
-  vertical-align: middle;
-`
-
-const NumberBackground = styled.div`
-  background: ${({ background }) => background};
-  border-radius: 50%;
-  height: 64px;
-  width: 64px;
-  align-items: center;
-  text-align: center;
-  padding: 4px;
-  margin: auto;
-`
-
 const Description = styled.p`
   font-size: clamp(2rem, 3vw, 1.2rem);
   font-weight: 300;
   margin-top: 20px;
   color: #424242;
+  text-align: right;
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
@@ -97,7 +78,7 @@ const Description = styled.p`
 const ContactUs = styled.button`
   border: 0;
   background: #ff3333;
-  padding: 0.7rem 3rem 0.7rem 3rem;
+  padding: 1.2rem 3rem;
   color: white;
   width: auto;
   text-transform: uppercase;
