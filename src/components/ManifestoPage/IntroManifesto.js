@@ -62,7 +62,7 @@ const IntroContent = styled.div`
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;
-  width: 86%;
+  width: 89%;
   max-height: 100%;
   color: #000000;
   line-height: 1.2;
@@ -76,7 +76,7 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(4rem, 6vw, 5rem);
+  font-size: clamp(3.8rem, 6vw, 4.8rem);
   font-weight: bold;
   letter-spacing: -1px;
   margin-top: 0;
