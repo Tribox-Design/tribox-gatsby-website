@@ -66,6 +66,8 @@ const Description = styled.p`
   color: #424242;
   text-align: right;
   vertical-align: middle;
+  padding: 0;
+  margin-right: 40px;
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
@@ -75,7 +77,7 @@ const Description = styled.p`
 const ContactUs = styled.button`
   border: 0;
   background: #ff3333;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 2.8rem;
   color: white;
   width: auto;
   text-transform: uppercase;
