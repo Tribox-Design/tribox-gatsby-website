@@ -8,7 +8,11 @@ const ReadyToTalk = () => {
       <FeaturedContent>
         <FeaturedWrapper>
           <Description>Ready to talk?</Description>
-          <ContactUs to="/contact/">Contact us</ContactUs>
+          <form action="/contact/">
+            <ContactUs type="submit">
+              Contact us
+            </ContactUs>
+          </form>
         </FeaturedWrapper>
       </FeaturedContent>
     </FeaturedContainer>
@@ -43,7 +47,7 @@ const FeaturedWrapper = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(2, 2fr);
   padding: 4rem 3rem;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   grid-gap: 60px;
 
