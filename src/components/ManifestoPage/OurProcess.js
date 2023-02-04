@@ -20,7 +20,7 @@ const OurProcess = () => {
               <Description>Discovery</Description>
             </ProcessContainer>
 
-            <Title color={"black"}>`{'>'}`</Title>
+            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#FAD403"}>
@@ -29,7 +29,7 @@ const OurProcess = () => {
               <Description>Strategy</Description>
             </ProcessContainer>
 
-            <Title color={"black"}>`{'>'}`</Title>
+            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#43B54A"}>
@@ -38,7 +38,7 @@ const OurProcess = () => {
               <Description>Design</Description>
             </ProcessContainer>
 
-            <Title color={"black"}>`{'>'}`</Title>
+            <Title color={"black"}>{'>'}</Title>
             
             <ProcessContainer>
               <NumberBackground background={"#B3549F"}>
@@ -86,11 +86,12 @@ const FeaturedWrapper = styled.div`
 
 const ProcessesContainer = styled.div`
   display: inline-grid;
-  grid-template-columns: repeat(4, 4fr);
+  grid-template-columns: repeat(7, 4fr);
   width: 100%;
   grid-gap: 60px;
   padding: 4rem 3rem;
   justify-content: space-evenly;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -116,8 +117,9 @@ const Title = styled.h3`
 const NumberBackground = styled.div`
   background: ${({ background }) => background};
   border-radius: 50%;
-  padding: 20px;
-  align: center;
+  height: 50px;
+  width: 50px
+  align-items: center;
 `
 
 const Description = styled.p`
