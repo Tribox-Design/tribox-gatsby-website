@@ -102,7 +102,7 @@ const ProcessesContainer = styled.div`
 `
 
 const ProcessContainer = styled.div`
-  align: center;
+  align-items: center;
 `
 
 const Title = styled.h3`
@@ -118,12 +118,12 @@ const NumberBackground = styled.div`
   background: ${({ background }) => background};
   border-radius: 50%;
   height: 50px;
-  width: 50px
+  width: 50px;
   align-items: center;
 `
 
 const Description = styled.p`
-  font-size: clamp(2.1rem, 3vw, 1.2rem);
+  font-size: clamp(2rem, 3vw, 1.2rem);
   font-weight: 300;
   margin-top: 20px;
   color: #424242;
