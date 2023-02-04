@@ -88,4 +88,9 @@ const ContactUs = styled.button`
   &:hover {
     background: #424242;
   }
+
+  @media screen and (max-width: 500px) {
+    font-size: 16px;
+    padding: 1rem 2rem;
+  }
 `
