@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import TriboxLogo from "../images/tribox-design-logo.jpg"
 import IntroManifesto from "../components/ManifestoPage/IntroManifesto"
 import ManifestoContent from "../components/ManifestoPage/ManifestoContent"
+import Line from "../components/line"
 
 const seoKeywords =
   "work, strategy, development, design, marketing, online, identity, digital marketing, cebu, brand, branding, branding in cebu, social media marketing, advertising agency, agency, logo design, best logo in cebu, online, identity, boost, sales, business in cebu, grow, local"
