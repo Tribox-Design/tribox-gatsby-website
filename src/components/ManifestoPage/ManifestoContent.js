@@ -32,6 +32,7 @@ const ServiceContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
+  line-height: 1.4;
 
   @media screen and (max-width: 768px) {
     padding: 2rem 0;
@@ -54,11 +55,13 @@ const ServiceWrapper = styled.div`
 `
 
 const NumberContainer = styled.div`
-  width: 25%;
-  padding-right: 3rem;
+  width: 20%;
+  padding-right: 2rem;
+  padding-left: 2rem;
 
   @media screen and (max-width: 617px) {
     padding-right: 1rem;
+    padding-left: 1rem;
   }
 `
 
@@ -68,7 +71,7 @@ const Number = styled.h3`
   font-weight: bold;
   color: #ff3333;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 16px;
 `
 
 const Title = styled.h3`

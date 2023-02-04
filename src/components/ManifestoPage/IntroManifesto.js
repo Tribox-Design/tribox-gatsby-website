@@ -62,14 +62,10 @@ const IntroContent = styled.div`
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;
-  width: 60%;
+  width: 70%;
   max-height: 100%;
   color: #000000;
   line-height: 1.1;
-
-  @media screen and (max-width: 1140px) {
-    width: 65%;
-  }
 
   @media screen and (max-width: 768px) {
     width: 80%;
@@ -83,20 +79,16 @@ const IntroItems = styled.div`
 `
 
 const IntroH1 = styled.h1`
-  font-size: clamp(1.6rem, 5vw, 3.5rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: bold;
   letter-spacing: -1px;
   margin-top: 0;
   margin-bottom: 0;
-
-  @media screen and (max-width: 768px) {
-    font-size: clamp(2.5rem, 6vw, 4rem);
-  }
 `
 
 const Description = styled.p`
-  font-size: clamp(2rem, 3vw, 1.2rem);
+  font-size: clamp(2.1rem, 3vw, 1.2rem);
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #424242;
 `
