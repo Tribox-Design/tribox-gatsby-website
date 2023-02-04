@@ -72,6 +72,10 @@ const Description = styled.p`
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
   }
+
+  @media screen and (max-width: 700px) {
+    font-size: clamp(1.2rem, 3vw, 1rem);
+  }
 `
 
 const ContactUs = styled.button`
@@ -91,6 +95,6 @@ const ContactUs = styled.button`
 
   @media screen and (max-width: 500px) {
     font-size: 16px;
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 `

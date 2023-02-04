@@ -99,6 +99,14 @@ const ProcessesContainer = styled.div`
     padding: 2rem 1rem;
     padding-bottom: 1rem;
   }
+
+  @media screen and (max-width: 400px) {
+    grid-template-columns: repeat(4, 4fr);
+    text-align: center;
+    grid-gap: 0;
+    padding: 2rem 1rem;
+    padding-bottom: 1rem;
+  }
 `
 
 const ProcessContainer = styled.div`
