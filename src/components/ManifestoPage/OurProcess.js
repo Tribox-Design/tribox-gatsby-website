@@ -82,7 +82,7 @@ const ProcessesContainer = styled.div`
   display: inline-grid;
   grid-template-columns: repeat(4, 4fr);
   width: 100%;
-  grid-gap: 60px;
+  grid-gap: 40px;
   padding: 4rem 3rem;
   justify-content: space-evenly;
   align-items: center;
@@ -124,8 +124,8 @@ const Title = styled.h3`
 const NumberBackground = styled.div`
   background: ${({ background }) => background};
   border-radius: 50%;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
   align-items: center;
   text-align: center;
   margin: auto;

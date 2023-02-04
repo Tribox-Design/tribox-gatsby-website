@@ -62,7 +62,7 @@ const IntroContent = styled.div`
 const IntroItems = styled.div`
   align-items: start;
   text-align: start;
-  width: 70%;
+  width: 75%;
   max-height: 100%;
   color: #000000;
   line-height: 1.4;
@@ -72,7 +72,6 @@ const IntroItems = styled.div`
   }
   @media screen and (max-width: 616px) {
     line-height: 1;
-    width: 75%;
   }
   @media screen and (max-width: 565px) {
     width: 100%;
