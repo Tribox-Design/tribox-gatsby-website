@@ -43,19 +43,16 @@ const FeaturedContent = styled.div`
 `
 
 const FeaturedWrapper = styled.div`
-  padding: 1rem 3rem;
   display: inline-grid;
-  grid-template-columns: repeat(2, 2fr);
   padding: 4rem 3rem;
   justify-content: center;
   width: 100%;
-  grid-gap: 40px;
+  display: flex;
 
   @media screen and (max-width: 768px) {
     text-align: center;
     grid-gap: 0;
     padding: 2rem 1rem;
-    padding-bottom: 1rem;
   }
 
   @media screen and (max-width: 564px) {
@@ -66,9 +63,9 @@ const FeaturedWrapper = styled.div`
 const Description = styled.p`
   font-size: clamp(2rem, 3vw, 1.2rem);
   font-weight: 300;
-  margin-top: 20px;
   color: #424242;
   text-align: right;
+  vertical-align: middle;
 
   @media screen and (max-width: 1000px) {
     font-size: clamp(1.5rem, 3vw, 1.2rem);
