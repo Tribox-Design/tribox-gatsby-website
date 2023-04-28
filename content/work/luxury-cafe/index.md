@@ -2,9 +2,7 @@
 date: 2023-04-08T11:31:17.315Z
 title: Luxury Cafe
 thumbnail: cdc.jpg
-description: |-
-  Client: 
-  "They were very meticulous; they are the best."
+description: "This is work in progress. "
 client: Cafe
 services: Brand Identity
 isHighlighted: true
