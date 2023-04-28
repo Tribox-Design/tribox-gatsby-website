@@ -5,7 +5,7 @@ thumbnail: adc.jpg
 description: 'Client: "They were very meticulous; they are the best."'
 client: "Construction and Development Company "
 services: Brand Strategy, Brand Identity System, Digital Marketing
-isHighlighted: false
+isHighlighted: true
 isPublishedWork: true
 ---
 We are working with a construction and development company. 
