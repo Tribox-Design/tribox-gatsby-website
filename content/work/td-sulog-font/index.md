@@ -1,7 +1,7 @@
 ---
 date: 2023-05-06T07:50:20.753Z
 title: "TD Sulog font "
-thumbnail: sinulog-visuals-hero.jpg
+thumbnail: sinulog-font-cover.jpg
 description: >-
   In celebration of Fiesta de Señor Santo Niño, our team created a font called
   “Sulog” as a gift for our beloved Señor Santo Niño. “Sinulog” is derived from
