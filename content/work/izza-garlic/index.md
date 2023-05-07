@@ -53,57 +53,10 @@ Brand Strategist & Creative Director: **Inu Catapusan**
 Researcher & Art Director: **Regine Ylaya**
 Copywriter: **Faye Penetrante**
 Typeface: **John Misael Villanueva**
-Photography: **Jan Mat**
-
-![Izza Garlic - Garlic Product Photography](izza-1.jpg "Izza Garlic - Garlic Product Photography")
-
-![Izza Garlic - All Products](izza-2.jpg)
-
-![Izza Garlic - All Products](izza-3.jpg)
-
-![Izza Garlic - Chilli Product](izza-4.jpg)
-
-![Izza Garlic - Condiment](izza-5.jpg)
-
-![Izza Garlic](izza-6.jpg)
-
-![Izza Garlic - Smeltering watering mouth](izza-7.jpg)
-
-![Izza Garlic - Packaging](izza-8.jpg)
-
-![Izza Garlic - Label](izza-9.jpg)
-
-![Izza Garlic - All Products](izza-10.jpg)
-
-![Izza Garlic - All Products](izza-11.jpg)
-
-![Izza Garlic - Labels](izza-12.jpg)
-
-![Izza Garlic - labels](izza-13.jpg)
-
-![Izza Garlic - Packaging](izza-15.jpg "Izza Garlic - Packaging")
-
-![Izza Garlic - Condiments](izza-16.jpg "Izza Garlic - Condiments")
-
-![Izza Garlic - Pinoy breakfast with Izza Garlic](izza-17.jpg "Izza Garlic - Pinoy breakfast with Izza Garlic")
-
-![Izza Garlic - Daizer Izza Condiments](izza-18.jpg "Izza Garlic - Daizer Izza Condiments")
-
-![Izza Garlic - Packaging](izza-19.jpg "Izza Garlic - Packaging")
-
-![Izza Garlic - Packaging](izza-20.jpg "Izza Garlic - Packaging")
-
-![Izza Garlic - Packaging Spicy](izza-21.jpg "Izza Garlic - Packaging Spicy")
-
-![Izza Garlic - Packaging](izza-22.jpg "Izza Garlic - Packaging")
-
-![Izza Garlic - Packaging](izza-23.jpg "Izza Garlic - Packaging")
 
 ![Izza Garlic - Kitchen Tools and Utensils](izza-24.jpg "Izza Garlic - Kitchen Tools and Utensils")
 
 ![Izza Garlic - Typography](izza-25.jpg "Izza Garlic - Typography")
-
-![Izza Garlic - Packaging](izza-26.jpg "Izza Garlic - Packaging")
 
 ![Izza Garlic - Logo based on the garlic](izza-27.jpg "Izza Garlic - Logo based on the garlic")
 
