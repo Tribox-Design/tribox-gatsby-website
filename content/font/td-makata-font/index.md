@@ -1,6 +1,6 @@
 ---
 date: 2023-05-21T23:44:53.798Z
-title: TD Makata font
+title: Behind the Design of TD Makatà Typeface
 thumbnail: td-makata-book.jpg
 description: TD Makatà is a typeface based on the font used in the book
   "Doctrina Christiana", the first book printed in the Philippines.
@@ -8,13 +8,11 @@ isPublishedFont: true
 ---
 <!--StartFragment-->
 
-Behind the Design of TD Makatà
-
 **Definition**
 
 Makatà is a Tagalog word that means "poet". Sometimes it refers to fluency in Tagalog/Filipino Language (or magaling mag Tinagalog).
 
-**The [](<>)Briefest History**
+**The** [](<>)**Briefest History**
 
 The Philippines has a rich literary history beyond the works of its most prominent writer, José Rizal. However, while Rizal primarily wrote in Spanish, many of his contemporaries wrote in the local languages.
 
@@ -35,17 +33,13 @@ Doctrina Christiana is considered one of the most important books, not because i
 **What is the challenge?**
 
 1. Text used in local books can be difficult to read.
-
 2. Text in many local books are not properly spaced.
 
 **What the team offers:**
 
 1. Re-create each letter.
-
 2. Provide the right kerning for each letter.
-
 3. Reproduce the font and make it available.
-
 4. Explore the new publishing possibilities of Philippine poetry.
 
 **The Team Solutions**
@@ -55,19 +49,12 @@ Team Tribox Design created the font to improve the old font print of Doctrina Ch
 **The following are the key features of the typeface:**
 
 1. Flaring terminals on stems and other strokes
-
 2. Open bowl
-
 3. Oval dots
-
 4. Doubled story "a"
-
 5. Single Story "g"
-
 6. Stem curves into a subtle ear
-
 7. Short-tail angled
-
 8. Terminal without balls or teardrops
 
 The font is personally designed and is intended for use by publishers and those seeking publication. We are open to any suggestions, comments, or questions about this font.
