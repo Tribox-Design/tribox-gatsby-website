@@ -1,6 +1,6 @@
 ---
 date: 2023-01-10T03:58:27.285Z
-title: TD Sulog Font
+title: Behind the Design of TD Sulog Font
 thumbnail: sinulog-font-cover.jpg
 description: "Let’s make Sinulog more exciting and fun! "
 isPublishedFont: true
