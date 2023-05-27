@@ -1,6 +1,6 @@
 ---
 date: 2023-03-07T12:20:13.047Z
-title: TD Alpha Pro
+title: "TD Alpha Pro: The font of the future"
 thumbnail: td-alpha-cover-4-copy-2.jpg
 description: >-
   The TD Alpha Pro font, proudly crafted by our very own Chief Creative Officer,
