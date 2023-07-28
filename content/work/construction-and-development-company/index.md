@@ -1,7 +1,7 @@
 ---
 date: 2023-03-24T10:32:28.807Z
-title: "Construction and Development Company "
-thumbnail: adc.jpg
+title: Adamant Development Corporation
+thumbnail: final-brand-identity-of-adc-37.jpg
 description: 'Client: "They were very meticulous; they are the best."'
 client: "Construction and Development Company "
 services: Brand Strategy, Brand Identity System, Digital Marketing
