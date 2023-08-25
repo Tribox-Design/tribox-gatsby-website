@@ -10,4 +10,16 @@ isPublishedWork: true
 ---
 T﻿his is work in progress.
 
-![](cdc-billboard.jpg)
+![Tribox Design works](cdc-billboard.jpg)
+
+![Tribox Design works](cdc.jpg)
+
+![Tribox Design works](cdc-chair.jpg)
+
+![Tribox Design works](cdc-instagram-2.jpg)
+
+![Tribox Design works](cdc-polo.jpg)
+
+![Tribox Design works](cdc-id.jpg)
+
+![]()
