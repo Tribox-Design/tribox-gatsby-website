@@ -9,3 +9,5 @@ isHighlighted: true
 isPublishedWork: true
 ---
 T﻿his is work in progress.
+
+![](cdc-billboard.jpg)
