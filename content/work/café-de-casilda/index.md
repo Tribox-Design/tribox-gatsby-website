@@ -11,7 +11,7 @@ services: "Strategy, Logo, Brand Identity Design and System, Digital Experience,
 featuredOn:
   - featured:
       name: I SAW. DESIGN
-      link: https://isaw.design/.../16/casa-de-casilda-by-tribox-design/
+      link: https://isaw.design/2023/09/16/cafe-de-casilda-by-tribox-design/
 isHighlighted: true
 isPublishedWork: true
 ---
