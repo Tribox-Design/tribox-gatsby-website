@@ -2,7 +2,7 @@
 date: 2023-05-05T01:00:52.132Z
 title: Café De Casilda | Sea, Sips, and Sunsets
 thumbnail: cafe-de-casilda.jpg
-description: Café De Casilda | Sea, Sips, and Sunsets
+description: Sea, Sips, and Sunsets
 client: Café De Casilda
 services: "Strategy, Logo, Brand Identity Design and System, Digital Experience, "
 featuredOn:
