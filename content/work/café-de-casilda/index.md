@@ -30,7 +30,7 @@ services: "Strategy, Logo, Brand Identity Design and System, Digital Experience,
 isHighlighted: true
 isPublishedWork: true
 ---
-T﻿his is work in progress.
+
 
 ![Tribox Design works](cdc-billboard.jpg)
 
