@@ -43,6 +43,9 @@ featuredOn:
   - featured:
       link: https://web.facebook.com/RMANewsToday/posts/600616898736991?_rdc=1&_rdr
       name: RMA News
+  - featured:
+      link: https://www.pressreader.com/philippines/the-freeman/20240116/281655374926766
+      name: The Freeman | Philstar
 isHighlighted: true
 isPublishedWork: true
 ---
