@@ -11,8 +11,6 @@ isPublishedWork: true
 ---
 Full Story soon. #Chooron
 
-
-
 ![Chooron](artboard-3.jpg "Turon ")
 
 ![Chooron](artboard-4.jpg "Turon ")
@@ -21,10 +19,10 @@ Full Story soon. #Chooron
 
 ![Chooron](set.jpg "Turon")
 
-
-
 ![Chooron](side-view-branch-at-don-mac.jpg "Turon")
 
 ![Chooron](7-eleven-branch.png "Turon")
 
 ![Chooron](takeout-box-turon-for-delivery.jpg "Turon")
+
+![Chooron](artboard-5.jpg "Turon")
