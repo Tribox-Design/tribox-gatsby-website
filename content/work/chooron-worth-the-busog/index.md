@@ -17,4 +17,14 @@ Full Story soon. #Chooron
 
 ![Chooron](artboard-4.jpg "Turon ")
 
-![](turon-with-sauce.jpg)
+![Chooron](turon-with-sauce.jpg "Turon")
+
+![Chooron](set.jpg "Turon")
+
+![Chooron](barnuts-1a.jpg "Turon")
+
+![Chooron](side-view-branch-at-don-mac.jpg "Turon")
+
+![Chooron](7-eleven-branch.png "Turon")
+
+![Chooron](takeout-box-turon-for-delivery.jpg "Turon")
