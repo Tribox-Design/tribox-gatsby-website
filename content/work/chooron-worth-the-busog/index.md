@@ -21,6 +21,8 @@ Full Story soon. #Chooron
 
 ![Chooron](set.jpg "Turon")
 
+![Chooron](artboard-7-copy.jpg "Turon")
+
 ![Chooron](side-view-branch-at-don-mac.jpg "Turon")
 
 ![Chooron](7-eleven-branch.png "Turon")
