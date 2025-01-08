@@ -69,8 +69,6 @@ Overall, the collaboration between the founders of Growfoods and the Tribox Desi
 
 ![](16.png)
 
-![](17.png)
-
 ![](18.png)
 
 ![](19.png)
