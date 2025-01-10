@@ -30,7 +30,7 @@ featuredOn:
       link: https://www.pressreader.com/philippines/the-freeman/20240116/281655374926766
       name: The Freeman | Philstar
 isHighlighted: true
-isPublishedWork: false
+isPublishedWork: true
 ---
 <!--StartFragment-->
 
