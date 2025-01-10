@@ -18,9 +18,6 @@ description: >-
 
 
   If you are a creative, artist, or designer and would like to use our font, you can download it for free. We’re open to any collaboration ideas. Email us at [hello@triboxdesign.com](mailto:hello@triboxdesign.com) for inquiries.
-
-
-  Free download : TD Sulog Font | <https://bit.ly/3X6xSNf> Try our Sinulog Logo: <https://bit.ly/3vLa9WH>
 client: Tribox Design
 services: Brand Identity
 featuredOn:
@@ -46,6 +43,9 @@ featuredOn:
   - featured:
       link: https://www.pressreader.com/philippines/the-freeman/20240116/281655374926766
       name: The Freeman | Philstar
+  - featured:
+      name: Download here
+      link: https://inutype.gumroad.com/l/sinulogfont
 isHighlighted: true
 isPublishedWork: true
 ---
