@@ -2,7 +2,8 @@
 date: 2023-05-06T07:50:20.753Z
 title: "TD Sulog font "
 thumbnail: sinulog-font-cover.jpg
-description: "\n\n"
+description: |
+  Let’s make Sinulog more exciting and fun! 
 client: Tribox Design
 services: Brand Identity
 featuredOn:
