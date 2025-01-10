@@ -2,7 +2,7 @@
 date: 2023-05-06T07:50:20.753Z
 title: "TD Sulog font "
 thumbnail: sinulog-font-cover.jpg
-description: >-
+description: >+
   In celebration of Fiesta de Señor Santo Niño, our team created a font called
   “Sulog” as a gift for our beloved Señor Santo Niño. “Sinulog” is derived from
   the Cebuano term “sulog”, meaning “current” or “flow of water”, which can be
@@ -18,6 +18,7 @@ description: >-
 
 
   If you are a creative, artist, or designer and would like to use our font, you can download it for free. We’re open to any collaboration ideas. Email us at [hello@triboxdesign.com](mailto:hello@triboxdesign.com) for inquiries.
+
 client: Tribox Design
 services: Brand Identity
 featuredOn:
