@@ -33,7 +33,7 @@ featuredOn:
       name: Download here
       link: https://inutype.gumroad.com/l/sinulogfont
 isHighlighted: true
-isPublishedWork: true
+isPublishedWork: false
 ---
 <!--StartFragment-->
 
