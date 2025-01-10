@@ -29,9 +29,6 @@ featuredOn:
   - featured:
       link: https://www.pressreader.com/philippines/the-freeman/20240116/281655374926766
       name: The Freeman | Philstar
-  - featured:
-      name: Download here
-      link: https://inutype.gumroad.com/l/sinulogfont
 isHighlighted: true
 isPublishedWork: false
 ---
