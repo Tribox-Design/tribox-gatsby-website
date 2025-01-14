@@ -1,7 +1,7 @@
 ---
 date: 2025-01-10T22:50:23.227Z
 title: TD Pinoy Font (FREE DOWNLOAD)
-thumbnail: artboard-13.png
+thumbnail: artboard-20.png
 description: >-
   Pinoy font is a combination of free style street sign typography and lettering
   with a brush-type stroke. The goal of the font is to evoke the resilience and
