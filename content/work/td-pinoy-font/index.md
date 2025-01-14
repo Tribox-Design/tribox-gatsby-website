@@ -11,6 +11,10 @@ description: >-
   Pinoy font is best used for travel blogs, posters, and displays.
 client: Filipino Font Project
 services: Typeface Design
+featuredOn:
+  - featured:
+      name: "Free Download "
+      link: https://inutype.gumroad.com/l/pinoyfont
 isHighlighted: true
 isPublishedWork: true
 ---
