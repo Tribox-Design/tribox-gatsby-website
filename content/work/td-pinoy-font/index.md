@@ -19,3 +19,15 @@ isPublishedWork: true
 If you have a "bahala na" mindset, are family-oriented, optimistic, positive, willing to learn, religious, hospitable, and practice the tradition of taking elders' hands and saying "mano po", as well as being industrious and generous, you belong to the “OH! GALING PINOY” font.
 
 <!--EndFragment-->
+
+![Filipino Font ](artboard-14.png "Tribox Design")
+
+![Filipino Font ](artboard-15.png "Tribox Design")
+
+![Filipino Font ](artboard-16.png "Tribox Design")
+
+![Filipino Font ](artboard-17.png "Tribox Design")
+
+![Filipino Font ](artboard-18.png "Tribox Design")
+
+![Filipino Font ](artboard-19.png "Tribox Design")
