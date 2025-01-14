@@ -15,7 +15,7 @@ services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
 isHighlighted: true
 isPublishedWork: true
 ---
-![](men-with-canvas-bag-mockup.jpg)
+
 
 ![](fb_img_1651712085834.jpg)
 
