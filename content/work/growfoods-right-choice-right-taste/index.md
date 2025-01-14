@@ -7,6 +7,10 @@ description: "To provide every Filipino household a variety of meat and poultry
 client: Growfoods Meat Products
 services: Brand Strategy, Brand Identity, Brand Messaging, Brand Positioning,
   Packaging Design, Copywriting
+featuredOn:
+  - featured:
+      name: " World Brand Design Society"
+      link: https://worldbranddesign.com/tribox-design-creates-growfoods-brand-identity-and-brand-strategy
 isHighlighted: true
 isPublishedWork: true
 ---
