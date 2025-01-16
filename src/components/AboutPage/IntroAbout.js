@@ -16,7 +16,7 @@ const IntroAbout = () => {
       >
         <IntroItems>
           <IntroH1>
-            We are a group of experts. Empathy, design, strategy and creativity are the common denominators in everything we do. We create brands that make a big impact on the community and aim to build a better future. We think outside the box.
+            We are a team of experts, where strategy and design are at the core of everything we do. We define brands and simplify the complex.
           </IntroH1>
         </IntroItems>
       </IntroContent>
