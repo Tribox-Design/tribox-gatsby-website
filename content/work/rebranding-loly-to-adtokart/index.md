@@ -14,8 +14,8 @@ description: >-
   Adtokart — empowering local businesses and building a positive experience for the local community.
 client: "Adtokart "
 services: Brand Strategy, Brand Identity, Naming, Messaging
-isHighlighted: true
-isPublishedWork: true
+isHighlighted: false
+isPublishedWork: false
 ---
 ![Before & After Loly to Adtokart](artboard-11.png "Before & After Loly to Adtokart")
 
