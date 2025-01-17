@@ -17,7 +17,7 @@ const IntroBanner = () => {
       >
         <IntroItems>
           <IntroH1>
-           We are an independent branding agency specializing in brand identity development for startups.
+           We are an independent branding agency specializing in sustainable, long-term brand identity development.
           </IntroH1>
           <IntroButton>
             <Button round="true" to="/about/" big="true">
