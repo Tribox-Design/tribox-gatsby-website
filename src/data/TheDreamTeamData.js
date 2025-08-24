@@ -6,7 +6,7 @@ export const theDreamTeamData = [
   },
   {
     name: "Lorem Ipsum",
-    position: "Co-Founder/COO",
+    position: "Lorem Ipsum",
     linkedin: "https://www.linkedin.com",
   },
   {
