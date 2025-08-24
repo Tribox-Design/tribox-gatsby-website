@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroAbout from "../components/AboutPage/IntroAbout"
 import Line from "../components/line"
-import TheDreamTeam from "../components/AboutPage/TheDreamTeam"
+import TheDreamTeam from "../components/AboutPage/TheDreamTeam" //
 import OurServices from "../components/AboutPage/OurServices"
 import Featured from "../components/AboutPage/Featured"
 import Affiliation from "../components/AboutPage/Affiliation"
