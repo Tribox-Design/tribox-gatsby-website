@@ -5,13 +5,13 @@ export const theDreamTeamData = [
     linkedin: "https://www.linkedin.com/in/inusentes-catapusan-jr-b89b5a143/",
   },
   {
-    name: "Regine Ylaya",
-    position: "Co-Founder/COO",
-    linkedin: "https://www.linkedin.com/in/regineylaya/",
+    name: "Lorem Ipsum",
+    position: "Lorem Ipsum"",
+    linkedin: "https://www.linkedin.com",
   },
   {
-    name: "Michael Relativo",
-    position: "Business Coach",
-    linkedin: "https://www.linkedin.com/in/michael-relativo-080b7052/",
+   // name: "Michael Relativo",
+   // position: "Business Coach",
+   // linkedin: "https://www.linkedin.com/in/michael-relativo-080b7052/",
   },
 ]

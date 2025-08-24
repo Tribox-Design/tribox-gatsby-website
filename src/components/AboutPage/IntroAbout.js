@@ -16,7 +16,7 @@ const IntroAbout = () => {
       >
         <IntroItems>
           <IntroH1>
-            We are a team of experts, where strategy and design are at the core of everything we do. We define brands and simplify the complex.
+            We are a team of experts, where strategy and design are at the core of everything we do. 
           </IntroH1>
         </IntroItems>
       </IntroContent>

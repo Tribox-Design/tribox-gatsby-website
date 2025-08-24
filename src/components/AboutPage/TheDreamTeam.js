@@ -8,7 +8,7 @@ const TheDreamTeam = () => {
       <ServiceContent>
         <ServiceWrapper>
           <TitleContainer>
-            <Title>Our Team</Title>
+            <Title>OurTeam</Title>
           </TitleContainer>
           <TeamContainer>
             {theDreamTeamData.map((props, index) => (
