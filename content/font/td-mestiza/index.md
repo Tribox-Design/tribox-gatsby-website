@@ -1,6 +1,6 @@
 ---
 date: 2025-10-21T10:32:53.043Z
-title: "TD Mestiza "
+title: TD Mestiza font by Tribox Design
 thumbnail: artboard-1.jpg
 description: |
   TD Mestiza | A typeface born from memory, heritage, and rediscovery.
@@ -14,8 +14,36 @@ This typeface is more than design; it is a journey. Created by two partners retr
 
 With its refined yet storied forms, TD Mestiza bridges past and present—an homage to history, a vessel for identity, and a contemporary revival of tradition.
 
-FREE DOWNLOAD FILIPINO FONT: http://bit.ly/4ncduY3
+FREE DOWNLOAD FILIPINO FONT: http://bit.ly/4ncduY3\
+\
+<!--StartFragment-->
 
+Typeface Designer & Creative Director: Inu Catapusan Researcher & Copywriter: Regine Ylaya Mockup Designer: Amabelle Piñon
 
+<!--EndFragment-->
 
 ![](artboard-7.jpg)
+
+![](artboard-6.jpg)
+
+![](artboard-4.jpg)
+
+![](artboard-2-copy.jpg)
+
+![](artboard-6-copy.jpg)
+
+![](artboard-4-copy.jpg)
+
+![](artboard-5.jpg)
+
+![](artboard-3.jpg)
+
+![](artboard-8.jpg)
+
+![](untitled-3.jpg)
+
+![](547872158_1439587627326976_8335772246140135154_n.jpg)
+
+![](546854392_1342695957580294_4231434455954609976_n.jpg)
+
+![](550441585_1973388520107292_5899990107521125713_n.jpg)
