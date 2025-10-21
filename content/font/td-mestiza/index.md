@@ -22,28 +22,28 @@ Typeface Designer & Creative Director: Inu Catapusan Researcher & Copywriter: Re
 
 <!--EndFragment-->
 
-![](artboard-7.jpg)
+![TD Mestiza font](artboard-7.jpg "TD Mestiza font")
 
-![](artboard-6.jpg)
+![TD Mestiza font](artboard-6.jpg "TD Mestiza font")
 
-![](artboard-4.jpg)
+![TD Mestiza font](artboard-4.jpg "TD Mestiza font")
 
-![](artboard-2-copy.jpg)
+![TD Mestiza font](artboard-2-copy.jpg "TD Mestiza font")
 
-![](artboard-6-copy.jpg)
+![TD Mestiza font](artboard-6-copy.jpg "TD Mestiza font")
 
-![](artboard-4-copy.jpg)
+![TD Mestiza font](artboard-4-copy.jpg "TD Mestiza font")
 
-![](artboard-5.jpg)
+![TD Mestiza font](artboard-5.jpg "TD Mestiza font")
 
-![](artboard-3.jpg)
+![TD Mestiza font](artboard-3.jpg "Fernando Amorsolo")
 
-![](artboard-8.jpg)
+![TD Mestiza font](artboard-8.jpg "Camisa")
 
-![](untitled-3.jpg)
+![TD Mestiza font](untitled-3.jpg "TD Mestiza")
 
-![](547872158_1439587627326976_8335772246140135154_n.jpg)
+![TD Mestiza signboard](547872158_1439587627326976_8335772246140135154_n.jpg "TD Mestiza casa filipino")
 
-![](546854392_1342695957580294_4231434455954609976_n.jpg)
+![TD Mestiza book](546854392_1342695957580294_4231434455954609976_n.jpg "Ang aking talambuhay")
 
-![](550441585_1973388520107292_5899990107521125713_n.jpg)
+![TD Mestiza Ring](550441585_1973388520107292_5899990107521125713_n.jpg "TD Mestiza Ring")
