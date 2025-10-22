@@ -23,3 +23,23 @@ A brand identity stitched with meaning — honoring tradition, celebrating diver
 ![](multipliers-clothier-tagline.jpg)
 
 ![](multipliers-clothier-brand-shirt.jpg)
+
+![](multipliers-clothier-logo-1.jpg)
+
+![](multipliers-clothier-jacket.jpg)
+
+![](multipliers-clothier-letterhead.jpg)
+
+![](multipliers-clothier-bag.jpg)
+
+![](multipliers-clothier-tote-bag.jpg)
+
+![](multipliers-clothier-pattern.jpg)
+
+![](multipliers-clothier-packaging.jpg)
+
+![](multipliers-clothier-wall-poster.jpg)
+
+![](multipliers-clothier-facebook.jpg)
+
+![](multipliers-clothier-stamp.jpg)
