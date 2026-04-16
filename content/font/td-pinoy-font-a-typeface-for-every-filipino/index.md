@@ -17,3 +17,13 @@ isPublishedFont: true
 
 
 ![](td-pinoy-font-uppercase.png)
+
+![](td-pinoy-font-lowercase.png)
+
+![](td-pinoy-font-numbers-.png)
+
+![](td-pinoy-font-poster.png)
+
+![](td-pinoy-font-images.png)
+
+![](td-pinoy-font-details.png)
