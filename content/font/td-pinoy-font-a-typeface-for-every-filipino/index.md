@@ -11,6 +11,9 @@ description: >-
   Pinoy font is best used for travel blogs, posters, and displays.
 
 
+  TD Sulog now has a Pro Version — an improved style crafted for international use. It includes 375 characters, making it compatible with multiple global languages.
+
+
   Free Download at https://inutype.gumroad.com/l/pinoyfont
 isPublishedFont: true
 ---
