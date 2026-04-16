@@ -25,14 +25,14 @@ TD Sulog now has a Pro Version — an improved style crafted for international u
 
 Free Download at https://inutype.gumroad.com/l/pinoyfont
 
-![](td-pinoy-font-uppercase.png)
+![td pinoy font](td-pinoy-font-uppercase.png "td pinoy font")
 
-![](td-pinoy-font-lowercase.png)
+![td pinoy font](td-pinoy-font-lowercase.png "td pinoy font")
 
-![](td-pinoy-font-numbers-.png)
+![td pinoy font](td-pinoy-font-numbers-.png "td pinoy font")
 
-![](td-pinoy-font-poster.png)
+![td pinoy font](td-pinoy-font-poster.png "td pinoy font")
 
-![](td-pinoy-font-images.png)
+![td pinoy font](td-pinoy-font-images.png "td pinoy font")
 
-![](td-pinoy-font-details.png)
+![td pinoy font](td-pinoy-font-details.png "td pinoy font")
