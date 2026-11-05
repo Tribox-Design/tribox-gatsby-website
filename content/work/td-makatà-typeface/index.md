@@ -15,9 +15,9 @@ featuredOn:
       link: https://www.sunstar.com.ph/cebu/intersection-of-history-culture-design-story-of-makata
   - featured:
       link: https://www.instagram.com/p/DfEUXT0j1ki/
-      name: Theo & Philo Artisan Chocolates
+      name: Typeface used by Theo & Philo Artisan Chocolates
   - featured:
-      name: GomBurZa by Director Pepe Diokno
+      name: Typeface used by GomBurZa trailer video by Director Pepe Diokno
       link: https://www.imdb.com/title/tt27203116/
 isHighlighted: true
 isPublishedWork: true
