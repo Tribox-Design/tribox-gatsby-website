@@ -66,9 +66,9 @@ isPublishedWork: true
 
 ![TD Basilica Typeface by Tribox Design](td-basilica-typeface-founded.png)
 
-![TD Basilica Typeface by Tribox Design](td-basilica-typeface-collateral.png)
-
 ![TD Basilica Typeface by Tribox Design](td-basilica-typeface-poster-saint.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-collateral.png)
 
 ![TD Basilica Typeface by Tribox Design](td-basilica-typeface-signages.png)
 
