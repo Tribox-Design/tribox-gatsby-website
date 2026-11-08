@@ -52,4 +52,30 @@ services: Typeface Design
 isHighlighted: true
 isPublishedWork: true
 ---
-![](td-basilica-typeface-introduction.png)
+
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-history.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-uppercase.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-logo.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-uppercase-mockup-.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-lowercase.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-founded.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-collateral.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-poster-saint.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-signages.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-poster.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-pointer.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-billboard.png)
+
+![TD Basilica Typeface by Tribox Design](td-basilica-typeface-signboard.png)
