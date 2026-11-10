@@ -47,7 +47,7 @@ description: >
   Typeface Designer and Creative Director: Inu Catapusan
 
   Research and Content Editor: Regine Ylaya
-client: Passion Projecy by Tribox Design
+client: Passion Project by Tribox Design
 services: Typeface Design
 isHighlighted: true
 isPublishedWork: true
